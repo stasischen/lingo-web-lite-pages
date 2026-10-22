@@ -3,13 +3,13 @@
   "level": 6,
   "title": "失物招領公告",
   "status": "draft",
-  "head": "8e4f2c1e11f42c436a284891f4d792c88b9f0f6a",
+  "head": "5fe327a1b9f8f721725bdd31a3dc2f70ecf86d80",
   "branch": "lesson/ko-a1-u01-drafts",
   "sourceRepo": "stasischen/content-ko",
   "sourceFiles": [
     {
       "path": "content_v2/review/lessons/ko-a1-l006/draft/DIALOGUE.md",
-      "sha256": "c1d9761b61aa5488821eb1fe4f94968b4d96adbc8c6d8c64540c115dd80288c4"
+      "sha256": "01062956f72cdb45d3da1a4b495560195d5b627b775f20960d8486d24dc3928c"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l006/draft/ARTICLE.md",
@@ -21,8 +21,8 @@
       "id": "D1",
       "title": "D1 · 地鐵站務室",
       "location": "地鐵站務室",
-      "context": "下班後，애니來到地鐵站務室認領自己忘在車上的包包。站務員查看收到的三個包包，發現其中只有一個是書包，向애니展示並交回。",
-      "purpose": "애니向站務員呼喚並表明要認領包包；站務員說明有三個包包並詢問是什麼包包；애니說明是書包以明確辨認物品；站務員查看確認三個包中只有一個是書包，展示並交回該書包；애니道謝，完成認領核對。",
+      "context": "下班後，애니來到地鐵站務室認領自己忘在車上的包包。站務員查看收到的三個包包（其中只有一個是書包），先拿出非書包的候選包核對，經애니指認唯一書包後展示並交還。",
+      "purpose": "애니向站務員呼喚並表明要認領包包；站務員說明有三個包包並詢問是什麼包包；애니說明是書包以明確辨認物品；站務員先核對非書包候選包，애니否認並指認書包，站務員展示並交還該書包；애니道謝，完成認領核對。",
       "turns": [
         {
           "speaker": "애니",
@@ -46,6 +46,16 @@
         },
         {
           "speaker": "역무원",
+          "korean": "이 가방이에요?",
+          "translation": "是這個包包嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "아니요, 그 가방은 제 가방이 아니에요. 저 책가방이에요.",
+          "translation": "不是，那個不是我的包包。是那邊那個書包。"
+        },
+        {
+          "speaker": "역무원",
           "korean": "여기 있어요.",
           "translation": "在這裡，給您。"
         },
@@ -65,13 +75,13 @@
       "turns": [
         {
           "speaker": "소라",
-          "korean": "마이클 씨, 무슨 사전이에요?",
-          "translation": "마이클，請問是什麼辭典？"
+          "korean": "마이클 씨, 그 사전은 무슨 사전이에요?",
+          "translation": "마이클，那本辭典是什麼辭典？"
         },
         {
           "speaker": "마이클",
-          "korean": "한국어 사전이에요.",
-          "translation": "是韓語辭典。"
+          "korean": "이 사전은 한국어 사전이에요.",
+          "translation": "這本辭典是韓語辭典。"
         },
         {
           "speaker": "마이클",
@@ -80,8 +90,8 @@
         },
         {
           "speaker": "소라",
-          "korean": "저는 영어 사전을 사용해요.",
-          "translation": "我使用英語辭典。"
+          "korean": "이 사전은 한국어 사전이 아니에요. 저는 영어 사전을 사용해요.",
+          "translation": "這本不是韓語辭典。我使用英語辭典。"
         },
         {
           "speaker": "마이클",
@@ -114,13 +124,13 @@
         },
         {
           "speaker": "애니",
-          "korean": "무슨 책이에요?",
-          "translation": "請問是什麼書？"
+          "korean": "그 책은 무슨 책이에요?",
+          "translation": "那本書是什麼書？"
         },
         {
           "speaker": "도현",
-          "korean": "중국어 책이에요.",
-          "translation": "是中文書。"
+          "korean": "이 책은 중국어 책이에요.",
+          "translation": "這本書是中文書。"
         }
       ]
     }
@@ -161,37 +171,37 @@
   "notes": [
     {
       "section": "DIALOGUE.md",
-      "line": 44,
+      "line": 46,
       "text": "### 未教定型說法"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 45,
+      "line": 47,
       "text": "- **여기 있어요.**（在這裡，給您。）：自 L3 作為固定說法引入，本課 D1 用於站務員交回物品情境，尚未正式教授其構句。"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 46,
+      "line": 48,
       "text": "- **감사합니다.**（謝謝。）：自前課引入之日常禮貌固定說法，尚未正式教授其構句。"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 47,
+      "line": 49,
       "text": "- **저기요**（不好意思／請問）：列入計畫白名單之常用呼喚說法，非完整句子，不算未教句型。"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 48,
+      "line": 50,
       "text": "（以上固定說法均符合每段上限規範；D2、D3 無未教固定說法。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 50,
+      "line": 52,
       "text": "### 不確定事項"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 51,
+      "line": 53,
       "text": "- 課綱 `GRAMMAR_KO.tsv` 定義 c01 為 `뭐예요/무엇이에요?`、c02 為 `누구예요?`，但本課核心對話句型 `무슨 N이에요?` 與 c01/c02 的對應映射尚未裁定，且核准情境無人物問答（未引入 c02 的 `누구예요?`）。草稿不擅自映射 ID，待單元審查／Claude 裁定。"
     },
     {

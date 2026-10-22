@@ -3,13 +3,13 @@
   "level": 5,
   "title": "聊聊家人",
   "status": "draft",
-  "head": "8e4f2c1e11f42c436a284891f4d792c88b9f0f6a",
+  "head": "5fe327a1b9f8f721725bdd31a3dc2f70ecf86d80",
   "branch": "lesson/ko-a1-u01-drafts",
   "sourceRepo": "stasischen/content-ko",
   "sourceFiles": [
     {
       "path": "content_v2/review/lessons/ko-a1-l005/draft/DIALOGUE.md",
-      "sha256": "f316c4ad9b684d7575ede8a18b2e3e575c21fb94d792d1f4621a7b674c547ea0"
+      "sha256": "f8598c5a03195e29f7d54e11dba6f83185563bf755e7aae97f0d103a90dc2158"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l005/draft/ARTICLE.md",
@@ -95,8 +95,8 @@
         },
         {
           "speaker": "애니",
-          "korean": "네, 제 가족은 네 명이에요.",
-          "translation": "好，我的家人有四個人。"
+          "korean": "네, 저희 가족은 네 명이에요.",
+          "translation": "好，我們家有四個人。"
         },
         {
           "speaker": "유키",
@@ -164,23 +164,18 @@
         },
         {
           "speaker": "애니",
-          "korean": "여동생은 학생이에요. 여동생은 와요.",
-          "translation": "妹妹是學生。妹妹會來。"
-        },
-        {
-          "speaker": "애니",
-          "korean": "어머니도 와요.",
-          "translation": "媽媽也會來。"
+          "korean": "여동생은 학생이에요. 어머니도 여동생도 와요.",
+          "translation": "妹妹是學生。媽媽和妹妹都會來。"
         },
         {
           "speaker": "도현",
-          "korean": "두 명 와요?",
-          "translation": "來兩位嗎？"
+          "korean": "두 명이에요?",
+          "translation": "是兩位嗎？"
         },
         {
           "speaker": "애니",
-          "korean": "네, 두 명 와요.",
-          "translation": "對，來兩位。"
+          "korean": "네, 두 명이에요.",
+          "translation": "對，是兩位。"
         }
       ]
     }
@@ -251,23 +246,28 @@
     },
     {
       "section": "DIALOGUE.md",
-      "line": 54,
+      "line": 53,
       "text": "[本段出現的未教定型說法]"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 55,
+      "line": 54,
       "text": "- 천천히 드세요（請慢用）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 56,
+      "line": 55,
       "text": "- 잘 먹겠습니다（我要開動了）"
     },
     {
       "section": "DIALOGUE.md",
+      "line": 56,
+      "text": "- 어머니도 여동생도 와요（媽媽和妹妹都會來）"
+    },
+    {
+      "section": "DIALOGUE.md",
       "line": 58,
-      "text": "不確定：無"
+      "text": "不確定：D3 未教固定說法共 3 項，符合每段 3 項上限；와요 句之教學狀態與課序裁定仍保留待 Claude 確認；來訪事實（妹妹、媽媽都來）不變。"
     },
     {
       "section": "ARTICLE.md",
