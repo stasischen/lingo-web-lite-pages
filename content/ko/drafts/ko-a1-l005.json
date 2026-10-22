@@ -1,0 +1,290 @@
+{
+  "id": "ko-a1-l005",
+  "level": 5,
+  "title": "聊聊家人",
+  "status": "draft",
+  "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+  "branch": "lesson/ko-a1-u01-drafts",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l005/draft/DIALOGUE.md",
+      "sha256": "f316c4ad9b684d7575ede8a18b2e3e575c21fb94d792d1f4621a7b674c547ea0"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l005/draft/ARTICLE.md",
+      "sha256": "ccc70177e60eab4c1dd6d5a9ca57d6a988f3479f827d6fc60b2c5230f3e4d811"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1 · 社區公園長椅",
+      "location": "社區公園長椅",
+      "context": "週日下午，마이클 為了소라老師的作業在公園替애니錄製介紹影片。開拍前兩人先核對姓名、稱呼與介紹項目；隨後正式開拍，마이클 依序介紹애니的各項背景，最後在鏡頭前詢問家人人數",
+      "purpose": "開拍前確認受訪者姓名與介紹重點；開拍後依序向鏡頭介紹姓名、別名、職業、國家與語言；最後完成家庭人數問答。",
+      "turns": [
+        {
+          "speaker": "마이클",
+          "korean": "잠깐만요. 이름은 뭐예요?",
+          "translation": "等一下。請問名字是什麼？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "천이쥔이에요. 제 별명은 애니예요.",
+          "translation": "是陳怡君。我的別名是 Annie。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "직업, 나라, 언어를 소개해요?",
+          "translation": "要介紹職業、國家和語言嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 좋아요.",
+          "translation": "好啊。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "안녕하세요. 이 친구는 천이쥔 씨예요.",
+          "translation": "大家好。這位朋友是陳怡君小姐。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "별명은 애니예요.",
+          "translation": "別名是 Annie。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "애니 씨는 회사원이에요.",
+          "translation": "Annie 小姐是上班族。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "대만 사람이에요.",
+          "translation": "是台灣人。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "한국어를 공부해요. 중국어도 해요.",
+          "translation": "她在學韓語。也會說中文。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "가족은 몇 명이에요?",
+          "translation": "家裡有幾位家人？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네 명이에요.",
+          "translation": "有四位。"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "밥집〈예약 노트〉",
+    "rows": [
+      {
+        "korean": "다음 주 토요일 예약이에요.",
+        "translation": "這是下週六的預約。"
+      },
+      {
+        "korean": "손님은 모두 네 명이에요.",
+        "translation": "客人一共是四位。"
+      },
+      {
+        "korean": "학생 세 명, 선생님 한 명이에요.",
+        "translation": "是學生三位、老師一位。"
+      },
+      {
+        "korean": "소라 선생님은 혼자 와요.",
+        "translation": "Sora 老師一個人來。"
+      },
+      {
+        "korean": "학생 세 명은 같이 와요.",
+        "translation": "三位學生一起來。"
+      },
+      {
+        "korean": "네 명 자리예요.",
+        "translation": "是四個人的座位。"
+      },
+      {
+        "korean": "하나, 둘, 셋, 넷.",
+        "translation": "一、二、三、四。"
+      }
+    ]
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 17,
+      "text": "[本段出現的未教定型說法]"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 18,
+      "text": "- 잠깐만요（等一下）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 22,
+      "text": "## D2"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 23,
+      "text": "地點：地鐵車廂。情境：週一早上，유키 與 애니 在通勤的地鐵車廂裡拿出手機互看照片，聊起各自的家庭成員與人數。這段要完成的事：透過看照片確認對方家人，互相問答家人有沒有、各有幾位。"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 25,
+      "text": "유키: 애니 씨, 사진 좀 보여 주세요.（Annie，請給我看一下照片。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 26,
+      "text": "애니: 네, 제 가족은 네 명이에요.（好，我的家人有四個人。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 27,
+      "text": "유키: 저도요. 오빠는 한 명 있어요.（我也是。我有一位哥哥。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 28,
+      "text": "유키: 언니는 있어요?（有姊姊嗎？）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 29,
+      "text": "애니: 아니요, 언니는 없어요.（沒有，姊姊沒有。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 30,
+      "text": "애니: 여동생은 한 명 있어요.（有一位妹妹。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 31,
+      "text": "유키: 정말요? 여동생은 학생이에요?（真的嗎？妹妹是學生嗎？）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 32,
+      "text": "애니: 네, 학생이에요.（對，是學生。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 34,
+      "text": "[本段出現的未教定型說法]"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 35,
+      "text": "- 사진 좀 보여 주세요（請給我看照片）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 36,
+      "text": "- 저도요（我也是）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 37,
+      "text": "- 정말요?（真的嗎？）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 41,
+      "text": "## D3"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 42,
+      "text": "地點：飯館。情境：晚餐時間，도현 端上餐點並與 애니 在餐桌邊看照片邊聊天。도현 介紹照片裡的親姊姊，애니 則說明自己的妹妹是學生，並預告妹妹和媽媽都會來訪。這段要完成的事：端上餐點並互相致意；看照片使用「의」指認家庭成員所屬關係；預告家人即將來訪與來訪人數。"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 44,
+      "text": "도현: 천천히 드세요.（請慢用。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 45,
+      "text": "애니: 잘 먹겠습니다.（我要開動了。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 46,
+      "text": "애니: 도현 씨, 도현 씨의 누나예요?（道賢先生，這是道賢先生的姊姊嗎？）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 47,
+      "text": "도현: 네, 제 누나예요.（對，是我姊姊。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 48,
+      "text": "도현: 애니 씨의 여동생은요?（那 Annie 妳的妹妹呢？）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 49,
+      "text": "애니: 여동생은 학생이에요. 여동생은 와요.（妹妹是學生。妹妹會來。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 50,
+      "text": "애니: 어머니도 와요.（媽媽也會來。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 51,
+      "text": "도현: 두 명 와요?（來兩位嗎？）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 52,
+      "text": "애니: 네, 두 명 와요.（對，來兩位。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 54,
+      "text": "[本段出現的未教定型說法]"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 55,
+      "text": "- 천천히 드세요（請慢用）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 56,
+      "text": "- 잘 먹겠습니다（我要開動了）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 58,
+      "text": "不確定：無"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 13,
+      "text": "[本篇出現的未教定型說法]"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 14,
+      "text": "- 無"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 16,
+      "text": "不確定：無"
+    }
+  ]
+}

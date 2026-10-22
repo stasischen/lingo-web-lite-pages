@@ -1,0 +1,258 @@
+{
+  "id": "ko-a1-l003",
+  "level": 3,
+  "title": "家鄉與特色",
+  "status": "draft",
+  "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+  "branch": "lesson/ko-a1-u01-drafts",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l003/draft/DIALOGUE.md",
+      "sha256": "0d5fe8d73d2b733235992dc00a171dec208c57666fcf07b2ac6d8d9197c7ae08"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l003/draft/ARTICLE.md",
+      "sha256": "8f4efbf0e1341cfa44c1cd27e92ea8b58ceebeafee57af2b530cd8535a3d163f"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1 · 郵局",
+      "location": "郵局",
+      "context": "週六上午，애니 前往郵局寄明信片，向櫃檯職員遞交明信片；職員辦妥寄件程序後，將收據遞回給 애니",
+      "purpose": "職員詢問寄送國家，애니 回答寄往台灣並道謝，接過收據。",
+      "turns": [
+        {
+          "speaker": "직원",
+          "korean": "어서 오세요.",
+          "translation": "歡迎光臨。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "안녕하세요?",
+          "translation": "您好？"
+        },
+        {
+          "speaker": "직원",
+          "korean": "나라는 어디예요?",
+          "translation": "請問寄往哪個國家？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "대만이에요.",
+          "translation": "是台灣。"
+        },
+        {
+          "speaker": "직원",
+          "korean": "여기 있어요.",
+          "translation": "給您。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "감사합니다.",
+          "translation": "謝謝。"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2 · 公車站",
+      "location": "公車站",
+      "context": "下課後，유키 與新同學 마이클 在公車站等車聊天",
+      "purpose": "兩人互問家鄉，並各自用形容詞描述自己的家鄉城市。",
+      "turns": [
+        {
+          "speaker": "유키",
+          "korean": "마이클 씨, 고향은 어디예요?",
+          "translation": "麥可，你的家鄉在哪裡？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "캐나다예요. 토론토 출신이에요. 토론토는 추워요. 유키 씨는요?",
+          "translation": "是加拿大。我是多倫多出身。多倫多很冷。Yuki 呢？"
+        },
+        {
+          "speaker": "유키",
+          "korean": "일본이에요. 오사카 출신이에요. 오사카는 커요. 더워요.",
+          "translation": "是日本。我是大阪出身。大阪很大。很熱。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "그렇군요.",
+          "translation": "原來如此。"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "D3 · 住宅大樓門口",
+      "location": "住宅大樓門口",
+      "context": "晚上，애니 在住宅大樓門口初次遇見住在樓下的鄰居 도현。애니 聽見 도현 的問候帶著標準首爾口音，以為他是首爾人。聊到家鄉後，도현 向 애니 展示多文化中心的週六活動通知（載明活動內容、時間與地點），並示意邀請她參加",
+      "purpose": "鄰居初見問候、互問家鄉、도현 依活動通知告知週六聚會活動，애니 表明會參加並致謝。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "안녕하세요. 위층 천이쥔이에요.",
+          "translation": "你好。我是樓上的陳怡君。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "안녕하세요? 박도현이에요. 만나서 반가워요.",
+          "translation": "你好？我是朴道賢。很高興認識你。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "도현 씨, 서울 사람이에요?",
+          "translation": "道賢先生，你是首爾人嗎？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "아니요, 부산 출신이에요. 부산은 시원해요. 고향은 어디예요?",
+          "translation": "不是，我是釜山出身。釜山很涼爽。你的家鄉在哪裡？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "대만이에요.",
+          "translation": "是台灣。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "토요일 모임이에요.",
+          "translation": "週六有聚會。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "저는 와요. 감사합니다.",
+          "translation": "我會去。謝謝你。"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "短文",
+    "rows": [
+      {
+        "korean": "주말 날씨예요.",
+        "translation": "這是週末天氣預報。"
+      },
+      {
+        "korean": "내일 서울은 맑아요.",
+        "translation": "明天首爾天氣晴朗。"
+      },
+      {
+        "korean": "서울은 따뜻해요.",
+        "translation": "首爾很溫暖。"
+      },
+      {
+        "korean": "부산은 흐려요.",
+        "translation": "釜山天氣陰沈。"
+      },
+      {
+        "korean": "내일 부산은 비 와요.",
+        "translation": "明天釜山下雨。"
+      },
+      {
+        "korean": "주말은 시원해요.",
+        "translation": "週末很涼爽。"
+      },
+      {
+        "korean": "감사합니다.",
+        "translation": "感謝收聽。"
+      }
+    ]
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 31,
+      "text": "[本課目標整句]"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 32,
+      "text": "- 저는 와요.（我會去／我會來。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 34,
+      "text": "[本課出現的未教定型說法]"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 35,
+      "text": "- D1："
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 36,
+      "text": "- 어서 오세요.（歡迎光臨。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 37,
+      "text": "- 여기 있어요.（給您。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 38,
+      "text": "- 감사합니다.（謝謝。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 39,
+      "text": "- D2："
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 40,
+      "text": "- 그렇군요.（原來如此。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 41,
+      "text": "- D3："
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 42,
+      "text": "- 만나서 반가워요.（很高興認識你。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 43,
+      "text": "- 부산은 시원해요.（釜山很涼爽。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 44,
+      "text": "- 감사합니다.（謝謝。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 46,
+      "text": "不確定：無"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 10,
+      "text": "[本課出現的未教定型說法]"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 11,
+      "text": "- 비 와요.（下雨。）"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 12,
+      "text": "- 감사합니다.（感謝收聽／謝謝。）"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 14,
+      "text": "不確定：無"
+    }
+  ]
+}

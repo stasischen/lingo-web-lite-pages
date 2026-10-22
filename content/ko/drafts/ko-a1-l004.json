@@ -1,0 +1,224 @@
+{
+  "id": "ko-a1-l004",
+  "level": 4,
+  "title": "介紹所學語言",
+  "status": "draft",
+  "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+  "branch": "lesson/ko-a1-u01-drafts",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l004/draft/DIALOGUE.md",
+      "sha256": "1fc3a004bcfb1b7e7e091d97325eb1aa5eebe4dc49bacb9358db76d6f5749e9b"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l004/draft/ARTICLE.md",
+      "sha256": "130b9c4f27b0beb04842650dac6abf97e6bc4d26570935c6172c6193372e3432"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1 · 多文化中心教室",
+      "location": "多文化中心教室",
+      "context": "週六下午，語言交換活動開始，소라 老師向大家說明活動內容，學員說明自己想學習的語言，도현 向第一次見面的 마이클 與 유키 打招呼",
+      "purpose": "소라 說明活動開始並詢問學習外語，學員各自說出正在學的語言，도현 與 마이클、유키 完成初次見面問候。",
+      "turns": [
+        {
+          "speaker": "소라",
+          "korean": "오늘은 언어 교환 활동이에요. 외국어를 공부해요?",
+          "translation": "今天是語言交換活動。大家在學外語嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 한국어를 공부해요.",
+          "translation": "是的，我學韓語。"
+        },
+        {
+          "speaker": "소라",
+          "korean": "마이클 씨는요?",
+          "translation": "麥可呢？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "한국어를 공부해요.",
+          "translation": "我學韓語。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "저는 한국어를 공부해요.",
+          "translation": "我學韓語。"
+        },
+        {
+          "speaker": "소라",
+          "korean": "도현 씨는요?",
+          "translation": "道賢先生呢？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "안녕하세요. 박도현이에요. 중국어를 공부해요.",
+          "translation": "你們好。我是朴道賢。我學中文。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "안녕하세요, 도현 씨.",
+          "translation": "你好，道賢。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "안녕하세요.",
+          "translation": "你好。"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2 · 飯館",
+      "location": "飯館",
+      "context": "活動結束後，애니 與 도현 一起在飯館用餐，兩人想確認彼此是否能進行語言交換練習",
+      "purpose": "兩人互問會不會說中文與韓語，確認程度後提議並約定一起練習。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "도현 씨, 중국어를 해요?",
+          "translation": "道賢先生，你會說中文嗎？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "네, 해요.",
+          "translation": "會，我會說。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "잘해요?",
+          "translation": "說得好嗎？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "아니요, 조금 해요. 애니 씨는 한국어를 해요?",
+          "translation": "不好，只會說一點點。Annie 妳會說韓語嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "조금 해요.",
+          "translation": "會說一點點。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "같이 공부해요?",
+          "translation": "一起學嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 좋아요.",
+          "translation": "好啊。"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "D3 · 多文化中心休息室",
+      "location": "多文化中心休息室",
+      "context": "活動空檔，마이클 與 유키 在自動販賣機旁的休息室聊天，交流平時練習語言的方法並詢問對方會說的語言",
+      "purpose": "마이클 詢問 유키 學韓語是否看電影，유키 回答並用 도 補充聽音樂；兩人接著互相交流會說的語言與程度。",
+      "turns": [
+        {
+          "speaker": "마이클",
+          "korean": "한국어 공부는요? 영화를 봐요?",
+          "translation": "那學韓語呢？妳看電影嗎？"
+        },
+        {
+          "speaker": "유키",
+          "korean": "네, 영화를 봐요. 음악도 들어요.",
+          "translation": "看，我看電影。也聽音樂。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "유키 씨는 영어를 해요?",
+          "translation": "Yuki 妳會說英語嗎？"
+        },
+        {
+          "speaker": "유키",
+          "korean": "네, 조금 해요. 마이클 씨는요?",
+          "translation": "會，會說一點點。麥可你呢？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "저는 영어를 해요. 스페인어도 해요.",
+          "translation": "我會說英語。也會說西班牙語。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "잘해요?",
+          "translation": "說得好嗎？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "아니요, 조금 해요.",
+          "translation": "不好，只會一點點。"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "短文",
+    "rows": [
+      {
+        "korean": "통근 카드예요.",
+        "translation": "這是通勤卡。"
+      },
+      {
+        "korean": "이름: 천이쥔",
+        "translation": "姓名：陳怡君"
+      },
+      {
+        "korean": "나라: 대만",
+        "translation": "國家：台灣"
+      },
+      {
+        "korean": "교통: 지하철, 버스",
+        "translation": "交通：地鐵、公車"
+      },
+      {
+        "korean": "지하철을 타요.",
+        "translation": "搭地鐵。"
+      },
+      {
+        "korean": "버스도 타요.",
+        "translation": "也搭公車。"
+      }
+    ]
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 37,
+      "text": "[本課出現的未教定型說法]"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 38,
+      "text": "- D1：無"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 39,
+      "text": "- D2：좋아요.（好啊。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 40,
+      "text": "- D3：無"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 42,
+      "text": "不確定：無"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 9,
+      "text": "不確定：無"
+    }
+  ]
+}

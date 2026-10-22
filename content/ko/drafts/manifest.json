@@ -1,0 +1,33 @@
+{
+  "status": "draft",
+  "courses": [
+    {
+      "id": "ko-a1-l002",
+      "level": 2,
+      "status": "draft",
+      "head": "086a9d962b64c0a19e5de461170b6174e3ee1fd2",
+      "branch": "lesson/ko-a1-l002-v6"
+    },
+    {
+      "id": "ko-a1-l003",
+      "level": 3,
+      "status": "draft",
+      "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+      "branch": "lesson/ko-a1-u01-drafts"
+    },
+    {
+      "id": "ko-a1-l004",
+      "level": 4,
+      "status": "draft",
+      "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+      "branch": "lesson/ko-a1-u01-drafts"
+    },
+    {
+      "id": "ko-a1-l005",
+      "level": 5,
+      "status": "draft",
+      "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+      "branch": "lesson/ko-a1-u01-drafts"
+    }
+  ]
+}
