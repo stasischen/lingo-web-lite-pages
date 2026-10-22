@@ -3,7 +3,7 @@
   "level": 5,
   "title": "聊聊家人",
   "status": "draft",
-  "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+  "head": "8e4f2c1e11f42c436a284891f4d792c88b9f0f6a",
   "branch": "lesson/ko-a1-u01-drafts",
   "sourceRepo": "stasischen/content-ko",
   "sourceFiles": [
@@ -80,6 +80,109 @@
           "translation": "有四位。"
         }
       ]
+    },
+    {
+      "id": "D2",
+      "title": "D2 · 地鐵車廂",
+      "location": "地鐵車廂",
+      "context": "週一早上，유키 與 애니 在通勤的地鐵車廂裡拿出手機互看照片，聊起各自的家庭成員與人數",
+      "purpose": "透過看照片確認對方家人，互相問答家人有沒有、各有幾位。",
+      "turns": [
+        {
+          "speaker": "유키",
+          "korean": "애니 씨, 사진 좀 보여 주세요.",
+          "translation": "Annie，請給我看一下照片。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 제 가족은 네 명이에요.",
+          "translation": "好，我的家人有四個人。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "저도요. 오빠는 한 명 있어요.",
+          "translation": "我也是。我有一位哥哥。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "언니는 있어요?",
+          "translation": "有姊姊嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "아니요, 언니는 없어요.",
+          "translation": "沒有，姊姊沒有。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "여동생은 한 명 있어요.",
+          "translation": "有一位妹妹。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "정말요? 여동생은 학생이에요?",
+          "translation": "真的嗎？妹妹是學生嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 학생이에요.",
+          "translation": "對，是學生。"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "D3 · 飯館",
+      "location": "飯館",
+      "context": "晚餐時間，도현 端上餐點並與 애니 在餐桌邊看照片邊聊天。도현 介紹照片裡的親姊姊，애니 則說明自己的妹妹是學生，並預告妹妹和媽媽都會來訪",
+      "purpose": "端上餐點並互相致意；看照片使用「의」指認家庭成員所屬關係；預告家人即將來訪與來訪人數。",
+      "turns": [
+        {
+          "speaker": "도현",
+          "korean": "천천히 드세요.",
+          "translation": "請慢用。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "잘 먹겠습니다.",
+          "translation": "我要開動了。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "도현 씨, 도현 씨의 누나예요?",
+          "translation": "道賢先生，這是道賢先生的姊姊嗎？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "네, 제 누나예요.",
+          "translation": "對，是我姊姊。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "애니 씨의 여동생은요?",
+          "translation": "那 Annie 妳的妹妹呢？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "여동생은 학생이에요. 여동생은 와요.",
+          "translation": "妹妹是學生。妹妹會來。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "어머니도 와요.",
+          "translation": "媽媽也會來。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "두 명 와요?",
+          "translation": "來兩位嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 두 명 와요.",
+          "translation": "對，來兩位。"
+        }
+      ]
     }
   ],
   "article": {
@@ -128,56 +231,6 @@
     },
     {
       "section": "DIALOGUE.md",
-      "line": 22,
-      "text": "## D2"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 23,
-      "text": "地點：地鐵車廂。情境：週一早上，유키 與 애니 在通勤的地鐵車廂裡拿出手機互看照片，聊起各自的家庭成員與人數。這段要完成的事：透過看照片確認對方家人，互相問答家人有沒有、各有幾位。"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 25,
-      "text": "유키: 애니 씨, 사진 좀 보여 주세요.（Annie，請給我看一下照片。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 26,
-      "text": "애니: 네, 제 가족은 네 명이에요.（好，我的家人有四個人。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 27,
-      "text": "유키: 저도요. 오빠는 한 명 있어요.（我也是。我有一位哥哥。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 28,
-      "text": "유키: 언니는 있어요?（有姊姊嗎？）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 29,
-      "text": "애니: 아니요, 언니는 없어요.（沒有，姊姊沒有。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 30,
-      "text": "애니: 여동생은 한 명 있어요.（有一位妹妹。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 31,
-      "text": "유키: 정말요? 여동생은 학생이에요?（真的嗎？妹妹是學生嗎？）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 32,
-      "text": "애니: 네, 학생이에요.（對，是學生。）"
-    },
-    {
-      "section": "DIALOGUE.md",
       "line": 34,
       "text": "[本段出現的未教定型說法]"
     },
@@ -195,61 +248,6 @@
       "section": "DIALOGUE.md",
       "line": 37,
       "text": "- 정말요?（真的嗎？）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 41,
-      "text": "## D3"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 42,
-      "text": "地點：飯館。情境：晚餐時間，도현 端上餐點並與 애니 在餐桌邊看照片邊聊天。도현 介紹照片裡的親姊姊，애니 則說明自己的妹妹是學生，並預告妹妹和媽媽都會來訪。這段要完成的事：端上餐點並互相致意；看照片使用「의」指認家庭成員所屬關係；預告家人即將來訪與來訪人數。"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 44,
-      "text": "도현: 천천히 드세요.（請慢用。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 45,
-      "text": "애니: 잘 먹겠습니다.（我要開動了。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 46,
-      "text": "애니: 도현 씨, 도현 씨의 누나예요?（道賢先生，這是道賢先生的姊姊嗎？）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 47,
-      "text": "도현: 네, 제 누나예요.（對，是我姊姊。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 48,
-      "text": "도현: 애니 씨의 여동생은요?（那 Annie 妳的妹妹呢？）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 49,
-      "text": "애니: 여동생은 학생이에요. 여동생은 와요.（妹妹是學生。妹妹會來。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 50,
-      "text": "애니: 어머니도 와요.（媽媽也會來。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 51,
-      "text": "도현: 두 명 와요?（來兩位嗎？）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 52,
-      "text": "애니: 네, 두 명 와요.（對，來兩位。）"
     },
     {
       "section": "DIALOGUE.md",

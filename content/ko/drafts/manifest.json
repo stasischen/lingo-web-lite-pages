@@ -12,21 +12,28 @@
       "id": "ko-a1-l003",
       "level": 3,
       "status": "draft",
-      "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+      "head": "8e4f2c1e11f42c436a284891f4d792c88b9f0f6a",
       "branch": "lesson/ko-a1-u01-drafts"
     },
     {
       "id": "ko-a1-l004",
       "level": 4,
       "status": "draft",
-      "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+      "head": "8e4f2c1e11f42c436a284891f4d792c88b9f0f6a",
       "branch": "lesson/ko-a1-u01-drafts"
     },
     {
       "id": "ko-a1-l005",
       "level": 5,
       "status": "draft",
-      "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+      "head": "8e4f2c1e11f42c436a284891f4d792c88b9f0f6a",
+      "branch": "lesson/ko-a1-u01-drafts"
+    },
+    {
+      "id": "ko-a1-l006",
+      "level": 6,
+      "status": "draft",
+      "head": "8e4f2c1e11f42c436a284891f4d792c88b9f0f6a",
       "branch": "lesson/ko-a1-u01-drafts"
     }
   ]

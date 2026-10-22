@@ -1,0 +1,233 @@
+{
+  "id": "ko-a1-l006",
+  "level": 6,
+  "title": "失物招領公告",
+  "status": "draft",
+  "head": "8e4f2c1e11f42c436a284891f4d792c88b9f0f6a",
+  "branch": "lesson/ko-a1-u01-drafts",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l006/draft/DIALOGUE.md",
+      "sha256": "c1d9761b61aa5488821eb1fe4f94968b4d96adbc8c6d8c64540c115dd80288c4"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l006/draft/ARTICLE.md",
+      "sha256": "4228e3331b91e07e308affe7bb00ccf04e1739814c54e34a1374de361a76cbfe"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1 · 地鐵站務室",
+      "location": "地鐵站務室",
+      "context": "下班後，애니來到地鐵站務室認領自己忘在車上的包包。站務員查看收到的三個包包，發現其中只有一個是書包，向애니展示並交回。",
+      "purpose": "애니向站務員呼喚並表明要認領包包；站務員說明有三個包包並詢問是什麼包包；애니說明是書包以明確辨認物品；站務員查看確認三個包中只有一個是書包，展示並交回該書包；애니道謝，完成認領核對。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "저기요, 제 가방이에요.",
+          "translation": "不好意思，那是我的包包。"
+        },
+        {
+          "speaker": "역무원",
+          "korean": "가방 세 개 있어요.",
+          "translation": "這裡有三個包包。"
+        },
+        {
+          "speaker": "역무원",
+          "korean": "무슨 가방이에요?",
+          "translation": "請問是什麼包包？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "책가방이에요.",
+          "translation": "是書包。"
+        },
+        {
+          "speaker": "역무원",
+          "korean": "여기 있어요.",
+          "translation": "在這裡，給您。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "감사합니다.",
+          "translation": "謝謝。"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2 · 教室",
+      "location": "教室",
+      "context": "上課前，소라老師與學生마이클在教室準備。소라老師看見마이클桌上的辭典，也展示自己使用的辭典，兩人互相查看並比較彼此使用的辭典。",
+      "purpose": "維持師生互動關係；소라老師看見마이클的辭典並詢問是什麼辭典；마이클說明自己使用韓語辭典學韓語；소라老師展示自己的辭典並說明自己使用英語辭典；마이클詢問老師是否在學英語，소라老師確認回答，讓比較彼此使用的辭典真正在情境中發生。",
+      "turns": [
+        {
+          "speaker": "소라",
+          "korean": "마이클 씨, 무슨 사전이에요?",
+          "translation": "마이클，請問是什麼辭典？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "한국어 사전이에요.",
+          "translation": "是韓語辭典。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "한국어를 공부해요.",
+          "translation": "我學習韓語。"
+        },
+        {
+          "speaker": "소라",
+          "korean": "저는 영어 사전을 사용해요.",
+          "translation": "我使用英語辭典。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "영어를 공부해요?",
+          "translation": "您在學習英語嗎？"
+        },
+        {
+          "speaker": "소라",
+          "korean": "네, 영어를 공부해요.",
+          "translation": "是的，我學習英語。"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "D3 · 公寓大樓門口",
+      "location": "公寓大樓門口",
+      "context": "晚上，애니在大樓門口遇到已熟識的鄰居도현。도현手上拿著書，애니好奇詢問。",
+      "purpose": "熟識鄰居見面問候；애니注意到도현手上的書並詢問是什麼書；도현說明是中文書，簡潔完成日常交流。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "도현 씨, 안녕하세요.",
+          "translation": "도현，你好。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "네, 애니 씨, 안녕하세요.",
+          "translation": "你好，애니。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "무슨 책이에요?",
+          "translation": "請問是什麼書？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "중국어 책이에요.",
+          "translation": "是中文書。"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "분실물 안내",
+    "rows": [
+      {
+        "korean": "분실물의 색은 검은색, 흰색, 빨간색, 파란색, 노란색이에요.",
+        "translation": "遺失物的顏色是黑色、白色、紅色、藍色、黃色。"
+      },
+      {
+        "korean": "검은색 우산은 두 개예요.",
+        "translation": "黑色雨傘有兩把。"
+      },
+      {
+        "korean": "흰색 휴대폰은 한 개예요.",
+        "translation": "白色手機有一支。"
+      },
+      {
+        "korean": "빨간색 지갑은 한 개예요.",
+        "translation": "紅色錢包有一個。"
+      },
+      {
+        "korean": "파란색 휴대폰은 두 개예요.",
+        "translation": "藍色手機有兩支。"
+      },
+      {
+        "korean": "노란색 열쇠는 세 개예요.",
+        "translation": "黃色鑰匙有三把。"
+      },
+      {
+        "korean": "다른 물건도 있어요.",
+        "translation": "也有其他物品。"
+      }
+    ]
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 44,
+      "text": "### 未教定型說法"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 45,
+      "text": "- **여기 있어요.**（在這裡，給您。）：自 L3 作為固定說法引入，本課 D1 用於站務員交回物品情境，尚未正式教授其構句。"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 46,
+      "text": "- **감사합니다.**（謝謝。）：自前課引入之日常禮貌固定說法，尚未正式教授其構句。"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 47,
+      "text": "- **저기요**（不好意思／請問）：列入計畫白名單之常用呼喚說法，非完整句子，不算未教句型。"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 48,
+      "text": "（以上固定說法均符合每段上限規範；D2、D3 無未教固定說法。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 50,
+      "text": "### 不確定事項"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 51,
+      "text": "- 課綱 `GRAMMAR_KO.tsv` 定義 c01 為 `뭐예요/무엇이에요?`、c02 為 `누구예요?`，但本課核心對話句型 `무슨 N이에요?` 與 c01/c02 的對應映射尚未裁定，且核准情境無人物問答（未引入 c02 的 `누구예요?`）。草稿不擅自映射 ID，待單元審查／Claude 裁定。"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 3,
+      "text": "- **地點**：地鐵站務室"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 4,
+      "text": "- **情境**：애니在站務室認領包包時，讀到牆上張貼的失物招領公告板「분실물 안내」。"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 5,
+      "text": "- **這段要完成的事**：透過閱讀純文字公告板（共7句完整句），辨識不同顏色（黑、白、紅、藍、黃）的各類遺失物（雨傘、錢包、手機、鑰匙）與數量，提供D1以外的新資訊。"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 17,
+      "text": "### 未教定型說法"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 18,
+      "text": "- 無（全文皆為已教名詞助詞、存在句與本課數量/修飾詞語法，無未教之整句定型說法）。"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 20,
+      "text": "### 不確定事項"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 21,
+      "text": "- 短文標題「분실물 안내」作為場景情境標記，內文嚴格遵守 7 個完整句子限制，不含未教語法。文法 ID 映射與詞彙歸屬維持等待單元審查裁定狀態。"
+    }
+  ]
+}

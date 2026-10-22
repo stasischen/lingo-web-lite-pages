@@ -3,13 +3,13 @@
   "level": 3,
   "title": "家鄉與特色",
   "status": "draft",
-  "head": "4dce5891d6a86f31bb4df39d85675f821139d3f0",
+  "head": "8e4f2c1e11f42c436a284891f4d792c88b9f0f6a",
   "branch": "lesson/ko-a1-u01-drafts",
   "sourceRepo": "stasischen/content-ko",
   "sourceFiles": [
     {
       "path": "content_v2/review/lessons/ko-a1-l003/draft/DIALOGUE.md",
-      "sha256": "0d5fe8d73d2b733235992dc00a171dec208c57666fcf07b2ac6d8d9197c7ae08"
+      "sha256": "a574e90d6bcdfa0a79a9754de0fee86b01960e0ea1cd306be4c656d64e1b49ec"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l003/draft/ARTICLE.md",
@@ -124,8 +124,8 @@
         },
         {
           "speaker": "애니",
-          "korean": "저는 와요. 감사합니다.",
-          "translation": "我會去。謝謝你。"
+          "korean": "네, 갈게요. 감사합니다.",
+          "translation": "好，我會去。謝謝你。"
         }
       ]
     }
@@ -166,72 +166,72 @@
   "notes": [
     {
       "section": "DIALOGUE.md",
+      "line": 30,
+      "text": "[本課新文法目標項目]"
+    },
+    {
+      "section": "DIALOGUE.md",
       "line": 31,
-      "text": "[本課目標整句]"
+      "text": "- -(으)ㄹ게요：本課形式為 갈게요、올게요；D3 例句：네, 갈게요.（好，我會去。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 32,
-      "text": "- 저는 와요.（我會去／我會來。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 34,
+      "line": 33,
       "text": "[本課出現的未教定型說法]"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 35,
+      "line": 34,
       "text": "- D1："
     },
     {
       "section": "DIALOGUE.md",
-      "line": 36,
+      "line": 35,
       "text": "- 어서 오세요.（歡迎光臨。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 37,
+      "line": 36,
       "text": "- 여기 있어요.（給您。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 38,
+      "line": 37,
       "text": "- 감사합니다.（謝謝。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 39,
+      "line": 38,
       "text": "- D2："
     },
     {
       "section": "DIALOGUE.md",
-      "line": 40,
+      "line": 39,
       "text": "- 그렇군요.（原來如此。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 41,
+      "line": 40,
       "text": "- D3："
     },
     {
       "section": "DIALOGUE.md",
-      "line": 42,
+      "line": 41,
       "text": "- 만나서 반가워요.（很高興認識你。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 43,
+      "line": 42,
       "text": "- 부산은 시원해요.（釜山很涼爽。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 44,
+      "line": 43,
       "text": "- 감사합니다.（謝謝。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 46,
+      "line": 45,
       "text": "不確定：無"
     },
     {
