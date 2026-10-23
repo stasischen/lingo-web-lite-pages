@@ -35,6 +35,13 @@
       "status": "draft",
       "head": "5fe327a1b9f8f721725bdd31a3dc2f70ecf86d80",
       "branch": "lesson/ko-a1-u01-drafts"
+    },
+    {
+      "id": "ko-a1-l007",
+      "level": 7,
+      "status": "draft",
+      "head": "2f889b1be144f082705167d59ee22b548858044c",
+      "branch": "lesson/ko-a1-u01-drafts"
     }
   ]
 }

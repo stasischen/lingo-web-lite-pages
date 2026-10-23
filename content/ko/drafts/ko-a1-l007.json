@@ -1,0 +1,174 @@
+{
+  "id": "ko-a1-l007",
+  "level": 7,
+  "title": "借用文具",
+  "status": "draft",
+  "head": "2f889b1be144f082705167d59ee22b548858044c",
+  "branch": "lesson/ko-a1-u01-drafts",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l007/draft/DIALOGUE.md",
+      "sha256": "c9310bfd670db3f2e0106b51f0405a0841f2a8f07c34d854d2ee8072dfab726c"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l007/draft/ARTICLE.md",
+      "sha256": "0d475d1e60905bf22f2b1645c3173ff09f122c5f7b31c819c9cc7ddc1bffe2c8"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1 · 週六語言交換活動",
+      "location": "週六語言交換活動",
+      "context": "成人同輩語言交換",
+      "purpose": "애니向마이클借볼펜並完成交接。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "마이클 씨, 볼펜 있어요?",
+          "translation": "麥克，你有原子筆嗎？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네, 있어요.",
+          "translation": "有，我有。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "볼펜 좀 빌려 주세요.",
+          "translation": "請借我一下原子筆。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네, 쓰세요. 여기 있어요.",
+          "translation": "好，請用。在這裡。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "고마워요, 마이클 씨.",
+          "translation": "謝謝你，麥克。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "아니에요.",
+          "translation": "不客氣。"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2 · 咖啡廳讀書會",
+      "location": "咖啡廳讀書會",
+      "context": "成人同輩讀書會",
+      "purpose": "애니向유키借지우개遭婉拒後，向마이클詢問是否有지우개。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "유키 씨, 지우개 좀 빌려 주세요.",
+          "translation": "由紀，請借我一下橡皮擦。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "미안해요. 지금 써요.",
+          "translation": "不好意思。我現在在用。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "괜찮아요.",
+          "translation": "沒關係。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "마이클 씨, 지우개 있어요?",
+          "translation": "麥克，你有橡皮擦嗎？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "아니요, 없어요.",
+          "translation": "沒有，我沒有。"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "〈장보기 메모〉",
+    "rows": [
+      {
+        "korean": "1. 내일은 집들이예요.",
+        "translation": "明天是喬遷宴。"
+      },
+      {
+        "korean": "2. 저는 친구를 초대해요.",
+        "translation": "我邀請朋友。"
+      },
+      {
+        "korean": "3. 사과는 세 개예요.",
+        "translation": "蘋果是三個。"
+      },
+      {
+        "korean": "4. 바나나는 두 개예요.",
+        "translation": "香蕉是兩個。"
+      },
+      {
+        "korean": "5. 빵을 준비해요.",
+        "translation": "準備麵包。"
+      },
+      {
+        "korean": "6. 우유를 준비해요.",
+        "translation": "準備牛奶。"
+      },
+      {
+        "korean": "7. 계란도 준비해요.",
+        "translation": "雞蛋也準備。"
+      }
+    ]
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 22,
+      "text": "### 未教固定語塊（每段至多3個）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 24,
+      "text": "**D1:**"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 25,
+      "text": "1. `여기 있어요.` （在這裡 / 給你）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 26,
+      "text": "2. `고마워요.` （謝謝。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 27,
+      "text": "3. `아니에요.` （不客氣 / 不會。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 29,
+      "text": "**D2:**"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 30,
+      "text": "1. `미안해요.` （不好意思 / 對不起。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 31,
+      "text": "2. `괜찮아요.` （沒關係。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 33,
+      "text": "*(註：`빌려 주세요`、`네, 쓰세요`、`지금 써요`、`저도 없어요` 四個形式皆為整句學習項目，不可拆解形態出題；情境不合適時可不使用（如本課 D2 配合情境調整為 `아니요, 없어요.`），且均不計入未教固定語塊上限。)*"
+    }
+  ]
+}
