@@ -1,0 +1,222 @@
+{
+  "id": "ko-a1-l008",
+  "level": 8,
+  "title": "介紹住家與家具",
+  "status": "draft",
+  "head": "423c6961021051db452f2d381d5ff346b9e625fe",
+  "branch": "lesson/ko-a1-u01-drafts",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l008/draft/DIALOGUE.md",
+      "sha256": "62c74340f2a336de3719591b95a551e66d244f99938d771681acfd8f2c781f7c"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l008/draft/ARTICLE.md",
+      "sha256": "307f22bf3820d0721fb64a5bb9112664a973cefb5472e410157b5c8c9f6a2ea6"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1 · 家具店",
+      "location": "家具店",
+      "context": "週日，애니和유키為即將來訪的家人挑選寢具",
+      "purpose": "確認家中已有的寢具與欠缺的物品，挑選需要的被子與窗簾。",
+      "turns": [
+        {
+          "speaker": "유키",
+          "korean": "애니 씨, 가족이 와요?",
+          "translation": "Annie，家人要來嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 어머니가 와요.",
+          "translation": "對，媽媽要來。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "침실에 침구가 필요해요.",
+          "translation": "臥室需要寢具。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "침실에 침대가 있어요?",
+          "translation": "臥室裡有床嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네. 하지만 이불은 없어요.",
+          "translation": "有。但是沒有棉被。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "베개는 있어요?",
+          "translation": "枕頭有嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "베개는 두 개 있어요.",
+          "translation": "枕頭有兩個。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "방에 커튼도 필요해요?",
+          "translation": "房間也需要窗簾嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 커튼도 필요해요.",
+          "translation": "對，也需要窗簾。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "이 이불 주세요.",
+          "translation": "請給我這件棉被。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "이 커튼도 주세요.",
+          "translation": "也請給我這款窗簾。"
+        },
+        {
+          "speaker": "점원",
+          "korean": "네.",
+          "translation": "好的。"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2 · 애니家",
+      "location": "애니家",
+      "context": "喬遷小聚，애니帶도현和유키參觀家中房間",
+      "purpose": "介紹房間數量、客廳沙發，以及浴室與洗手間的位置。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "어서 오세요!",
+          "translation": "歡迎！"
+        },
+        {
+          "speaker": "도현",
+          "korean": "집이 정말 좋아요.",
+          "translation": "你家真不錯。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "방이 몇 개 있어요?",
+          "translation": "有幾個房間呢？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "방이 두 개 있어요.",
+          "translation": "有兩個房間。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "거실에 소파가 있어요.",
+          "translation": "客廳裡有沙發。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "소파가 아주 좋아요.",
+          "translation": "沙發很不錯。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "화장실은 어디예요?",
+          "translation": "洗手間在哪裡？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "욕실은 여기예요.",
+          "translation": "浴室在這裡。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "화장실은 저기예요.",
+          "translation": "洗手間在那裡。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "집이 아주 깨끗해요.",
+          "translation": "家裡非常乾淨。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "고마워요.",
+          "translation": "謝謝。"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "〈집 안내〉",
+    "rows": [
+      {
+        "korean": "이안 씨, 어머니께",
+        "translation": "給伊安和媽媽"
+      },
+      {
+        "korean": "수건은 욕실에 있어요.",
+        "translation": "毛巾在浴室裡。"
+      },
+      {
+        "korean": "욕실에 칫솔도 있어요.",
+        "translation": "浴室裡也有牙刷。"
+      },
+      {
+        "korean": "화장실에 휴지가 있어요.",
+        "translation": "洗手間裡有衛生紙。"
+      },
+      {
+        "korean": "에어컨은 방에 있어요.",
+        "translation": "冷氣在房間裡。"
+      },
+      {
+        "korean": "거실에 텔레비전이 있어요.",
+        "translation": "客廳裡有電視。"
+      },
+      {
+        "korean": "세탁기는 부엌에 있어요.",
+        "translation": "洗衣機在廚房裡。"
+      },
+      {
+        "korean": "집에 와이파이가 있어요.",
+        "translation": "家裡有Wi-Fi。"
+      },
+      {
+        "korean": "애니",
+        "translation": "애妮"
+      }
+    ]
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 30,
+      "text": "### 未教固定語塊"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 31,
+      "text": "- D1：無"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 32,
+      "text": "- D2：어서 오세요!（歡迎！）、욕실은 여기예요.（浴室在這裡。）、화장실은 저기예요.（洗手間在那裡。）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 34,
+      "text": "### 不確定"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 35,
+      "text": "- 無"
+    }
+  ]
+}
