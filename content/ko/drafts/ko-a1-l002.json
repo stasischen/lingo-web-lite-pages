@@ -3,13 +3,13 @@
   "level": 2,
   "title": "介紹姓名與身分",
   "status": "draft",
-  "head": "086a9d962b64c0a19e5de461170b6174e3ee1fd2",
-  "branch": "lesson/ko-a1-l002-v6",
+  "head": "02479443113b4d9e5de8327e29240c9780c67fc7",
+  "branch": "lesson/ko-a1-u01-drafts",
   "sourceRepo": "stasischen/content-ko",
   "sourceFiles": [
     {
       "path": "content_v2/review/lessons/ko-a1-l002/draft/DIALOGUE.md",
-      "sha256": "ad9b26b8a0fd36c7428caee0ed9510f5a5fcb564163f1ac03bf046a38fdc1206"
+      "sha256": "7284ea6d53f9b9235b80988f543d01ff4cc225b1f1b5975c7a6293ac5caa34d8"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l002/draft/ARTICLE.md",
@@ -41,8 +41,8 @@
         },
         {
           "speaker": "마이클",
-          "korean": "저는 학생이에요. 저 사람, 선생님이에요?",
-          "translation": "我是學生。那個人是老師嗎？"
+          "korean": "저는 학생이에요. 저분, 선생님이에요?",
+          "translation": "我是學生。那位是老師嗎？"
         },
         {
           "speaker": "소라",
@@ -151,57 +151,57 @@
   "notes": [
     {
       "section": "DIALOGUE.md",
-      "line": 28,
+      "line": 27,
       "text": "[本課目標整句（列於對話目的）]"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 29,
+      "line": 28,
       "text": "- 애니라고 불러요.（請叫我 Annie。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 31,
+      "line": 30,
       "text": "[本課出現之未教定型說法]"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 32,
+      "line": 31,
       "text": "- D1："
     },
     {
       "section": "DIALOGUE.md",
-      "line": 33,
+      "line": 32,
       "text": "- 오늘 처음이에요.（今天第一次來。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 34,
+      "line": 33,
       "text": "- 반갑습니다.（很高興認識您。）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 35,
+      "line": 34,
       "text": "- D2："
     },
     {
       "section": "DIALOGUE.md",
-      "line": 36,
+      "line": 35,
       "text": "- 無"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 37,
+      "line": 36,
       "text": "- D3："
     },
     {
       "section": "DIALOGUE.md",
-      "line": 38,
+      "line": 37,
       "text": "- 그래요?（是嗎？）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 40,
+      "line": 39,
       "text": "不確定：無"
     },
     {
