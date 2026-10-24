@@ -1,0 +1,1155 @@
+{
+  "id": "ko-a1-l000",
+  "level": 1,
+  "language": "ko",
+  "supportLanguage": "zh_tw",
+  "revision": "1",
+  "status": "draft",
+  "sourceId": "src.ko.lesson.a1-l000",
+  "title": "問候與自我介紹",
+  "description": "在首爾麻浦區多文化中心，素拉迎接安妮到來，課堂上安妮與由紀互相自我介紹，下課後安妮忘了由紀的職業並被更正。",
+  "blocks": [
+    {
+      "block_id": "scene.d1",
+      "block_type": "scene",
+      "speakers": [
+        "sora",
+        "annie"
+      ]
+    },
+    {
+      "block_id": "d1.t01",
+      "block_type": "turn",
+      "speaker": "sora",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000001",
+      "knowledge": []
+    },
+    {
+      "block_id": "d1.t02",
+      "block_type": "turn",
+      "speaker": "annie",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000001",
+      "knowledge": []
+    },
+    {
+      "block_id": "d1.t03",
+      "block_type": "turn",
+      "speaker": "sora",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000002",
+      "knowledge": []
+    },
+    {
+      "block_id": "d1.t04",
+      "block_type": "turn",
+      "speaker": "annie",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000003",
+      "knowledge": []
+    },
+    {
+      "block_id": "d1.t05",
+      "block_type": "turn",
+      "speaker": "sora",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000004",
+      "knowledge": []
+    },
+    {
+      "block_id": "d1.t06",
+      "block_type": "turn",
+      "speaker": "annie",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000005",
+      "knowledge": []
+    },
+    {
+      "block_id": "scene.d2",
+      "block_type": "scene",
+      "speakers": [
+        "sora",
+        "yuki",
+        "annie"
+      ]
+    },
+    {
+      "block_id": "d2.t01",
+      "block_type": "turn",
+      "speaker": "sora",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000006",
+      "knowledge": []
+    },
+    {
+      "block_id": "d2.t02",
+      "block_type": "turn",
+      "speaker": "yuki",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000007",
+      "knowledge": []
+    },
+    {
+      "block_id": "d2.t03",
+      "block_type": "turn",
+      "speaker": "yuki",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000008",
+      "knowledge": []
+    },
+    {
+      "block_id": "d2.t04",
+      "block_type": "turn",
+      "speaker": "annie",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000009",
+      "knowledge": []
+    },
+    {
+      "block_id": "d2.t05",
+      "block_type": "turn",
+      "speaker": "annie",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000010",
+      "knowledge": []
+    },
+    {
+      "block_id": "d2.t06",
+      "block_type": "turn",
+      "speaker": "annie",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000011",
+      "knowledge": []
+    },
+    {
+      "block_id": "d2.t07",
+      "block_type": "turn",
+      "speaker": "yuki",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000012",
+      "knowledge": []
+    },
+    {
+      "block_id": "scene.d3",
+      "block_type": "scene",
+      "speakers": [
+        "annie",
+        "yuki"
+      ]
+    },
+    {
+      "block_id": "d3.t01",
+      "block_type": "turn",
+      "speaker": "annie",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000013",
+      "knowledge": []
+    },
+    {
+      "block_id": "d3.t02",
+      "block_type": "turn",
+      "speaker": "yuki",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000014",
+      "knowledge": []
+    },
+    {
+      "block_id": "d3.t03",
+      "block_type": "turn",
+      "speaker": "annie",
+      "sentence_id": "ex.ko.s.ko-a1-l000.000015",
+      "knowledge": []
+    },
+    {
+      "block_id": "article.1",
+      "block_type": "article",
+      "genre": "notice",
+      "sentences": [
+        "ex.ko.s.ko-a1-l000.000016",
+        "ex.ko.s.ko-a1-l000.000017",
+        "ex.ko.s.ko-a1-l000.000018",
+        "ex.ko.s.ko-a1-l000.000019",
+        "ex.ko.s.ko-a1-l000.000020",
+        "ex.ko.s.ko-a1-l000.000021",
+        "ex.ko.s.ko-a1-l000.000022",
+        "ex.ko.s.ko-a1-l000.000023"
+      ]
+    }
+  ],
+  "localization": {
+    "sora": {
+      "name": "韓素拉",
+      "introduction": "首爾麻浦區多文化中心的老師。"
+    },
+    "annie": {
+      "name": "安妮",
+      "introduction": "台灣人，任職於台灣公司的首爾分公司，到首爾約兩週，個性健忘。"
+    },
+    "yuki": {
+      "name": "佐藤由紀",
+      "introduction": "日本大阪人，職業是護士。"
+    },
+    "scene.d1": {
+      "description": "週二晚上 18:55、下雨，素拉在中心大門依名單迎接新生安妮並確認身分。"
+    },
+    "scene.d2": {
+      "description": "第一堂課教室，素拉帶領由紀和安妮自我介紹。"
+    },
+    "scene.d3": {
+      "description": "下課後地鐵站出口，安妮忘了由紀的職業，問由紀是不是老師，由紀更正自己是護士。"
+    },
+    "article.1": {
+      "title": "我們班的同學"
+    },
+    "ko:prop:애니": {
+      "name": "安妮"
+    },
+    "ko:prop:한소라": {
+      "name": "韓素拉"
+    },
+    "ko:prop:사토": {
+      "name": "佐藤"
+    },
+    "ko:prop:유키": {
+      "name": "由紀"
+    },
+    "ko:prop:마이클": {
+      "name": "邁可"
+    },
+    "ko:prop:나디아": {
+      "name": "娜迪亞"
+    },
+    "ko:prop:타완": {
+      "name": "塔萬"
+    },
+    "ko:prop:루카스": {
+      "name": "盧卡斯"
+    },
+    "ko:prop:대만": {
+      "name": "台灣"
+    },
+    "ko:prop:일본": {
+      "name": "日本"
+    },
+    "ko:prop:캐나다": {
+      "name": "加拿大"
+    },
+    "ko:prop:러시아": {
+      "name": "俄羅斯"
+    },
+    "ko:prop:태국": {
+      "name": "泰國"
+    },
+    "ko:prop:독일": {
+      "name": "德國"
+    },
+    "lesson": {
+      "title": "問候與自我介紹",
+      "description": "在首爾麻浦區多文化中心，素拉迎接安妮到來，課堂上安妮與由紀互相自我介紹，下課後安妮忘了由紀的職業並被更正。"
+    }
+  },
+  "sentences": {
+    "ex.ko.s.ko-a1-l000.000001": {
+      "id": "ex.ko.s.ko-a1-l000.000001",
+      "surface": "안녕하세요.",
+      "atoms": [
+        {
+          "id": "ko:adj:안녕하다+ko:e:세요",
+          "text": "안녕하세요.",
+          "pos": "adj+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:adj:안녕하다": "linked",
+              "ko:e:세요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "您好。"
+    },
+    "ex.ko.s.ko-a1-l000.000002": {
+      "id": "ex.ko.s.ko-a1-l000.000002",
+      "surface": "애니 씨예요?",
+      "atoms": [
+        {
+          "id": "ko:prop:애니",
+          "text": "애니",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:애니": "named_entity"
+            }
+          }
+        },
+        {
+          "id": "ko:count:씨+ko:cop:이다+ko:e:에요",
+          "text": "씨예요?",
+          "pos": "count+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:count:씨": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "請問是安妮小姐嗎？"
+    },
+    "ex.ko.s.ko-a1-l000.000003": {
+      "id": "ex.ko.s.ko-a1-l000.000003",
+      "surface": "네. 저는 애니예요.",
+      "atoms": [
+        {
+          "id": "ko:intj:네",
+          "text": "네.",
+          "pos": "intj",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:intj:네": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:pron:저+ko:p:는",
+          "text": "저는",
+          "pos": "pron+p",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:pron:저": "linked",
+              "ko:p:는": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:애니+ko:cop:이다+ko:e:에요",
+          "text": "애니예요.",
+          "pos": "prop+cop+e",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:애니": "named_entity",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "是的。我是安妮。"
+    },
+    "ex.ko.s.ko-a1-l000.000004": {
+      "id": "ex.ko.s.ko-a1-l000.000004",
+      "surface": "저는 한소라예요. 선생님이에요.",
+      "atoms": [
+        {
+          "id": "ko:pron:저+ko:p:는",
+          "text": "저는",
+          "pos": "pron+p",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:pron:저": "linked",
+              "ko:p:는": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:한소라+ko:cop:이다+ko:e:에요",
+          "text": "한소라예요.",
+          "pos": "prop+cop+e",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:한소라": "named_entity",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:선생님+ko:cop:이다+ko:e:에요",
+          "text": "선생님이에요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:선생님": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "我是韓素拉。我是老師。"
+    },
+    "ex.ko.s.ko-a1-l000.000005": {
+      "id": "ex.ko.s.ko-a1-l000.000005",
+      "surface": "네, 선생님.",
+      "atoms": [
+        {
+          "id": "ko:intj:네",
+          "text": "네,",
+          "pos": "intj",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:intj:네": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:선생님",
+          "text": "선생님.",
+          "pos": "n",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:선생님": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "好的，老師。"
+    },
+    "ex.ko.s.ko-a1-l000.000006": {
+      "id": "ex.ko.s.ko-a1-l000.000006",
+      "surface": "우리 인사해요.",
+      "atoms": [
+        {
+          "id": "ko:pron:우리",
+          "text": "우리",
+          "pos": "pron",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:pron:우리": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:인사+ko:v:하다+ko:e:어요",
+          "text": "인사해요.",
+          "pos": "n+v+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:인사": "linked",
+              "ko:v:하다": "linked",
+              "ko:e:어요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "我們來打個招呼吧。"
+    },
+    "ex.ko.s.ko-a1-l000.000007": {
+      "id": "ex.ko.s.ko-a1-l000.000007",
+      "surface": "제 이름은 사토 유키예요.",
+      "atoms": [
+        {
+          "id": "ko:pron:제",
+          "text": "제",
+          "pos": "pron",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:pron:제": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:이름+ko:p:은",
+          "text": "이름은",
+          "pos": "n+p",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:이름": "linked",
+              "ko:p:은": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:사토",
+          "text": "사토",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:사토": "named_entity"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:유키+ko:cop:이다+ko:e:에요",
+          "text": "유키예요.",
+          "pos": "prop+cop+e",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:유키": "named_entity",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "我的名字是佐藤由紀。"
+    },
+    "ex.ko.s.ko-a1-l000.000008": {
+      "id": "ex.ko.s.ko-a1-l000.000008",
+      "surface": "저는 일본 사람이에요. 간호사예요.",
+      "atoms": [
+        {
+          "id": "ko:pron:저+ko:p:는",
+          "text": "저는",
+          "pos": "pron+p",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:pron:저": "linked",
+              "ko:p:는": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:일본",
+          "text": "일본",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:prop:일본": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:사람+ko:cop:이다+ko:e:에요",
+          "text": "사람이에요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:사람": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:간호사+ko:cop:이다+ko:e:에요",
+          "text": "간호사예요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:간호사": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "我是日本人。我是護士。"
+    },
+    "ex.ko.s.ko-a1-l000.000009": {
+      "id": "ex.ko.s.ko-a1-l000.000009",
+      "surface": "반가워요, 유키 씨.",
+      "atoms": [
+        {
+          "id": "ko:adj:반갑다+ko:e:어요",
+          "text": "반가워요,",
+          "pos": "adj+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:adj:반갑다": "linked",
+              "ko:e:어요": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:유키",
+          "text": "유키",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:유키": "named_entity"
+            }
+          }
+        },
+        {
+          "id": "ko:count:씨",
+          "text": "씨.",
+          "pos": "count",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:count:씨": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "很高興認識你，由紀小姐。"
+    },
+    "ex.ko.s.ko-a1-l000.000010": {
+      "id": "ex.ko.s.ko-a1-l000.000010",
+      "surface": "제 이름은 애니예요. 저는 대만 사람이에요.",
+      "atoms": [
+        {
+          "id": "ko:pron:제",
+          "text": "제",
+          "pos": "pron",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:pron:제": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:이름+ko:p:은",
+          "text": "이름은",
+          "pos": "n+p",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:이름": "linked",
+              "ko:p:은": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:애니+ko:cop:이다+ko:e:에요",
+          "text": "애니예요.",
+          "pos": "prop+cop+e",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:애니": "named_entity",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:pron:저+ko:p:는",
+          "text": "저는",
+          "pos": "pron+p",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:pron:저": "linked",
+              "ko:p:는": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:대만",
+          "text": "대만",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:대만": "named_entity"
+            }
+          }
+        },
+        {
+          "id": "ko:n:사람+ko:cop:이다+ko:e:에요",
+          "text": "사람이에요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:사람": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "我的名字是安妮。我是台灣人。"
+    },
+    "ex.ko.s.ko-a1-l000.000011": {
+      "id": "ex.ko.s.ko-a1-l000.000011",
+      "surface": "회사원이에요.",
+      "atoms": [
+        {
+          "id": "ko:n:회사원+ko:cop:이다+ko:e:에요",
+          "text": "회사원이에요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:회사원": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "我是上班族。"
+    },
+    "ex.ko.s.ko-a1-l000.000012": {
+      "id": "ex.ko.s.ko-a1-l000.000012",
+      "surface": "반가워요, 애니 씨.",
+      "atoms": [
+        {
+          "id": "ko:adj:반갑다+ko:e:어요",
+          "text": "반가워요,",
+          "pos": "adj+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:adj:반갑다": "linked",
+              "ko:e:어요": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:애니",
+          "text": "애니",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:애니": "named_entity"
+            }
+          }
+        },
+        {
+          "id": "ko:count:씨",
+          "text": "씨.",
+          "pos": "count",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:count:씨": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "很高興認識你，安妮小姐。"
+    },
+    "ex.ko.s.ko-a1-l000.000013": {
+      "id": "ex.ko.s.ko-a1-l000.000013",
+      "surface": "유키 씨는 선생님이에요?",
+      "atoms": [
+        {
+          "id": "ko:prop:유키",
+          "text": "유키",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:유키": "named_entity"
+            }
+          }
+        },
+        {
+          "id": "ko:count:씨+ko:p:는",
+          "text": "씨는",
+          "pos": "count+p",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:count:씨": "linked",
+              "ko:p:는": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:선생님+ko:cop:이다+ko:e:에요",
+          "text": "선생님이에요?",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:선생님": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "由紀小姐是老師嗎？"
+    },
+    "ex.ko.s.ko-a1-l000.000014": {
+      "id": "ex.ko.s.ko-a1-l000.000014",
+      "surface": "아니요. 저는 간호사예요.",
+      "atoms": [
+        {
+          "id": "ko:intj:아니요",
+          "text": "아니요.",
+          "pos": "intj",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:intj:아니요": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:pron:저+ko:p:는",
+          "text": "저는",
+          "pos": "pron+p",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:pron:저": "linked",
+              "ko:p:는": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:간호사+ko:cop:이다+ko:e:에요",
+          "text": "간호사예요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:간호사": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "不是。我是護士。"
+    },
+    "ex.ko.s.ko-a1-l000.000015": {
+      "id": "ex.ko.s.ko-a1-l000.000015",
+      "surface": "네.",
+      "atoms": [
+        {
+          "id": "ko:intj:네",
+          "text": "네.",
+          "pos": "intj",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:intj:네": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "好的。"
+    },
+    "ex.ko.s.ko-a1-l000.000016": {
+      "id": "ex.ko.s.ko-a1-l000.000016",
+      "surface": "마이클은 캐나다 사람이에요.",
+      "atoms": [
+        {
+          "id": "ko:prop:마이클+ko:p:은",
+          "text": "마이클은",
+          "pos": "prop+p",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:마이클": "named_entity",
+              "ko:p:은": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:캐나다",
+          "text": "캐나다",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:prop:캐나다": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:사람+ko:cop:이다+ko:e:에요",
+          "text": "사람이에요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:사람": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "邁可是加拿大人。"
+    },
+    "ex.ko.s.ko-a1-l000.000017": {
+      "id": "ex.ko.s.ko-a1-l000.000017",
+      "surface": "마이클은 학생이에요.",
+      "atoms": [
+        {
+          "id": "ko:prop:마이클+ko:p:은",
+          "text": "마이클은",
+          "pos": "prop+p",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:마이클": "named_entity",
+              "ko:p:은": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:학생+ko:cop:이다+ko:e:에요",
+          "text": "학생이에요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:학생": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "邁可是學生。"
+    },
+    "ex.ko.s.ko-a1-l000.000018": {
+      "id": "ex.ko.s.ko-a1-l000.000018",
+      "surface": "나디아는 러시아 사람이에요.",
+      "atoms": [
+        {
+          "id": "ko:prop:나디아+ko:p:는",
+          "text": "나디아는",
+          "pos": "prop+p",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:나디아": "named_entity",
+              "ko:p:는": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:러시아",
+          "text": "러시아",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:prop:러시아": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:사람+ko:cop:이다+ko:e:에요",
+          "text": "사람이에요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:사람": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "娜迪亞是俄羅斯人。"
+    },
+    "ex.ko.s.ko-a1-l000.000019": {
+      "id": "ex.ko.s.ko-a1-l000.000019",
+      "surface": "나디아는 디자이너예요.",
+      "atoms": [
+        {
+          "id": "ko:prop:나디아+ko:p:는",
+          "text": "나디아는",
+          "pos": "prop+p",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:나디아": "named_entity",
+              "ko:p:는": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:디자이너+ko:cop:이다+ko:e:에요",
+          "text": "디자이너예요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:디자이너": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "娜迪亞是設計師。"
+    },
+    "ex.ko.s.ko-a1-l000.000020": {
+      "id": "ex.ko.s.ko-a1-l000.000020",
+      "surface": "타완은 태국 사람이에요.",
+      "atoms": [
+        {
+          "id": "ko:prop:타완+ko:p:은",
+          "text": "타완은",
+          "pos": "prop+p",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:타완": "named_entity",
+              "ko:p:은": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:태국",
+          "text": "태국",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:prop:태국": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:사람+ko:cop:이다+ko:e:에요",
+          "text": "사람이에요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:사람": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "塔萬是泰國人。"
+    },
+    "ex.ko.s.ko-a1-l000.000021": {
+      "id": "ex.ko.s.ko-a1-l000.000021",
+      "surface": "타완은 바리스타예요.",
+      "atoms": [
+        {
+          "id": "ko:prop:타완+ko:p:은",
+          "text": "타완은",
+          "pos": "prop+p",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:타완": "named_entity",
+              "ko:p:은": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:바리스타+ko:cop:이다+ko:e:에요",
+          "text": "바리스타예요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "missing",
+            "part_status": {
+              "ko:n:바리스타": "missing",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "塔萬是咖啡師。"
+    },
+    "ex.ko.s.ko-a1-l000.000022": {
+      "id": "ex.ko.s.ko-a1-l000.000022",
+      "surface": "루카스는 독일 사람이에요.",
+      "atoms": [
+        {
+          "id": "ko:prop:루카스+ko:p:는",
+          "text": "루카스는",
+          "pos": "prop+p",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:루카스": "named_entity",
+              "ko:p:는": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:prop:독일",
+          "text": "독일",
+          "pos": "prop",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:prop:독일": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:사람+ko:cop:이다+ko:e:에요",
+          "text": "사람이에요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "linked",
+            "part_status": {
+              "ko:n:사람": "linked",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "盧卡斯是德國人。"
+    },
+    "ex.ko.s.ko-a1-l000.000023": {
+      "id": "ex.ko.s.ko-a1-l000.000023",
+      "surface": "루카스는 엔지니어예요.",
+      "atoms": [
+        {
+          "id": "ko:prop:루카스+ko:p:는",
+          "text": "루카스는",
+          "pos": "prop+p",
+          "dictionary_link": {
+            "status": "linked_with_exemptions",
+            "part_status": {
+              "ko:prop:루카스": "named_entity",
+              "ko:p:는": "linked"
+            }
+          }
+        },
+        {
+          "id": "ko:n:엔지니어+ko:cop:이다+ko:e:에요",
+          "text": "엔지니어예요.",
+          "pos": "n+cop+e",
+          "dictionary_link": {
+            "status": "missing",
+            "part_status": {
+              "ko:n:엔지니어": "missing",
+              "ko:cop:이다": "linked",
+              "ko:e:에요": "linked"
+            }
+          }
+        }
+      ],
+      "translation": "盧卡斯是工程師。"
+    }
+  },
+  "source": {
+    "repo": "https://github.com/stasischen/content-ko.git",
+    "ref": "49680667b288e187977b88bf9ae99b24cf0dff3c",
+    "head": "49680667b288e187977b88bf9ae99b24cf0dff3c",
+    "files": [
+      {
+        "path": "content_v2/review/lessons/ko-a1-l000/core/lesson.json",
+        "sha256": "2b566afc1f0f7bd9db95bd57ee3856193e231f1535a041df49866f1820df2f50"
+      },
+      {
+        "path": "content_v2/review/lessons/ko-a1-l000/core/sentences.json",
+        "sha256": "bff777f804679992679ec2ff1562be2a614350acb02fdd9e3d6cb009b2779193"
+      },
+      {
+        "path": "content_v2/review/lessons/ko-a1-l000/i18n/zh_tw/lesson.json",
+        "sha256": "fd9707cad540cfc203acd5ebb991e11ecd5d70c4eee24b64a9495ecb1b9e1378"
+      },
+      {
+        "path": "content_v2/review/lessons/ko-a1-l000/i18n/zh_tw/sentences.json",
+        "sha256": "8bd937c12bfa759d2766429d52a231c3b429db29d1a3ee7b8c43bb8ab76926ba"
+      }
+    ]
+  }
+}
