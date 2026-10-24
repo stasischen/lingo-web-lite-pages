@@ -1,0 +1,238 @@
+{
+  "id": "ko-a1-l001",
+  "level": 1,
+  "title": "自我介紹與確認身分 · 新流程試跑草稿",
+  "status": "draft",
+  "head": "aff4bf17b00e9a9917a66c76b6e53d989612eb35",
+  "branch": "luna/ko-a1-l001-content-flow-trial-20261024",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l001/draft/DIALOGUE.md",
+      "sha256": "a04aa00c882fcf345a741f62fcfc7c9f8ea77c2651b08c5ebd62fe53e961fe6a"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l001/draft/ARTICLE.md",
+      "sha256": "e2f820ce99d89845f5df642af4c6941b7946a21bee7eeebf54eebc437e69962d"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1 · 中心大門口",
+      "location": "中心大門口",
+      "context": "週二 18:55，下雨。소라 照名單迎接新生 애니，確認身分。",
+      "purpose": "確認身分、第一次問候（本課唯一一次「안녕하세요」互答）。",
+      "turns": [
+        {
+          "speaker": "소라",
+          "korean": "안녕하세요?",
+          "translation": "您好？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "안녕하세요?",
+          "translation": "您好？"
+        },
+        {
+          "speaker": "소라",
+          "korean": "천이쥔 씨예요?",
+          "translation": "是陳怡君小姐嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네. 저는 천이쥔이에요.",
+          "translation": "是的。我是陳怡君。"
+        },
+        {
+          "speaker": "소라",
+          "korean": "저는 한소라예요. 선생님이에요.",
+          "translation": "我是韓素拉。是老師。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 선생님. 저는 애니예요.",
+          "translation": "好的，老師。我是 Annie。"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2 · 第一堂課教室",
+      "location": "第一堂課教室",
+      "context": "소라、유키、애니 在教室準備開始上課，進行自我介紹。",
+      "purpose": "輪流完整自我介紹（名字、國家、職業），含「반가워요」互答（本課唯一一次）。",
+      "turns": [
+        {
+          "speaker": "소라",
+          "korean": "우리 인사해요.",
+          "translation": "我們來打招呼吧。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "제 이름은 사토 유키예요.",
+          "translation": "我的名字是佐藤由紀。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "저는 일본 사람이에요. 간호사예요.",
+          "translation": "我是日本人。是護士。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "반가워요, 유키 씨.",
+          "translation": "很高興認識你，由紀小姐。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "제 이름은 애니예요. 저는 대만 사람이에요.",
+          "translation": "我的名字是 Annie。我是台灣人。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "회사원이에요.",
+          "translation": "是上班族。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "반가워요, 애니 씨.",
+          "translation": "很高興認識你，Annie 小姐。"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "D3 · 地鐵站出口",
+      "location": "地鐵站出口",
+      "context": "下課後，애니 與 유키 一起走到地鐵站出口。애니回想剛才在教室見過的소라，向유키核對身分；유키及時更正她的誤認。",
+      "purpose": "애니回想剛才教室裡的소라，用名詞升調問句向유키核對身分，유키更正說明소라是老師而不是醫生。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "유키 씨, 그 사람, 의사예요?",
+          "translation": "由紀小姐，那個人，是醫生嗎？"
+        },
+        {
+          "speaker": "유키",
+          "korean": "아니요, 선생님이에요.",
+          "translation": "不是，是老師。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "소라 선생님이에요?",
+          "translation": "是素拉老師嗎？"
+        },
+        {
+          "speaker": "유키",
+          "korean": "네, 소라 선생님이에요.",
+          "translation": "對，是素拉老師。"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "우리 반 친구",
+    "rows": [
+      {
+        "korean": "마이클은 캐나다 사람이에요.",
+        "translation": "Michael 是加拿大人。"
+      },
+      {
+        "korean": "마이클은 학생이에요.",
+        "translation": "Michael 是學生。"
+      },
+      {
+        "korean": "나디아는 러시아 사람이에요.",
+        "translation": "Nadia 是俄羅斯人。"
+      },
+      {
+        "korean": "나디아는 디자이너예요.",
+        "translation": "Nadia 是設計師。"
+      },
+      {
+        "korean": "타완은 태국 사람이에요.",
+        "translation": "Tawan 是泰國人。"
+      },
+      {
+        "korean": "타완은 바리스타예요.",
+        "translation": "Tawan 是咖啡師。"
+      },
+      {
+        "korean": "루카스는 독일 사람이에요.",
+        "translation": "Lucas 是德國人。"
+      },
+      {
+        "korean": "루카스는 엔지니어예요.",
+        "translation": "Lucas 是工程師。"
+      }
+    ],
+    "titleTranslation": "我們班同學"
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 1,
+      "text": "# DIALOGUE.md"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 44,
+      "text": "## 指定定型說法清單"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 46,
+      "text": "### 第 1 段"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 47,
+      "text": "- 네（是的／對）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 48,
+      "text": "- 저는 ○○예요（我是○○）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 50,
+      "text": "### 第 2 段"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 51,
+      "text": "- 우리 인사해요（我們來打招呼吧）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 52,
+      "text": "- 제 이름은 ○○예요（我的名字是○○）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 54,
+      "text": "### 第 3 段"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 55,
+      "text": "- 아니요（不是）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 56,
+      "text": "- 그 사람（那個人）"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 58,
+      "text": "不確定：無"
+    },
+    {
+      "section": "ARTICLE.md",
+      "line": 12,
+      "text": "不確定：無"
+    }
+  ]
+}
