@@ -3,13 +3,13 @@
   "level": 1,
   "title": "自我介紹與確認身分 · 新流程試跑草稿",
   "status": "draft",
-  "head": "aff4bf17b00e9a9917a66c76b6e53d989612eb35",
+  "head": "9ff875704fba801b0ee8d8ad2b388b63d64a4bb0",
   "branch": "luna/ko-a1-l001-content-flow-trial-20261024",
   "sourceRepo": "stasischen/content-ko",
   "sourceFiles": [
     {
       "path": "content_v2/review/lessons/ko-a1-l001/draft/DIALOGUE.md",
-      "sha256": "a04aa00c882fcf345a741f62fcfc7c9f8ea77c2651b08c5ebd62fe53e961fe6a"
+      "sha256": "ddeed112c0097b5f83f7d2e2d0ae5ac2db3bfa85b7291a3d3443caaf05a6228e"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l001/draft/ARTICLE.md",
@@ -26,23 +26,23 @@
       "turns": [
         {
           "speaker": "소라",
-          "korean": "안녕하세요?",
-          "translation": "您好？"
+          "korean": "안녕하세요.",
+          "translation": "您好。"
         },
         {
           "speaker": "애니",
-          "korean": "안녕하세요?",
-          "translation": "您好？"
+          "korean": "안녕하세요.",
+          "translation": "您好。"
         },
         {
           "speaker": "소라",
-          "korean": "천이쥔 씨예요?",
-          "translation": "是陳怡君小姐嗎？"
+          "korean": "애니 씨예요?",
+          "translation": "是 Annie 小姐嗎？"
         },
         {
           "speaker": "애니",
-          "korean": "네. 저는 천이쥔이에요.",
-          "translation": "是的。我是陳怡君。"
+          "korean": "네. 저는 애니예요.",
+          "translation": "是的。我是 Annie。"
         },
         {
           "speaker": "소라",
@@ -51,8 +51,8 @@
         },
         {
           "speaker": "애니",
-          "korean": "네, 선생님. 저는 애니예요.",
-          "translation": "好的，老師。我是 Annie。"
+          "korean": "네, 선생님.",
+          "translation": "好的，老師。"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "title": "D2 · 第一堂課教室",
       "location": "第一堂課教室",
       "context": "소라、유키、애니 在教室準備開始上課，進行自我介紹。",
-      "purpose": "輪流完整自我介紹（名字、國家、職業），含「반가워요」互答（本課唯一一次）。",
+      "purpose": "소라 帶領課堂，兩位學生自我介紹（名字、國家、職業），含「반가워요」互答（本課唯一一次）。",
       "turns": [
         {
           "speaker": "소라",
@@ -91,7 +91,7 @@
         {
           "speaker": "애니",
           "korean": "회사원이에요.",
-          "translation": "是上班族。"
+          "translation": "是公司職員。"
         },
         {
           "speaker": "유키",
@@ -104,28 +104,23 @@
       "id": "D3",
       "title": "D3 · 地鐵站出口",
       "location": "地鐵站出口",
-      "context": "下課後，애니 與 유키 一起走到地鐵站出口。애니回想剛才在教室見過的소라，向유키核對身分；유키及時更正她的誤認。",
-      "purpose": "애니回想剛才教室裡的소라，用名詞升調問句向유키核對身分，유키更正說明소라是老師而不是醫生。",
+      "context": "下課後，애니 與 유키 一起走到地鐵站出口。애니健忘，忘了유키在課堂上介紹的職業，誤以為유키是老師。",
+      "purpose": "애니向유키確認她是否為老師，유키更正說明自己是護士。",
       "turns": [
         {
           "speaker": "애니",
-          "korean": "유키 씨, 그 사람, 의사예요?",
-          "translation": "由紀小姐，那個人，是醫生嗎？"
+          "korean": "유키 씨는 선생님이에요?",
+          "translation": "由紀小姐是老師嗎？"
         },
         {
           "speaker": "유키",
-          "korean": "아니요, 선생님이에요.",
-          "translation": "不是，是老師。"
+          "korean": "아니요. 저는 간호사예요.",
+          "translation": "不是。我是護士。"
         },
         {
           "speaker": "애니",
-          "korean": "소라 선생님이에요?",
-          "translation": "是素拉老師嗎？"
-        },
-        {
-          "speaker": "유키",
-          "korean": "네, 소라 선생님이에요.",
-          "translation": "對，是素拉老師。"
+          "korean": "네.",
+          "translation": "好的。"
         }
       ]
     }
@@ -176,58 +171,53 @@
     },
     {
       "section": "DIALOGUE.md",
-      "line": 44,
+      "line": 43,
       "text": "## 指定定型說法清單"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 46,
+      "line": 45,
       "text": "### 第 1 段"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 47,
+      "line": 46,
       "text": "- 네（是的／對）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 48,
+      "line": 47,
       "text": "- 저는 ○○예요（我是○○）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 50,
+      "line": 49,
       "text": "### 第 2 段"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 51,
+      "line": 50,
       "text": "- 우리 인사해요（我們來打招呼吧）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 52,
+      "line": 51,
       "text": "- 제 이름은 ○○예요（我的名字是○○）"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 54,
+      "line": 53,
       "text": "### 第 3 段"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 55,
+      "line": 54,
       "text": "- 아니요（不是）"
     },
     {
       "section": "DIALOGUE.md",
       "line": 56,
-      "text": "- 그 사람（那個人）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 58,
-      "text": "不確定：無"
+      "text": "不確定：D3 因無自然指稱對象，略去定型說法「그 사람」。"
     },
     {
       "section": "ARTICLE.md",
