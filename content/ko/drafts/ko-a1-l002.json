@@ -1,213 +1,239 @@
 {
   "id": "ko-a1-l002",
   "level": 2,
-  "title": "介紹姓名與身分",
+  "title": "介紹姓名與身分 · 未合併草稿候選 @1c1eee9d",
   "status": "draft",
-  "head": "02479443113b4d9e5de8327e29240c9780c67fc7",
-  "branch": "lesson/ko-a1-u01-drafts",
+  "head": "ff02ddcaa4f191c6ce91320039d1dbd606abbba9",
+  "branch": "luna/ko-a1-l002-runner-20261025-rerun",
   "sourceRepo": "stasischen/content-ko",
   "sourceFiles": [
     {
-      "path": "content_v2/review/lessons/ko-a1-l002/draft/DIALOGUE.md",
-      "sha256": "7284ea6d53f9b9235b80988f543d01ff4cc225b1f1b5975c7a6293ac5caa34d8"
+      "path": "content_v2/review/lessons/ko-a1-l002-dry-b/draft/DIALOGUE.md",
+      "sha256": "838e102ee4c0f783c827bb6480c987161b2f520040efae651d880c0b0456c59b"
     },
     {
-      "path": "content_v2/review/lessons/ko-a1-l002/draft/ARTICLE.md",
-      "sha256": "cc39883cb8161d7a650e2e27bb8eca6969c1fca98422c7e36baf6a7d74c9cb5b"
+      "path": "content_v2/review/lessons/ko-a1-l002-dry-b/draft/GLOSS.md",
+      "sha256": "35145d1bd65baa7a16ffdf4ec366c75a435a3d276774f69486e2095d95f8409c"
     }
   ],
   "dialogue": [
     {
       "id": "D1",
-      "title": "D1 · 多文化中心櫃檯",
-      "location": "多文化中心櫃檯",
-      "context": "週四上課前，缺席第一課的初次到課學員前來櫃檯報到",
-      "purpose": "소라 協助 마이클 確認身分、完成姓名與職業登記並發放名牌。",
+      "title": "D1",
+      "location": "未拆分",
+      "context": "週四上課前，中心櫃檯。",
+      "purpose": "登記마이클的姓名與職業，並製作名牌。",
       "turns": [
         {
           "speaker": "소라",
-          "korean": "안녕하세요? 이름은 뭐예요?",
-          "translation": "您好？請問名字是什麼？"
+          "korean": "안녕하세요. 오늘 처음 오셨죠?",
+          "translation": "你好。今天第一次來對吧？"
         },
         {
           "speaker": "마이클",
-          "korean": "안녕하세요? 제 이름은 마이클 브라운이에요. 오늘 처음이에요.",
-          "translation": "您好？我的名字是麥可·布朗。今天第一次來。"
+          "korean": "네, 지난 수업에는 못 왔어요.",
+          "translation": "對，上次上課我沒能來。"
         },
         {
           "speaker": "소라",
-          "korean": "마이클 씨, 직업은요?",
-          "translation": "麥可先生，請問職業呢？"
+          "korean": "잘 오셨어요. 이름표를 만들게요. 이름이 뭐예요?",
+          "translation": "歡迎。我來做名牌。請問叫什麼名字？"
         },
         {
           "speaker": "마이클",
-          "korean": "저는 학생이에요. 저분, 선생님이에요?",
-          "translation": "我是學生。那位是老師嗎？"
+          "korean": "저는 마이클이에요.",
+          "translation": "我叫麥可。"
         },
         {
           "speaker": "소라",
-          "korean": "아니요, 센터 직원이에요. 저는 한국어 선생님 소라예요.",
-          "translation": "不是，是中心職員。我是韓文老師索拉。"
+          "korean": "마이클 씨, 직업은 뭐예요?",
+          "translation": "麥可，你的職業是什麼？"
         },
         {
           "speaker": "마이클",
-          "korean": "네, 반갑습니다.",
-          "translation": "好的，很高興認識您。"
+          "korean": "대학원생이에요. 한국 역사를 공부해요.",
+          "translation": "我是研究生。在學韓國歷史。"
         },
         {
           "speaker": "소라",
-          "korean": "이름표예요.",
-          "translation": "這是名牌。"
+          "korean": "네, 여기 이름하고 직업을 적었어요. 이름표 받으세요.",
+          "translation": "好，這裡寫了名字和職業。請拿名牌。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "감사합니다. 수업은 어디에서 해요?",
+          "translation": "謝謝。在哪裡上課呢？"
+        },
+        {
+          "speaker": "소라",
+          "korean": "바로 옆 교실이에요. 같이 가요.",
+          "translation": "就在隔壁教室。一起走吧。"
         }
       ]
     },
     {
       "id": "D2",
-      "title": "D2 · 中心旁咖啡館",
-      "location": "中心旁咖啡館",
-      "context": "下課後，三位同班學員一起喝咖啡聊天",
-      "purpose": "使用目標整句「애니라고 불러요（請叫我 Annie）」說明希望別人怎麼稱呼自己。",
+      "title": "D2",
+      "location": "未拆分",
+      "context": "同一天下課後，中心旁的咖啡館。",
+      "purpose": "說明各自希望別人怎麼稱呼自己。",
       "turns": [
         {
+          "speaker": "마이클",
+          "korean": "두 분은 어떻게 부르면 돼요?",
+          "translation": "兩位我該怎麼稱呼呢？"
+        },
+        {
           "speaker": "애니",
-          "korean": "제 이름은 천이쥔이에요. 제 별명은 애니예요. 애니라고 불러요.",
-          "translation": "我的名字是陳怡君。我的綽號是 Annie。請叫我 Annie。"
+          "korean": "저는 애니라고 불러 주세요. 애니는 별명이에요.",
+          "translation": "請叫我安妮。安妮是綽號。"
         },
         {
           "speaker": "마이클",
-          "korean": "네, 애니 씨.",
-          "translation": "好的，Annie。"
+          "korean": "아, 그래요? 그럼 애니 씨라고 부를게요.",
+          "translation": "啊，是嗎？那我叫妳安妮。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "좋아요.",
+          "translation": "好啊。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "저는 그냥 유키라고 불러 주세요.",
+          "translation": "直接叫我由紀就可以了。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네, 유키 씨. 저는 마이클이라고 불러 주세요.",
+          "translation": "好，由紀。請叫我麥可。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "네, 마이클 씨. 오늘 수업 어땠어요?",
+          "translation": "好，麥可。今天上課覺得怎麼樣？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "조금 어려웠어요. 그래도 재미있었어요.",
+          "translation": "有點難。不過滿有趣的。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "다음 시간에도 우리 같이 앉아요.",
+          "translation": "下次上課我們也一起坐吧。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "좋아요!",
+          "translation": "好啊！"
         }
       ]
     },
     {
       "id": "D3",
-      "title": "D3 · 中心外長椅",
-      "location": "中心外長椅",
-      "context": "課間休息時間，三人坐在長椅上吹風聊天",
-      "purpose": "互相詢問彼此的嗜好並自然接話。",
+      "title": "D3",
+      "location": "未拆分",
+      "context": "休息時間，中心外的長椅。",
+      "purpose": "互問嗜好，並約定一起做的事。",
       "turns": [
         {
           "speaker": "애니",
-          "korean": "마이클 씨, 취미는 뭐예요?",
-          "translation": "麥可，請問你的嗜好是什麼？"
+          "korean": "마이클 씨는 쉬는 날에 뭐 해요?",
+          "translation": "麥可放假的時候都做什麼？"
         },
         {
           "speaker": "마이클",
-          "korean": "제 취미는 영화예요. 애니 씨는요?",
-          "translation": "我的嗜好是電影。Annie 呢？"
+          "korean": "주로 영화를 봐요.",
+          "translation": "大部分都在看電影。"
         },
         {
           "speaker": "애니",
-          "korean": "음악이에요. 유키 씨는요?",
-          "translation": "是音樂。Yuki 呢？"
+          "korean": "영화요? 자주 봐요?",
+          "translation": "看電影啊？常看嗎？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네, 자주 봐요. 애니 씨는요?",
+          "translation": "對，常常看。安妮呢？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "저는 음악 듣는 걸 좋아해요.",
+          "translation": "我喜歡聽音樂。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "어떤 음악을 좋아해요?",
+          "translation": "喜歡什麼樣的音樂？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "한국 노래를 많이 들어요. 유키 씨 취미는 뭐예요?",
+          "translation": "我常聽韓語歌。由紀的興趣是什麼？"
         },
         {
           "speaker": "유키",
-          "korean": "제 취미는 여행이에요.",
-          "translation": "我的嗜好是旅行。"
+          "korean": "저는 여행을 좋아해요. 주말에 가까운 곳에 자주 가요.",
+          "translation": "我喜歡旅行。週末常常去附近的地方。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "그럼 좋은 곳 좀 알려 주세요.",
+          "translation": "那推薦幾個好地方給我吧。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "같이 가요. 근처에 예쁜 공원이 있어요.",
+          "translation": "一起去吧。附近有一座很漂亮的公園。"
         },
         {
           "speaker": "애니",
-          "korean": "그래요?",
-          "translation": "是嗎？"
+          "korean": "좋아요. 거기서 같이 음악도 들어요.",
+          "translation": "好啊。在那裡也一起聽音樂吧。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네, 이번 주말에 가요!",
+          "translation": "好，這個週末去吧！"
         }
       ]
     }
   ],
   "article": {
     "title": "短文",
-    "rows": [
-      {
-        "korean": "오늘 밥집 메뉴예요.",
-        "translation": "今天飯館的菜單。"
-      },
-      {
-        "korean": "오늘 점심은 비빔밥이에요.",
-        "translation": "今天午餐是拌飯。"
-      },
-      {
-        "korean": "김밥, 라면은 점심 메뉴예요.",
-        "translation": "飯捲、拉麵是午餐供應的品項。"
-      },
-      {
-        "korean": "오늘 저녁은 불고기, 김치찌개예요.",
-        "translation": "今天晚餐是烤肉、泡菜鍋。"
-      },
-      {
-        "korean": "물은 서비스예요.",
-        "translation": "水是免費提供。"
-      },
-      {
-        "korean": "라면은 저녁 서비스예요.",
-        "translation": "拉麵是晚餐免費贈送。"
-      },
-      {
-        "korean": "요리사 박도현",
-        "translation": "廚師 朴道賢"
-      }
-    ]
+    "rows": []
   },
   "notes": [
     {
       "section": "DIALOGUE.md",
-      "line": 27,
-      "text": "[本課目標整句（列於對話目的）]"
+      "line": 1,
+      "text": "## 本課要教的說法出現在哪"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 28,
-      "text": "- 애니라고 불러요.（請叫我 Annie。）"
+      "line": 2,
+      "text": "- 人稱與稱謂的社會選擇：저/나：D1「저는 마이클이에요.」"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 30,
-      "text": "[本課出現之未教定型說法]"
+      "line": 3,
+      "text": "- 人稱與稱謂的社會選擇：저/나：D2「저는 애니라고 불러 주세요. 애니는 별명이에요.」"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 31,
-      "text": "- D1："
+      "line": 4,
+      "text": "- 人稱與稱謂的社會選擇：저/나：D2「저는 그냥 유키라고 불러 주세요.」"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 32,
-      "text": "- 오늘 처음이에요.（今天第一次來。）"
+      "line": 5,
+      "text": "- 人稱與稱謂的社會選擇：저/나：D3「저는 여행을 좋아해요. 주말에 가까운 곳에 자주 가요.」"
     },
     {
       "section": "DIALOGUE.md",
-      "line": 33,
-      "text": "- 반갑습니다.（很高興認識您。）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 34,
-      "text": "- D2："
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 35,
-      "text": "- 無"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 36,
-      "text": "- D3："
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 37,
-      "text": "- 그래요?（是嗎？）"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 39,
-      "text": "不確定：無"
-    },
-    {
-      "section": "ARTICLE.md",
-      "line": 10,
-      "text": "不確定：無"
+      "line": 6,
+      "text": "- 本課未採用「나」：三段都是對老師或同學使用禮貌體的交談，且有初次加入的마이클在場，使用「저」較自然；沒有適合自然加入「나」的熟人私下交談或自言自語情境。"
     }
   ]
 }

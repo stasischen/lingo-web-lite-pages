@@ -5,71 +5,71 @@
       "id": "ko-a1-l001",
       "level": 1,
       "status": "draft",
-      "head": "9ff875704fba801b0ee8d8ad2b388b63d64a4bb0",
-      "branch": "luna/ko-a1-l001-content-flow-trial-20261024"
+      "head": "0d0a58112ea9f5639c9f2ef7de90dddd4f2ccfbd",
+      "branch": "luna/ko-a1-l001-runner-20261025"
     },
     {
       "id": "ko-a1-l002",
       "level": 2,
       "status": "draft",
-      "head": "02479443113b4d9e5de8327e29240c9780c67fc7",
-      "branch": "lesson/ko-a1-u01-drafts"
+      "head": "ff02ddcaa4f191c6ce91320039d1dbd606abbba9",
+      "branch": "luna/ko-a1-l002-runner-20261025-rerun"
     },
     {
       "id": "ko-a1-l003",
       "level": 3,
       "status": "draft",
-      "head": "5fe327a1b9f8f721725bdd31a3dc2f70ecf86d80",
-      "branch": "lesson/ko-a1-u01-drafts"
+      "head": "62f34b370a86f10ee9d4a51053ee0e6c7bdc842c",
+      "branch": "luna/ko-a1-l003-runner-20261026"
     },
     {
       "id": "ko-a1-l004",
       "level": 4,
       "status": "draft",
-      "head": "5fe327a1b9f8f721725bdd31a3dc2f70ecf86d80",
-      "branch": "lesson/ko-a1-u01-drafts"
+      "head": "2c4b19998e62219ce38ec818872d9d39f71ad39a",
+      "branch": "luna/ko-a1-l004-runner-20261025"
     },
     {
       "id": "ko-a1-l005",
       "level": 5,
       "status": "draft",
-      "head": "5fe327a1b9f8f721725bdd31a3dc2f70ecf86d80",
-      "branch": "lesson/ko-a1-u01-drafts"
+      "head": "405088e25a11b0f4d05991ae04195b74dab01f22",
+      "branch": "luna/ko-a1-l005-runner-20261025"
     },
     {
       "id": "ko-a1-l006",
       "level": 6,
       "status": "draft",
-      "head": "5fe327a1b9f8f721725bdd31a3dc2f70ecf86d80",
-      "branch": "lesson/ko-a1-u01-drafts"
+      "head": "bbb6f93e37ed74df3ee3a7bdc8b3010b2a5cef92",
+      "branch": "luna/ko-a1-l006-text-20261025-followup"
     },
     {
       "id": "ko-a1-l007",
       "level": 7,
       "status": "draft",
-      "head": "2f889b1be144f082705167d59ee22b548858044c",
-      "branch": "lesson/ko-a1-u01-drafts"
+      "head": "a6ab20406f54dc0ef61b0ea16acd6f9b09fb904f",
+      "branch": "luna/ko-a1-l007-text-20261025-rerun"
     },
     {
       "id": "ko-a1-l008",
       "level": 8,
       "status": "draft",
-      "head": "423c6961021051db452f2d381d5ff346b9e625fe",
-      "branch": "lesson/ko-a1-u01-drafts"
+      "head": "4fb16608af5923b687177d13a1d81a3fc553b840",
+      "branch": "luna/ko-a1-l008-text-20261025"
     },
     {
       "id": "ko-a1-l009",
       "level": 9,
       "status": "draft",
-      "head": "9d6c7492f3a4a9a7ebeed7a54aaabebbdc7b72f8",
-      "branch": "lesson/ko-a1-u01-drafts"
+      "head": "2538c3d2076bb4d904f7e137a3c47f00cf302d1f",
+      "branch": "luna/ko-a1-l009-text-rerun-20261025"
     },
     {
       "id": "ko-a1-l010",
       "level": 10,
       "status": "draft",
-      "head": "1ee91f47414e39a9aeb7395a4608278c67882fe4",
-      "branch": "lesson/ko-a1-u01-drafts"
+      "head": "5053e292ff7f688ccd4dd41b96ad57f80ebb8c6f",
+      "branch": "luna/ko-a1-l010-text-20261025-rerun"
     }
   ]
 }
