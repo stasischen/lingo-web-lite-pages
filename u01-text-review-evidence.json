@@ -1,0 +1,124 @@
+{
+  "sourceCommit": "54d1356822c155feafa8ff2b339382de8341a075",
+  "manifestHash": "63f39eba5aa8852ee221ccf05a77bbb0aa9acfcd47de4da527c353ab8c1cd348",
+  "dotReview": "https://github.com/stasischen/release-aggregator/pull/411#issuecomment-6437346141",
+  "lessonCount": 10,
+  "sceneCount": 29,
+  "turnCount": 273,
+  "sources": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/DIALOGUE.md",
+      "size": 2824,
+      "sha256": "fe530b18d5d49d5b9e71a58df6e50a520021ae91bc5f747786cca33f6b51327b"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/GLOSS.md",
+      "size": 1244,
+      "sha256": "e60d9c447bc1eb7914c8892bff7f94585e489d1ff666b1cdcdb77197531b0534"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l002/draft/DIALOGUE.md",
+      "size": 3013,
+      "sha256": "16b34458f64ef485ef40f57910667f494cd9e38fe9a80ffcc3d697396e4be575"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l002/draft/GLOSS.md",
+      "size": 1901,
+      "sha256": "f982ceb8c2cf6c68cc7aa8fa832b2e7da3c1ef9d5efb3ac68d95eb60486fd72c"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l003-runner/draft/DIALOGUE.md",
+      "size": 3037,
+      "sha256": "f5789d7f7445595060d5cb949e34a65171eb0b39f9a031e4fd5f4a227acd483f"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l003-runner/draft/GLOSS.md",
+      "size": 2261,
+      "sha256": "228ddb3145085edba0d353a3c1a737f793963ea2ac494cb759196ff6285f5f44"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l004-runner/draft/DIALOGUE.md",
+      "size": 2943,
+      "sha256": "6519d7addaaf05a46693b55d1c245f6858e58052d0e68e5321560a7550d197e4"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l004-runner/draft/GLOSS.md",
+      "size": 1958,
+      "sha256": "ab3a6b90b30791c8c3fa7bb14989e37744d2f8bedb5f049fb28ddf780886835f"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/DIALOGUE.md",
+      "size": 2813,
+      "sha256": "8496ffdb0153ae886d46c3fa56d19f5980322c4bb5b5b0a59cf195eb13127df8"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/GLOSS.md",
+      "size": 1928,
+      "sha256": "bdaa604eb9853a346ce29cf075fdcb78fde2552f318d1a888d789e7c228e4e4f"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l006-text/draft/DIALOGUE.md",
+      "size": 2324,
+      "sha256": "6f49d5acf9bf10805707e63f7199ea8136ac691d547892b26b19bf98528c2352"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l006-text/draft/GLOSS.md",
+      "size": 1742,
+      "sha256": "b2ea0a64353dad92db950c2ad8b5203078a525461c4da28dcc35755f220659fc"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l007/draft/DIALOGUE.md",
+      "size": 1454,
+      "sha256": "de7774b98879e16270381cc265c1dc674cfcbfb50bfc4191d136fbe3cfec425d"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l007/draft/GLOSS.md",
+      "size": 1040,
+      "sha256": "bbf4d6a087d4b5b884904b36be47aa0c790fa7cee29ea0fcdbe59fbcad92bf18"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l008-text/draft/DIALOGUE.md",
+      "size": 2106,
+      "sha256": "425718edf7e12fab6356eadb95c35495abb2e3ddc91062e30d3632e693aff7c6"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l008-text/draft/GLOSS.md",
+      "size": 1412,
+      "sha256": "e1559f126d27f523248037cf30100c97242f2ea5768f82aa3098a91bd73b9c8a"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l009-text/draft/DIALOGUE.md",
+      "size": 2250,
+      "sha256": "851d9c06b7ecffd44439ecdafc24c257e4cce3f9d6cf1076af2f4009d78b1ec4"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l009-text/draft/GLOSS.md",
+      "size": 1775,
+      "sha256": "1f419541a8caa8a3fab2fb3066edae0a8a265c3fbbdf9515eedf86af4d1a456d"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l010-text/draft/DIALOGUE.md",
+      "size": 2527,
+      "sha256": "98fee00ef988f7a9f0827633dac92cac3d31f0ecb683a8c648396c58449ca993"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l010-text/draft/GLOSS.md",
+      "size": 1896,
+      "sha256": "2357f950554c9076ca93d070148599a2bba4115cec07241e8e974cbad6a1a4be"
+    }
+  ],
+  "pages": [
+    {
+      "file": "u01-korean.html",
+      "sha256": "056264f02eb08af9b12c265e271db41a04408e07fb1c23c6d017c92ec975c94f",
+      "text_rows_compared": 273
+    },
+    {
+      "file": "u01-korean-chinese.html",
+      "sha256": "14b18f285818747811c6a4e87b8c3a9214da0aa8ba94343db0d52449a9d9918f",
+      "text_rows_compared": 546
+    }
+  ],
+  "status": "unmerged draft review preview",
+  "checks": "all Korean utterances and paired translations equal frozen reviewed sources; only Korean-only generic role display labels translated"
+}
