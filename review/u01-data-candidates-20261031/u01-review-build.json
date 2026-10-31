@@ -7,11 +7,11 @@
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "Nested-route app build passed; draft lookup builder reproduced the 342-entry base hash before the data overlay; targeted lookup/content/preview regression passed 18/18. Existing app entry, JS, and CSS hashes match the prior Pages build. Updated dictionary follow-up data is ready for parent cloud UI verification.",
+  "buildResult": "Nested-route app build passed; targeted lookup/content/preview regression passed 18/18. The L5 price-context candidate is included as provisional only, and the L5 name remains CAST/CONFIG-only without a dictionary entry. Existing app entry, JS, and CSS hashes match the prior Pages build. Parent cloud UI verification is pending for this updated lookup.",
   "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
   "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
   "segmentation": "L1 15/15; L2 31/31; exact-source overlays L3 1/44, L4 1/31, L5 16/28; explicit lookup bindings available for recorded L3/L5 terms; unmatched lines remain plain text. Frozen source commits L6-L10 have no matching SEGMENTS.tsv.",
-  "lookupSummary": "353 isolated lookup entries; 22 unique source-missing IDs remain without an entry. The update imports 3 existing approved runtime/index records, reclassifies 2 active nonprovisional source entries whose rows carry stale provisional tags, and includes 11 exact-ID review-only candidates as provisional (8 new entries, 3 updated existing entries). Source MISSING remains 59 rows / 31 unique IDs; package provisional entries total 25. No candidate is labeled accepted.",
+  "lookupSummary": "354 isolated lookup entries; 21 source-missing IDs still have no dictionary entry, including ko:prop:이안 which is intentionally CAST-only. The update imports 3 existing approved runtime/index records, reclassifies 2 active nonprovisional source entries with stale provisional tags, and includes 12 exact-ID lexical review candidates as provisional (9 new entries, 3 updated existing entries). Source MISSING remains 59 rows / 31 unique IDs; package provisional entries total 26. No candidate is labeled accepted.",
   "knownLimitations": "The single recorded L3 cloud synthesis-failed observation was from prior Pages commit 8ff706e and was not retested on this build; its cause remains undetermined. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
@@ -80,10 +80,10 @@
     "content/ko/drafts/ko-a1-l008.json": "58dd10b0a42bb4950de1fc31f45727069b1b2d49fa5e082131d0340546765dcb",
     "content/ko/drafts/ko-a1-l009.json": "2f411b1f8bbf8281ab5e8adf460ac99aebf350ef694ce2c35f8c6ba494eb113a",
     "content/ko/drafts/ko-a1-l010.json": "d11495aac8da9224c86517889af16175ea5ef53c38755abe74e761bb6afe46e3",
-    "content/ko/drafts/lookup.json": "3e78d219c3ac3f15ea9e5157edc581d3aacea2712e269a65cfd55d79799da79b",
-    "content/ko/drafts/manifest.json": "db89b41a626bb871952859dcfb1c99175e1fe1a204200960b80b54f2ac8875e1",
+    "content/ko/drafts/lookup.json": "aacbb505188bd5ffe3c557ef9770fb01a68362c25419db31659fad2079adf3ad",
+    "content/ko/drafts/manifest.json": "c08ed9727a97c3e149c50b4b0198b2dca74e1a7460a7e626d8127342d7bf0fb4",
     "content/ko/drafts/segment-overlays.json": "ff9c28ef249297b88b4e5f0af3a9d16aea623b15ba3ca8323d8439f715d95d89",
-    "content/ko/drafts/u01-review-evidence.json": "f7babb9f2ee24391586cf8e9bacdfd6f897c6a2d67c5d2a8de6411d684ced9e7",
+    "content/ko/drafts/u01-review-evidence.json": "ad18a0240eac79d175394d89d7b63e98fff6163f67739411e255b6e5e706e881",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l001.json": "a2e0eb8298275319c234a9dc6bc1684361a060e644771d67a19354b07d97ecc0",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l002.json": "1f49382dca77c72dcf02f072c3fb2bfa921bde08d24aca26ef5089cb9c66455c",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l003.json": "801b544e2fd83ca4a89f51e637fe220b033060cad6d01fbc563b5a3fa9206d44",
@@ -140,20 +140,22 @@
     "webLiteSourceCommit": "a5c081aff4ce10b6768261d008a80f286557e08c",
     "appAssetsUnchanged": true,
     "baseLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
-    "lookupSha256": "3e78d219c3ac3f15ea9e5157edc581d3aacea2712e269a65cfd55d79799da79b",
-    "manifestSha256": "db89b41a626bb871952859dcfb1c99175e1fe1a204200960b80b54f2ac8875e1",
-    "evidenceSha256": "f7babb9f2ee24391586cf8e9bacdfd6f897c6a2d67c5d2a8de6411d684ced9e7",
+    "lookupSha256": "aacbb505188bd5ffe3c557ef9770fb01a68362c25419db31659fad2079adf3ad",
+    "manifestSha256": "c08ed9727a97c3e149c50b4b0198b2dca74e1a7460a7e626d8127342d7bf0fb4",
+    "evidenceSha256": "ad18a0240eac79d175394d89d7b63e98fff6163f67739411e255b6e5e706e881",
     "counts": {
       "baseEntries": 342,
-      "finalEntries": 353,
+      "finalEntries": 354,
       "sourceMissingRows": 59,
       "sourceMissingUniqueAtomIds": 31,
       "baseUniqueGapIds": 33,
-      "finalUniqueGapIds": 22,
+      "finalUniqueGapIds": 21,
       "baseProvisionalEntries": 19,
-      "finalProvisionalEntries": 25,
-      "reviewOnlyCandidateAtomIds": 11,
-      "newReviewOnlyCandidateEntries": 8,
+      "finalProvisionalEntries": 26,
+      "reviewOnlyCandidateAtomIds": 12,
+      "newReviewOnlyCandidateEntries": 9,
+      "reviewedCandidateFileItems": 13,
+      "castOnlyNameRecords": 1,
       "newApprovedRuntimeEntries": 3
     },
     "remainingUniqueGapIds": [
@@ -167,7 +169,6 @@
       "ko:n:분",
       "ko:n:안내도",
       "ko:n:타이머",
-      "ko:num:팔천",
       "ko:prop:도현",
       "ko:prop:마이클",
       "ko:prop:소라",
@@ -180,10 +181,20 @@
       "ko:xnum:3",
       "ko:xnum:4"
     ],
-    "candidateDisposition": "Review-only provisional. No formal dictionary adoption, course acceptance, or production publication."
+    "castOnlyNameIds": [
+      "ko:prop:이안"
+    ],
+    "l5CandidateSourceSha256": "88d63c0167de5352eb3bd1047133da889c5f87b9fd0e65145c8b5fa3ce824596",
+    "l5DotReceipt": {
+      "requestId": "6545299903",
+      "resultId": "6545323498",
+      "scope": "review-only preview of 팔천 as a price-context compositional value; 이안 as CAST/CONFIG-only name"
+    },
+    "candidateDisposition": "Lexical candidates remain review-only provisional. ko:prop:이안 has no dictionary entry; its L5 display is CAST/CONFIG-only. No formal dictionary adoption, course acceptance, or production publication."
   },
   "parentCloudUiCheckAfterDictionaryUpdate": {
     "status": "pending parent check",
-    "scope": "Verify only the newly updated preview data; do not treat the earlier three-case UI check as verification of this lookup hash."
+    "lookupSha256": "aacbb505188bd5ffe3c557ef9770fb01a68362c25419db31659fad2079adf3ad",
+    "scope": "Verify the newly updated preview data; previous UI checks do not verify this lookup hash."
   }
 }

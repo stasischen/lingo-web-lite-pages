@@ -675,15 +675,17 @@
       "sourceMissingRows": 59,
       "sourceMissingUniqueAtomIds": 31,
       "baseUniqueLookupGapIds": 33,
-      "finalSourceMissingIdsWithoutEntry": 22,
-      "finalUniqueLookupGapIds": 22,
+      "finalSourceMissingIdsWithoutEntry": 21,
+      "finalUniqueLookupGapIds": 21,
       "baseLookupEntries": 342,
-      "finalLookupEntries": 353,
+      "finalLookupEntries": 354,
       "baseProvisionalEntryIds": 19,
-      "finalProvisionalEntryIds": 25,
+      "finalProvisionalEntryIds": 26,
       "newApprovedRuntimeOrExtensionEntries": 3,
-      "reviewOnlyCandidateAtomIds": 11,
-      "newReviewOnlyCandidateEntries": 8
+      "reviewOnlyCandidateAtomIds": 12,
+      "newReviewOnlyCandidateEntries": 9,
+      "reviewedCandidateFileItems": 13,
+      "castOnlyNameRecords": 1
     },
     "remainingUniqueSourceMissingIds": [
       "ko:adj:맞다",
@@ -696,7 +698,6 @@
       "ko:n:분",
       "ko:n:안내도",
       "ko:n:타이머",
-      "ko:num:팔천",
       "ko:prop:도현",
       "ko:prop:마이클",
       "ko:prop:소라",
@@ -729,7 +730,8 @@
           "ko:prop:유키",
           "ko:prop:천이쥔",
           "ko:v:깜빡하다"
-        ]
+        ],
+        "castOnlyNameResolved": []
       },
       {
         "lessonId": "ko-a1-l002",
@@ -750,7 +752,8 @@
           "ko:prop:마이클",
           "ko:prop:애니",
           "ko:prop:유키"
-        ]
+        ],
+        "castOnlyNameResolved": []
       },
       {
         "lessonId": "ko-a1-l003",
@@ -777,7 +780,8 @@
           "ko:prop:애니",
           "ko:xnum:3",
           "ko:xnum:4"
-        ]
+        ],
+        "castOnlyNameResolved": []
       },
       {
         "lessonId": "ko-a1-l004",
@@ -796,24 +800,28 @@
           "ko:prop:도현",
           "ko:prop:마이클",
           "ko:prop:유키"
-        ]
+        ],
+        "castOnlyNameResolved": []
       },
       {
         "lessonId": "ko-a1-l005",
         "approvedOrImported": [],
-        "reviewOnlyProvisional": [],
+        "reviewOnlyProvisional": [
+          "ko:num:팔천"
+        ],
         "pendingOrUnknown": [
-          "ko:num:팔천",
           "ko:prop:도현",
           "ko:prop:마이클",
-          "ko:prop:애니",
-          "ko:prop:이안"
+          "ko:prop:애니"
         ],
         "allSourceMissingIds": [
           "ko:num:팔천",
           "ko:prop:도현",
           "ko:prop:마이클",
           "ko:prop:애니",
+          "ko:prop:이안"
+        ],
+        "castOnlyNameResolved": [
           "ko:prop:이안"
         ]
       },
@@ -845,7 +853,8 @@
           "ko:prop:마이클",
           "ko:prop:애니",
           "ko:v:있다"
-        ]
+        ],
+        "castOnlyNameResolved": []
       },
       {
         "lessonId": "ko-a1-l007",
@@ -863,7 +872,8 @@
           "ko:p:이요",
           "ko:prop:마이클",
           "ko:prop:유키"
-        ]
+        ],
+        "castOnlyNameResolved": []
       },
       {
         "lessonId": "ko-a1-l008",
@@ -881,7 +891,8 @@
           "ko:n:세면대",
           "ko:prop:애니",
           "ko:v:있다"
-        ]
+        ],
+        "castOnlyNameResolved": []
       },
       {
         "lessonId": "ko-a1-l009",
@@ -906,7 +917,8 @@
           "ko:prop:유키",
           "ko:prop:이안",
           "ko:v:있다"
-        ]
+        ],
+        "castOnlyNameResolved": []
       },
       {
         "lessonId": "ko-a1-l010",
@@ -932,10 +944,11 @@
           "ko:prop:유키",
           "ko:prop:이안",
           "ko:v:있다"
-        ]
+        ],
+        "castOnlyNameResolved": []
       }
     ],
-    "lookupSha256": "3e78d219c3ac3f15ea9e5157edc581d3aacea2712e269a65cfd55d79799da79b",
+    "lookupSha256": "aacbb505188bd5ffe3c557ef9770fb01a68362c25419db31659fad2079adf3ad",
     "sharedRuntimeSource": {
       "dictionaryHead": "f54704add5039aaa64810bb043c2941dfdb3cf64",
       "runtimeDictionaryPath": "content_v2/core/dictionary/runtime_dictionary.sqlite",
@@ -946,6 +959,76 @@
         "0bf77bfb4689f86556dae652b6385f31998d5791",
         "3a524d699a96103f912f02af46db0d8ac25e26d7"
       ]
-    }
+    },
+    "remainingGapGroups": {
+      "pendingContentOnlyNames": [
+        "ko:prop:도현",
+        "ko:prop:마이클",
+        "ko:prop:소라",
+        "ko:prop:애니",
+        "ko:prop:유키",
+        "ko:prop:천이쥔"
+      ],
+      "pendingDictionaryReview": [
+        "ko:adj:맞다",
+        "ko:adv:처음",
+        "ko:n:것",
+        "ko:n:대학원생",
+        "ko:n:라테",
+        "ko:n:밥집",
+        "ko:n:분",
+        "ko:n:안내도",
+        "ko:n:타이머",
+        "ko:v:깜빡하다"
+      ],
+      "noUsableCandidateSource": [
+        "ko:n:가족분"
+      ],
+      "policyOrNumericHold": [
+        "ko:v:있다",
+        "ko:xnum:3",
+        "ko:xnum:4"
+      ],
+      "castOnlyNameResolvedButIntentionallyNoDictionaryEntry": [
+        "ko:prop:이안"
+      ]
+    },
+    "castOnlyNameRecords": [
+      {
+        "atomId": "ko:prop:이안",
+        "lessonId": "ko-a1-l005",
+        "displayName": "怡安",
+        "disposition": "CAST/CONFIG-only name display; no dictionary definition, gloss, or lookup entry.",
+        "frozenLessonHead": "2e2a79da803048562fa16bb216ac60e088d33580",
+        "sourceRows": [
+          {
+            "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/CAST.tsv",
+            "line": 7,
+            "fileSha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d",
+            "rowSha256": "61711d9791acfed53a874468e2b5188918d8c0030e66f61d23ed86c03d9ab79d",
+            "fields": {
+              "ko": "이안",
+              "romanization": "ian",
+              "zh_tw": "怡安"
+            }
+          },
+          {
+            "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/CONFIG.json",
+            "line": 30,
+            "fileSha256": "3e297dde28f807f12d5d0894f73332e6524c22dbfdec7e88535ba69a27dcf6fc",
+            "rowSha256": "f77589c0e366c99e5bc947293646c565596ea6f8ab4e40a36506e933caab457c",
+            "mapping": "이안 → ian"
+          }
+        ],
+        "review": {
+          "reviewer": "Dot",
+          "result": "approve CAST/CONFIG name only",
+          "requestId": "6545299903",
+          "resultId": "6545323498",
+          "candidateFileSha256": "88d63c0167de5352eb3bd1047133da889c5f87b9fd0e65145c8b5fa3ce824596",
+          "limit": "No general dictionary entry or lexical meaning."
+        }
+      }
+    ]
   }
 }
