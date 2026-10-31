@@ -598,25 +598,26 @@
     }
   ],
   "dictionaryReviewFollowup": {
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-01",
     "scope": "isolated U01 WebLite lookup data only; app source a5c081aff4ce10b6768261d008a80f286557e08c unchanged",
-    "candidateDisposition": "Every review candidate remains previewState=provisional; no runtime, public index, course source, lesson status, acceptance, merge, or formal publication was changed.",
+    "candidateDisposition": "Existing owner-approved material is surfaced only within the isolated review-only preview. All lexical candidate entries remain provisional. L2 처음 has one explicit lesson-scoped provisional binding from source atom ko:adv:처음 to the existing approved ko:n:처음 entry; Dot approved this exact occurrence mapping for preview only. The frozen source atom and segmentation remain unchanged. L9 Dot receipt is limited to the candidate/reuse scopes recorded here. L10 Sol exact-head review is wording/evidence only; all five L10 candidates remain draft/provisional. No formal dictionary adoption, task-card status change, or official release.",
     "baseLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
     "counts": {
       "sourceMissingRows": 59,
       "sourceMissingUniqueAtomIds": 31,
       "baseUniqueLookupGapIds": 33,
-      "finalSourceMissingIdsWithoutEntry": 21,
-      "finalUniqueLookupGapIds": 21,
+      "finalSourceMissingIdsWithoutEntry": 18,
+      "finalUniqueLookupGapIds": 18,
       "baseLookupEntries": 342,
-      "finalLookupEntries": 354,
+      "finalLookupEntries": 357,
       "baseProvisionalEntryIds": 19,
-      "finalProvisionalEntryIds": 26,
+      "finalProvisionalEntryIds": 29,
       "newApprovedRuntimeOrExtensionEntries": 3,
-      "reviewOnlyCandidateAtomIds": 12,
-      "newReviewOnlyCandidateEntries": 9,
-      "reviewedCandidateFileItems": 13,
-      "castOnlyNameRecords": 1
+      "reviewOnlyCandidateAtomIds": 18,
+      "newReviewOnlyCandidateEntries": 12,
+      "reviewedCandidateFileItems": 20,
+      "castOnlyNameRecords": 1,
+      "additionalReviewReceiptItems": 7
     },
     "approvedOriginalsImported": [
       {
@@ -636,7 +637,16 @@
         "sourceLimitation": "Same-version approved inventory/runtime/index item omitted from WebLite lookup; no new review or course acceptance.",
         "runtimeDictionarySha256": "45d4753801f6c73426f1a0318734947cbd3cd1c99a71795e86c720ad3284ea3c",
         "publicIndexSha256": "2a59b58ca81391937e4fe2f2fabd82f1399713178dc8b296797f333a12d21a29",
-        "note": "L9 sentence uses s1 only; source s2 remains in the approved runtime entry but is not shown for this context."
+        "note": "L9 sentence uses s1 only; source s2 remains in the approved runtime entry but is not shown for this context.",
+        "supplementalReview": {
+          "reviewer": "Dot",
+          "result": "limited approval to reuse existing approved s1 in this preview",
+          "requestId": "5674f95d0bba8e64040a7613a532df607fcaf9b7fbcc0e24d55975c52e934727",
+          "resultId": "6545576614",
+          "sense": "s1: 時候；時間",
+          "newDraftCreated": false,
+          "officialPromotion": false
+        }
       },
       {
         "atomId": "ko:n:아메리카노",
@@ -1011,6 +1021,147 @@
           "line": 461,
           "decision": "rejected promotion to dictionary tail; lexical orphan retained. Preview candidate does not change this disposition."
         }
+      },
+      {
+        "atomId": "ko:n:뒷모습",
+        "lessons": [
+          "ko-a1-l009"
+        ],
+        "gloss": "背影",
+        "sourceFile": {
+          "head": "809bb346215f7f772ce7cad15e7c653013a87f59",
+          "path": "content_v2/review/l9-dict-20261031/candidate.json",
+          "sha256": "9a942be9bf085e7490afede32f17f534c35b8c5c1e25d9a47aff936c8168ee5b"
+        },
+        "sourceAuthority": "NIKL primary candidate record, sense 1; candidate remains draft",
+        "review": {
+          "reviewer": "Dot",
+          "result": "limited approval for review-only preview; no formal dictionary promotion",
+          "requestId": "5674f95d0bba8e64040a7613a532df607fcaf9b7fbcc0e24d55975c52e934727",
+          "resultId": "6545576614",
+          "scope": "candidate gloss for ko:n:뒷모습 only"
+        },
+        "previewState": "provisional"
+      },
+      {
+        "atomId": "ko:n:밥집",
+        "lessons": [
+          "ko-a1-l010"
+        ],
+        "gloss": "小飯館",
+        "sourceFile": {
+          "head": "603783e82747e1475dc4a982e14ad0fa4ae62e69",
+          "path": "content_v2/review/dictionary_content_used_l010_20261031.jsonl",
+          "sha256": "012fe1ec4c01f077a5a12d0208e40ee7b26ceb6357227472ccf218165cf277e7",
+          "line": 1
+        },
+        "sourceAuthority": "exact-head L10 candidate review sheet; per-row cited sources retained there",
+        "review": {
+          "reviewer": "Sol",
+          "result": "approve candidate wording/evidence for review-only preview; remains draft/provisional",
+          "reviewerSession": "01a1929e-a8bf-7f02-9520-3745f0c22698",
+          "resultSha256": "a6ebf0245b160dcf106a85db977166c731073996dcd076c7b9f8fbccd65072b1",
+          "reviewRecordPath": "coordination/v1/reviews/ko-a1-l010-data/sol.md",
+          "reviewRecordSha256": "44526557a434307863b2ad68dc0a8446350f5616487c74e434d943c8249c6514",
+          "scopeLimit": "no formal adoption, segmentation approval, lesson acceptance, or release"
+        },
+        "previewState": "provisional"
+      },
+      {
+        "atomId": "ko:n:안내도",
+        "lessons": [
+          "ko-a1-l010"
+        ],
+        "gloss": "導覽圖",
+        "sourceFile": {
+          "head": "603783e82747e1475dc4a982e14ad0fa4ae62e69",
+          "path": "content_v2/review/dictionary_content_used_l010_20261031.jsonl",
+          "sha256": "012fe1ec4c01f077a5a12d0208e40ee7b26ceb6357227472ccf218165cf277e7",
+          "line": 2
+        },
+        "sourceAuthority": "exact-head L10 candidate review sheet; per-row cited sources retained there",
+        "review": {
+          "reviewer": "Sol",
+          "result": "approve candidate wording/evidence for review-only preview; remains draft/provisional",
+          "reviewerSession": "01a1929e-a8bf-7f02-9520-3745f0c22698",
+          "resultSha256": "a6ebf0245b160dcf106a85db977166c731073996dcd076c7b9f8fbccd65072b1",
+          "reviewRecordPath": "coordination/v1/reviews/ko-a1-l010-data/sol.md",
+          "reviewRecordSha256": "44526557a434307863b2ad68dc0a8446350f5616487c74e434d943c8249c6514",
+          "scopeLimit": "no formal adoption, segmentation approval, lesson acceptance, or release"
+        },
+        "previewState": "provisional"
+      },
+      {
+        "atomId": "ko:n:타이머",
+        "lessons": [
+          "ko-a1-l010"
+        ],
+        "gloss": "自拍定時器",
+        "sourceFile": {
+          "head": "603783e82747e1475dc4a982e14ad0fa4ae62e69",
+          "path": "content_v2/review/dictionary_content_used_l010_20261031.jsonl",
+          "sha256": "012fe1ec4c01f077a5a12d0208e40ee7b26ceb6357227472ccf218165cf277e7",
+          "line": 3
+        },
+        "sourceAuthority": "exact-head L10 candidate review sheet; per-row cited sources retained there",
+        "review": {
+          "reviewer": "Sol",
+          "result": "approve candidate wording/evidence for review-only preview; remains draft/provisional",
+          "reviewerSession": "01a1929e-a8bf-7f02-9520-3745f0c22698",
+          "resultSha256": "a6ebf0245b160dcf106a85db977166c731073996dcd076c7b9f8fbccd65072b1",
+          "reviewRecordPath": "coordination/v1/reviews/ko-a1-l010-data/sol.md",
+          "reviewRecordSha256": "44526557a434307863b2ad68dc0a8446350f5616487c74e434d943c8249c6514",
+          "scopeLimit": "no formal adoption, segmentation approval, lesson acceptance, or release"
+        },
+        "previewState": "provisional"
+      },
+      {
+        "atomId": "ko:n:사거리",
+        "lessons": [
+          "ko-a1-l010"
+        ],
+        "gloss": "十字路口",
+        "sourceFile": {
+          "head": "603783e82747e1475dc4a982e14ad0fa4ae62e69",
+          "path": "content_v2/review/dictionary_content_used_l010_20261031.jsonl",
+          "sha256": "012fe1ec4c01f077a5a12d0208e40ee7b26ceb6357227472ccf218165cf277e7",
+          "line": 4
+        },
+        "sourceAuthority": "exact-head L10 candidate review sheet; per-row cited sources retained there",
+        "review": {
+          "reviewer": "Sol",
+          "result": "approve candidate wording/evidence for review-only preview; remains draft/provisional",
+          "reviewerSession": "01a1929e-a8bf-7f02-9520-3745f0c22698",
+          "resultSha256": "a6ebf0245b160dcf106a85db977166c731073996dcd076c7b9f8fbccd65072b1",
+          "reviewRecordPath": "coordination/v1/reviews/ko-a1-l010-data/sol.md",
+          "reviewRecordSha256": "44526557a434307863b2ad68dc0a8446350f5616487c74e434d943c8249c6514",
+          "scopeLimit": "no formal adoption, segmentation approval, lesson acceptance, or release"
+        },
+        "previewState": "provisional"
+      },
+      {
+        "atomId": "ko:n:표시",
+        "lessons": [
+          "ko-a1-l010"
+        ],
+        "gloss": "表達；表示；表明 / 標；標明；標記",
+        "sourceFile": {
+          "head": "603783e82747e1475dc4a982e14ad0fa4ae62e69",
+          "path": "content_v2/review/dictionary_content_used_l010_20261031.jsonl",
+          "sha256": "012fe1ec4c01f077a5a12d0208e40ee7b26ceb6357227472ccf218165cf277e7",
+          "line": 5
+        },
+        "sourceAuthority": "exact-head L10 candidate review sheet; per-row cited sources retained there",
+        "review": {
+          "reviewer": "Sol",
+          "result": "approve candidate wording/evidence for review-only preview; remains draft/provisional",
+          "reviewerSession": "01a1929e-a8bf-7f02-9520-3745f0c22698",
+          "resultSha256": "a6ebf0245b160dcf106a85db977166c731073996dcd076c7b9f8fbccd65072b1",
+          "reviewRecordPath": "coordination/v1/reviews/ko-a1-l010-data/sol.md",
+          "reviewRecordSha256": "44526557a434307863b2ad68dc0a8446350f5616487c74e434d943c8249c6514",
+          "scopeLimit": "no formal adoption, segmentation approval, lesson acceptance, or release"
+        },
+        "previewState": "provisional"
       }
     ],
     "remainingUniqueSourceMissingIds": [
@@ -1020,10 +1171,7 @@
       "ko:n:것",
       "ko:n:대학원생",
       "ko:n:라테",
-      "ko:n:밥집",
       "ko:n:분",
-      "ko:n:안내도",
-      "ko:n:타이머",
       "ko:prop:도현",
       "ko:prop:마이클",
       "ko:prop:소라",
@@ -1066,7 +1214,6 @@
         ],
         "reviewOnlyProvisional": [],
         "pendingOrUnknown": [
-          "ko:adv:처음",
           "ko:n:대학원생",
           "ko:prop:마이클",
           "ko:prop:애니",
@@ -1079,7 +1226,29 @@
           "ko:prop:애니",
           "ko:prop:유키"
         ],
-        "castOnlyNameResolved": []
+        "castOnlyNameResolved": [],
+        "lessonScopedProvisionalBindings": [
+          {
+            "lessonId": "ko-a1-l002",
+            "surface": "처음",
+            "sourceAtomId": "ko:adv:처음",
+            "sourceLinkState": "missing",
+            "targetAtomId": "ko:n:처음",
+            "targetEntryState": "approved",
+            "bindingPath": "bindings.ko-a1-l002.처음",
+            "bindingState": "provisional",
+            "reviewState": "Dot approved this exact L2 occurrence-to-entry mapping for the isolated review-only preview; binding state remains provisional",
+            "sourceSegmentationUnchanged": true,
+            "scope": "this lesson occurrence in the isolated review-only preview",
+            "reviewReceipt": {
+              "reviewer": "Dot",
+              "resultId": "6546267957",
+              "verdict": "approve",
+              "scope": "L2 occurrence mapping to existing ko:n:처음 for review-only preview",
+              "officialDictionaryPartOfSpeech": "noun"
+            }
+          }
+        ]
       },
       {
         "lessonId": "ko-a1-l003",
@@ -1225,7 +1394,9 @@
         "approvedOrImported": [
           "ko:n:때"
         ],
-        "reviewOnlyProvisional": [],
+        "reviewOnlyProvisional": [
+          "ko:n:뒷모습"
+        ],
         "pendingOrUnknown": [
           "ko:adj:맞다",
           "ko:n:분",
@@ -1250,13 +1421,15 @@
         "lessonId": "ko-a1-l010",
         "approvedOrImported": [],
         "reviewOnlyProvisional": [
-          "ko:intj:감사합니다"
+          "ko:intj:감사합니다",
+          "ko:n:밥집",
+          "ko:n:사거리",
+          "ko:n:안내도",
+          "ko:n:타이머",
+          "ko:n:표시"
         ],
         "pendingOrUnknown": [
           "ko:adj:맞다",
-          "ko:n:밥집",
-          "ko:n:안내도",
-          "ko:n:타이머",
           "ko:prop:유키",
           "ko:prop:이안",
           "ko:v:있다"
@@ -1356,7 +1529,7 @@
         "3a524d699a96103f912f02af46db0d8ac25e26d7"
       ]
     },
-    "finalLookupSha256": "aacbb505188bd5ffe3c557ef9770fb01a68362c25419db31659fad2079adf3ad",
+    "finalLookupSha256": "a45dfb8ae546977dd8bb04d2798275cff37b94f6278cad52b3f6f28493a79ae9",
     "candidateDisplayRule": "L4/L6 synthetic review-candidate IDs and the L5 lesson-price handle are preview-only IDs. L7 uses exact candidate-file IDs. All lexical candidates remain provisional; ko:prop:이안 is recorded only as CAST/CONFIG name display and has no dictionary entry.",
     "castOnlyNameRecords": [
       {
@@ -1406,14 +1579,10 @@
       ],
       "pendingDictionaryReview": [
         "ko:adj:맞다",
-        "ko:adv:처음",
         "ko:n:것",
         "ko:n:대학원생",
         "ko:n:라테",
-        "ko:n:밥집",
         "ko:n:분",
-        "ko:n:안내도",
-        "ko:n:타이머",
         "ko:v:깜빡하다"
       ],
       "noUsableCandidateSource": [
@@ -1426,7 +1595,32 @@
       ],
       "castOnlyNameResolvedButIntentionallyNoDictionaryEntry": [
         "ko:prop:이안"
+      ],
+      "lessonScopedPreviewMappingApprovedSourceAtomStillMissing": [
+        "ko:adv:처음"
       ]
-    }
+    },
+    "lessonScopedProvisionalBindings": [
+      {
+        "lessonId": "ko-a1-l002",
+        "surface": "처음",
+        "sourceAtomId": "ko:adv:처음",
+        "sourceLinkState": "missing",
+        "targetAtomId": "ko:n:처음",
+        "targetEntryState": "approved",
+        "bindingPath": "bindings.ko-a1-l002.처음",
+        "bindingState": "provisional",
+        "reviewState": "Dot approved this exact L2 occurrence-to-entry mapping for the isolated review-only preview; binding state remains provisional",
+        "sourceSegmentationUnchanged": true,
+        "scope": "this lesson occurrence in the isolated review-only preview",
+        "reviewReceipt": {
+          "reviewer": "Dot",
+          "resultId": "6546267957",
+          "verdict": "approve",
+          "scope": "L2 occurrence mapping to existing ko:n:처음 for review-only preview",
+          "officialDictionaryPartOfSpeech": "noun"
+        }
+      }
+    ]
   }
 }
