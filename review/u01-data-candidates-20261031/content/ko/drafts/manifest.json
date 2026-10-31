@@ -665,5 +665,287 @@
         "8 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
       ]
     }
-  ]
+  ],
+  "dictionaryReviewFollowup": {
+    "evidencePath": "u01-review-evidence.json#dictionaryReviewFollowup",
+    "status": "isolated-review-only-preview",
+    "candidateDisposition": "unaccepted-unpublished",
+    "baseLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
+    "counts": {
+      "sourceMissingRows": 59,
+      "sourceMissingUniqueAtomIds": 31,
+      "baseUniqueLookupGapIds": 33,
+      "finalSourceMissingIdsWithoutEntry": 22,
+      "finalUniqueLookupGapIds": 22,
+      "baseLookupEntries": 342,
+      "finalLookupEntries": 353,
+      "baseProvisionalEntryIds": 19,
+      "finalProvisionalEntryIds": 25,
+      "newApprovedRuntimeOrExtensionEntries": 3,
+      "reviewOnlyCandidateAtomIds": 11,
+      "newReviewOnlyCandidateEntries": 8
+    },
+    "remainingUniqueSourceMissingIds": [
+      "ko:adj:맞다",
+      "ko:adv:처음",
+      "ko:n:가족분",
+      "ko:n:것",
+      "ko:n:대학원생",
+      "ko:n:라테",
+      "ko:n:밥집",
+      "ko:n:분",
+      "ko:n:안내도",
+      "ko:n:타이머",
+      "ko:num:팔천",
+      "ko:prop:도현",
+      "ko:prop:마이클",
+      "ko:prop:소라",
+      "ko:prop:애니",
+      "ko:prop:유키",
+      "ko:prop:이안",
+      "ko:prop:천이쥔",
+      "ko:v:깜빡하다",
+      "ko:v:있다",
+      "ko:xnum:3",
+      "ko:xnum:4"
+    ],
+    "lessonGapDisposition": [
+      {
+        "lessonId": "ko-a1-l001",
+        "approvedOrImported": [],
+        "reviewOnlyProvisional": [],
+        "pendingOrUnknown": [
+          "ko:adj:맞다",
+          "ko:prop:소라",
+          "ko:prop:애니",
+          "ko:prop:유키",
+          "ko:prop:천이쥔",
+          "ko:v:깜빡하다"
+        ],
+        "allSourceMissingIds": [
+          "ko:adj:맞다",
+          "ko:prop:소라",
+          "ko:prop:애니",
+          "ko:prop:유키",
+          "ko:prop:천이쥔",
+          "ko:v:깜빡하다"
+        ]
+      },
+      {
+        "lessonId": "ko-a1-l002",
+        "approvedOrImported": [
+          "ko:n:이름표"
+        ],
+        "reviewOnlyProvisional": [],
+        "pendingOrUnknown": [
+          "ko:adv:처음",
+          "ko:n:대학원생",
+          "ko:prop:마이클",
+          "ko:prop:애니",
+          "ko:prop:유키"
+        ],
+        "allSourceMissingIds": [
+          "ko:adv:처음",
+          "ko:n:대학원생",
+          "ko:prop:마이클",
+          "ko:prop:애니",
+          "ko:prop:유키"
+        ]
+      },
+      {
+        "lessonId": "ko-a1-l003",
+        "approvedOrImported": [
+          "ko:n:항공편",
+          "ko:n:아메리카노",
+          "ko:n:아이스"
+        ],
+        "reviewOnlyProvisional": [],
+        "pendingOrUnknown": [
+          "ko:n:것",
+          "ko:n:라테",
+          "ko:n:분",
+          "ko:prop:도현",
+          "ko:prop:애니",
+          "ko:xnum:3",
+          "ko:xnum:4"
+        ],
+        "allSourceMissingIds": [
+          "ko:n:것",
+          "ko:n:라테",
+          "ko:n:분",
+          "ko:prop:도현",
+          "ko:prop:애니",
+          "ko:xnum:3",
+          "ko:xnum:4"
+        ]
+      },
+      {
+        "lessonId": "ko-a1-l004",
+        "approvedOrImported": [],
+        "reviewOnlyProvisional": [
+          "ko:n:주먹밥",
+          "ko:n:탁구"
+        ],
+        "pendingOrUnknown": [
+          "ko:prop:도현",
+          "ko:prop:마이클",
+          "ko:prop:유키"
+        ],
+        "allSourceMissingIds": [
+          "ko:n:주먹밥",
+          "ko:prop:도현",
+          "ko:prop:마이클",
+          "ko:prop:유키"
+        ]
+      },
+      {
+        "lessonId": "ko-a1-l005",
+        "approvedOrImported": [],
+        "reviewOnlyProvisional": [],
+        "pendingOrUnknown": [
+          "ko:num:팔천",
+          "ko:prop:도현",
+          "ko:prop:마이클",
+          "ko:prop:애니",
+          "ko:prop:이안"
+        ],
+        "allSourceMissingIds": [
+          "ko:num:팔천",
+          "ko:prop:도현",
+          "ko:prop:마이클",
+          "ko:prop:애니",
+          "ko:prop:이안"
+        ]
+      },
+      {
+        "lessonId": "ko-a1-l006",
+        "approvedOrImported": [],
+        "reviewOnlyProvisional": [
+          "ko:count:때",
+          "ko:intj:감사합니다",
+          "ko:n:국어사전",
+          "ko:n:사원증",
+          "ko:n:영한사전",
+          "ko:n:회화책"
+        ],
+        "pendingOrUnknown": [
+          "ko:n:것",
+          "ko:prop:마이클",
+          "ko:prop:애니",
+          "ko:v:있다"
+        ],
+        "allSourceMissingIds": [
+          "ko:count:때",
+          "ko:intj:감사합니다",
+          "ko:n:것",
+          "ko:n:국어사전",
+          "ko:n:사원증",
+          "ko:n:영한사전",
+          "ko:n:회화책",
+          "ko:prop:마이클",
+          "ko:prop:애니",
+          "ko:v:있다"
+        ]
+      },
+      {
+        "lessonId": "ko-a1-l007",
+        "approvedOrImported": [],
+        "reviewOnlyProvisional": [
+          "ko:n:공책",
+          "ko:n:지우개",
+          "ko:p:이요"
+        ],
+        "pendingOrUnknown": [
+          "ko:prop:마이클",
+          "ko:prop:유키"
+        ],
+        "allSourceMissingIds": [
+          "ko:p:이요",
+          "ko:prop:마이클",
+          "ko:prop:유키"
+        ]
+      },
+      {
+        "lessonId": "ko-a1-l008",
+        "approvedOrImported": [
+          "ko:n:세면대"
+        ],
+        "reviewOnlyProvisional": [],
+        "pendingOrUnknown": [
+          "ko:n:가족분",
+          "ko:prop:애니",
+          "ko:v:있다"
+        ],
+        "allSourceMissingIds": [
+          "ko:n:가족분",
+          "ko:n:세면대",
+          "ko:prop:애니",
+          "ko:v:있다"
+        ]
+      },
+      {
+        "lessonId": "ko-a1-l009",
+        "approvedOrImported": [
+          "ko:n:때"
+        ],
+        "reviewOnlyProvisional": [],
+        "pendingOrUnknown": [
+          "ko:adj:맞다",
+          "ko:n:분",
+          "ko:prop:도현",
+          "ko:prop:마이클",
+          "ko:prop:유키",
+          "ko:prop:이안",
+          "ko:v:있다"
+        ],
+        "allSourceMissingIds": [
+          "ko:adj:맞다",
+          "ko:n:분",
+          "ko:prop:도현",
+          "ko:prop:마이클",
+          "ko:prop:유키",
+          "ko:prop:이안",
+          "ko:v:있다"
+        ]
+      },
+      {
+        "lessonId": "ko-a1-l010",
+        "approvedOrImported": [],
+        "reviewOnlyProvisional": [
+          "ko:intj:감사합니다"
+        ],
+        "pendingOrUnknown": [
+          "ko:adj:맞다",
+          "ko:n:밥집",
+          "ko:n:안내도",
+          "ko:n:타이머",
+          "ko:prop:유키",
+          "ko:prop:이안",
+          "ko:v:있다"
+        ],
+        "allSourceMissingIds": [
+          "ko:adj:맞다",
+          "ko:intj:감사합니다",
+          "ko:n:밥집",
+          "ko:n:안내도",
+          "ko:n:타이머",
+          "ko:prop:유키",
+          "ko:prop:이안",
+          "ko:v:있다"
+        ]
+      }
+    ],
+    "lookupSha256": "3e78d219c3ac3f15ea9e5157edc581d3aacea2712e269a65cfd55d79799da79b",
+    "sharedRuntimeSource": {
+      "dictionaryHead": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+      "runtimeDictionaryPath": "content_v2/core/dictionary/runtime_dictionary.sqlite",
+      "runtimeDictionarySha256": "45d4753801f6c73426f1a0318734947cbd3cd1c99a71795e86c720ad3284ea3c",
+      "publicIndexPath": "content_v2/core/dictionary/public_index.csv",
+      "publicIndexSha256": "2a59b58ca81391937e4fe2f2fabd82f1399713178dc8b296797f333a12d21a29",
+      "courseSourceHeadsForReusedItems": [
+        "0bf77bfb4689f86556dae652b6385f31998d5791",
+        "3a524d699a96103f912f02af46db0d8ac25e26d7"
+      ]
+    }
+  }
 }
