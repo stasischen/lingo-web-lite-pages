@@ -3,11 +3,11 @@
   "purpose": "Isolated A1 unit 1 draft review preview; does not change root app or official content status.",
   "webLiteSourceRepo": "stasischen/lingo-web-lite",
   "webLiteSourceBranch": "luna/ko-a1-u01-web-review-20261027",
-  "webLiteSourceCommit": "1d830a0fe3b4fa1c297461dcf30a421c742dfce7",
+  "webLiteSourceCommit": "370362f15d042436c40f10d97397d146cd185207",
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "After source refresh commit 370362f15d042436c40f10d97397d146cd185207, targeted Vitest passed 18/18 and the requested VITE_BASE_PATH production build passed. The emitted app JS/CSS hashes match the existing review bundle; data files changed only. Pages HTTPS deployment and file readback are pending. No UI rerun was performed after this source pin refresh.",
+  "buildResult": "WebLite source commit 370362f15d042436c40f10d97397d146cd185207: targeted Vitest 18/18 passed and the requested VITE_BASE_PATH production build passed. Emitted app JS/CSS hashes match the existing review bundle. Isolated Pages data commit d6782e9434279a5ce424102add3835214bc48e9c deployed successfully in run 41239080251; public HTTPS returned 200 and all 86 packaged file SHA-256 values matched this metadata. UI was not rerun after the source pin refresh.",
   "candidatePacketCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
   "candidateManifestSha256": "d4fc5d68a1d09a9f7087a75e194a5a80cfbe642cd1628db3d1d1ebbea59f4bee",
   "segmentation": "Exact-source SEGMENTS overlays are fully matched across all ten lessons: L1 15/15; L2 31/31; L3 44/44; L4 32/32; L5 26/26; L6 28/28; L7 16/16; L8 23/23; L9 29/29; L10 29/29. For every lesson, overlay sourceCommit equals lesson.head, dialogueSha256 matches the named dialogue sourceFiles record, and segmentsSha256 matches lesson.segmentation.sourceSha256; matchedSentences equals totalSentences. The overlays contain 273 matched sentence occurrences and 271 per-lesson unique segmentsByText keys; L3 and L9 each repeat one text surface. The 793 count is multi-atom token rows across those unique per-lesson maps, not a sentence count. Existing loader attaches an overlay only when source commit and dialogue hash match; renderDraftText validates tab-separated nonempty surface/atomId tokens and normalized joined surfaces against the exact sentence text. Valid word surfaces render as lookup buttons (trailing punctuation remains text), using lesson binding lemma/atomId/state when present and SEGMENTS values otherwise. This is a data and code-path check, not a ten-lesson interactive UI acceptance.",
@@ -518,7 +518,12 @@
           "reason": "same-head core/sentences and MISSING_ENTRIES still mark s.000001 as ko:v:있다 although SEGMENTS marks ko:adj:있다; s.000023 ability use stays ko:v:있다."
         }
       },
-      "uiRetest": "not performed"
+      "uiRetest": "not performed",
+      "pagesDataCommit": "d6782e9434279a5ce424102add3835214bc48e9c",
+      "deploymentRun": "41239080251",
+      "publicFilesReadBack": 86,
+      "publicMetadataHttpStatus": 200,
+      "allPackagedHashesMatch": true
     }
   }
 }
