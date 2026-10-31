@@ -7,12 +7,12 @@
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "Review-path production build passed on source commit 1d830a0fe3b4fa1c297461dcf30a421c742dfce7: TypeScript check and Vite build succeeded with the requested VITE_BASE_PATH. New isolated assets are index.html, index-DEIJt1k9.js, and the existing index-DxcxPQiw.css. Package tests and published browser validation are pending; no lesson/model rerun or formal content acceptance is claimed.",
+  "buildResult": "Review-path production build passed on WebLite app commit 1d830a0fe3b4fa1c297461dcf30a421c742dfce7 (TypeScript check + Vite production build using the requested VITE_BASE_PATH). npm test passed: 15 Vitest files / 72 tests and 3 Python sync tests. Published Pages bundle commit cd9a74830d2d503761cd1b30adafe62d0b6d190a deployed successfully in run 41233801958; public HTTPS readback verified all 86 packaged files against this build metadata. Chromium production-browser UI check passed all ten course routes and representative dictionary/CAST/missing-entry lookups; no page errors or failed requests.",
   "candidatePacketCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
   "candidateManifestSha256": "f475379c75e4fb7502d304178e4406e00f3fc757b75bbc19d7f5dd02c24b717e",
   "segmentation": "Exact-source SEGMENTS overlays are fully matched across all ten lessons: L1 15/15; L2 31/31; L3 44/44; L4 32/32; L5 26/26; L6 28/28; L7 16/16; L8 23/23; L9 29/29; L10 29/29. For every lesson, overlay sourceCommit equals lesson.head, dialogueSha256 matches the named dialogue sourceFiles record, and segmentsSha256 matches lesson.segmentation.sourceSha256; matchedSentences equals totalSentences. The overlays contain 273 matched sentence occurrences and 271 per-lesson unique segmentsByText keys; L3 and L9 each repeat one text surface. The 793 count is multi-atom token rows across those unique per-lesson maps, not a sentence count. Existing loader attaches an overlay only when source commit and dialogue hash match; renderDraftText validates tab-separated nonempty surface/atomId tokens and normalized joined surfaces against the exact sentence text. Valid word surfaces render as lookup buttons (trailing punctuation remains text), using lesson binding lemma/atomId/state when present and SEGMENTS values otherwise. This is a data and code-path check, not a ten-lesson interactive UI acceptance.",
   "lookupSummary": "Isolated Pages lookup: 401 entries / 34 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 applies only to the stated contexts; both remain provisional. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences already use active core dictionary rows. Fixed CAST display is separate: 23 lesson-scoped records cover 44 button occurrences only where the exact frozen row has a character ID and zh_tw name; no dictionary entries are created. Data path resolves 1,172/1,260 dictionary buttons; CAST displays another 44; 44 remain without exact dictionary/eligible CAST (것×4, L1 CAST lacking ID×11, 천이쥔×1, xnum×2, 있다 POS conflict×25, 가족분×1). L2 ko:n:곳 is now approved and uses the exact core dictionary row through the approved-binding fallback. The data and renderer paths each resolve 1,172/1,260. 13 source-MISSING IDs still have no direct preview entry; new published UI validation is pending.",
-  "knownLimitations": "The prior L3 cloud synthesis-failed observation is from an earlier Pages commit and remains undiagnosed. The existing parent L2 click for 대학원생이에요 was on the earlier bundle. The current bundle still needs published 10-lesson DOM/button checks and the specified candidate/CAST/missing-entry clicks. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
+  "knownLimitations": "The earlier L3 cloud synthesis-failed observation remains undiagnosed. The prior parent L2 click for 대학원생이에요 was on an earlier bundle. Current public bundle has passed ten-course DOM/button and sample lookup validation. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
   "filesSha256": {
@@ -425,7 +425,7 @@
     ],
     "allPreviewEntriesProvisional": true,
     "sourceAdoption": "not adopted",
-    "uiValidation": "Pending published click validation; both approved candidate terms remain provisional.",
+    "uiValidation": "Passed on published bundle: L3 라테 and honorific 분 are each labelled 暫存 with the intended gloss; L9 분이에요 shows the same provisional honorific component split from copula/ending. Candidates remain provisional.",
     "excluded": {
       "ko:n:것": "RCA_04A hold; request not sent",
       "ko:count:분": "unchanged count atom; distinct from honorific ko:n:분"
@@ -463,6 +463,16 @@
     "placeNameRuntime": "한국×3, 일본×1, 대만×3, 부산×2, 서울×1; all 10 occurrences use existing active runtime/core dictionary rows.",
     "buttonCoverageByLesson": "Totals/dictionary/CAST/unresolved: L1 86/74/0/12; L2 149/137/12/0; L3 156/150/2/4; L4 161/156/5/0; L5 156/147/9/0; L6 114/104/2/8; L7 56/54/2/0; L8 118/108/1/9; L9 128/116/9/3; L10 136/126/2/8.",
     "unresolvedButtonCategories": "44 total: ko:n:것×4; L1 CAST rows lacking ID×11 plus ko:prop:천이쥔×1; ko:xnum:3/4×2; ko:v:있다 POS conflict×25; ko:n:가족분×1.",
-    "publishedUiValidation": "Pending; verify actual DOM counts and per-lesson token examples after Pages publication."
+    "publishedUiValidation": {
+      "status": "passed",
+      "publishedBundleCommit": "cd9a74830d2d503761cd1b30adafe62d0b6d190a",
+      "deploymentRun": "41233801958",
+      "browser": "Chromium 156.0.8078.4, headless, public HTTPS route at 1440×1000",
+      "domButtonCountsByLesson": "L1 86; L2 149; L3 156; L4 161; L5 156; L6 114; L7 56; L8 118; L9 128; L10 136; total 1,260. All match frozen course counts.",
+      "clickedSamples": "L1 한국 → 韓國; L2 곳 → 地方／場所; L3 라테 → 暫存／拿鐵（咖啡）, 분 → 暫存／位（對人的敬稱）; L4 도현 → CAST 道賢; L5 이안 → CAST 怡安; L6 이건 → 것 unresolved; L7 마이클 → CAST 麥可; L8 가족분들은 → 가족분 unresolved; L9 분이에요 → provisional 분 separated from 이다/에요; L10 있어요 → 있다 unresolved due POS hold.",
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    "qaCommit": "d315b1bd3"
   }
 }
