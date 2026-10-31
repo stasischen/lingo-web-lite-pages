@@ -3,25 +3,21 @@
   "purpose": "Isolated A1 unit 1 draft review preview; does not change root app or official content status.",
   "webLiteSourceRepo": "stasischen/lingo-web-lite",
   "webLiteSourceBranch": "luna/ko-a1-u01-web-review-20261027",
-  "webLiteSourceCommit": "a5c081aff4ce10b6768261d008a80f286557e08c",
+  "webLiteSourceCommit": "1d830a0fe3b4fa1c297461dcf30a421c742dfce7",
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "Verified on the existing WebLite source worktree after this data-only candidate update: npm test passed 72 Vitest and 3 Python tests; npm run lint reported no errors (two existing Fast Refresh warnings); the review-path production build passed. Generated index.html, JS, and CSS hashes exactly match the existing isolated Pages app assets. The source-bound lookup test covers 358 entries; the full isolated preview lookup contains 360 entries, a separate scope. One stale source-bound lookup test expectation was corrected from 357 to the verified 358 entries. No lesson/model rerun or formal content acceptance is claimed.",
-  "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
-  "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
+  "buildResult": "Review-path production build passed on source commit 1d830a0fe3b4fa1c297461dcf30a421c742dfce7: TypeScript check and Vite build succeeded with the requested VITE_BASE_PATH. New isolated assets are index.html, index-DEIJt1k9.js, and the existing index-DxcxPQiw.css. Package tests and published browser validation are pending; no lesson/model rerun or formal content acceptance is claimed.",
+  "candidatePacketCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
+  "candidateManifestSha256": "f475379c75e4fb7502d304178e4406e00f3fc757b75bbc19d7f5dd02c24b717e",
   "segmentation": "Exact-source SEGMENTS overlays are fully matched across all ten lessons: L1 15/15; L2 31/31; L3 44/44; L4 32/32; L5 26/26; L6 28/28; L7 16/16; L8 23/23; L9 29/29; L10 29/29. For every lesson, overlay sourceCommit equals lesson.head, dialogueSha256 matches the named dialogue sourceFiles record, and segmentsSha256 matches lesson.segmentation.sourceSha256; matchedSentences equals totalSentences. The overlays contain 273 matched sentence occurrences and 271 per-lesson unique segmentsByText keys; L3 and L9 each repeat one text surface. The 793 count is multi-atom token rows across those unique per-lesson maps, not a sentence count. Existing loader attaches an overlay only when source commit and dialogue hash match; renderDraftText validates tab-separated nonempty surface/atomId tokens and normalized joined surfaces against the exact sentence text. Valid word surfaces render as lookup buttons (trailing punctuation remains text), using lesson binding lemma/atomId/state when present and SEGMENTS values otherwise. This is a data and code-path check, not a ten-lesson interactive UI acceptance.",
-  "lookupSummary": "360 isolated lookup entries; 15 of the 31 source-missing IDs still have no direct lookup entry. L2 대학원생 (研究生) is included as a provisional direct review-only entry. Parent rendered UI check confirms the 대학원생이에요 lookup link and three-part decomposition for this one occurrence; other occurrences, lessons, speech playback, and overall acceptance remain unverified. There are 26 review-only lexical candidate atoms within 32 provisional lookup entries. The 15 remaining IDs are classified in the manifest/evidence as 3 lexical gaps, 7 content-only names, 2 numeric policy holds, 2 source POS conflicts, and the explicitly excluded 가족분. Source MISSING remains 59 rows / 31 unique IDs; no candidate is labeled formally accepted.",
-  "knownLimitations": "The single recorded L3 cloud synthesis-failed observation was from prior Pages commit 8ff706e and was not retested on this build; its cause remains undetermined. Parent performed one rendered L2 lookup UI check for 대학원생이에요, but the rest of the lessons, speech playback, and full course acceptance were not checked. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
+  "lookupSummary": "Isolated Pages lookup: 401 entries / 34 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 applies only to the stated contexts; both remain provisional. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences already use active core dictionary rows. Fixed CAST display is separate: 23 lesson-scoped records cover 44 button occurrences only where the exact frozen row has a character ID and zh_tw name; no dictionary entries are created. Data path resolves 1,172/1,260 dictionary buttons; CAST displays another 44; 44 remain without exact dictionary/eligible CAST (것×4, L1 CAST lacking ID×11, 천이쥔×1, xnum×2, 있다 POS conflict×25, 가족분×1). L2 ko:n:곳 is now approved and uses the exact core dictionary row through the approved-binding fallback. The data and renderer paths each resolve 1,172/1,260. 13 source-MISSING IDs still have no direct preview entry; new published UI validation is pending.",
+  "knownLimitations": "The prior L3 cloud synthesis-failed observation is from an earlier Pages commit and remains undiagnosed. The existing parent L2 click for 대학원생이에요 was on the earlier bundle. The current bundle still needs published 10-lesson DOM/button checks and the specified candidate/CAST/missing-entry clicks. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
   "filesSha256": {
-    "assets/index-BbWhZMwN.js": "4a8106a2658bfe069a4e7ac2a8aa94aeccdcae6737f13639788ba688554a800c",
-    "assets/index-CEvayKUB.js": "cae6a0218876db268f5e2d1a67513b265af6be61659f6365be2d505cc5b00cca",
-    "assets/index-CvcS62-G.js": "7fff06fccfead82ddd61ccfbf3b1fabe8c51d078fa19ea431e89829d3c168a0d",
-    "assets/index-CzoZ52HU.js": "b571fd4082fec77e4273826a2ba12e7013e49d34a32e5b5442c2adde8b436ef4",
+    "assets/index-DEIJt1k9.js": "f723a28873cd83a99d9fe5ad6881fc23509e1771b6e1d78746ebe82de584c1bf",
     "assets/index-DxcxPQiw.css": "2eb6d9e559371fc2f5a507d8927602965bc6cf0d98a48250e50caebe66483c05",
-    "assets/index-UvRaHqMq.js": "a6481174d69bddd05307d2f0bd476af3a51fbdc648a5321045a29ef4caa7bda4",
     "content/en/a1-gloss.json": "433428d82526b91a5096ded856e2c421f9ed104514f5a4e0f2a56d2783145369",
     "content/en/articles/en_reading_adjectives_a1_v1.json": "cd3e940cc1161cf2422da41dfe9a954eff9aad5e6b0e779d82674729a33d7a3f",
     "content/en/articles/en_reading_articles_a1_v1.json": "44e8abe18b8f17450911df3fb47641a6a0487cb2ec29e62f6dbf6610ed9402d9",
@@ -70,6 +66,7 @@
     "content/en/library-index.json": "113f6dbc7e26496641f9530b8072fec83f5399261dc5fba727ea9809e22d341a",
     "content/en/source-manifest.json": "ea390ad141759abdf5d4068dcc740ca83afff726674eb81f17901c6b2a1be34e",
     "content/ko/dictionary.json": "ce8c9d1e2008787c5e36c895c6f4f1ec5dc89f158eaefcb2e2d3ee76db368928",
+    "content/ko/drafts/dictionary-gap-candidates-l3-l6-l9-20261101.jsonl": "4381e3f11d4ce7755e4586632c381a64f74583985463cae02320de7f5890c726",
     "content/ko/drafts/ko-a1-l001.json": "d4aa81c311d9e5dffce5655677bf7f8f2453d152fd215ac823852a02093042ab",
     "content/ko/drafts/ko-a1-l002.json": "6a19e1ea5d5bc270d33b513db29fc5e6fcf2be5397cecf0a81c526cd3120de5e",
     "content/ko/drafts/ko-a1-l003.json": "ba59dcd3f1db055fd80d330230b0e308bd9a9451bac5d276a6ddf1e9f9ade7e8",
@@ -80,10 +77,10 @@
     "content/ko/drafts/ko-a1-l008.json": "58dd10b0a42bb4950de1fc31f45727069b1b2d49fa5e082131d0340546765dcb",
     "content/ko/drafts/ko-a1-l009.json": "2f411b1f8bbf8281ab5e8adf460ac99aebf350ef694ce2c35f8c6ba494eb113a",
     "content/ko/drafts/ko-a1-l010.json": "d11495aac8da9224c86517889af16175ea5ef53c38755abe74e761bb6afe46e3",
-    "content/ko/drafts/lookup.json": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
-    "content/ko/drafts/manifest.json": "46ea6ef9f5876252cb4c3c50c0f3a41e6214478f8cae55422f5d06854f321bbc",
+    "content/ko/drafts/lookup.json": "d769813232b142d2b7a730ac9aeb8376648bc110d673eaf72a456242ca23a1ba",
+    "content/ko/drafts/manifest.json": "f475379c75e4fb7502d304178e4406e00f3fc757b75bbc19d7f5dd02c24b717e",
     "content/ko/drafts/segment-overlays.json": "ff9c28ef249297b88b4e5f0af3a9d16aea623b15ba3ca8323d8439f715d95d89",
-    "content/ko/drafts/u01-review-evidence.json": "0a0ae0c011ed2387a01e367290a7c8dd778350d0b44866af58a3556ae1cb86aa",
+    "content/ko/drafts/u01-review-evidence.json": "1aa3b128e5124b9ebdeedb793be245fb3a5f7ce436bbcab6bb79e0097dee3258",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l001.json": "a2e0eb8298275319c234a9dc6bc1684361a060e644771d67a19354b07d97ecc0",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l002.json": "1f49382dca77c72dcf02f072c3fb2bfa921bde08d24aca26ef5089cb9c66455c",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l003.json": "801b544e2fd83ca4a89f51e637fe220b033060cad6d01fbc563b5a3fa9206d44",
@@ -104,7 +101,7 @@
     "content/ko/manifest.json": "d382462bfa089fa450c059cd81569466e094193731d20f469042df8cafe4cfbc",
     "content/ko/translation-candidates/ko-a1-l005-c10/lesson.json": "96d6af1b4819049bf9147c8fc254f211762c8169d898b6ba662da72df22462b5",
     "content/ko/translation-candidates/ko-a1-l005-c10/sentences.json": "0c7b68746ff88760712b52b41883e399ae8c8328fb94ee6a1a2aa092a44dc135",
-    "index.html": "2aa2c64cb7fab7616f732c043503c79683bef1de9339b54a68a7cf077e12a2ab"
+    "index.html": "928575119eba35ddc2cacf9f7218b307620bc48cda9fcea710a1a2ec676b752b"
   },
   "parentCloudUiCheck": {
     "checkedAt": "2026-10-31",
@@ -139,33 +136,31 @@
   "dictionaryReviewFollowup": {
     "updatedAt": "2026-11-01",
     "dataOnly": true,
-    "webLiteSourceCommit": "a5c081aff4ce10b6768261d008a80f286557e08c",
+    "webLiteSourceCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
     "appAssetsUnchanged": true,
     "baseLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
-    "lookupSha256": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
-    "manifestSha256": "46ea6ef9f5876252cb4c3c50c0f3a41e6214478f8cae55422f5d06854f321bbc",
-    "evidenceSha256": "0a0ae0c011ed2387a01e367290a7c8dd778350d0b44866af58a3556ae1cb86aa",
+    "lookupSha256": "8ac5c178449368bb6e149c504fc24edee066c3a441e372e6075386e1fe20ff50",
+    "manifestSha256": "d2055e985296aabf6c59719d178aee07dbe18c912294d0d9086aec8be46d4449",
+    "evidenceSha256": "1d5d3936eceed48e8a7ca5843d332af4b0f7b1c7fee8249d4eabf9547963f966",
     "counts": {
       "sourceMissingRows": 59,
       "sourceMissingUniqueAtomIds": 31,
       "baseUniqueLookupGapIds": 33,
-      "finalSourceMissingIdsWithoutEntry": 15,
-      "finalUniqueLookupGapIds": 15,
+      "finalSourceMissingIdsWithoutEntry": 13,
+      "finalUniqueLookupGapIds": 13,
       "baseLookupEntries": 342,
-      "finalLookupEntries": 360,
+      "finalLookupEntries": 362,
       "baseProvisionalEntryIds": 19,
-      "finalProvisionalEntryIds": 32,
+      "finalProvisionalEntryIds": 34,
       "newApprovedRuntimeOrExtensionEntries": 3,
-      "reviewOnlyCandidateAtomIds": 26,
-      "newReviewOnlyCandidateEntries": 15,
-      "reviewedCandidateFileItems": 30,
+      "reviewOnlyCandidateAtomIds": 28,
+      "newReviewOnlyCandidateEntries": 17,
+      "reviewedCandidateFileItems": 32,
       "castOnlyNameRecords": 5,
       "additionalReviewReceiptItems": 17
     },
     "remainingUniqueGapIds": [
       "ko:n:것",
-      "ko:n:라테",
-      "ko:n:분",
       "ko:prop:도현",
       "ko:prop:마이클",
       "ko:prop:소라",
@@ -192,9 +187,9 @@
       "resultId": "6545323498",
       "scope": "review-only preview of 팔천 as a price-context compositional value; 이안 as CAST/CONFIG-only name"
     },
-    "candidateDisposition": "L1 깜빡하다/간호사/환영 and L8 맞은편/부엌/필요 are limited review-only candidates and remain provisional. L1 맞다 stays excluded pending owner convergence; its current review supports only 正確, not 符合. L1 names are CAST-only. L2 ko:n:대학원생 is included as a direct provisional lookup entry. Parent rendered UI check confirmed the 대학원생이에요 lookup link and three-part decomposition for this occurrence only; lesson/binding acceptance remains pending. L2 ko:adv:처음 source POS and binding remain provisional. L9/L10 retain their exact limited scopes. No formal dictionary adoption, course acceptance, or production publication.",
+    "candidateDisposition": "L3 ko:n:라테 and honorific ko:n:분 are provisional isolated-preview candidates with Dot limited review sent, result pending. ko:n:것 remains held under RCA_04A. No formal dictionary/runtime adoption or lesson acceptance.",
     "dataSourceBranch": "luna/ko-a1-u01-web-review-20261027",
-    "dataSourceCommit": "2bac13e18bebe27613ae2c883858b87c12373272",
+    "dataSourceCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
     "lessonScopedPreviewMappingApprovedSourceAtomIds": [
       "ko:adv:처음"
     ],
@@ -309,7 +304,11 @@
       "visibleSource": "草稿同版 SEGMENTS.tsv",
       "previewEntryState": "provisional",
       "scope": "This confirms this one occurrence's lookup link and decomposition display only; it does not accept the lesson, other occurrences, the course, or the candidate into the official dictionary."
-    }
+    },
+    "candidateReceiptCommit": "40a4e1036525329a3cd2cd3d42c45761c3b8eb6b",
+    "dotReviewResultCommentId": "6547574410",
+    "dotReviewResultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547574410",
+    "dotReviewStatus": "limited approval received; candidates remain provisional"
   },
   "parentCloudUiCheckAfterDictionaryUpdate": {
     "checkedAt": "2026-11-01",
@@ -370,7 +369,8 @@
     "l8Excluded": [
       "ko:n:가족분"
     ],
-    "sourceDataCommit": "9b18a8e6af7f61ef8c159df8a9f5e37e4d2f4a37"
+    "sourceDataCommit": "9b18a8e6af7f61ef8c159df8a9f5e37e4d2f4a37",
+    "supersededBy": "latestU01IntegrationUpdate"
   },
   "incrementalDictionaryCandidate": {
     "atomId": "ko:adj:맞다",
@@ -408,5 +408,61 @@
       "supersededBy": "parentCloudUiCheckAfterDictionaryUpdate",
       "note": "The lookup SHA is the same as the current check because the UI verification updated only evidence metadata; this history record is chronological, not a current failure."
     }
-  ]
+  ],
+  "incrementalDictionaryCandidateL3L9": {
+    "status": "limited_dot_review_approved_provisional",
+    "requestId": "ce2fa21cc8237e0361fb6ae56826e6f6e3907e05046570069180868b4aa5db69",
+    "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547549769",
+    "sourceCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
+    "candidatePacketPath": "content/ko/drafts/dictionary-gap-candidates-l3-l6-l9-20261101.jsonl",
+    "candidatePacketBytes": 2103,
+    "candidatePacketSha256": "4381e3f11d4ce7755e4586632c381a64f74583985463cae02320de7f5890c726",
+    "sourceEvidencePath": "WebLite source repo: public/content/ko/drafts/dictionary-gap-source-evidence-l3-l6-l9-20261101.json",
+    "sourceEvidenceSha256": "9c053cbdfc49223ac00a0645c0a9a496c966209447274104a8f0c1bae2fdfd15",
+    "previewEntries": [
+      "ko:n:라테",
+      "ko:n:분"
+    ],
+    "allPreviewEntriesProvisional": true,
+    "sourceAdoption": "not adopted",
+    "uiValidation": "Pending published click validation; both approved candidate terms remain provisional.",
+    "excluded": {
+      "ko:n:것": "RCA_04A hold; request not sent",
+      "ko:count:분": "unchanged count atom; distinct from honorific ko:n:분"
+    },
+    "sourceEvidenceCommit": "1d830a0fe3b4fa1c297461dcf30a421c742dfce7",
+    "dotResultCommentId": "6547574410",
+    "dotResultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547574410",
+    "dotVerdict": "limited approval within stated lesson contexts; both preview entries remain provisional"
+  },
+  "preCandidateParentUiCheck": {
+    "checkedAt": "2026-11-01",
+    "publishedLookupSha256": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
+    "publishedState": "360 entries / 15 unresolved source-MISSING IDs; L3 라테 had no entry",
+    "oneWordTokenClickPerLesson": "10/10 opened lookup panel",
+    "domButtonsByLesson": "L1=86, L2=149, L3=156, L4=161, L5=156, L6=114, L7=56, L8=118, L9=128, L10=136; total=1260",
+    "firstTokenObservations": "L7 마이클 and L9 자 had no entry; other lesson first tokens showed gloss/decomposition",
+    "newCandidateUiValidation": "not performed"
+  },
+  "rendererPathMissing": {
+    "lesson": "L2",
+    "atomId": "ko:n:곳",
+    "previousBindingState": "missing",
+    "currentBindingState": "approved",
+    "resolution": "Exact approved core dictionary row is used when no duplicate exists in review lookup; lookup helper fallback added and TypeScript production build passed.",
+    "before": "Merged data 29/149 unresolved; renderer 30/149 unresolved.",
+    "after": "Merged data 12/149 unresolved; renderer data 12/149 unresolved after 17 approved/provisional recoveries, including 곳; the renderer-only extra is removed."
+  },
+  "latestU01IntegrationUpdate": {
+    "date": "2026-11-01",
+    "sourceCommit": "1d830a0fe3b4fa1c297461dcf30a421c742dfce7",
+    "appAssetsChanged": true,
+    "changedScope": "Only the isolated review/u01-data-candidates-20261031 bundle and its lookup path. Root app, official dictionary/runtime, and frozen lesson text are unchanged.",
+    "approvedRuntimeRecovery": "39 existing active runtime/public-index entries, approved in the isolated lookup only; 121 visible token occurrences (36 IDs / 107 occurrences, plus ko:num:둘/셋/넷 / 14 occurrences).",
+    "castNameDisplay": "23 exact lesson-scoped CAST records / 44 visible token occurrences, separate from dictionary entries; only nonempty CAST ID + zh_tw name rows are displayed.",
+    "placeNameRuntime": "한국×3, 일본×1, 대만×3, 부산×2, 서울×1; all 10 occurrences use existing active runtime/core dictionary rows.",
+    "buttonCoverageByLesson": "Totals/dictionary/CAST/unresolved: L1 86/74/0/12; L2 149/137/12/0; L3 156/150/2/4; L4 161/156/5/0; L5 156/147/9/0; L6 114/104/2/8; L7 56/54/2/0; L8 118/108/1/9; L9 128/116/9/3; L10 136/126/2/8.",
+    "unresolvedButtonCategories": "44 total: ko:n:것×4; L1 CAST rows lacking ID×11 plus ko:prop:천이쥔×1; ko:xnum:3/4×2; ko:v:있다 POS conflict×25; ko:n:가족분×1.",
+    "publishedUiValidation": "Pending; verify actual DOM counts and per-lesson token examples after Pages publication."
+  }
 }

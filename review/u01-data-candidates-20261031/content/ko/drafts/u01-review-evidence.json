@@ -599,25 +599,29 @@
   ],
   "dictionaryReviewFollowup": {
     "updatedAt": "2026-11-01",
-    "scope": "isolated U01 WebLite lookup data only; app source a5c081aff4ce10b6768261d008a80f286557e08c unchanged",
-    "candidateDisposition": "Candidate terms approved only within their stated limited review scopes and imported for provisional isolated preview; no formal dictionary/runtime adoption or lesson acceptance.",
+    "scope": "Isolated U01 WebLite lookup and draft lookup UI only; official runtime dictionary, source lessons, and formal adoption status unchanged.",
+    "candidateDisposition": "Limited Dot approval received for L3 coffee 라테 and honorific 분 in the stated lesson contexts; both remain provisional and review-only. No formal dictionary/runtime adoption, lesson acceptance, PR approval, merge, or release approval.",
     "baseLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
     "counts": {
       "sourceMissingRows": 59,
       "sourceMissingUniqueAtomIds": 31,
       "baseUniqueLookupGapIds": 33,
-      "finalSourceMissingIdsWithoutEntry": 15,
-      "finalUniqueLookupGapIds": 15,
+      "finalSourceMissingIdsWithoutEntry": 13,
+      "finalUniqueLookupGapIds": 13,
       "baseLookupEntries": 342,
-      "finalLookupEntries": 360,
+      "finalLookupEntries": 401,
       "baseProvisionalEntryIds": 19,
-      "finalProvisionalEntryIds": 32,
-      "newApprovedRuntimeOrExtensionEntries": 3,
-      "reviewOnlyCandidateAtomIds": 26,
-      "newReviewOnlyCandidateEntries": 15,
-      "reviewedCandidateFileItems": 30,
+      "finalProvisionalEntryIds": 34,
+      "newApprovedRuntimeOrExtensionEntries": 42,
+      "reviewOnlyCandidateAtomIds": 28,
+      "newReviewOnlyCandidateEntries": 17,
+      "reviewedCandidateFileItems": 32,
       "castOnlyNameRecords": 5,
-      "additionalReviewReceiptItems": 17
+      "additionalReviewReceiptItems": 17,
+      "approvedRuntimeRecoveryEntries": 39,
+      "approvedRuntimeRecoveryButtonOccurrences": 121,
+      "castDisplayRecords": 23,
+      "castDisplayButtonOccurrences": 44
     },
     "approvedOriginalsImported": [
       {
@@ -1442,14 +1446,99 @@
             "The separate ko:prop:마이클 row is not included as a dictionary entry."
           ]
         }
+      },
+      {
+        "atomId": "ko:n:라테",
+        "lessons": [
+          "ko-a1-l003"
+        ],
+        "gloss": "拿鐵（咖啡）",
+        "review": {
+          "reviewer": "Dot",
+          "status": "limited approval; provisional only",
+          "requestId": "ce2fa21cc8237e0361fb6ae56826e6f6e3907e05046570069180868b4aa5db69",
+          "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547549769",
+          "scope": "limited candidate wording review only",
+          "resultCommentId": "6547574410",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547574410",
+          "verdict": "approve candidate wording within specified context only"
+        },
+        "previewState": "provisional",
+        "sourceRefs": [
+          "WebLite source commit 4558672a322919fa890d2d4b816e5fc74403b3bd: public/content/ko/drafts/dictionary-gap-candidates-l3-l6-l9-20261101.jsonl",
+          "WebLite source commit 4558672a322919fa890d2d4b816e5fc74403b3bd: public/content/ko/drafts/dictionary-gap-source-evidence-l3-l6-l9-20261101.json"
+        ],
+        "limitations": [
+          "僅咖啡拿鐵義；不涵蓋其他飲品用法。",
+          "no formal dictionary or runtime adoption",
+          "no lesson acceptance"
+        ],
+        "sourceFiles": [
+          {
+            "lesson": "ko-a1-l003",
+            "head": "0bf77bfb4689f86556dae652b6385f31998d5791",
+            "filesSha256": {
+              "DIALOGUE.md": "f5789d7f7445595060d5cb949e34a65171eb0b39f9a031e4fd5f4a227acd483f",
+              "SEGMENTS.tsv": "880d8f90cc999c2fafa257174530802b46f4c4e8d107ce3fdd773a459059fb3f",
+              "MISSING_ENTRIES.tsv": "3ac8b3412b86ed7bdc402f42b7f9ff8afaf1e7eadddcbd16661760f91265ad65"
+            }
+          }
+        ]
+      },
+      {
+        "atomId": "ko:n:분",
+        "lessons": [
+          "ko-a1-l003",
+          "ko-a1-l009"
+        ],
+        "gloss": "位（對人的敬稱）",
+        "review": {
+          "reviewer": "Dot",
+          "status": "limited approval; provisional only",
+          "requestId": "ce2fa21cc8237e0361fb6ae56826e6f6e3907e05046570069180868b4aa5db69",
+          "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547549769",
+          "scope": "limited candidate wording review only",
+          "resultCommentId": "6547574410",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547574410",
+          "verdict": "approve candidate wording within specified context only"
+        },
+        "previewState": "provisional",
+        "sourceRefs": [
+          "WebLite source commit 4558672a322919fa890d2d4b816e5fc74403b3bd: public/content/ko/drafts/dictionary-gap-candidates-l3-l6-l9-20261101.jsonl",
+          "WebLite source commit 4558672a322919fa890d2d4b816e5fc74403b3bd: public/content/ko/drafts/dictionary-gap-source-evidence-l3-l6-l9-20261101.json"
+        ],
+        "limitations": [
+          "僅敬稱名詞；ko:count:분 計數量詞維持獨立且不變。",
+          "no formal dictionary or runtime adoption",
+          "no lesson acceptance"
+        ],
+        "sourceFiles": [
+          {
+            "lesson": "ko-a1-l003",
+            "head": "0bf77bfb4689f86556dae652b6385f31998d5791",
+            "filesSha256": {
+              "DIALOGUE.md": "f5789d7f7445595060d5cb949e34a65171eb0b39f9a031e4fd5f4a227acd483f",
+              "SEGMENTS.tsv": "880d8f90cc999c2fafa257174530802b46f4c4e8d107ce3fdd773a459059fb3f",
+              "MISSING_ENTRIES.tsv": "3ac8b3412b86ed7bdc402f42b7f9ff8afaf1e7eadddcbd16661760f91265ad65"
+            }
+          },
+          {
+            "lesson": "ko-a1-l009",
+            "head": "809bb346215f7f772ce7cad15e7c653013a87f59",
+            "filesSha256": {
+              "DIALOGUE.md": "fa18df708e17a1ec5cc26aa745c3eff07741c573274584bf9b936267b0cd6805",
+              "SEGMENTS.tsv": "551cc139fcd5d7a0f83e9f8920e0e0c98f10c530fea4af079207f983917c8429",
+              "MISSING_ENTRIES.tsv": "b33e01c833c1c04bea023857054de5d2e87abe960cc64f0231084e228b1d6c8a"
+            }
+          }
+        ],
+        "posNote": "Official detailed POS is 의존 명사 (bound noun); this preview n is an upper-level category and must not be described as a free noun."
       }
     ],
     "remainingUniqueSourceMissingIds": [
       "ko:adv:처음",
       "ko:n:가족분",
       "ko:n:것",
-      "ko:n:라테",
-      "ko:n:분",
       "ko:prop:도현",
       "ko:prop:마이클",
       "ko:prop:소라",
@@ -1547,11 +1636,12 @@
           "ko:n:아메리카노",
           "ko:n:아이스"
         ],
-        "reviewOnlyProvisional": [],
+        "reviewOnlyProvisional": [
+          "ko:n:라테",
+          "ko:n:분"
+        ],
         "pendingOrUnknown": [
           "ko:n:것",
-          "ko:n:라테",
-          "ko:n:분",
           "ko:prop:도현",
           "ko:prop:애니",
           "ko:xnum:3",
@@ -1689,11 +1779,11 @@
           "ko:n:때"
         ],
         "reviewOnlyProvisional": [
-          "ko:n:뒷모습"
+          "ko:n:뒷모습",
+          "ko:n:분"
         ],
         "pendingOrUnknown": [
           "ko:adj:맞다",
-          "ko:n:분",
           "ko:prop:도현",
           "ko:prop:마이클",
           "ko:prop:유키",
@@ -1820,8 +1910,8 @@
         "3a524d699a96103f912f02af46db0d8ac25e26d7"
       ]
     },
-    "finalLookupSha256": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
-    "candidateDisplayRule": "L1: 깜빡하다/간호사/환영 and L8: 맞은편/부엌/필요 are review-only preview candidates and remain provisional; L1 맞다 remains excluded pending owner convergence. L1 names are CAST-only and receive no dictionary gloss. All other candidate limits remain as recorded.",
+    "finalLookupSha256": "d769813232b142d2b7a730ac9aeb8376648bc110d673eaf72a456242ca23a1ba",
+    "candidateDisplayRule": "L3 라테 and honorific 분 remain provisional in this isolated preview after limited Dot approval; ko:n:것 remains held by RCA_04A; L9 두 분이 remains the separate ko:count:분 atom. No formal dictionary/runtime or lesson acceptance.",
     "castOnlyNameRecords": [
       {
         "atomId": "ko:prop:이안",
@@ -1881,9 +1971,7 @@
     ],
     "remainingGapGroups": {
       "trueLexicalDictionaryGaps": [
-        "ko:n:것",
-        "ko:n:라테",
-        "ko:n:분"
+        "ko:n:것"
       ],
       "contentOnlyNameAtoms": [
         "ko:prop:도현",
@@ -1911,7 +1999,11 @@
         "bindingState": "provisional",
         "sourceIdStillMissing": true,
         "note": "The approved noun entry does not resolve the frozen source adv POS; keep the occurrence binding provisional."
-      }
+      },
+      "provisionalPreviewOnlyCandidates": [
+        "ko:n:라테",
+        "ko:n:분"
+      ]
     },
     "lessonScopedProvisionalBindings": [
       {
@@ -1940,7 +2032,7 @@
         "mappingReviewStatus": "pending user preview review"
       }
     ],
-    "lookupSha256": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
+    "lookupSha256": "d769813232b142d2b7a730ac9aeb8376648bc110d673eaf72a456242ca23a1ba",
     "sourceMissingIdClassification": {
       "trueLexicalDictionaryGaps": [
         "ko:n:것",
@@ -1973,7 +2065,63 @@
         "bindingState": "provisional",
         "sourceIdStillMissing": true,
         "note": "The approved noun entry does not resolve the frozen source adv POS; keep the occurrence binding provisional."
+      },
+      "provisionalPreviewOnlyCandidates": [
+        "ko:n:라테",
+        "ko:n:분"
+      ]
+    },
+    "candidateLifecycle": [
+      {
+        "atomId": "ko:n:라테",
+        "sourceReceived": "yes",
+        "sourceAdoption": "not adopted",
+        "previewEntry": "provisional isolated lookup entry",
+        "dotReview": "Limited approval received for the specified candidate wording/context; provisional only; result #6547574410.",
+        "actualUiValidation": "not performed",
+        "uiValidation": "Pending published exact-token UI check."
+      },
+      {
+        "atomId": "ko:n:분",
+        "sourceReceived": "yes",
+        "sourceAdoption": "not adopted",
+        "previewEntry": "provisional isolated lookup entry",
+        "dotReview": "Limited approval received for the specified candidate wording/context; provisional only; result #6547574410.",
+        "actualUiValidation": "not performed",
+        "countSense": "ko:count:분 remains separate and approved",
+        "uiValidation": "Pending published exact-token UI check."
+      },
+      {
+        "atomId": "ko:n:것",
+        "sourceReceived": "yes",
+        "sourceAdoption": "held by RCA; not adopted",
+        "previewEntry": "not added",
+        "dotReview": "excluded from request",
+        "actualUiValidation": "not performed",
+        "hold": "bound noun/contraction policy; consider construction level for L3 거예요",
+        "uiValidation": "Not shown; remains held by RCA_04A and excluded from lookup."
       }
+    ],
+    "candidateRequest": {
+      "requestId": "ce2fa21cc8237e0361fb6ae56826e6f6e3907e05046570069180868b4aa5db69",
+      "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547549769",
+      "sourceHead": "0bf77bfb4689f86556dae652b6385f31998d5791",
+      "candidatePacketSha256": "4381e3f11d4ce7755e4586632c381a64f74583985463cae02320de7f5890c726",
+      "sourceEvidenceSha256": "40e79fe7ad27d1553905db1b3beb7a9c45211ce2dedc74c7a54275f75a85c14b",
+      "status": "limited approval received; provisional only",
+      "scope": "ko:n:라테 coffee noun and honorific ko:n:분 only",
+      "explicitExclusions": [
+        "ko:n:것",
+        "ko:count:분",
+        "formal dictionary/runtime adoption",
+        "lesson acceptance",
+        "UI validation"
+      ],
+      "sourceEvidencePath": "WebLite source repo: public/content/ko/drafts/dictionary-gap-source-evidence-l3-l6-l9-20261101.json",
+      "resultCommentId": "6547574410",
+      "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547574410",
+      "verdict": "limited approval for both stated candidate contexts",
+      "sourceEvidenceCommit": "40a4e1036525329a3cd2cd3d42c45761c3b8eb6b"
     }
   },
   "updatedAt": "2026-11-01"
