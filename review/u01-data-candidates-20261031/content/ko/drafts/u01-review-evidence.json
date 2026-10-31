@@ -600,7 +600,7 @@
   "dictionaryReviewFollowup": {
     "updatedAt": "2026-11-01",
     "scope": "isolated U01 WebLite lookup data only; app source a5c081aff4ce10b6768261d008a80f286557e08c unchanged",
-    "candidateDisposition": "Existing owner-approved material is surfaced only within the isolated review-only preview. All lexical candidate entries remain provisional. L2 처음 has one explicit lesson-scoped provisional binding from source atom ko:adv:처음 to the existing approved ko:n:처음 entry; Dot approved this exact occurrence mapping for preview only. The frozen source atom and segmentation remain unchanged. L9 Dot receipt is limited to the candidate/reuse scopes recorded here. L10 Sol exact-head review is wording/evidence only; all five L10 candidates remain draft/provisional. No formal dictionary adoption, task-card status change, or official release.",
+    "candidateDisposition": "Existing owner-reviewed material is surfaced only within the isolated review-only preview. All lexical candidate entries remain provisional. Dot approved the single ko:n:처음 candidate term, including its noun classification; that result does not review the L2 ko:adv:처음 occurrence mapping. The lesson-scoped binding to the existing ko:n:처음 entry uses the established renderer pattern, remains provisional, and awaits user preview review. Frozen source segmentation is unchanged. L9 and L10 receipts retain their limited scopes. No formal dictionary adoption, task-card status change, or official release.",
     "baseLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
     "counts": {
       "sourceMissingRows": 59,
@@ -615,9 +615,9 @@
       "newApprovedRuntimeOrExtensionEntries": 3,
       "reviewOnlyCandidateAtomIds": 18,
       "newReviewOnlyCandidateEntries": 12,
-      "reviewedCandidateFileItems": 20,
+      "reviewedCandidateFileItems": 21,
       "castOnlyNameRecords": 1,
-      "additionalReviewReceiptItems": 7
+      "additionalReviewReceiptItems": 8
     },
     "approvedOriginalsImported": [
       {
@@ -1214,6 +1214,7 @@
         ],
         "reviewOnlyProvisional": [],
         "pendingOrUnknown": [
+          "ko:adv:처음",
           "ko:n:대학원생",
           "ko:prop:마이클",
           "ko:prop:애니",
@@ -1237,17 +1238,25 @@
             "targetEntryState": "approved",
             "bindingPath": "bindings.ko-a1-l002.처음",
             "bindingState": "provisional",
-            "reviewState": "Dot approved this exact L2 occurrence-to-entry mapping for the isolated review-only preview; binding state remains provisional",
+            "reviewState": "Dot approved the ko:n:처음 candidate term only. The L2 occurrence binding follows the existing renderer pattern, remains provisional, and awaits user preview review.",
             "sourceSegmentationUnchanged": true,
             "scope": "this lesson occurrence in the isolated review-only preview",
             "reviewReceipt": {
               "reviewer": "Dot",
               "resultId": "6546267957",
-              "verdict": "approve",
-              "scope": "L2 occurrence mapping to existing ko:n:처음 for review-only preview",
-              "officialDictionaryPartOfSpeech": "noun"
-            }
+              "verdict": "approve single candidate term ko:n:처음",
+              "approvedScope": "candidate wording/meaning; official dictionary confirms noun",
+              "explicitExclusions": [
+                "frozen SEGMENTS occurrence mapping",
+                "WebLite binding implementation",
+                "preview binding acceptance"
+              ]
+            },
+            "mappingReviewStatus": "pending user preview review"
           }
+        ],
+        "pendingUserReviewBindings": [
+          "ko:adv:처음 → ko:n:처음 for surface 처음"
         ]
       },
       {
@@ -1596,7 +1605,7 @@
       "castOnlyNameResolvedButIntentionallyNoDictionaryEntry": [
         "ko:prop:이안"
       ],
-      "lessonScopedPreviewMappingApprovedSourceAtomStillMissing": [
+      "lessonScopedBindingPendingUserReviewSourceAtomStillMissing": [
         "ko:adv:처음"
       ]
     },
@@ -1610,16 +1619,21 @@
         "targetEntryState": "approved",
         "bindingPath": "bindings.ko-a1-l002.처음",
         "bindingState": "provisional",
-        "reviewState": "Dot approved this exact L2 occurrence-to-entry mapping for the isolated review-only preview; binding state remains provisional",
+        "reviewState": "Dot approved the ko:n:처음 candidate term only. The L2 occurrence binding follows the existing renderer pattern, remains provisional, and awaits user preview review.",
         "sourceSegmentationUnchanged": true,
         "scope": "this lesson occurrence in the isolated review-only preview",
         "reviewReceipt": {
           "reviewer": "Dot",
           "resultId": "6546267957",
-          "verdict": "approve",
-          "scope": "L2 occurrence mapping to existing ko:n:처음 for review-only preview",
-          "officialDictionaryPartOfSpeech": "noun"
-        }
+          "verdict": "approve single candidate term ko:n:처음",
+          "approvedScope": "candidate wording/meaning; official dictionary confirms noun",
+          "explicitExclusions": [
+            "frozen SEGMENTS occurrence mapping",
+            "WebLite binding implementation",
+            "preview binding acceptance"
+          ]
+        },
+        "mappingReviewStatus": "pending user preview review"
       }
     ]
   }

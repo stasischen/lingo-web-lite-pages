@@ -7,11 +7,11 @@
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "Vite production build passed after this data-only update. npm test passed: 72 Vitest tests and 3 Python tests. The generated index.html, JS, and CSS match the existing isolated Pages app files; only lookup.json, manifest.json, and u01-review-evidence.json changed. Public browser verification is recorded separately after deployment.",
+  "buildResult": "Vite production build passed after the data update. npm test passed: 72 Vitest tests and 3 Python tests. The generated index.html, JS, and CSS match the existing isolated Pages app files. Public HTTPS readback matched the lookup, manifest, and evidence contents. The lookup helper test confirms the provisional L2 binding resolves to the existing approved ko:n:처음 entry. Automated browser interaction was unavailable because the desktop was locked; user preview review of the L2 mapping remains outstanding.",
   "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
   "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
   "segmentation": "L1 15/15; L2 31/31; exact-source overlays L3 1/44, L4 1/31, L5 16/28; explicit lookup bindings available for recorded L3/L5 terms; unmatched lines remain plain text. Frozen source commits L6-L10 have no matching SEGMENTS.tsv.",
-  "lookupSummary": "357 isolated lookup entries; 18 source-missing IDs still have no direct dictionary entry. ko:adv:처음 remains source-level missing but its L2 occurrence uses a Dot-approved, preview-only binding to the existing approved ko:n:처음 entry; that binding remains provisional. There are 18 review-only lexical candidate atoms, all provisional, within 29 total provisional lookup entries. Source MISSING remains 59 rows / 31 unique IDs. No candidate is labeled formally accepted.",
+  "lookupSummary": "357 isolated lookup entries; 18 source-missing IDs still have no direct dictionary entry. ko:adv:처음 remains source-level missing and has a provisional L2 binding to the existing approved ko:n:처음 entry. Dot approved the ko:n:처음 candidate term only; the L2 occurrence mapping itself was not reviewed and awaits user preview review. There are 18 review-only lexical candidate atoms, all provisional, within 29 total provisional lookup entries. Source MISSING remains 59 rows / 31 unique IDs. No candidate is labeled formally accepted.",
   "knownLimitations": "The single recorded L3 cloud synthesis-failed observation was from prior Pages commit 8ff706e and was not retested on this build; its cause remains undetermined. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
@@ -81,9 +81,9 @@
     "content/ko/drafts/ko-a1-l009.json": "2f411b1f8bbf8281ab5e8adf460ac99aebf350ef694ce2c35f8c6ba494eb113a",
     "content/ko/drafts/ko-a1-l010.json": "d11495aac8da9224c86517889af16175ea5ef53c38755abe74e761bb6afe46e3",
     "content/ko/drafts/lookup.json": "a45dfb8ae546977dd8bb04d2798275cff37b94f6278cad52b3f6f28493a79ae9",
-    "content/ko/drafts/manifest.json": "99742a6a9ba64c84400cef64bd9a322d8da7dc2da86be5c868c2d595291113e0",
+    "content/ko/drafts/manifest.json": "60459892f33d1a4396ade07d0b718a31f2d138df081a023a104788f916936fb0",
     "content/ko/drafts/segment-overlays.json": "ff9c28ef249297b88b4e5f0af3a9d16aea623b15ba3ca8323d8439f715d95d89",
-    "content/ko/drafts/u01-review-evidence.json": "d962631337cf41c99c2c7a733cf20824f4cf497d7a7c0b5f82d0f9ff4a7b0c7f",
+    "content/ko/drafts/u01-review-evidence.json": "41838215fb261f9c5369b5ab0cf75ef86f6a03c0fea730bab92c6bd2d8703c62",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l001.json": "a2e0eb8298275319c234a9dc6bc1684361a060e644771d67a19354b07d97ecc0",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l002.json": "1f49382dca77c72dcf02f072c3fb2bfa921bde08d24aca26ef5089cb9c66455c",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l003.json": "801b544e2fd83ca4a89f51e637fe220b033060cad6d01fbc563b5a3fa9206d44",
@@ -143,8 +143,8 @@
     "appAssetsUnchanged": true,
     "baseLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
     "lookupSha256": "a45dfb8ae546977dd8bb04d2798275cff37b94f6278cad52b3f6f28493a79ae9",
-    "manifestSha256": "99742a6a9ba64c84400cef64bd9a322d8da7dc2da86be5c868c2d595291113e0",
-    "evidenceSha256": "d962631337cf41c99c2c7a733cf20824f4cf497d7a7c0b5f82d0f9ff4a7b0c7f",
+    "manifestSha256": "60459892f33d1a4396ade07d0b718a31f2d138df081a023a104788f916936fb0",
+    "evidenceSha256": "41838215fb261f9c5369b5ab0cf75ef86f6a03c0fea730bab92c6bd2d8703c62",
     "counts": {
       "baseEntries": 342,
       "finalEntries": 357,
@@ -156,7 +156,7 @@
       "finalProvisionalEntries": 29,
       "reviewOnlyCandidateAtomIds": 18,
       "newReviewOnlyCandidateEntries": 12,
-      "reviewedCandidateFileItems": 20,
+      "reviewedCandidateFileItems": 21,
       "castOnlyNameRecords": 1,
       "newApprovedRuntimeEntries": 3,
       "l2LessonScopedProvisionalBindings": 1
@@ -190,20 +190,24 @@
       "resultId": "6545323498",
       "scope": "review-only preview of 팔천 as a price-context compositional value; 이안 as CAST/CONFIG-only name"
     },
-    "candidateDisposition": "Lexical candidates remain review-only provisional. L2 occurrence mapping has limited Dot approval but its lesson binding remains provisional; source atom ko:adv:처음 still has no direct entry. L9 and L10 receipts retain their exact limited scopes. ko:prop:이안 is CAST/CONFIG-only. No formal dictionary adoption, course acceptance, or production publication.",
+    "candidateDisposition": "Lexical candidates remain review-only provisional. Dot approved the single L2 candidate term ko:n:처음 only; the ko:adv:처음 occurrence binding remains provisional and awaits user preview review. L9 and L10 receipts retain their exact limited scopes. ko:prop:이안 is CAST/CONFIG-only. No formal dictionary adoption, course acceptance, or production publication.",
     "dataSourceBranch": "luna/ko-a1-u01-web-review-20261027",
-    "dataSourceCommit": "163a8e27bb7607dc09d8a8c431e63c810efca5fe",
+    "dataSourceCommit": "b66d686bd2712642d472dd14969756c5ee8ae5a9",
     "lessonScopedPreviewMappingApprovedSourceAtomIds": [
       "ko:adv:처음"
     ],
     "l2DotReceipt": {
       "resultId": "6546267957",
-      "verdict": "approve",
+      "verdict": "approve single candidate term ko:n:처음",
       "officialDictionaryPartOfSpeech": "noun",
-      "sourceAtomId": "ko:adv:처음",
-      "targetAtomId": "ko:n:처음",
+      "approvedScope": "candidate wording/meaning only",
+      "explicitExclusions": [
+        "frozen SEGMENTS occurrence mapping",
+        "WebLite binding implementation",
+        "preview binding acceptance"
+      ],
       "bindingState": "provisional",
-      "scope": "L2 occurrence mapping in the isolated review-only preview only"
+      "mappingReviewStatus": "pending user preview review"
     },
     "l9DotReceipt": {
       "requestId": "5674f95d0bba8e64040a7613a532df607fcaf9b7fbcc0e24d55975c52e934727",
@@ -227,12 +231,15 @@
         "ko:n:표시"
       ],
       "scope": "wording/evidence for review-only preview; all five remain provisional"
-    }
+    },
+    "lessonScopedBindingPendingUserReviewSourceAtomIds": [
+      "ko:adv:처음"
+    ]
   },
   "parentCloudUiCheckAfterDictionaryUpdate": {
-    "status": "pending deployment and browser verification",
+    "status": "public JSON and lookup helper verified; user preview review pending",
     "lookupSha256": "a45dfb8ae546977dd8bb04d2798275cff37b94f6278cad52b3f6f28493a79ae9",
-    "scope": "Verify L2 처음 binding and L10 provisional candidate after this isolated preview deployment; other preview data remains unchanged."
+    "scope": "The L2 target entry resolves in the published lookup through a provisional lesson binding. Dot reviewed the candidate term only; inspect the L2 occurrence in the isolated preview for mapping acceptance. Browser automation was unavailable because the desktop was locked."
   },
   "l5C10TranslationReview": {
     "status": "Dot-approved, review-only candidate outputs",
