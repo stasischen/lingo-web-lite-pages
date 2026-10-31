@@ -458,7 +458,7 @@
   },
   "latestU01IntegrationUpdate": {
     "date": "2026-11-01",
-    "sourceCommit": "07b28f91f60c4506023a95b771763564937b83dd",
+    "sourceCommit": "13f96d81d25be0790865860437b6304c216cbd45",
     "appAssetsChanged": false,
     "changedScope": "Only the isolated review/u01-data-candidates-20261031 lookup data and QA record. App code/assets, official dictionary/runtime, and frozen lesson text are unchanged.",
     "approvedRuntimeRecovery": "39 existing active runtime/public-index entries, approved in the isolated lookup only; 121 visible token occurrences (36 IDs / 107 occurrences, plus ko:num:둘/셋/넷 / 14 occurrences).",
@@ -467,10 +467,18 @@
     "buttonCoverageByLesson": "Totals/dictionary/CAST/unresolved: L1 86/74/12/0; L2 149/137/12/0; L3 156/150/2/4; L4 161/156/5/0; L5 156/147/9/0; L6 114/110/2/2; L7 56/54/2/0; L8 118/116/1/1; L9 128/119/9/0; L10 136/130/2/4.",
     "unresolvedButtonCategories": "11 total: ko:n:것×4 (RCA-04A hold); ko:xnum:3/4×2 (numeric placeholder policy); ko:n:가족분×1 (explicitly excluded); L10 ko:v:있다×4 (surface-wide collision includes an ability use).",
     "publishedUiValidation": {
-      "status": "pending",
-      "scope": "Current lookup-data refresh only; test after its Pages deployment. No translation, speech, or mobile retest is planned."
+      "status": "passed",
+      "publishedBundleCommit": "cd9a74830d2d503761cd1b30adafe62d0b6d190a",
+      "dataPagesCommit": "41d8c3eb14f2819b2532eb268c18d45942b50f7e",
+      "deploymentRun": "41236920902",
+      "browser": "Chromium 156.0.8078.74, headless desktop, public HTTPS route at 1440×1000 CSS px",
+      "clickedSamples": "L1 애니라고 and 소라예요 → fixed CAST identities with exact SEGMENTS components; L1 천이쥔 → fixed CAST alias annie; L6 location 있어요 → provisional ko:adj:있다; L10 location question 있어요? → provisional ko:adj:있다; L10 photo ability 다 같이 찍을 수 있어요 → source ko:v:있다 remains without a dictionary gloss.",
+      "pageErrors": 0,
+      "failedRequests": 0,
+      "nonBlocking404": "Only https://stasischen.github.io/favicon.ico returned 404; app page, lesson JSON, and lookup JSON loaded and interactions succeeded.",
+      "scope": "Current lookup-data refresh only. No translation, speech, or mobile retest; this remains an isolated candidate and not official course or dictionary adoption."
     },
-    "qaCommit": "07b28f91f60c4506023a95b771763564937b83dd",
+    "qaCommit": "13f96d81d25be0790865860437b6304c216cbd45",
     "sourceLifecycleEvidence": {
       "sourceCommit": "8cfaa680ff2303d923ef849c3f103fbb3ee37d57",
       "sourcePath": "public/content/ko/drafts/u01-review-evidence.json",
@@ -495,6 +503,7 @@
       "testedBundleDeploymentRun": "41233801958",
       "metadataOnlyPagesCommitAtValidation": "d20ecdc51345d8e10a088b07d06da6e7bade2056",
       "metadataOnlyPagesDeploymentRunAtValidation": "41234401746"
-    }
+    },
+    "sourcePosFollowup": "Owner status received after this preview: exact reviewed source corrections exist for L6 and L10 but the current package still pins the previous frozen revisions; L8 edited revision is awaiting its existing independent review; L9 has no new committed revision. Keep current data candidate unchanged until all exact source revisions and their existing review states can be checked together."
   }
 }
