@@ -7,11 +7,11 @@
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "Vite production build passed after the data update. npm test passed: 72 Vitest tests and 3 Python tests. The generated index.html, JS, and CSS match the existing isolated Pages app files. Public HTTPS readback matched the lookup, manifest, and evidence contents. The lookup helper test confirms the provisional L2 binding resolves to the existing approved ko:n:처음 entry. Automated browser interaction was unavailable because the desktop was locked; user preview review of the L2 mapping remains outstanding.",
+  "buildResult": "The existing app build artifacts are unchanged. This incremental update changes only the isolated lookup, manifest, evidence, and build metadata; it did not rebuild the app or run tests. The prior build and test results remain recorded in QA.md. Public HTTPS readback for this incremental data update is recorded after deployment.",
   "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
   "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
   "segmentation": "L1 15/15; L2 31/31; exact-source overlays L3 1/44, L4 1/31, L5 16/28; explicit lookup bindings available for recorded L3/L5 terms; unmatched lines remain plain text. Frozen source commits L6-L10 have no matching SEGMENTS.tsv.",
-  "lookupSummary": "358 isolated lookup entries; 17 source-missing IDs still have no direct dictionary entry. L1 깜빡하다, 간호사, 환영 and L8 맞은편, 부엌, 필요 are provisional review-only candidates. L1 맞다 remains excluded pending owner convergence. There are 24 review-only lexical candidate atoms, all provisional, within 30 total provisional lookup entries. Source MISSING remains 59 rows / 31 unique IDs. No candidate is labeled formally accepted.",
+  "lookupSummary": "359 isolated lookup entries; 16 source-missing IDs still have no direct dictionary entry. L1 깜빡하다, 간호사, 환영, and 맞다 (正確 only) plus L8 맞은편, 부엌, 필요 are provisional review-only candidates. There are 25 review-only lexical candidate atoms, all provisional, within 31 total provisional lookup entries. Source MISSING remains 59 rows / 31 unique IDs. No candidate is labeled formally accepted.",
   "knownLimitations": "The single recorded L3 cloud synthesis-failed observation was from prior Pages commit 8ff706e and was not retested on this build; its cause remains undetermined. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
@@ -80,10 +80,10 @@
     "content/ko/drafts/ko-a1-l008.json": "58dd10b0a42bb4950de1fc31f45727069b1b2d49fa5e082131d0340546765dcb",
     "content/ko/drafts/ko-a1-l009.json": "2f411b1f8bbf8281ab5e8adf460ac99aebf350ef694ce2c35f8c6ba494eb113a",
     "content/ko/drafts/ko-a1-l010.json": "d11495aac8da9224c86517889af16175ea5ef53c38755abe74e761bb6afe46e3",
-    "content/ko/drafts/lookup.json": "630cede7d0f89b9e3db73fb034b0657b22a8fa995c48d285c162eef15e0c4e54",
-    "content/ko/drafts/manifest.json": "3be29b60be23009a4e0e0f46700b779162408faeb9519c83d28c7c0cc5ec9792",
+    "content/ko/drafts/lookup.json": "17a019d83b66694edc8c947df5c0541d1d8b83f64ee6a0172829ce48fcc1b274",
+    "content/ko/drafts/manifest.json": "ab67e7131affdb05e0e030c372f87b9272c5eb2e108128ce3f6cf72f3a041c9b",
     "content/ko/drafts/segment-overlays.json": "ff9c28ef249297b88b4e5f0af3a9d16aea623b15ba3ca8323d8439f715d95d89",
-    "content/ko/drafts/u01-review-evidence.json": "a1fbf77880b7e4e9695eb63417fef98bdef72aa71da0173a1fa305147321b2ba",
+    "content/ko/drafts/u01-review-evidence.json": "b08e07921b4431be5e15f9230386158f0e51b89d06f99c16cbaa7bdfeb0c40d7",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l001.json": "a2e0eb8298275319c234a9dc6bc1684361a060e644771d67a19354b07d97ecc0",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l002.json": "1f49382dca77c72dcf02f072c3fb2bfa921bde08d24aca26ef5089cb9c66455c",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l003.json": "801b544e2fd83ca4a89f51e637fe220b033060cad6d01fbc563b5a3fa9206d44",
@@ -338,5 +338,17 @@
       "ko:n:가족분"
     ],
     "sourceDataCommit": "9b18a8e6af7f61ef8c159df8a9f5e37e4d2f4a37"
+  },
+  "incrementalDictionaryCandidate": {
+    "atomId": "ko:adj:맞다",
+    "gloss": "正確",
+    "previewState": "provisional",
+    "sourceCommit": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+    "sourceCandidatePath": "content_v2/review/lessons/ko-a1-l001-dry-a/work/runner/receipts/ko-a1-l001-dictionary-r1-20261101/candidates-r2-20261101.jsonl",
+    "sourceSidecarSha256": "69ca41c8d4b7c219861a6e10fa8c808a73c1471c1b854282a642f45b665a976d",
+    "reviewedDeltaRowSha256": "32c16b188558730cbe0d034f0a01e8b4cebd39729a906e1723119a8a7c78eb3c",
+    "dotResult": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546849091",
+    "reviewScope": "single candidate wording delta only; removes broader 符合 and retains 正確",
+    "disposition": "review-only/provisional; no formal dictionary/runtime adoption, lesson approval, PR approval, or release approval"
   }
 }
