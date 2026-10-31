@@ -3,21 +3,22 @@
   "purpose": "Isolated A1 unit 1 draft review preview; does not change root app or official content status.",
   "webLiteSourceRepo": "stasischen/lingo-web-lite",
   "webLiteSourceBranch": "luna/ko-a1-u01-web-review-20261027",
-  "webLiteSourceCommit": "32884031818aebd19fc66f3b40ab639c857cc690",
+  "webLiteSourceCommit": "3d435b221cb350621eaa0451b19970092edc96e8",
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
-  "sourceReview": "Codex found no blocking issue at the exact source commit; review turn 01a191e4-9fa4-7ef1-89dc-66aff45ff1c4.",
+  "sourceReview": "Waiting for same-thread Codex review of exact source head 3d435b221cb350621eaa0451b19970092edc96e8.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "passed locally",
+  "buildResult": "passed locally with 12 targeted tests; lint has 3 warnings and 0 errors",
   "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
   "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
-  "segmentation": "L1 15/15; L2 31/31; exact-source overlays L3 1/44, L4 1/31, L5 16/28; unmatched lines remain plain text. Frozen source commits L6–L10 have no matching SEGMENTS.tsv.",
-  "knownLimitations": "L3/L5 data cards await Dot; L10 legacy segmentation is from a different dialogue revision and is not applied. L6–L9 legacy segmentation is also from different candidate revisions and not applied. L1/L2 local preview JSON hashes already differed from evidence on the PR26 baseline. No manual browser QA or content acceptance claimed.",
+  "segmentation": "L1 15/15; L2 31/31; exact-source overlays L3 1/44, L4 1/31, L5 16/28; explicit lookup bindings available for recorded L3/L5 terms; unmatched lines remain plain text. Frozen source commits L6–L10 have no matching SEGMENTS.tsv.",
+  "knownLimitations": "L3/L5 data cards have Dot limited-evidence receipts but no full GitHub PR review; L10 legacy segmentation is from a different dialogue revision and is not applied. L6–L9 legacy segmentation is also from different candidate revisions and not applied. L1/L2 local preview JSON hashes already differed from evidence on the PR26 baseline. Manual browser check covers L1 word lookup and the L3 provisional 엽서 binding; other lessons remain to be checked. No content acceptance claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app and other review artifacts are preserved.",
   "filesSha256": {
     "assets/index-CEvayKUB.js": "cae6a0218876db268f5e2d1a67513b265af6be61659f6365be2d505cc5b00cca",
     "assets/index-CzoZ52HU.js": "b571fd4082fec77e4273826a2ba12e7013e49d34a32e5b5442c2adde8b436ef4",
     "assets/index-DxcxPQiw.css": "2eb6d9e559371fc2f5a507d8927602965bc6cf0d98a48250e50caebe66483c05",
+    "assets/index-UvRaHqMq.js": "a6481174d69bddd05307d2f0bd476af3a51fbdc648a5321045a29ef4caa7bda4",
     "content/en/a1-gloss.json": "433428d82526b91a5096ded856e2c421f9ed104514f5a4e0f2a56d2783145369",
     "content/en/articles/en_reading_adjectives_a1_v1.json": "cd3e940cc1161cf2422da41dfe9a954eff9aad5e6b0e779d82674729a33d7a3f",
     "content/en/articles/en_reading_articles_a1_v1.json": "44e8abe18b8f17450911df3fb47641a6a0487cb2ec29e62f6dbf6610ed9402d9",
@@ -98,6 +99,6 @@
     "content/ko/lessons/ko-a1-l005.json": "8f05d0190f6d64474509cc22618522baa2053921b090bbe2f183c27b11442301",
     "content/ko/lessons/ko-a1-l008.json": "8f07b1c8290b5f1454de0c938723038ad18c4575415e0dd4d798a3ef1b421e7d",
     "content/ko/manifest.json": "d382462bfa089fa450c059cd81569466e094193731d20f469042df8cafe4cfbc",
-    "index.html": "3e17e7e087a98b5f2e7f2d70f7d3adc58ec4118d1c801349de7a81f03baf286a"
+    "index.html": "60d8cbf4236dba6f64273a101b09de5b6ced71be74d4e941b16a2861d8737312"
   }
 }
