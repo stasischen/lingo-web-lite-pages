@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "lessons": {
+    "ko-a1-l003": {
+      "sourceCommit": "62f34b370a86f10ee9d4a51053ee0e6c7bdc842c",
+      "dialoguePath": "content_v2/review/lessons/ko-a1-l003-runner/draft/DIALOGUE.md",
+      "dialogueSha256": "064bab49679fa899b3906451de2c6f25de2551f671330828a8d55a10f8036b20",
+      "segmentsPath": "content_v2/review/lessons/ko-a1-l003-runner/draft/SEGMENTS.tsv",
+      "segmentsSha256": "f638477bd1d4c5fddeffc70e6d4c727b625650ab99a4c28c8615cc2228e6ac78",
+      "matchedSentences": 1,
+      "totalSentences": 44,
+      "segmentsByText": {
+        "감사합니다.": ["감사합니다.\tko:adj:감사하다+ko:e:ㅂ니다"]
+      }
+    },
+    "ko-a1-l004": {
+      "sourceCommit": "2c4b19998e62219ce38ec818872d9d39f71ad39a",
+      "dialoguePath": "content_v2/review/lessons/ko-a1-l004-runner/draft/DIALOGUE.md",
+      "dialogueSha256": "a48eb32459971783eedfd8c0873e65c61e4b531a682a534ab50f4742199dc0b1",
+      "segmentsPath": "content_v2/review/lessons/ko-a1-l004-runner/draft/SEGMENTS.tsv",
+      "segmentsSha256": "645666f9cf8a40b4e831c5edbe01ba3ad9526940cd3034bdf5663877a603dafc",
+      "matchedSentences": 1,
+      "totalSentences": 31,
+      "segmentsByText": {
+        "네, 좋아요.": ["네,\tko:intj:네", "좋아요.\tko:adj:좋다+ko:e:아요"]
+      }
+    },
+    "ko-a1-l005": {
+      "sourceCommit": "405088e25a11b0f4d05991ae04195b74dab01f22",
+      "dialoguePath": "content_v2/review/lessons/ko-a1-l005-runner/draft/DIALOGUE.md",
+      "dialogueSha256": "9d5d9279817d35297d20c9c0bc1d546a3275ecda99927af81831906d99b76145",
+      "segmentsPath": "content_v2/review/lessons/ko-a1-l005-runner/draft/SEGMENTS.tsv",
+      "segmentsSha256": "7c115563d3bf9dbb30c8725364166d38b3c5c75b9598dc75158a31d7f54de879",
+      "matchedSentences": 16,
+      "totalSentences": 28,
+      "segmentsByText": {
+        "애니 씨, 이 사진 봐요.": ["애니\tko:prop:애니", "씨,\tko:count:씨", "이\tko:det:이", "사진\tko:n:사진", "봐요.\tko:v:보다+ko:e:아요"],
+        "가족 사진이에요? 모두 몇 명이에요?": ["가족\tko:n:가족", "사진이에요?\tko:n:사진+ko:cop:이다+ko:e:에요", "모두\tko:adv:모두", "몇\tko:det:몇", "명이에요?\tko:count:명+ko:cop:이다+ko:e:에요"],
+        "네, 우리 가족이에요. 네 명이에요. 부모님하고 오빠, 저예요.": ["네,\tko:intj:네", "우리\tko:pron:우리", "가족이에요.\tko:n:가족+ko:cop:이다+ko:e:에요", "네\tko:num:넷", "명이에요.\tko:count:명+ko:cop:이다+ko:e:에요", "부모님하고\tko:n:부모님+ko:p:하고", "오빠,\tko:n:오빠", "저예요.\tko:pron:저+ko:cop:이다+ko:e:에요"],
+        "오빠가 있어요?": ["오빠가\tko:n:오빠+ko:p:가", "있어요?\tko:adj:있다+ko:e:어요"],
+        "저도 네 명이에요. 여동생이 한 명 있어요. 이름은 이안이에요.": ["저도\tko:pron:저+ko:p:도", "네\tko:num:넷", "명이에요.\tko:count:명+ko:cop:이다+ko:e:에요", "여동생이\tko:n:여동생+ko:p:이", "한\tko:num:하나", "명\tko:count:명", "있어요.\tko:adj:있다+ko:e:어요", "이름은\tko:n:이름+ko:p:은", "이안이에요.\tko:prop:이안+ko:cop:이다+ko:e:에요"],
+        "이안 씨 사진 있어요?": ["이안\tko:prop:이안", "씨\tko:count:씨", "사진\tko:n:사진", "있어요?\tko:adj:있다+ko:e:어요"],
+        "네, 여기요. 이안은 대학생이에요. 키가 커요.": ["네,\tko:intj:네", "여기요.\tko:pron:여기+ko:p:요", "이안은\tko:prop:이안+ko:p:은", "대학생이에요.\tko:n:대학생+ko:cop:이다+ko:e:에요", "키가\tko:n:키+ko:p:가", "커요.\tko:adj:크다+ko:e:어요"],
+        "네, 제 동생이에요. 저는 키가 작은데…": ["네,\tko:intj:네", "제\tko:pron:저+ko:p:의", "동생이에요.\tko:n:동생+ko:cop:이다+ko:e:에요", "저는\tko:pron:저+ko:p:는", "키가\tko:n:키+ko:p:가", "작은데…\tko:adj:작다+ko:e:은데"],
+        "애니 씨, 오늘은 뭐 먹어요?": ["애니\tko:prop:애니", "씨,\tko:count:씨", "오늘은\tko:n:오늘+ko:p:은", "뭐\tko:pron:뭐", "먹어요?\tko:v:먹다+ko:e:어요"],
+        "김치찌개 주세요. 어, 도현 씨, 그 사진은 뭐예요?": ["김치찌개\tko:n:김치찌개", "주세요.\tko:v:주다+ko:e:세요", "어,\tko:intj:어", "도현\tko:prop:도현", "씨,\tko:count:씨", "그\tko:det:그", "사진은\tko:n:사진+ko:p:은", "뭐예요?\tko:pron:뭐+ko:cop:이다+ko:e:에요"],
+        "우리 가족 사진이에요. 이분이 제 누나예요.": ["우리\tko:pron:우리", "가족\tko:n:가족", "사진이에요.\tko:n:사진+ko:cop:이다+ko:e:에요", "이분이\tko:pron:이분+ko:p:이", "제\tko:pron:저+ko:p:의", "누나예요.\tko:n:누나+ko:cop:이다+ko:e:에요"],
+        "누나가 있어요? 가족은 모두 몇 명이에요?": ["누나가\tko:n:누나+ko:p:가", "있어요?\tko:adj:있다+ko:e:어요", "가족은\tko:n:가족+ko:p:은", "모두\tko:adv:모두", "몇\tko:det:몇", "명이에요?\tko:count:명+ko:cop:이다+ko:e:에요"],
+        "네 명이에요. 부모님하고 누나, 저예요. 부모님하고 누나는 부산에 있어요.": ["네\tko:num:넷", "명이에요.\tko:count:명+ko:cop:이다+ko:e:에요", "부모님하고\tko:n:부모님+ko:p:하고", "누나,\tko:n:누나", "저예요.\tko:pron:저+ko:cop:이다+ko:e:에요", "부모님하고\tko:n:부모님+ko:p:하고", "누나는\tko:n:누나+ko:p:는", "부산에\tko:prop:부산+ko:p:에", "있어요.\tko:adj:있다+ko:e:어요"],
+        "정말요? 누가 와요?": ["정말요?\tko:adv:정말+ko:p:요", "누가\tko:pron:누구+ko:p:가", "와요?\tko:v:오다+ko:e:아요"],
+        "그럼 여기에서 같이 저녁 먹어요. 자리를 예약해 줄게요.": ["그럼\tko:adv:그럼", "여기에서\tko:pron:여기+ko:p:에서", "같이\tko:adv:같이", "저녁\tko:n:저녁", "먹어요.\tko:v:먹다+ko:e:어요", "자리를\tko:n:자리+ko:p:를", "예약해\tko:n:예약+ko:v:하다+ko:e:어", "줄게요.\tko:vx:주다+ko:e:ㄹ게요"],
+        "정말요? 고마워요, 도현 씨!": ["정말요?\tko:adv:정말+ko:p:요", "고마워요,\tko:adj:고맙다+ko:e:어요", "도현\tko:prop:도현", "씨!\tko:count:씨"]
+      }
+    }
+  }
+}

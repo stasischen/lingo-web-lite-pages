@@ -14,6 +14,10 @@
     {
       "path": "content_v2/review/lessons/ko-a1-l002-dry-b/draft/GLOSS.md",
       "sha256": "35145d1bd65baa7a16ffdf4ec366c75a435a3d276774f69486e2095d95f8409c"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l002-dry-b/draft/SEGMENTS.tsv",
+      "sha256": "9d1598da020057a5278e850d22ec1e640bfea9ee33154d18895bfaacf3df509e"
     }
   ],
   "dialogue": [
@@ -27,47 +31,56 @@
         {
           "speaker": "소라",
           "korean": "안녕하세요. 오늘 처음 오셨죠?",
-          "translation": "你好。今天第一次來對吧？"
+          "translation": "你好。今天第一次來對吧？",
+          "segments": ["안녕하세요.\tko:adj:안녕하다+ko:e:세요", "오늘\tko:n:오늘", "처음\tko:adv:처음", "오셨죠?\tko:v:오다+ko:e:시+ko:e:었+ko:e:죠"]
         },
         {
           "speaker": "마이클",
           "korean": "네, 지난 수업에는 못 왔어요.",
-          "translation": "對，上次上課我沒能來。"
+          "translation": "對，上次上課我沒能來。",
+          "segments": ["네,\tko:intj:네", "지난\tko:det:지난", "수업에는\tko:n:수업+ko:p:에+ko:p:는", "못\tko:adv:못", "왔어요.\tko:v:오다+ko:e:았+ko:e:어요"]
         },
         {
           "speaker": "소라",
           "korean": "잘 오셨어요. 이름표를 만들게요. 이름이 뭐예요?",
-          "translation": "歡迎。我來做名牌。請問叫什麼名字？"
+          "translation": "歡迎。我來做名牌。請問叫什麼名字？",
+          "segments": ["잘\tko:adv:잘", "오셨어요.\tko:v:오다+ko:e:시+ko:e:었+ko:e:어요", "이름표를\tko:n:이름표+ko:p:를", "만들게요.\tko:v:만들다+ko:e:ㄹ게요", "이름이\tko:n:이름+ko:p:이", "뭐예요?\tko:pron:뭐+ko:cop:이다+ko:e:에요"]
         },
         {
           "speaker": "마이클",
           "korean": "저는 마이클이에요.",
-          "translation": "我叫麥可。"
+          "translation": "我叫麥可。",
+          "segments": ["저는\tko:pron:저+ko:p:는", "마이클이에요.\tko:prop:마이클+ko:cop:이다+ko:e:에요"]
         },
         {
           "speaker": "소라",
           "korean": "마이클 씨, 직업은 뭐예요?",
-          "translation": "麥可，你的職業是什麼？"
+          "translation": "麥可，你的職業是什麼？",
+          "segments": ["마이클\tko:prop:마이클", "씨,\tko:count:씨", "직업은\tko:n:직업+ko:p:은", "뭐예요?\tko:pron:뭐+ko:cop:이다+ko:e:에요"]
         },
         {
           "speaker": "마이클",
           "korean": "대학원생이에요. 한국 역사를 공부해요.",
-          "translation": "我是研究生。在學韓國歷史。"
+          "translation": "我是研究生。在學韓國歷史。",
+          "segments": ["대학원생이에요.\tko:n:대학원생+ko:cop:이다+ko:e:에요", "한국\tko:prop:한국", "역사를\tko:n:역사+ko:p:를", "공부해요.\tko:n:공부+ko:v:하다+ko:e:어요"]
         },
         {
           "speaker": "소라",
           "korean": "네, 여기 이름하고 직업을 적었어요. 이름표 받으세요.",
-          "translation": "好，這裡寫了名字和職業。請拿名牌。"
+          "translation": "好，這裡寫了名字和職業。請拿名牌。",
+          "segments": ["네,\tko:intj:네", "여기\tko:pron:여기", "이름하고\tko:n:이름+ko:p:하고", "직업을\tko:n:직업+ko:p:을", "적었어요.\tko:v:적다+ko:e:었+ko:e:어요", "이름표\tko:n:이름표", "받으세요.\tko:v:받다+ko:e:으세요"]
         },
         {
           "speaker": "마이클",
           "korean": "감사합니다. 수업은 어디에서 해요?",
-          "translation": "謝謝。在哪裡上課呢？"
+          "translation": "謝謝。在哪裡上課呢？",
+          "segments": ["감사합니다.\tko:intj:감사합니다", "수업은\tko:n:수업+ko:p:은", "어디에서\tko:pron:어디+ko:p:에서", "해요?\tko:v:하다+ko:e:어요"]
         },
         {
           "speaker": "소라",
           "korean": "바로 옆 교실이에요. 같이 가요.",
-          "translation": "就在隔壁教室。一起走吧。"
+          "translation": "就在隔壁教室。一起走吧。",
+          "segments": ["바로\tko:adv:바로", "옆\tko:n:옆", "교실이에요.\tko:n:교실+ko:cop:이다+ko:e:에요", "같이\tko:adv:같이", "가요.\tko:v:가다+ko:e:아요"]
         }
       ]
     },
@@ -81,52 +94,62 @@
         {
           "speaker": "마이클",
           "korean": "두 분은 어떻게 부르면 돼요?",
-          "translation": "兩位我該怎麼稱呼呢？"
+          "translation": "兩位我該怎麼稱呼呢？",
+          "segments": ["두\tko:num:둘", "분은\tko:count:분+ko:p:은", "어떻게\tko:adv:어떻게", "부르면\tko:v:부르다+ko:e:면", "돼요?\tko:v:되다+ko:e:어요"]
         },
         {
           "speaker": "애니",
           "korean": "저는 애니라고 불러 주세요. 애니는 별명이에요.",
-          "translation": "請叫我安妮。安妮是綽號。"
+          "translation": "請叫我安妮。安妮是綽號。",
+          "segments": ["저는\tko:pron:저+ko:p:는", "애니라고\tko:prop:애니+ko:p:라고", "불러\tko:v:부르다+ko:e:어", "주세요.\tko:vx:주다+ko:e:세요", "애니는\tko:prop:애니+ko:p:는", "별명이에요.\tko:n:별명+ko:cop:이다+ko:e:에요"]
         },
         {
           "speaker": "마이클",
           "korean": "아, 그래요? 그럼 애니 씨라고 부를게요.",
-          "translation": "啊，是嗎？那我叫妳安妮。"
+          "translation": "啊，是嗎？那我叫妳安妮。",
+          "segments": ["아,\tko:intj:아", "그래요?\tko:adj:그렇다+ko:e:아요", "그럼\tko:adv:그럼", "애니\tko:prop:애니", "씨라고\tko:count:씨+ko:p:라고", "부를게요.\tko:v:부르다+ko:e:ㄹ게요"]
         },
         {
           "speaker": "애니",
           "korean": "좋아요.",
-          "translation": "好啊。"
+          "translation": "好啊。",
+          "segments": ["좋아요.\tko:adj:좋다+ko:e:아요"]
         },
         {
           "speaker": "유키",
           "korean": "저는 그냥 유키라고 불러 주세요.",
-          "translation": "直接叫我由紀就可以了。"
+          "translation": "直接叫我由紀就可以了。",
+          "segments": ["저는\tko:pron:저+ko:p:는", "그냥\tko:adv:그냥", "유키라고\tko:prop:유키+ko:p:라고", "불러\tko:v:부르다+ko:e:어", "주세요.\tko:vx:주다+ko:e:세요"]
         },
         {
           "speaker": "마이클",
           "korean": "네, 유키 씨. 저는 마이클이라고 불러 주세요.",
-          "translation": "好，由紀。請叫我麥可。"
+          "translation": "好，由紀。請叫我麥可。",
+          "segments": ["네,\tko:intj:네", "유키\tko:prop:유키", "씨.\tko:count:씨", "저는\tko:pron:저+ko:p:는", "마이클이라고\tko:prop:마이클+ko:p:이라고", "불러\tko:v:부르다+ko:e:어", "주세요.\tko:vx:주다+ko:e:세요"]
         },
         {
           "speaker": "유키",
           "korean": "네, 마이클 씨. 오늘 수업 어땠어요?",
-          "translation": "好，麥可。今天上課覺得怎麼樣？"
+          "translation": "好，麥可。今天上課覺得怎麼樣？",
+          "segments": ["네,\tko:intj:네", "마이클\tko:prop:마이클", "씨.\tko:count:씨", "오늘\tko:n:오늘", "수업\tko:n:수업", "어땠어요?\tko:adj:어떻다+ko:e:었+ko:e:어요"]
         },
         {
           "speaker": "마이클",
           "korean": "조금 어려웠어요. 그래도 재미있었어요.",
-          "translation": "有點難。不過滿有趣的。"
+          "translation": "有點難。不過滿有趣的。",
+          "segments": ["조금\tko:adv:조금", "어려웠어요.\tko:adj:어렵다+ko:e:었+ko:e:어요", "그래도\tko:adv:그래도", "재미있었어요.\tko:adj:재미있다+ko:e:었+ko:e:어요"]
         },
         {
           "speaker": "애니",
           "korean": "다음 시간에도 우리 같이 앉아요.",
-          "translation": "下次上課我們也一起坐吧。"
+          "translation": "下次上課我們也一起坐吧。",
+          "segments": ["다음\tko:det:다음", "시간에도\tko:n:시간+ko:p:에+ko:p:도", "우리\tko:pron:우리", "같이\tko:adv:같이", "앉아요.\tko:v:앉다+ko:e:아요"]
         },
         {
           "speaker": "마이클",
           "korean": "좋아요!",
-          "translation": "好啊！"
+          "translation": "好啊！",
+          "segments": ["좋아요!\tko:adj:좋다+ko:e:아요"]
         }
       ]
     },
@@ -140,62 +163,74 @@
         {
           "speaker": "애니",
           "korean": "마이클 씨는 쉬는 날에 뭐 해요?",
-          "translation": "麥可放假的時候都做什麼？"
+          "translation": "麥可放假的時候都做什麼？",
+          "segments": ["마이클\tko:prop:마이클", "씨는\tko:count:씨+ko:p:는", "쉬는\tko:v:쉬다+ko:e:는", "날에\tko:n:날+ko:p:에", "뭐\tko:pron:뭐", "해요?\tko:v:하다+ko:e:어요"]
         },
         {
           "speaker": "마이클",
           "korean": "주로 영화를 봐요.",
-          "translation": "大部分都在看電影。"
+          "translation": "大部分都在看電影。",
+          "segments": ["주로\tko:adv:주로", "영화를\tko:n:영화+ko:p:를", "봐요.\tko:v:보다+ko:e:아요"]
         },
         {
           "speaker": "애니",
           "korean": "영화요? 자주 봐요?",
-          "translation": "看電影啊？常看嗎？"
+          "translation": "看電影啊？常看嗎？",
+          "segments": ["영화요?\tko:n:영화+ko:p:요", "자주\tko:adv:자주", "봐요?\tko:v:보다+ko:e:아요"]
         },
         {
           "speaker": "마이클",
           "korean": "네, 자주 봐요. 애니 씨는요?",
-          "translation": "對，常常看。安妮呢？"
+          "translation": "對，常常看。安妮呢？",
+          "segments": ["네,\tko:intj:네", "자주\tko:adv:자주", "봐요.\tko:v:보다+ko:e:아요", "애니\tko:prop:애니", "씨는요?\tko:count:씨+ko:p:는+ko:p:요"]
         },
         {
           "speaker": "애니",
           "korean": "저는 음악 듣는 걸 좋아해요.",
-          "translation": "我喜歡聽音樂。"
+          "translation": "我喜歡聽音樂。",
+          "segments": ["저는\tko:pron:저+ko:p:는", "음악\tko:n:음악", "듣는\tko:v:듣다+ko:e:는", "걸\tko:n:것+ko:p:을", "좋아해요.\tko:v:좋아하다+ko:e:어요"]
         },
         {
           "speaker": "마이클",
           "korean": "어떤 음악을 좋아해요?",
-          "translation": "喜歡什麼樣的音樂？"
+          "translation": "喜歡什麼樣的音樂？",
+          "segments": ["어떤\tko:det:어떤", "음악을\tko:n:음악+ko:p:을", "좋아해요?\tko:v:좋아하다+ko:e:어요"]
         },
         {
           "speaker": "애니",
           "korean": "한국 노래를 많이 들어요. 유키 씨 취미는 뭐예요?",
-          "translation": "我常聽韓語歌。由紀的興趣是什麼？"
+          "translation": "我常聽韓語歌。由紀的興趣是什麼？",
+          "segments": ["한국\tko:prop:한국", "노래를\tko:n:노래+ko:p:를", "많이\tko:adv:많이", "들어요.\tko:v:듣다+ko:e:어요", "유키\tko:prop:유키", "씨\tko:count:씨", "취미는\tko:n:취미+ko:p:는", "뭐예요?\tko:pron:뭐+ko:cop:이다+ko:e:에요"]
         },
         {
           "speaker": "유키",
           "korean": "저는 여행을 좋아해요. 주말에 가까운 곳에 자주 가요.",
-          "translation": "我喜歡旅行。週末常常去附近的地方。"
+          "translation": "我喜歡旅行。週末常常去附近的地方。",
+          "segments": ["저는\tko:pron:저+ko:p:는", "여행을\tko:n:여행+ko:p:을", "좋아해요.\tko:v:좋아하다+ko:e:어요", "주말에\tko:n:주말+ko:p:에", "가까운\tko:adj:가깝다+ko:e:은", "곳에\tko:n:곳+ko:p:에", "자주\tko:adv:자주", "가요.\tko:v:가다+ko:e:아요"]
         },
         {
           "speaker": "마이클",
           "korean": "그럼 좋은 곳 좀 알려 주세요.",
-          "translation": "那推薦幾個好地方給我吧。"
+          "translation": "那推薦幾個好地方給我吧。",
+          "segments": ["그럼\tko:adv:그럼", "좋은\tko:adj:좋다+ko:e:은", "곳\tko:n:곳", "좀\tko:adv:좀", "알려\tko:v:알리다+ko:e:어", "주세요.\tko:vx:주다+ko:e:세요"]
         },
         {
           "speaker": "유키",
           "korean": "같이 가요. 근처에 예쁜 공원이 있어요.",
-          "translation": "一起去吧。附近有一座很漂亮的公園。"
+          "translation": "一起去吧。附近有一座很漂亮的公園。",
+          "segments": ["같이\tko:adv:같이", "가요.\tko:v:가다+ko:e:아요", "근처에\tko:n:근처+ko:p:에", "예쁜\tko:adj:예쁘다+ko:e:ㄴ", "공원이\tko:n:공원+ko:p:이", "있어요.\tko:v:있다+ko:e:어요"]
         },
         {
           "speaker": "애니",
           "korean": "좋아요. 거기서 같이 음악도 들어요.",
-          "translation": "好啊。在那裡也一起聽音樂吧。"
+          "translation": "好啊。在那裡也一起聽音樂吧。",
+          "segments": ["좋아요.\tko:adj:좋다+ko:e:아요", "거기서\tko:pron:거기+ko:p:서", "같이\tko:adv:같이", "음악도\tko:n:음악+ko:p:도", "들어요.\tko:v:듣다+ko:e:어요"]
         },
         {
           "speaker": "마이클",
           "korean": "네, 이번 주말에 가요!",
-          "translation": "好，這個週末去吧！"
+          "translation": "好，這個週末去吧！",
+          "segments": ["네,\tko:intj:네", "이번\tko:det:이번", "주말에\tko:n:주말+ko:p:에", "가요!\tko:v:가다+ko:e:아요"]
         }
       ]
     }
@@ -235,5 +270,10 @@
       "line": 6,
       "text": "- 本課未採用「나」：三段都是對老師或同學使用禮貌體的交談，且有初次加入的마이클在場，使用「저」較自然；沒有適合自然加入「나」的熟人私下交談或自言自語情境。"
     }
-  ]
+  ],
+  "segmentation": {
+    "status": "available",
+    "sourcePath": "content_v2/review/lessons/ko-a1-l002-dry-b/draft/SEGMENTS.tsv",
+    "sourceSha256": "9d1598da020057a5278e850d22ec1e640bfea9ee33154d18895bfaacf3df509e"
+  }
 }

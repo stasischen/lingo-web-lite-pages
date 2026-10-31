@@ -14,6 +14,10 @@
     {
       "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/GLOSS.md",
       "sha256": "2f880e0066bea1fd95d674d872b1818568a77d5ddf9408dbb19f2725f5a728d4"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/SEGMENTS.tsv",
+      "sha256": "0fef6a861b0d1e662755c16953d953e64532e371ed9b31369d31324b5152a68c"
     }
   ],
   "dialogue": [
@@ -27,22 +31,26 @@
         {
           "speaker": "소라",
           "korean": "안녕하세요? 혹시 천이쥔 씨예요?",
-          "translation": "你好，請問是陳怡君嗎？"
+          "translation": "你好，請問是陳怡君嗎？",
+          "segments": ["안녕하세요?\tko:adj:안녕하다+ko:e:세요", "혹시\tko:adv:혹시", "천이쥔\tko:prop:천이쥔", "씨예요?\tko:count:씨+ko:cop:이다+ko:e:에요"]
         },
         {
           "speaker": "애니",
           "korean": "네, 맞아요. 애니라고 불러 주세요. 안녕하세요?",
-          "translation": "對，沒錯。叫我安妮就好。你好！"
+          "translation": "對，沒錯。叫我安妮就好。你好！",
+          "segments": ["네,\tko:intj:네", "맞아요.\tko:v:맞다+ko:e:아요", "애니라고\tko:prop:애니+ko:p:라고", "불러\tko:v:부르다+ko:e:어", "주세요.\tko:vx:주다+ko:e:세요", "안녕하세요?\tko:adj:안녕하다+ko:e:세요"]
         },
         {
           "speaker": "소라",
           "korean": "반갑습니다, 애니 씨. 저는 한국어 선생님 소라예요. 비가 많이 와요.",
-          "translation": "很高興認識你，安妮。我是韓語老師素拉。雨下得好大。"
+          "translation": "很高興認識你，安妮。我是韓語老師素拉。雨下得好大。",
+          "segments": ["반갑습니다,\tko:adj:반갑다+ko:e:습니다", "애니\tko:prop:애니", "씨.\tko:count:씨", "저는\tko:pron:저+ko:p:는", "한국어\tko:n:한국어", "선생님\tko:n:선생+ko:affix:-님", "소라예요.\tko:prop:소라+ko:cop:이다+ko:e:에요", "비가\tko:n:비+ko:p:가", "많이\tko:adv:많이", "와요.\tko:v:오다+ko:e:아요"]
         },
         {
           "speaker": "애니",
           "korean": "네, 비가 와요. 오늘 잘 부탁드려요!",
-          "translation": "對啊，下雨了。今天請多指教！"
+          "translation": "對啊，下雨了。今天請多指教！",
+          "segments": ["네,\tko:intj:네", "비가\tko:n:비+ko:p:가", "와요.\tko:v:오다+ko:e:아요", "오늘\tko:n:오늘", "잘\tko:adv:잘", "부탁드려요!\tko:v:부탁드리다+ko:e:어요"]
         }
       ]
     },
@@ -56,22 +64,26 @@
         {
           "speaker": "소라",
           "korean": "여러분, 환영해요. 저는 한국어 선생님 소라예요. 한국 사람이에요. 유키 씨 먼저 인사해요.",
-          "translation": "歡迎大家。我是韓語老師素拉，是韓國人。由紀先打招呼吧。"
+          "translation": "歡迎大家。我是韓語老師素拉，是韓國人。由紀先打招呼吧。",
+          "segments": ["여러분,\tko:pron:여러분", "환영해요.\tko:n:환영+ko:v:하다+ko:e:어요", "저는\tko:pron:저+ko:p:는", "한국어\tko:n:한국어", "선생님\tko:n:선생+ko:affix:-님", "소라예요.\tko:prop:소라+ko:cop:이다+ko:e:에요", "한국\tko:prop:한국", "사람이에요.\tko:n:사람+ko:cop:이다+ko:e:에요", "유키\tko:prop:유키", "씨\tko:count:씨", "먼저\tko:adv:먼저", "인사해요.\tko:n:인사+ko:v:하다+ko:e:어요"]
         },
         {
           "speaker": "유키",
           "korean": "네. 안녕하세요? 저는 유키예요. 일본 사람이에요. 병원 간호사예요.",
-          "translation": "好。大家好，我是由紀，是日本人，在醫院當護理師。"
+          "translation": "好。大家好，我是由紀，是日本人，在醫院當護理師。",
+          "segments": ["네.\tko:intj:네", "안녕하세요?\tko:adj:안녕하다+ko:e:세요", "저는\tko:pron:저+ko:p:는", "유키예요.\tko:prop:유키+ko:cop:이다+ko:e:에요", "일본\tko:prop:일본", "사람이에요.\tko:n:사람+ko:cop:이다+ko:e:에요", "병원\tko:n:병원", "간호사예요.\tko:n:간호사+ko:cop:이다+ko:e:에요"]
         },
         {
           "speaker": "소라",
           "korean": "반갑습니다, 유키 씨. 애니 씨는요?",
-          "translation": "很高興認識你，由紀。安妮呢？"
+          "translation": "很高興認識你，由紀。安妮呢？",
+          "segments": ["반갑습니다,\tko:adj:반갑다+ko:e:습니다", "유키\tko:prop:유키", "씨.\tko:count:씨", "애니\tko:prop:애니", "씨는요?\tko:count:씨+ko:p:는+ko:p:요"]
         },
         {
           "speaker": "애니",
           "korean": "안녕하세요? 제 이름은 애니예요. 대만 사람이에요. 저는 회사원이에요.",
-          "translation": "大家好，我的名字是安妮，是台灣人，我是上班族。"
+          "translation": "大家好，我的名字是安妮，是台灣人，我是上班族。",
+          "segments": ["안녕하세요?\tko:adj:안녕하다+ko:e:세요", "제\tko:pron:저+ko:p:의", "이름은\tko:n:이름+ko:p:은", "애니예요.\tko:prop:애니+ko:cop:이다+ko:e:에요", "대만\tko:prop:대만", "사람이에요.\tko:n:사람+ko:cop:이다+ko:e:에요", "저는\tko:pron:저+ko:p:는", "회사원이에요.\tko:n:회사원+ko:cop:이다+ko:e:에요"]
         }
       ]
     },
@@ -85,37 +97,44 @@
         {
           "speaker": "애니",
           "korean": "오늘 수업 재미있었어요, 유키 씨.",
-          "translation": "由紀，今天的課很有趣。"
+          "translation": "由紀，今天的課很有趣。",
+          "segments": ["오늘\tko:n:오늘", "수업\tko:n:수업", "재미있었어요,\tko:adj:재미있다+ko:e:었+ko:e:어요", "유키\tko:prop:유키", "씨.\tko:count:씨"]
         },
         {
           "speaker": "유키",
           "korean": "네, 저도요.",
-          "translation": "對啊，我也覺得。"
+          "translation": "對啊，我也覺得。",
+          "segments": ["네,\tko:intj:네", "저도요.\tko:pron:저+ko:p:도+ko:p:요"]
         },
         {
           "speaker": "애니",
           "korean": "그런데... 유키 씨는 회사원이에요?",
-          "translation": "不過……由紀是上班族嗎？"
+          "translation": "不過……由紀是上班族嗎？",
+          "segments": ["그런데...\tko:adv:그런데", "유키\tko:prop:유키", "씨는\tko:count:씨+ko:p:는", "회사원이에요?\tko:n:회사원+ko:cop:이다+ko:e:에요"]
         },
         {
           "speaker": "유키",
           "korean": "아니요, 저는 간호사예요.",
-          "translation": "不是，我是護理師。"
+          "translation": "不是，我是護理師。",
+          "segments": ["아니요,\tko:intj:아니요", "저는\tko:pron:저+ko:p:는", "간호사예요.\tko:n:간호사+ko:cop:이다+ko:e:에요"]
         },
         {
           "speaker": "애니",
           "korean": "아, 맞아요! 유키 씨는 간호사예요. 제가 깜빡했어요.",
-          "translation": "啊，對耶！由紀是護理師。我一時忘了。"
+          "translation": "啊，對耶！由紀是護理師。我一時忘了。",
+          "segments": ["아,\tko:intj:아", "맞아요!\tko:v:맞다+ko:e:아요", "유키\tko:prop:유키", "씨는\tko:count:씨+ko:p:는", "간호사예요.\tko:n:간호사+ko:cop:이다+ko:e:에요", "제가\tko:pron:저+ko:p:가", "깜빡했어요.\tko:v:깜빡하다+ko:e:였+ko:e:어요"]
         },
         {
           "speaker": "유키",
           "korean": "괜찮아요. 다음 주에 봐요!",
-          "translation": "沒關係，下週見！"
+          "translation": "沒關係，下週見！",
+          "segments": ["괜찮아요.\tko:adj:괜찮다+ko:e:아요", "다음\tko:n:다음", "주에\tko:n:주+ko:p:에", "봐요!\tko:v:보다+ko:e:아요"]
         },
         {
           "speaker": "애니",
           "korean": "네, 다음 주에 봐요!",
-          "translation": "好，下週見！"
+          "translation": "好，下週見！",
+          "segments": ["네,\tko:intj:네", "다음\tko:n:다음", "주에\tko:n:주+ko:p:에", "봐요!\tko:v:보다+ko:e:아요"]
         }
       ]
     }
@@ -150,5 +169,10 @@
       "line": 5,
       "text": "- 話題引入：N은/는（ko.g.topic.aboutness#c01）：D1 소라: 「저는 한국어 선생님 소라예요.」、D2 소라: 「저는 한국어 선생님 소라예요.」、D2 유키: 「저는 유키예요.」、D2 애니: 「제 이름은 애니예요.」「저는 회사원이에요.」、D3 애니: 「유키 씨는 회사원이에요?」、D3 유키: 「저는 간호사예요.」"
     }
-  ]
+  ],
+  "segmentation": {
+    "status": "available",
+    "sourcePath": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/SEGMENTS.tsv",
+    "sourceSha256": "0fef6a861b0d1e662755c16953d953e64532e371ed9b31369d31324b5152a68c"
+  }
 }
