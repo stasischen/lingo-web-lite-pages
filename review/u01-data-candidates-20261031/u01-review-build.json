@@ -7,12 +7,12 @@
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "Verified on the existing WebLite source worktree after this data-only candidate update: npm test passed 72 Vitest and 3 Python tests; npm run lint reported no errors (two existing Fast Refresh warnings); the review-path production build passed. Generated index.html, JS, and CSS hashes exactly match the existing isolated Pages app assets. One stale source-bound lookup test expectation was corrected from 357 to the verified 358 entries. No lesson/model rerun or formal content acceptance is claimed; L2 browser UI was not rechecked because the Mac desktop was locked.",
+  "buildResult": "Verified on the existing WebLite source worktree after this data-only candidate update: npm test passed 72 Vitest and 3 Python tests; npm run lint reported no errors (two existing Fast Refresh warnings); the review-path production build passed. Generated index.html, JS, and CSS hashes exactly match the existing isolated Pages app assets. The source-bound lookup test covers 358 entries; the full isolated preview lookup contains 360 entries, a separate scope. One stale source-bound lookup test expectation was corrected from 357 to the verified 358 entries. No lesson/model rerun or formal content acceptance is claimed.",
   "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
   "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
   "segmentation": "L1 15/15; L2 31/31; exact-source overlays L3 1/44, L4 1/31, L5 16/28; explicit lookup bindings available for recorded L3/L5 terms; unmatched lines remain plain text. Frozen source commits L6-L10 have no matching SEGMENTS.tsv.",
-  "lookupSummary": "360 isolated lookup entries; 15 of the 31 source-missing IDs still have no direct lookup entry. L2 대학원생 (研究生) is included as a provisional review-only candidate; L1 맞다 (正確 only) and L1/L8 candidates remain provisional. The 15 remaining IDs are classified in the manifest/evidence as 3 lexical gaps, 7 content-only names, 2 numeric policy holds, 2 source POS conflicts, and the explicitly excluded 가족분. There are 26 review-only lexical candidate atoms within 32 provisional lookup entries. Source MISSING remains 59 rows / 31 unique IDs; no candidate is labeled formally accepted.",
-  "knownLimitations": "The single recorded L3 cloud synthesis-failed observation was from prior Pages commit 8ff706e and was not retested on this build; its cause remains undetermined. The parent previously verified L1 맞아요 display, but the L2 대학원생 lookup row did not receive a browser UI check in this turn because the desktop was locked. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
+  "lookupSummary": "360 isolated lookup entries; 15 of the 31 source-missing IDs still have no direct lookup entry. L2 대학원생 (研究生) is included as a provisional direct review-only entry; occurrence-level UI mapping remains unverified. There are 26 review-only lexical candidate atoms within 32 provisional lookup entries. The 15 remaining IDs are classified in the manifest/evidence as 3 lexical gaps, 7 content-only names, 2 numeric policy holds, 2 source POS conflicts, and the explicitly excluded 가족분. Source MISSING remains 59 rows / 31 unique IDs; no candidate is labeled formally accepted.",
+  "knownLimitations": "The single recorded L3 cloud synthesis-failed observation was from prior Pages commit 8ff706e and was not retested on this build; its cause remains undetermined. Parent performed one rendered L2 lookup UI check for 대학원생이에요, but the rest of the lessons, speech playback, and full course acceptance were not checked. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
   "filesSha256": {
@@ -135,38 +135,35 @@
       "course content acceptance"
     ]
   },
-  "priorParentCloudUiCheckLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
+  "priorParentCloudUiCheckLookupSha256": "a45dfb8ae546977dd8bb04d2798275cff37b94f6278cad52b3f6f28493a79ae9",
   "dictionaryReviewFollowup": {
     "updatedAt": "2026-11-01",
     "dataOnly": true,
     "webLiteSourceCommit": "a5c081aff4ce10b6768261d008a80f286557e08c",
     "appAssetsUnchanged": true,
     "baseLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
-    "lookupSha256": "630cede7d0f89b9e3db73fb034b0657b22a8fa995c48d285c162eef15e0c4e54",
-    "manifestSha256": "3be29b60be23009a4e0e0f46700b779162408faeb9519c83d28c7c0cc5ec9792",
-    "evidenceSha256": "a1fbf77880b7e4e9695eb63417fef98bdef72aa71da0173a1fa305147321b2ba",
+    "lookupSha256": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
+    "manifestSha256": "46ea6ef9f5876252cb4c3c50c0f3a41e6214478f8cae55422f5d06854f321bbc",
+    "evidenceSha256": "0a0ae0c011ed2387a01e367290a7c8dd778350d0b44866af58a3556ae1cb86aa",
     "counts": {
-      "baseEntries": 342,
-      "finalEntries": 358,
       "sourceMissingRows": 59,
       "sourceMissingUniqueAtomIds": 31,
-      "baseUniqueGapIds": 33,
-      "finalUniqueGapIds": 17,
-      "baseProvisionalEntries": 19,
-      "finalProvisionalEntries": 30,
-      "reviewOnlyCandidateAtomIds": 24,
-      "newReviewOnlyCandidateEntries": 13,
-      "reviewedCandidateFileItems": 28,
+      "baseUniqueLookupGapIds": 33,
+      "finalSourceMissingIdsWithoutEntry": 15,
+      "finalUniqueLookupGapIds": 15,
+      "baseLookupEntries": 342,
+      "finalLookupEntries": 360,
+      "baseProvisionalEntryIds": 19,
+      "finalProvisionalEntryIds": 32,
+      "newApprovedRuntimeOrExtensionEntries": 3,
+      "reviewOnlyCandidateAtomIds": 26,
+      "newReviewOnlyCandidateEntries": 15,
+      "reviewedCandidateFileItems": 30,
       "castOnlyNameRecords": 5,
-      "newApprovedRuntimeEntries": 3,
-      "l2LessonScopedProvisionalBindings": 1
+      "additionalReviewReceiptItems": 17
     },
     "remainingUniqueGapIds": [
-      "ko:adj:맞다",
-      "ko:adv:처음",
-      "ko:n:가족분",
       "ko:n:것",
-      "ko:n:대학원생",
       "ko:n:라테",
       "ko:n:분",
       "ko:prop:도현",
@@ -174,11 +171,13 @@
       "ko:prop:소라",
       "ko:prop:애니",
       "ko:prop:유키",
-      "ko:prop:이안",
       "ko:prop:천이쥔",
-      "ko:v:있다",
+      "ko:prop:이안",
       "ko:xnum:3",
-      "ko:xnum:4"
+      "ko:xnum:4",
+      "ko:adv:처음",
+      "ko:v:있다",
+      "ko:n:가족분"
     ],
     "castOnlyNameIds": [
       "ko:prop:소라",
@@ -193,9 +192,9 @@
       "resultId": "6545323498",
       "scope": "review-only preview of 팔천 as a price-context compositional value; 이안 as CAST/CONFIG-only name"
     },
-    "candidateDisposition": "L1 깜빡하다/간호사/환영 and L8 맞은편/부엌/필요 are limited review-only candidates and remain provisional. L1 맞다 stays excluded pending owner convergence; its current review supports only 正確, not 符合. L1 names are CAST-only. L2 occurrence mapping remains provisional. L9/L10 retain their exact limited scopes. No formal dictionary adoption, course acceptance, or production publication.",
+    "candidateDisposition": "L1 깜빡하다/간호사/환영 and L8 맞은편/부엌/필요 are limited review-only candidates and remain provisional. L1 맞다 stays excluded pending owner convergence; its current review supports only 正確, not 符合. L1 names are CAST-only. L2 ko:n:대학원생 is included as a direct provisional lookup entry. Parent rendered UI check confirmed the 대학원생이에요 lookup link and three-part decomposition for this occurrence only; lesson/binding acceptance remains pending. L2 ko:adv:처음 source POS and binding remain provisional. L9/L10 retain their exact limited scopes. No formal dictionary adoption, course acceptance, or production publication.",
     "dataSourceBranch": "luna/ko-a1-u01-web-review-20261027",
-    "dataSourceCommit": "9b18a8e6af7f61ef8c159df8a9f5e37e4d2f4a37",
+    "dataSourceCommit": "2bac13e18bebe27613ae2c883858b87c12373272",
     "lessonScopedPreviewMappingApprovedSourceAtomIds": [
       "ko:adv:처음"
     ],
@@ -281,12 +280,51 @@
         "The shared intake parser returned a coverage-format error; the original PR1 result JSON identity and body were read directly. No resend or parser polling.",
         "No course acceptance, formal dictionary promotion, runtime/index update, or release approval."
       ]
+    },
+    "priorCheckpoint": {
+      "lookupSha256": "a45dfb8ae546977dd8bb04d2798275cff37b94f6278cad52b3f6f28493a79ae9",
+      "counts": {
+        "baseEntries": 342,
+        "finalEntries": 358,
+        "sourceMissingRows": 59,
+        "sourceMissingUniqueAtomIds": 31,
+        "baseUniqueGapIds": 33,
+        "finalUniqueGapIds": 17,
+        "baseProvisionalEntries": 19,
+        "finalProvisionalEntries": 30,
+        "reviewOnlyCandidateAtomIds": 24,
+        "newReviewOnlyCandidateEntries": 13,
+        "reviewedCandidateFileItems": 28,
+        "castOnlyNameRecords": 5,
+        "newApprovedRuntimeEntries": 3,
+        "l2LessonScopedProvisionalBindings": 1
+      },
+      "note": "Historical checkpoint before the L2 대학원생 direct provisional entry was added; 358 is not the current full preview lookup count."
+    },
+    "l2OccurrenceUiMappingStatus": {
+      "status": "parent rendered UI check passed for the 대학원생이에요 lookup occurrence",
+      "lookupEntryIncluded": true,
+      "renderedEntry": "대학원생 / n · ko:n:대학원생 / 研究生",
+      "renderedDecomposition": "詞語拆解 · 3 個詞典部件: 대학원생, 이다, 에요",
+      "visibleSource": "草稿同版 SEGMENTS.tsv",
+      "previewEntryState": "provisional",
+      "scope": "This confirms this one occurrence's lookup link and decomposition display only; it does not accept the lesson, other occurrences, the course, or the candidate into the official dictionary."
     }
   },
   "parentCloudUiCheckAfterDictionaryUpdate": {
-    "status": "public JSON and lookup helper verified; user preview review pending",
-    "lookupSha256": "a45dfb8ae546977dd8bb04d2798275cff37b94f6278cad52b3f6f28493a79ae9",
-    "scope": "The L2 target entry resolves in the published lookup through a provisional lesson binding. Dot reviewed the candidate term only; inspect the L2 occurrence in the isolated preview for mapping acceptance. Browser automation was unavailable because the desktop was locked."
+    "checkedAt": "2026-11-01",
+    "status": "passed for one rendered L2 lookup occurrence; user/course acceptance remains pending",
+    "lookupSha256": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
+    "lesson": "L2",
+    "surface": "대학원생이에요",
+    "action": "Clicked 查詢詞語 대학원생이에요",
+    "result": "Visible: 詞語拆解 · 3 個詞典部件; 대학원생 / n · ko:n:대학원생 / 研究生, followed by 이다 and 에요. Screen identified the draft's same-version SEGMENTS.tsv; the entry remained provisional.",
+    "scope": "Confirms only this L2 lookup link and decomposition in the rendered preview. It does not verify the rest of L2, other lessons, speech playback, overall content acceptance, or official dictionary adoption.",
+    "priorCheckpoint": {
+      "lookupSha256": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
+      "scope": "The L2 dictionary lookup includes ko:n:대학원생 as a provisional direct entry. This confirms published data only. It does not confirm the rendered occurrence-to-entry mapping; Dot reviewed the candidate term, not WebLite UI or binding acceptance.",
+      "status": "Published isolated JSON lookup data and helper verified; L2 occurrence UI mapping not visually verified; user preview review pending."
+    }
   },
   "l5C10TranslationReview": {
     "status": "Dot-approved, review-only candidate outputs",
