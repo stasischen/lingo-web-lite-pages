@@ -600,7 +600,7 @@
   "dictionaryReviewFollowup": {
     "updatedAt": "2026-11-01",
     "scope": "Isolated U01 WebLite lookup and draft lookup UI only; official runtime dictionary, source lessons, and formal adoption status unchanged.",
-    "candidateDisposition": "Limited Dot approval received for L3 coffee 라테 and honorific 분 in the stated lesson contexts; both remain provisional and review-only. No formal dictionary/runtime adoption, lesson acceptance, PR approval, merge, or release approval.",
+    "candidateDisposition": "Dot result #6547574410 returned limited approval only for L3 coffee ko:n:라테 and honorific ko:n:분 in their stated lesson contexts; both remain provisional isolated-preview entries. ko:n:것 remains held under RCA_04A. No formal dictionary/runtime adoption, lesson acceptance, PR approval, merge, or release approval.",
     "baseLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
     "counts": {
       "sourceMissingRows": 59,
@@ -2078,8 +2078,8 @@
         "sourceAdoption": "not adopted",
         "previewEntry": "provisional isolated lookup entry",
         "dotReview": "Limited approval received for the specified candidate wording/context; provisional only; result #6547574410.",
-        "actualUiValidation": "not performed",
-        "uiValidation": "Pending published exact-token UI check."
+        "actualUiValidation": "Performed on published interactive bundle commit cd9a74830d2d503761cd1b30adafe62d0b6d190a (Pages run 41233801958); see uiValidation for exact-token results. Metadata-only record revision d20ecdc51345d8e10a088b07d06da6e7bade2056 (run 41234401746) did not change the tested bundle.",
+        "uiValidation": "Passed on published interactive bundle commit cd9a74830d2d503761cd1b30adafe62d0b6d190a (Pages run 41233801958): clicking the exact L3 라테 token opened the lookup panel, displayed the 暫存 label, and showed 拿鐵（咖啡）. The later metadata-only Pages commit d20ecdc51345d8e10a088b07d06da6e7bade2056 (run 41234401746) recorded this result without changing the tested bundle. Candidate remains provisional; no formal adoption."
       },
       {
         "atomId": "ko:n:분",
@@ -2087,9 +2087,9 @@
         "sourceAdoption": "not adopted",
         "previewEntry": "provisional isolated lookup entry",
         "dotReview": "Limited approval received for the specified candidate wording/context; provisional only; result #6547574410.",
-        "actualUiValidation": "not performed",
+        "actualUiValidation": "Performed on published interactive bundle commit cd9a74830d2d503761cd1b30adafe62d0b6d190a (Pages run 41233801958); see uiValidation for exact-token results. Metadata-only record revision d20ecdc51345d8e10a088b07d06da6e7bade2056 (run 41234401746) did not change the tested bundle.",
         "countSense": "ko:count:분 remains separate and approved",
-        "uiValidation": "Pending published exact-token UI check."
+        "uiValidation": "Passed on published interactive bundle commit cd9a74830d2d503761cd1b30adafe62d0b6d190a (Pages run 41233801958): clicking the exact L3 분 token displayed 暫存 and 位（對人的敬稱）; the L9 분이에요 sample showed provisional 분 separated from 이다/에요. The later metadata-only Pages commit d20ecdc51345d8e10a088b07d06da6e7bade2056 (run 41234401746) recorded this result without changing the tested bundle. Candidate remains provisional; count sense ko:count:분 is separate."
       },
       {
         "atomId": "ko:n:것",

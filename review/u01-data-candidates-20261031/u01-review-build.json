@@ -7,11 +7,11 @@
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "Review-path production build passed on WebLite app commit 1d830a0fe3b4fa1c297461dcf30a421c742dfce7 (TypeScript check + Vite production build using the requested VITE_BASE_PATH). npm test passed: 15 Vitest files / 72 tests and 3 Python sync tests. Published Pages bundle commit cd9a74830d2d503761cd1b30adafe62d0b6d190a deployed successfully in run 41233801958; public HTTPS readback verified all 86 packaged files against this build metadata. Chromium production-browser UI check passed all ten course routes and representative dictionary/CAST/missing-entry lookups; no page errors or failed requests. Parent cloud user also manually confirmed L2 안녕하세요 opens the same-revision SEGMENTS breakdown (안녕하다/세요) with glosses.",
+  "buildResult": "Review-path production build passed on WebLite app commit 1d830a0fe3b4fa1c297461dcf30a421c742dfce7 (TypeScript check + Vite production build using the requested VITE_BASE_PATH). npm test passed: 15 Vitest files / 72 tests and 3 Python sync tests. Published Pages bundle commit cd9a74830d2d503761cd1b30adafe62d0b6d190a deployed successfully in run 41233801958; public HTTPS readback verified all 86 packaged files against this build metadata. Chromium production-browser UI check passed all ten course routes and representative dictionary/CAST/missing-entry lookups; no page errors or failed requests. Parent cloud user also manually confirmed L2 안녕하세요 opens the same-revision SEGMENTS breakdown (안녕하다/세요) with glosses. The tested interactive bundle is commit cd9a74830d2d503761cd1b30adafe62d0b6d190a (run 41233801958); metadata-only revision d20ecdc51345d8e10a088b07d06da6e7bade2056 (run 41234401746) records the check without changing the bundle. Source QA/evidence lifecycle correction is commit 8cfaa680ff2303d923ef849c3f103fbb3ee37d57.",
   "candidatePacketCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
   "candidateManifestSha256": "f475379c75e4fb7502d304178e4406e00f3fc757b75bbc19d7f5dd02c24b717e",
   "segmentation": "Exact-source SEGMENTS overlays are fully matched across all ten lessons: L1 15/15; L2 31/31; L3 44/44; L4 32/32; L5 26/26; L6 28/28; L7 16/16; L8 23/23; L9 29/29; L10 29/29. For every lesson, overlay sourceCommit equals lesson.head, dialogueSha256 matches the named dialogue sourceFiles record, and segmentsSha256 matches lesson.segmentation.sourceSha256; matchedSentences equals totalSentences. The overlays contain 273 matched sentence occurrences and 271 per-lesson unique segmentsByText keys; L3 and L9 each repeat one text surface. The 793 count is multi-atom token rows across those unique per-lesson maps, not a sentence count. Existing loader attaches an overlay only when source commit and dialogue hash match; renderDraftText validates tab-separated nonempty surface/atomId tokens and normalized joined surfaces against the exact sentence text. Valid word surfaces render as lookup buttons (trailing punctuation remains text), using lesson binding lemma/atomId/state when present and SEGMENTS values otherwise. This is a data and code-path check, not a ten-lesson interactive UI acceptance.",
-  "lookupSummary": "Isolated Pages lookup: 401 entries / 34 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 applies only to the stated contexts; both remain provisional. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences already use active core dictionary rows. Fixed CAST display is separate: 23 lesson-scoped records cover 44 button occurrences only where the exact frozen row has a character ID and zh_tw name; no dictionary entries are created. Data path resolves 1,172/1,260 dictionary buttons; CAST displays another 44; 44 remain without exact dictionary/eligible CAST (것×4, L1 CAST lacking ID×11, 천이쥔×1, xnum×2, 있다 POS conflict×25, 가족분×1). L2 ko:n:곳 is now approved and uses the exact core dictionary row through the approved-binding fallback. The data and renderer paths each resolve 1,172/1,260. 13 source-MISSING IDs still have no direct preview entry; new published UI validation is pending.",
+  "lookupSummary": "Isolated Pages lookup: 401 entries / 34 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 applies only to the stated contexts; both remain provisional. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences already use active core dictionary rows. Fixed CAST display is separate: 23 lesson-scoped records cover 44 button occurrences only where the exact frozen row has a character ID and zh_tw name; no dictionary entries are created. Data path resolves 1,172/1,260 dictionary buttons; CAST displays another 44; 44 remain without exact dictionary/eligible CAST (것×4, L1 CAST lacking ID×11, 천이쥔×1, xnum×2, 있다 POS conflict×25, 가족분×1). L2 ko:n:곳 is now approved and uses the exact core dictionary row through the approved-binding fallback. The data and renderer paths each resolve 1,172/1,260. 13 source-MISSING IDs still have no direct preview entry. Candidate UI was checked on interactive bundle commit cd9a74830d2d503761cd1b30adafe62d0b6d190a (run 41233801958); subsequent metadata-only Pages revision d20ecdc51345d8e10a088b07d06da6e7bade2056 (run 41234401746) records that result and does not change the tested bundle.",
   "knownLimitations": "The earlier L3 cloud synthesis-failed observation remains undiagnosed. The prior parent L2 click for 대학원생이에요 was on an earlier bundle. Current public bundle has passed ten-course DOM/button and sample lookup validation. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
@@ -80,7 +80,7 @@
     "content/ko/drafts/lookup.json": "d769813232b142d2b7a730ac9aeb8376648bc110d673eaf72a456242ca23a1ba",
     "content/ko/drafts/manifest.json": "f475379c75e4fb7502d304178e4406e00f3fc757b75bbc19d7f5dd02c24b717e",
     "content/ko/drafts/segment-overlays.json": "ff9c28ef249297b88b4e5f0af3a9d16aea623b15ba3ca8323d8439f715d95d89",
-    "content/ko/drafts/u01-review-evidence.json": "1aa3b128e5124b9ebdeedb793be245fb3a5f7ce436bbcab6bb79e0097dee3258",
+    "content/ko/drafts/u01-review-evidence.json": "25177fb587cdf31cbcede6ac07c334e30d016c0cd52dd468483991663966a0f2",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l001.json": "a2e0eb8298275319c234a9dc6bc1684361a060e644771d67a19354b07d97ecc0",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l002.json": "1f49382dca77c72dcf02f072c3fb2bfa921bde08d24aca26ef5089cb9c66455c",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l003.json": "801b544e2fd83ca4a89f51e637fe220b033060cad6d01fbc563b5a3fa9206d44",
@@ -187,7 +187,7 @@
       "resultId": "6545323498",
       "scope": "review-only preview of 팔천 as a price-context compositional value; 이안 as CAST/CONFIG-only name"
     },
-    "candidateDisposition": "L3 ko:n:라테 and honorific ko:n:분 are provisional isolated-preview candidates with Dot limited review sent, result pending. ko:n:것 remains held under RCA_04A. No formal dictionary/runtime adoption or lesson acceptance.",
+    "candidateDisposition": "Dot result #6547574410 returned limited approval only for L3 coffee ko:n:라테 and honorific ko:n:분 in their stated lesson contexts; both remain provisional isolated-preview entries. ko:n:것 remains held under RCA_04A. No formal dictionary/runtime adoption or lesson acceptance.",
     "dataSourceBranch": "luna/ko-a1-u01-web-review-20261027",
     "dataSourceCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
     "lessonScopedPreviewMappingApprovedSourceAtomIds": [
@@ -308,7 +308,10 @@
     "candidateReceiptCommit": "40a4e1036525329a3cd2cd3d42c45761c3b8eb6b",
     "dotReviewResultCommentId": "6547574410",
     "dotReviewResultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547574410",
-    "dotReviewStatus": "limited approval received; candidates remain provisional"
+    "dotReviewStatus": "limited approval received; candidates remain provisional",
+    "sourceQaCommit": "8cfaa680ff2303d923ef849c3f103fbb3ee37d57",
+    "sourceLifecycleEvidencePath": "public/content/ko/drafts/u01-review-evidence.json",
+    "sourceLifecycleEvidenceSha256": "184ad28da14103e1aab9bdc5778b082c5f0c76254cbc1eb9eb62c189b0c69262"
   },
   "parentCloudUiCheckAfterDictionaryUpdate": {
     "checkedAt": "2026-11-01",
@@ -425,7 +428,7 @@
     ],
     "allPreviewEntriesProvisional": true,
     "sourceAdoption": "not adopted",
-    "uiValidation": "Passed on published bundle: L3 라테 and honorific 분 are each labelled 暫存 with the intended gloss; L9 분이에요 shows the same provisional honorific component split from copula/ending. Candidates remain provisional.",
+    "uiValidation": "Passed on interactive bundle commit cd9a74830d2d503761cd1b30adafe62d0b6d190a (run 41233801958): exact L3 라테 and 분 clicks show 暫存 and intended glosses; L9 분이에요 separates the provisional honorific component from 이다/에요. Metadata-only record revision d20ecdc51345d8e10a088b07d06da6e7bade2056 (run 41234401746) did not alter the tested bundle. Candidates remain provisional.",
     "excluded": {
       "ko:n:것": "RCA_04A hold; request not sent",
       "ko:count:분": "unchanged count atom; distinct from honorific ko:n:분"
@@ -442,7 +445,7 @@
     "oneWordTokenClickPerLesson": "10/10 opened lookup panel",
     "domButtonsByLesson": "L1=86, L2=149, L3=156, L4=161, L5=156, L6=114, L7=56, L8=118, L9=128, L10=136; total=1260",
     "firstTokenObservations": "L7 마이클 and L9 자 had no entry; other lesson first tokens showed gloss/decomposition",
-    "newCandidateUiValidation": "not performed"
+    "newCandidateUiValidation": "Not performed at this pre-candidate checkpoint; superseded by latestU01IntegrationUpdate.publishedUiValidation."
   },
   "rendererPathMissing": {
     "lesson": "L2",
@@ -473,8 +476,20 @@
       "pageErrors": 0,
       "failedRequests": 0,
       "scope": "Technical data loading, button counts, and representative lookup rendering only. This does not claim that all lesson content is complete, officially adopted, or user-accepted.",
-      "additionalParentUiObservation": "Parent cloud user manually clicked L2 안녕하세요 on the public preview; the dialog showed two same-revision SEGMENTS components (안녕하다 / 세요) with glosses. This is one additional representative sample."
+      "additionalParentUiObservation": "Parent cloud user manually clicked L2 안녕하세요 on the public preview after metadata-only Pages commit d20ecdc51345d8e10a088b07d06da6e7bade2056 (run 41234401746); the underlying interactive bundle was cd9a74830d2d503761cd1b30adafe62d0b6d190a (run 41233801958). The dialog showed two same-revision SEGMENTS components (안녕하다 / 세요) with glosses.",
+      "testedBundleCommit": "cd9a74830d2d503761cd1b30adafe62d0b6d190a",
+      "testedBundleDeploymentRun": "41233801958",
+      "metadataOnlyPagesCommitAtValidation": "d20ecdc51345d8e10a088b07d06da6e7bade2056",
+      "metadataOnlyPagesDeploymentRunAtValidation": "41234401746"
     },
-    "qaCommit": "8a0f0a704"
+    "qaCommit": "8cfaa680ff2303d923ef849c3f103fbb3ee37d57",
+    "sourceLifecycleEvidence": {
+      "sourceCommit": "8cfaa680ff2303d923ef849c3f103fbb3ee37d57",
+      "sourcePath": "public/content/ko/drafts/u01-review-evidence.json",
+      "sourceSha256": "184ad28da14103e1aab9bdc5778b082c5f0c76254cbc1eb9eb62c189b0c69262",
+      "pagesCopyPath": "content/ko/drafts/u01-review-evidence.json",
+      "candidateLifecycleFieldsMatch": true,
+      "note": "The Pages evidence also contains Pages-specific records; the candidateLifecycle outcome and UI validation are mirrored from the source evidence."
+    }
   }
 }
