@@ -11,7 +11,7 @@
   "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
   "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
   "segmentation": "L1 15/15; L2 31/31; exact-source overlays L3 1/44, L4 1/31, L5 16/28; explicit lookup bindings available for recorded L3/L5 terms; unmatched lines remain plain text. Frozen source commits L6-L10 have no matching SEGMENTS.tsv.",
-  "lookupSummary": "360 isolated lookup entries; 15 of the 31 source-missing IDs still have no direct lookup entry. L2 대학원생 (研究生) is included as a provisional direct review-only entry; occurrence-level UI mapping remains unverified. There are 26 review-only lexical candidate atoms within 32 provisional lookup entries. The 15 remaining IDs are classified in the manifest/evidence as 3 lexical gaps, 7 content-only names, 2 numeric policy holds, 2 source POS conflicts, and the explicitly excluded 가족분. Source MISSING remains 59 rows / 31 unique IDs; no candidate is labeled formally accepted.",
+  "lookupSummary": "360 isolated lookup entries; 15 of the 31 source-missing IDs still have no direct lookup entry. L2 대학원생 (研究生) is included as a provisional direct review-only entry. Parent rendered UI check confirms the 대학원생이에요 lookup link and three-part decomposition for this one occurrence; other occurrences, lessons, speech playback, and overall acceptance remain unverified. There are 26 review-only lexical candidate atoms within 32 provisional lookup entries. The 15 remaining IDs are classified in the manifest/evidence as 3 lexical gaps, 7 content-only names, 2 numeric policy holds, 2 source POS conflicts, and the explicitly excluded 가족분. Source MISSING remains 59 rows / 31 unique IDs; no candidate is labeled formally accepted.",
   "knownLimitations": "The single recorded L3 cloud synthesis-failed observation was from prior Pages commit 8ff706e and was not retested on this build; its cause remains undetermined. Parent performed one rendered L2 lookup UI check for 대학원생이에요, but the rest of the lessons, speech playback, and full course acceptance were not checked. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
@@ -313,18 +313,13 @@
   },
   "parentCloudUiCheckAfterDictionaryUpdate": {
     "checkedAt": "2026-11-01",
-    "status": "passed for one rendered L2 lookup occurrence; user/course acceptance remains pending",
+    "status": "passed for one rendered L2 lookup occurrence; other lesson content and user/course acceptance remain pending",
     "lookupSha256": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
     "lesson": "L2",
     "surface": "대학원생이에요",
     "action": "Clicked 查詢詞語 대학원생이에요",
     "result": "Visible: 詞語拆解 · 3 個詞典部件; 대학원생 / n · ko:n:대학원생 / 研究生, followed by 이다 and 에요. Screen identified the draft's same-version SEGMENTS.tsv; the entry remained provisional.",
-    "scope": "Confirms only this L2 lookup link and decomposition in the rendered preview. It does not verify the rest of L2, other lessons, speech playback, overall content acceptance, or official dictionary adoption.",
-    "priorCheckpoint": {
-      "lookupSha256": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
-      "scope": "The L2 dictionary lookup includes ko:n:대학원생 as a provisional direct entry. This confirms published data only. It does not confirm the rendered occurrence-to-entry mapping; Dot reviewed the candidate term, not WebLite UI or binding acceptance.",
-      "status": "Published isolated JSON lookup data and helper verified; L2 occurrence UI mapping not visually verified; user preview review pending."
-    }
+    "scope": "Confirms only this L2 lookup link and decomposition in the rendered preview. It does not verify the rest of L2, other lessons, speech playback, overall content acceptance, or official dictionary adoption."
   },
   "l5C10TranslationReview": {
     "status": "Dot-approved, review-only candidate outputs",
@@ -403,5 +398,15 @@
     "dotPerItemApproval": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546028468",
     "dotFollowup": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546267957",
     "reviewScope": "single candidate row only; no 마이클 dictionary entry; provisional isolated preview only"
-  }
+  },
+  "parentCloudUiCheckHistory": [
+    {
+      "phase": "historical pre-parent-rendered-check checkpoint",
+      "checkedAt": "2026-11-01, before the parent UI check",
+      "lookupSha256": "f2261747355abd61c42d420d31a6d1c7d138e18f2c5ec4f68fc795d7ea1610ba",
+      "status": "At that time, only published JSON and helper were verified; the L2 occurrence UI check had not yet been performed.",
+      "supersededBy": "parentCloudUiCheckAfterDictionaryUpdate",
+      "note": "The lookup SHA is the same as the current check because the UI verification updated only evidence metadata; this history record is chronological, not a current failure."
+    }
+  ]
 }
