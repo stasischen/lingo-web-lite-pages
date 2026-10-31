@@ -1,31 +1,76 @@
 {
   "id": "ko-a1-l003",
   "level": 3,
-  "title": "寄送明信片、買飲料與幫忙搬箱子 · 未合併草稿候選 @1c1eee9d",
+  "title": "家鄉與特色",
   "status": "draft",
-  "head": "62f34b370a86f10ee9d4a51053ee0e6c7bdc842c",
-  "branch": "luna/ko-a1-l003-runner-20261026",
+  "head": "0bf77bfb4689f86556dae652b6385f31998d5791",
+  "branch": "luna/ko-a1-l003-data-20261028",
   "sourceRepo": "stasischen/content-ko",
+  "sourceCardState": "review",
+  "pr": 187,
+  "prStatus": "open_draft",
+  "description": "安妮在韓國郵局寄明信片，在職員協助下填寫寄件資料並完成付款。",
+  "candidateDisposition": "unaccepted-unpublished",
   "sourceFiles": [
     {
-      "path": "content_v2/review/lessons/ko-a1-l003-runner/draft/DIALOGUE.md",
-      "sha256": "064bab49679fa899b3906451de2c6f25de2551f671330828a8d55a10f8036b20"
+      "path": "content_v2/review/lessons/ko-a1-l003-data/core/lesson.json",
+      "sha256": "c7e5790005a3f0ef9d857d161b6064e341312c36450ba74ffb678f0db789d9e3"
     },
     {
-      "path": "content_v2/review/lessons/ko-a1-l003-runner/draft/GLOSS.md",
-      "sha256": "457ef984d5581213750ada9f13f3676b29f1eb6f26153a60bd60a54556399c3f"
+      "path": "content_v2/review/lessons/ko-a1-l003-data/core/sentences.json",
+      "sha256": "08e0c1605fb97da32b69f47a974685a39e38864d3fdc6496a120d1a215bac80e"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l003-data/draft/i18n/zh_tw/lesson.json",
+      "sha256": "2c21431c909c35eade0719ca8e9da3c098961c86bb991d1c1526a38bdb743812"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l003-data/draft/i18n/zh_tw/sentences.json",
+      "sha256": "3df19fde4e78cbf3a1e7650520412bf9964b5c0208f960efe5266e771f109b61"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l003-data/draft/DIALOGUE.md",
+      "sha256": "f5789d7f7445595060d5cb949e34a65171eb0b39f9a031e4fd5f4a227acd483f"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l003-data/draft/CAST.tsv",
+      "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l003-data/draft/SEGMENTS.tsv",
+      "sha256": "880d8f90cc999c2fafa257174530802b46f4c4e8d107ce3fdd773a459059fb3f"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l003-data/draft/MISSING_ENTRIES.tsv",
+      "sha256": "3ac8b3412b86ed7bdc402f42b7f9ff8afaf1e7eadddcbd16661760f91265ad65"
     }
+  ],
+  "segmentation": {
+    "status": "available",
+    "sourcePath": "content_v2/review/lessons/ko-a1-l003-data/draft/SEGMENTS.tsv",
+    "sourceSha256": "880d8f90cc999c2fafa257174530802b46f4c4e8d107ce3fdd773a459059fb3f",
+    "matchedSentences": 44,
+    "totalSentences": 44
+  },
+  "missingDictionaryAtomIds": [
+    "ko:n:것",
+    "ko:n:라테",
+    "ko:n:분",
+    "ko:prop:도현",
+    "ko:prop:애니",
+    "ko:xnum:3",
+    "ko:xnum:4"
   ],
   "dialogue": [
     {
-      "id": "D1",
-      "title": "D1",
-      "location": "未拆分",
-      "context": "非假日週五上午 10:00，애니第一次到韓國郵局寄明信片。",
+      "id": "scene.d1",
+      "title": "D1 · 非假日週五上午十點，애니第一次到韓國郵局寄明信片。",
+      "location": "非假日週五上午十點，애니第一次到韓國郵局寄明信片。",
+      "context": "安妮在韓國郵局寄明信片，在職員協助下填寫寄件資料並完成付款。",
       "purpose": "애니在職員協助下填好寄件資料，選擇航空郵件並完成付款。",
       "turns": [
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "이 엽서요.",
           "translation": "我要寄這張明信片。"
         },
@@ -35,9 +80,9 @@
           "translation": "請問要寄到哪裡？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "대만으로요.",
-          "translation": "台灣。"
+          "translation": "寄到台灣。"
         },
         {
           "speaker": "郵局職員",
@@ -45,9 +90,9 @@
           "translation": "請把收件人的姓名和地址寫在這裡。"
         },
         {
-          "speaker": "애니",
-          "korean": "여기에요?",
-          "translation": "這裡嗎？"
+          "speaker": "安妮",
+          "korean": "여기요?",
+          "translation": "寫在這裡嗎？"
         },
         {
           "speaker": "郵局職員",
@@ -55,17 +100,17 @@
           "translation": "對，寄件人的姓名和地址請寫在這邊。"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "다 썼어요.",
           "translation": "寫好了。"
         },
         {
           "speaker": "郵局職員",
           "korean": "항공편으로 보내실 거예요, 배편으로 보내실 거예요? 항공편이 더 빨라요.",
-          "translation": "請問要寄航空還是海運？航空會比較快。"
+          "translation": "請問要寄航空還是海運？航空比較快。"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "항공편으로요.",
           "translation": "寄航空。"
         },
@@ -75,7 +120,7 @@
           "translation": "好的，費用是一千韓元。"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "카드요.",
           "translation": "我要刷卡。"
         },
@@ -85,7 +130,7 @@
           "translation": "請把卡片插在這裡。"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "됐어요?",
           "translation": "這樣好了嗎？"
         },
@@ -95,17 +140,17 @@
           "translation": "好了，這是您的收據。"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "감사합니다.",
           "translation": "謝謝。"
         }
       ]
     },
     {
-      "id": "D2",
-      "title": "D2",
-      "location": "未拆分",
-      "context": "中心旁的咖啡館，下課後，유키和마이클一起買飲料。",
+      "id": "scene.d2",
+      "title": "D2 · 中心旁的咖啡館，下課後，유키和마이클一起買飲料。",
+      "location": "中心旁的咖啡館，下課後，유키和마이클一起買飲料。",
+      "context": "下課後，由紀和麥可在中心旁的咖啡館點飲料付款，並約好下次換另一人請客。",
       "purpose": "點飲料並付款，約好下次換另一人請客。",
       "turns": [
         {
@@ -114,12 +159,12 @@
           "translation": "歡迎光臨，請問需要什麼？"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "따뜻한 라테 한 잔 주세요.",
           "translation": "請給我一杯熱拿鐵。"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "저는 아이스 아메리카노 한 잔 주세요.",
           "translation": "我要一杯冰美式咖啡。"
         },
@@ -129,7 +174,7 @@
           "translation": "內用嗎？"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "네.",
           "translation": "對。"
         },
@@ -139,17 +184,17 @@
           "translation": "一共是八千韓元。"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "제가 낼게요.",
           "translation": "我來付。"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "고마워요. 다음에는 제가 살게요.",
           "translation": "謝謝你，下次換我請客。"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "좋아요.",
           "translation": "好啊。"
         },
@@ -159,9 +204,9 @@
           "translation": "請在這邊感應卡片。"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "네.",
-          "translation": "好。"
+          "translation": "對。"
         },
         {
           "speaker": "咖啡館店員",
@@ -174,91 +219,91 @@
           "translation": "您點的飲料好了。"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "제가 가져올게요.",
           "translation": "我來拿。"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "그럼 저는 자리 잡을게요.",
           "translation": "那我來找位子。"
         }
       ]
     },
     {
-      "id": "D3",
-      "title": "D3",
-      "location": "未拆分",
-      "context": "住宅大樓門口，晚上，도현看到애니搬著很重的箱子。",
+      "id": "scene.d3",
+      "title": "D3 · 住宅大樓門口，晚上，도현看到애니搬著很重的箱子。",
+      "location": "住宅大樓門口，晚上，도현看到애니搬著很重的箱子。",
+      "context": "道賢在住宅大樓門口幫安妮把重物搬上四樓，並邀請她參加週六的語言交換活動。",
       "purpose": "도현幫애니把箱子拿上四樓，並邀她參加週六的語言交換活動。",
       "turns": [
         {
-          "speaker": "도현",
+          "speaker": "道賢",
           "korean": "안녕하세요. 상자가 무거워 보여요. 제가 들어 드릴게요.",
           "translation": "你好，箱子看起來很重，我來幫你拿。"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "감사합니다. 정말 무거워요.",
           "translation": "謝謝，真的很重。"
         },
         {
-          "speaker": "도현",
+          "speaker": "道賢",
           "korean": "몇 층으로 가세요?",
           "translation": "你要去幾樓？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "4층이요. 저는 애니예요.",
           "translation": "四樓。我是安妮。"
         },
         {
-          "speaker": "도현",
+          "speaker": "道賢",
           "korean": "저는 3층에 사는 도현이에요.",
           "translation": "我是住在三樓的道賢。"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "반가워요. 제가 문 열게요.",
           "translation": "很高興認識你。我來開門。"
         },
         {
-          "speaker": "도현",
-          "korean": "네. 토요일에 근처 센터에서 언어 교환 모임이 있어요. 같이 가실래요?",
-          "translation": "好。週六附近的中心有語言交換聚會，要一起去嗎？"
+          "speaker": "道賢",
+          "korean": "네. 토요일에 근처 센터에서 언어 교환 모임이 있어요. 시간 괜찮으시면 같이 가실래요?",
+          "translation": "好的，星期六在附近的中心有語言交換聚會，如果時間方便的話，要不要一起去？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "좋아요. 몇 시예요?",
           "translation": "好啊。幾點呢？"
         },
         {
-          "speaker": "도현",
-          "korean": "두 시예요. 한 시 반에 여기서 만나요.",
-          "translation": "兩點。一點半在這邊見面吧。"
+          "speaker": "道賢",
+          "korean": "두 시예요. 한 시 반에 여기서 만날까요?",
+          "translation": "兩點。我們一點半在這裡碰面好嗎？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "네, 그때 만나요.",
           "translation": "好，到時候見。"
         },
         {
-          "speaker": "도현",
+          "speaker": "道賢",
           "korean": "다 왔네요. 상자는 어디에 놓을까요?",
           "translation": "到了。箱子要放在哪裡？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "문 앞에 놓아 주세요.",
           "translation": "請放在門口。"
         },
         {
-          "speaker": "도현",
+          "speaker": "道賢",
           "korean": "네, 여기 놓을게요.",
           "translation": "好，我放這裡。"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "도와주셔서 감사합니다.",
           "translation": "謝謝你的幫忙。"
         }
@@ -266,24 +311,8 @@
     }
   ],
   "article": {
-    "title": "短文",
+    "title": "",
     "rows": []
   },
-  "notes": [
-    {
-      "section": "DIALOGUE.md",
-      "line": 1,
-      "text": "## 本課要教的說法出現在哪"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 2,
-      "text": "- 非正式語尾的陳述：A-아/어/A-아/어요：D1「항공편이 더 빨라요.」；D2「좋아요.」；D3「정말 무거워요.」「반가워요.」「좋아요.」"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 3,
-      "text": "- 向聽者表明意向：V-(으)ㄹ게(요)：D2「제가 낼게요.」「다음에는 제가 살게요.」「제가 가져올게요.」「그럼 저는 자리 잡을게요.」；D3「제가 들어 드릴게요.」「제가 문 열게요.」「네, 여기 놓을게요.」"
-    }
-  ]
+  "notes": []
 }

@@ -1,178 +1,172 @@
 {
   "id": "ko-a1-l001",
   "level": 1,
-  "title": "初次見面 · 未合併草稿候選 @1c1eee9d",
+  "title": "初次見面",
   "status": "draft",
-  "head": "0d0a58112ea9f5639c9f2ef7de90dddd4f2ccfbd",
-  "branch": "luna/ko-a1-l001-runner-20261025",
+  "head": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+  "branch": "luna/ko-a1-l001-data-20261027",
   "sourceRepo": "stasischen/content-ko",
+  "sourceCardState": "done",
+  "pr": 178,
+  "prStatus": "open_draft",
+  "description": "週二 18:55 在下雨的中心大門口，素拉照著名單迎接新生，確認身分並第一次問候。",
+  "candidateDisposition": "unaccepted-unpublished",
   "sourceFiles": [
     {
-      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/DIALOGUE.md",
-      "sha256": "bce42383e1b61f5fd4ffc6e931791a4113f71c3ecbaa51278c430d66c71064d6"
+      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/core/lesson.json",
+      "sha256": "5f4c6e991ae5278b5817f5e2201c05d95adf9fcc05c62ede44cf51c3ae31c1fe"
     },
     {
-      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/GLOSS.md",
-      "sha256": "2f880e0066bea1fd95d674d872b1818568a77d5ddf9408dbb19f2725f5a728d4"
+      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/core/sentences.json",
+      "sha256": "f2b3412e88b499a4f5c74c4cbe43fb3fa0529f34faa793af3fd5135ba8c1057c"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/i18n/zh_tw/lesson.json",
+      "sha256": "30aeb443b8a9f5ed397345e4d17f43c167de771b80163602635358601aae0b9a"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/i18n/zh_tw/sentences.json",
+      "sha256": "f561468f84f875ee942c231d98c8df8ceb4cd2afb33ffe51a639d64a1cb121d0"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/DIALOGUE.md",
+      "sha256": "fe530b18d5d49d5b9e71a58df6e50a520021ae91bc5f747786cca33f6b51327b"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/CAST.tsv",
+      "sha256": "ace74c66e7cd85bfb3ca043e68095f06f59bb513e368ae9aba3baa747dd3be2b"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/SEGMENTS.tsv",
-      "sha256": "0fef6a861b0d1e662755c16953d953e64532e371ed9b31369d31324b5152a68c"
-    }
-  ],
-  "dialogue": [
-    {
-      "id": "D1",
-      "title": "D1",
-      "location": "未拆分",
-      "context": "週二 18:55，下雨的中心大門口",
-      "purpose": "소라照名單迎接新生，確認身分並第一次問候。",
-      "turns": [
-        {
-          "speaker": "소라",
-          "korean": "안녕하세요? 혹시 천이쥔 씨예요?",
-          "translation": "你好，請問是陳怡君嗎？",
-          "segments": ["안녕하세요?\tko:adj:안녕하다+ko:e:세요", "혹시\tko:adv:혹시", "천이쥔\tko:prop:천이쥔", "씨예요?\tko:count:씨+ko:cop:이다+ko:e:에요"]
-        },
-        {
-          "speaker": "애니",
-          "korean": "네, 맞아요. 애니라고 불러 주세요. 안녕하세요?",
-          "translation": "對，沒錯。叫我安妮就好。你好！",
-          "segments": ["네,\tko:intj:네", "맞아요.\tko:v:맞다+ko:e:아요", "애니라고\tko:prop:애니+ko:p:라고", "불러\tko:v:부르다+ko:e:어", "주세요.\tko:vx:주다+ko:e:세요", "안녕하세요?\tko:adj:안녕하다+ko:e:세요"]
-        },
-        {
-          "speaker": "소라",
-          "korean": "반갑습니다, 애니 씨. 저는 한국어 선생님 소라예요. 비가 많이 와요.",
-          "translation": "很高興認識你，安妮。我是韓語老師素拉。雨下得好大。",
-          "segments": ["반갑습니다,\tko:adj:반갑다+ko:e:습니다", "애니\tko:prop:애니", "씨.\tko:count:씨", "저는\tko:pron:저+ko:p:는", "한국어\tko:n:한국어", "선생님\tko:n:선생+ko:affix:-님", "소라예요.\tko:prop:소라+ko:cop:이다+ko:e:에요", "비가\tko:n:비+ko:p:가", "많이\tko:adv:많이", "와요.\tko:v:오다+ko:e:아요"]
-        },
-        {
-          "speaker": "애니",
-          "korean": "네, 비가 와요. 오늘 잘 부탁드려요!",
-          "translation": "對啊，下雨了。今天請多指教！",
-          "segments": ["네,\tko:intj:네", "비가\tko:n:비+ko:p:가", "와요.\tko:v:오다+ko:e:아요", "오늘\tko:n:오늘", "잘\tko:adv:잘", "부탁드려요!\tko:v:부탁드리다+ko:e:어요"]
-        }
-      ]
+      "sha256": "cc17f4b30d09e8ac0e78929f581660357c3726aaa351a665d3eb7b272a4cf202"
     },
     {
-      "id": "D2",
-      "title": "D2",
-      "location": "未拆分",
-      "context": "週二晚間，教室裡的第一堂課",
-      "purpose": "輪流做完整自我介紹（名字、國家、職業）。",
-      "turns": [
-        {
-          "speaker": "소라",
-          "korean": "여러분, 환영해요. 저는 한국어 선생님 소라예요. 한국 사람이에요. 유키 씨 먼저 인사해요.",
-          "translation": "歡迎大家。我是韓語老師素拉，是韓國人。由紀先打招呼吧。",
-          "segments": ["여러분,\tko:pron:여러분", "환영해요.\tko:n:환영+ko:v:하다+ko:e:어요", "저는\tko:pron:저+ko:p:는", "한국어\tko:n:한국어", "선생님\tko:n:선생+ko:affix:-님", "소라예요.\tko:prop:소라+ko:cop:이다+ko:e:에요", "한국\tko:prop:한국", "사람이에요.\tko:n:사람+ko:cop:이다+ko:e:에요", "유키\tko:prop:유키", "씨\tko:count:씨", "먼저\tko:adv:먼저", "인사해요.\tko:n:인사+ko:v:하다+ko:e:어요"]
-        },
-        {
-          "speaker": "유키",
-          "korean": "네. 안녕하세요? 저는 유키예요. 일본 사람이에요. 병원 간호사예요.",
-          "translation": "好。大家好，我是由紀，是日本人，在醫院當護理師。",
-          "segments": ["네.\tko:intj:네", "안녕하세요?\tko:adj:안녕하다+ko:e:세요", "저는\tko:pron:저+ko:p:는", "유키예요.\tko:prop:유키+ko:cop:이다+ko:e:에요", "일본\tko:prop:일본", "사람이에요.\tko:n:사람+ko:cop:이다+ko:e:에요", "병원\tko:n:병원", "간호사예요.\tko:n:간호사+ko:cop:이다+ko:e:에요"]
-        },
-        {
-          "speaker": "소라",
-          "korean": "반갑습니다, 유키 씨. 애니 씨는요?",
-          "translation": "很高興認識你，由紀。安妮呢？",
-          "segments": ["반갑습니다,\tko:adj:반갑다+ko:e:습니다", "유키\tko:prop:유키", "씨.\tko:count:씨", "애니\tko:prop:애니", "씨는요?\tko:count:씨+ko:p:는+ko:p:요"]
-        },
-        {
-          "speaker": "애니",
-          "korean": "안녕하세요? 제 이름은 애니예요. 대만 사람이에요. 저는 회사원이에요.",
-          "translation": "大家好，我的名字是安妮，是台灣人，我是上班族。",
-          "segments": ["안녕하세요?\tko:adj:안녕하다+ko:e:세요", "제\tko:pron:저+ko:p:의", "이름은\tko:n:이름+ko:p:은", "애니예요.\tko:prop:애니+ko:cop:이다+ko:e:에요", "대만\tko:prop:대만", "사람이에요.\tko:n:사람+ko:cop:이다+ko:e:에요", "저는\tko:pron:저+ko:p:는", "회사원이에요.\tko:n:회사원+ko:cop:이다+ko:e:에요"]
-        }
-      ]
-    },
-    {
-      "id": "D3",
-      "title": "D3",
-      "location": "未拆分",
-      "context": "下課後，地鐵站出口",
-      "purpose": "애니回想剛才認識的人，向유키核對，유키更正。",
-      "turns": [
-        {
-          "speaker": "애니",
-          "korean": "오늘 수업 재미있었어요, 유키 씨.",
-          "translation": "由紀，今天的課很有趣。",
-          "segments": ["오늘\tko:n:오늘", "수업\tko:n:수업", "재미있었어요,\tko:adj:재미있다+ko:e:었+ko:e:어요", "유키\tko:prop:유키", "씨.\tko:count:씨"]
-        },
-        {
-          "speaker": "유키",
-          "korean": "네, 저도요.",
-          "translation": "對啊，我也覺得。",
-          "segments": ["네,\tko:intj:네", "저도요.\tko:pron:저+ko:p:도+ko:p:요"]
-        },
-        {
-          "speaker": "애니",
-          "korean": "그런데... 유키 씨는 회사원이에요?",
-          "translation": "不過……由紀是上班族嗎？",
-          "segments": ["그런데...\tko:adv:그런데", "유키\tko:prop:유키", "씨는\tko:count:씨+ko:p:는", "회사원이에요?\tko:n:회사원+ko:cop:이다+ko:e:에요"]
-        },
-        {
-          "speaker": "유키",
-          "korean": "아니요, 저는 간호사예요.",
-          "translation": "不是，我是護理師。",
-          "segments": ["아니요,\tko:intj:아니요", "저는\tko:pron:저+ko:p:는", "간호사예요.\tko:n:간호사+ko:cop:이다+ko:e:에요"]
-        },
-        {
-          "speaker": "애니",
-          "korean": "아, 맞아요! 유키 씨는 간호사예요. 제가 깜빡했어요.",
-          "translation": "啊，對耶！由紀是護理師。我一時忘了。",
-          "segments": ["아,\tko:intj:아", "맞아요!\tko:v:맞다+ko:e:아요", "유키\tko:prop:유키", "씨는\tko:count:씨+ko:p:는", "간호사예요.\tko:n:간호사+ko:cop:이다+ko:e:에요", "제가\tko:pron:저+ko:p:가", "깜빡했어요.\tko:v:깜빡하다+ko:e:였+ko:e:어요"]
-        },
-        {
-          "speaker": "유키",
-          "korean": "괜찮아요. 다음 주에 봐요!",
-          "translation": "沒關係，下週見！",
-          "segments": ["괜찮아요.\tko:adj:괜찮다+ko:e:아요", "다음\tko:n:다음", "주에\tko:n:주+ko:p:에", "봐요!\tko:v:보다+ko:e:아요"]
-        },
-        {
-          "speaker": "애니",
-          "korean": "네, 다음 주에 봐요!",
-          "translation": "好，下週見！",
-          "segments": ["네,\tko:intj:네", "다음\tko:n:다음", "주에\tko:n:주+ko:p:에", "봐요!\tko:v:보다+ko:e:아요"]
-        }
-      ]
-    }
-  ],
-  "article": {
-    "title": "短文",
-    "rows": []
-  },
-  "notes": [
-    {
-      "section": "DIALOGUE.md",
-      "line": 1,
-      "text": "## 本課要教的說法出現在哪"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 2,
-      "text": "- 追加對聽者的禮貌：片語/語尾＋요（ko.g.yo.addressee-politeness#c01）：D2 소라: 「애니 씨는요?」、D3 유키: 「네, 저도요.」"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 3,
-      "text": "- 述語通常在句末：（主語/話題）＋（賓語等成分）＋述語（ko.g.word-order.predicate-final#c01）：D1 소라: 「비가 많이 와요.」、D3 애니: 「오늘 수업 재미있었어요, 유키 씨.」、D3 유키: 「다음 주에 봐요!」"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 4,
-      "text": "- 名詞述語與身份指認：N이다/N이에요/예요/N입니다（ko.g.ida.identification#c01）：D1 소라: 「혹시 천이쥔 씨예요?」、D1 소라: 「저는 한국어 선생님 소라예요.」、D2 소라: 「저는 한국어 선생님 소라예요. 한국 사람이에요.」、D2 유키: 「저는 유키예요. 일본 사람이에요. 병원 간호사예요.」、D2 애니: 「제 이름은 애니예요. 대만 사람이에요. 저는 회사원이에요.」、D3 유키: 「저는 간호사예요.」"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 5,
-      "text": "- 話題引入：N은/는（ko.g.topic.aboutness#c01）：D1 소라: 「저는 한국어 선생님 소라예요.」、D2 소라: 「저는 한국어 선생님 소라예요.」、D2 유키: 「저는 유키예요.」、D2 애니: 「제 이름은 애니예요.」「저는 회사원이에요.」、D3 애니: 「유키 씨는 회사원이에요?」、D3 유키: 「저는 간호사예요.」"
+      "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/MISSING_ENTRIES.tsv",
+      "sha256": "0fe467af9f7e1ccd1411b461ef450e14c0cae23607156c461e56e8855235472f"
     }
   ],
   "segmentation": {
     "status": "available",
     "sourcePath": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/SEGMENTS.tsv",
-    "sourceSha256": "0fef6a861b0d1e662755c16953d953e64532e371ed9b31369d31324b5152a68c"
-  }
+    "sourceSha256": "cc17f4b30d09e8ac0e78929f581660357c3726aaa351a665d3eb7b272a4cf202",
+    "matchedSentences": 15,
+    "totalSentences": 15
+  },
+  "missingDictionaryAtomIds": [
+    "ko:adj:맞다",
+    "ko:prop:소라",
+    "ko:prop:애니",
+    "ko:prop:유키",
+    "ko:prop:천이쥔",
+    "ko:v:깜빡하다"
+  ],
+  "dialogue": [
+    {
+      "id": "scene.d1",
+      "title": "D1 · 週二 18:55，下雨的中心大門口",
+      "location": "週二 18:55，下雨的中心大門口",
+      "context": "週二 18:55 在下雨的中心大門口，素拉照著名單迎接新生，確認身分並第一次問候。",
+      "purpose": "소라照名單迎接新生，確認身分並第一次問候。",
+      "turns": [
+        {
+          "speaker": "素拉",
+          "korean": "안녕하세요? 혹시 천이쥔 씨예요?",
+          "translation": "你好，請問是陳怡君嗎？"
+        },
+        {
+          "speaker": "安妮",
+          "korean": "네, 맞아요. 애니라고 불러 주세요. 안녕하세요?",
+          "translation": "對，沒錯。叫我安妮就好。你好！"
+        },
+        {
+          "speaker": "素拉",
+          "korean": "반갑습니다, 애니 씨. 저는 한국어 선생님 소라예요. 비가 많이 와요. 안으로 들어오세요.",
+          "translation": "很高興認識妳，安妮。我是韓語老師素拉。雨下得很大，快請進。"
+        },
+        {
+          "speaker": "安妮",
+          "korean": "네, 감사합니다. 오늘 잘 부탁드려요!",
+          "translation": "好的，謝謝。今天請多指教！"
+        }
+      ]
+    },
+    {
+      "id": "scene.d2",
+      "title": "D2 · 週二晚間，教室裡的第一堂課",
+      "location": "週二晚間，教室裡的第一堂課",
+      "context": "週二晚間在教室裡的第一堂課，大家輪流做包含名字、國家與職業的完整自我介紹。",
+      "purpose": "輪流做完整自我介紹（名字、國家、職業）。",
+      "turns": [
+        {
+          "speaker": "素拉",
+          "korean": "여러분, 환영해요. 저는 한국어 선생님 소라예요. 한국 사람이에요. 유키 씨 먼저 인사해요.",
+          "translation": "歡迎大家。我是韓語老師素拉，是韓國人。由紀先打招呼吧。"
+        },
+        {
+          "speaker": "由紀",
+          "korean": "네. 안녕하세요? 저는 유키예요. 일본 사람이에요. 병원 간호사예요.",
+          "translation": "好。大家好，我是由紀，是日本人，在醫院當護理師。"
+        },
+        {
+          "speaker": "素拉",
+          "korean": "반갑습니다, 유키 씨. 애니 씨는요?",
+          "translation": "很高興認識你，由紀。安妮呢？"
+        },
+        {
+          "speaker": "安妮",
+          "korean": "안녕하세요? 제 이름은 애니예요. 대만 사람이에요. 저는 회사원이에요.",
+          "translation": "大家好，我的名字是安妮，是台灣人，我是上班族。"
+        }
+      ]
+    },
+    {
+      "id": "scene.d3",
+      "title": "D3 · 下課後，地鐵站出口",
+      "location": "下課後，地鐵站出口",
+      "context": "下課後在地鐵站出口，安妮向由紀核對剛才認識的人，由紀為她說明更正。",
+      "purpose": "애니回想剛才認識的人，向유키核對，유키更正。",
+      "turns": [
+        {
+          "speaker": "安妮",
+          "korean": "오늘 수업 재미있었어요, 유키 씨.",
+          "translation": "由紀，今天的課很有趣。"
+        },
+        {
+          "speaker": "由紀",
+          "korean": "네, 저도요.",
+          "translation": "對啊，我也覺得。"
+        },
+        {
+          "speaker": "安妮",
+          "korean": "그런데... 유키 씨는 회사원이에요?",
+          "translation": "不過……由紀是上班族嗎？"
+        },
+        {
+          "speaker": "由紀",
+          "korean": "아니요, 저는 간호사예요.",
+          "translation": "不是，我是護理師。"
+        },
+        {
+          "speaker": "安妮",
+          "korean": "아, 맞아요! 제가 깜빡했어요.",
+          "translation": "啊，對耶！我一時忘了。"
+        },
+        {
+          "speaker": "由紀",
+          "korean": "괜찮아요. 다음 주에 봐요!",
+          "translation": "沒關係，下週見！"
+        },
+        {
+          "speaker": "安妮",
+          "korean": "네, 다음 주에 봐요!",
+          "translation": "好，下週見！"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "",
+    "rows": []
+  },
+  "notes": []
 }

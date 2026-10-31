@@ -1,180 +1,201 @@
 {
   "id": "ko-a1-l008",
   "level": 8,
-  "title": "介紹住家與家具 · 未合併草稿候選 @1c1eee9d",
+  "title": "介紹住家與家具",
   "status": "draft",
-  "head": "4fb16608af5923b687177d13a1d81a3fc553b840",
-  "branch": "luna/ko-a1-l008-text-20261025",
+  "head": "1015d3dc80127e56b15b2258046b972da3c5d0d3",
+  "branch": "luna/ko-a1-l008-data-20261028",
   "sourceRepo": "stasischen/content-ko",
+  "sourceCardState": "done",
+  "pr": 179,
+  "prStatus": "open_draft",
+  "description": "週日，安妮和由紀在家具店挑選家人來訪時要用的棉被與枕頭。",
+  "candidateDisposition": "unaccepted-unpublished",
   "sourceFiles": [
     {
-      "path": "content_v2/review/lessons/ko-a1-l008-text/draft/DIALOGUE.md",
-      "sha256": "6a5106fa53f4ae6935dbf93b26536ef0439f616d2812b4cb851b584d4f590456"
+      "path": "content_v2/review/lessons/ko-a1-l008-text/core/lesson.json",
+      "sha256": "15c54b48338a2d6619ef665b5ad067271dfe971ccd979500da1b5520d58f9ee1"
     },
     {
-      "path": "content_v2/review/lessons/ko-a1-l008-text/draft/GLOSS.md",
-      "sha256": "82e7565dd487411144673531c8f749dcf568ffc4460f5c73d95cadb164c700da"
+      "path": "content_v2/review/lessons/ko-a1-l008-text/core/sentences.json",
+      "sha256": "c6dae48f52e055f815a718d848d10bd5641d8709df6a2f65f655999c6a612546"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l008-text/draft/i18n/zh_tw/lesson.json",
+      "sha256": "47bf6824ea7c699dfcb65b0a526590dcef1c93062c773ff0c6821bb809274005"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l008-text/draft/i18n/zh_tw/sentences.json",
+      "sha256": "97cb88563e96e1751d9c21f9220a45fea4ce41df6d7b89c31776ad8f6069dea0"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l008-text/draft/DIALOGUE.md",
+      "sha256": "f2641587171b2d5c17c02d0d0a93b0a1c009bb2ebf31a548cc03b30c15f9a234"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l008-text/draft/CAST.tsv",
+      "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l008-text/draft/SEGMENTS.tsv",
+      "sha256": "2f8d24de0a55c41b4c5d92f88e6db60b72ac4e106cac817468bd977d682cfea9"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l008-text/draft/MISSING_ENTRIES.tsv",
+      "sha256": "67ee60d8fae7367b99ce1e90f16b7a960ff55e3efe26a7eef68ccf04bbf54fb5"
     }
+  ],
+  "segmentation": {
+    "status": "available",
+    "sourcePath": "content_v2/review/lessons/ko-a1-l008-text/draft/SEGMENTS.tsv",
+    "sourceSha256": "2f8d24de0a55c41b4c5d92f88e6db60b72ac4e106cac817468bd977d682cfea9",
+    "matchedSentences": 23,
+    "totalSentences": 23
+  },
+  "missingDictionaryAtomIds": [
+    "ko:n:가족분",
+    "ko:n:세면대",
+    "ko:prop:애니",
+    "ko:v:있다"
   ],
   "dialogue": [
     {
-      "id": "D1",
-      "title": "D1",
-      "location": "未拆分",
-      "context": "週日，애니和유키在家具店挑選家人來訪時要用的寢具。",
+      "id": "scene.d1",
+      "title": "D1 · 週日，애니和유키在家具店挑選家人來訪時要用的寢具。",
+      "location": "週日，애니和유키在家具店挑選家人來訪時要用的寢具。",
+      "context": "週日，安妮和由紀在家具店挑選家人來訪時要用的棉被與枕頭。",
       "purpose": "挑好母親和妹妹要用的棉被與枕頭。",
       "turns": [
         {
-          "speaker": "애니",
-          "korean": "이불을 좀 봐요. 집에 이불이 하나만 있어요.",
-          "translation": "來看看棉被吧。家裡只有一條棉被。"
+          "speaker": "安妮",
+          "korean": "어머니하고 동생이 곧 와요. 집에 이불이 하나만 있어서 더 필요해요.",
+          "translation": "媽媽和妹妹快要來了。家裡只有一條被子，所以還需要買。"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "어머니하고 동생은 어디에서 자요?",
-          "translation": "媽媽和妹妹睡哪裡？"
+          "translation": "媽媽和妹妹要睡哪裡？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "작은 방에서 자요. 그 방에 침대가 없어요.",
-          "translation": "睡小房間。那個房間沒有床。"
+          "translation": "睡小房間。那間房間沒有床。"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "그럼 이 두꺼운 이불은 어때요?",
-          "translation": "那這件厚棉被怎麼樣？"
+          "translation": "那這條厚被子怎麼樣？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "좋아요. 부드러워요.",
-          "translation": "好啊，很柔軟。"
+          "translation": "好啊，很舒服。"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "베개도 필요해요?",
-          "translation": "枕頭也需要嗎？"
+          "translation": "也需要枕頭嗎？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "네. 집에 베개도 하나만 있어요.",
-          "translation": "對，家裡枕頭也只有一顆。"
+          "translation": "對，家裡枕頭也只有一個。"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "이 베개는 어때요? 높지 않아요.",
           "translation": "這個枕頭怎麼樣？不會太高。"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "좋아요. 이불 두 개하고 베개 두 개 살게요.",
-          "translation": "好啊，那我買兩條棉被和兩顆枕頭。"
+          "translation": "好啊，那我買兩條被子和兩個枕頭。"
         }
       ]
     },
     {
-      "id": "D2",
-      "title": "D2",
-      "location": "未拆分",
-      "context": "晚上，도현和유키第一次到애니家參加喬遷小聚。",
+      "id": "scene.d2",
+      "title": "D2 · 晚上，도현和유키第一次到애니家參加喬遷小聚。",
+      "location": "晚上，도현和유키第一次到애니家參加喬遷小聚。",
+      "context": "晚上，道賢和由紀第一次到安妮家參加喬遷小聚，參觀房間後回客廳一起吃東西。",
       "purpose": "帶朋友參觀房間，再回客廳一起吃東西。",
       "turns": [
         {
-          "speaker": "도현",
+          "speaker": "道賢",
           "korean": "집이 아늑하네요. 구경 좀 해도 돼요?",
-          "translation": "家裡好溫馨喔。可以參觀一下嗎？"
+          "translation": "家裡好溫馨喔。我可以參觀一下嗎？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "네. 이쪽이 제 방이에요.",
-          "translation": "好啊。這邊是我的房間。"
+          "translation": "好啊，這邊是我的房間。"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "창문 옆에 책상이 있네요.",
-          "translation": "窗戶旁邊有書桌呢。"
+          "translation": "窗戶旁邊有書桌耶。"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "네. 여기에서 공부해요. 옆은 작은 방이에요.",
           "translation": "對，我都在這裡念書。旁邊是小房間。"
         },
         {
-          "speaker": "도현",
+          "speaker": "道賢",
           "korean": "가족분들은 이 방에서 주무세요?",
           "translation": "家人睡這間嗎？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "네. 오늘 산 이불도 여기 있어요.",
-          "translation": "對。今天買的棉被也在這裡。"
+          "translation": "對，今天買的被子也在這裡。"
         },
         {
-          "speaker": "유키",
-          "korean": "이불이 방하고 잘 어울려요.",
-          "translation": "棉被跟房間很搭呢。"
+          "speaker": "道賢",
+          "korean": "화장실은 어디예요?",
+          "translation": "洗手間在哪裡？"
         },
         {
-          "speaker": "애니",
-          "korean": "고마워요. 맞은편은 화장실이에요.",
-          "translation": "謝謝。對面是洗手間。"
+          "speaker": "安妮",
+          "korean": "맞은편이에요.",
+          "translation": "在對面。"
         },
         {
-          "speaker": "도현",
+          "speaker": "道賢",
           "korean": "그럼 잠깐 손 좀 씻을게요. 수건은 어디에 있어요?",
           "translation": "那我先洗個手。毛巾在哪裡？"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "세면대 옆에 있어요.",
           "translation": "在洗手台旁邊。"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "애니 씨, 이 주스는 어디에 둬요?",
           "translation": "安妮，這瓶果汁放哪裡？"
         },
         {
-          "speaker": "애니",
-          "korean": "부엌에 냉장고가 있어요. 거기에 넣어 주세요.",
-          "translation": "廚房有冰箱，請幫我放進去。"
+          "speaker": "安妮",
+          "korean": "냉장고에 넣어 주세요. 부엌에 있어요.",
+          "translation": "請幫我放進冰箱，在廚房。"
         },
         {
-          "speaker": "도현",
+          "speaker": "道賢",
           "korean": "손 다 씻었어요. 이제 거실에서 먹을까요?",
           "translation": "我洗好手了。現在去客廳吃嗎？"
         },
         {
-          "speaker": "애니",
-          "korean": "네. 소파 앞에 작은 탁자가 있어요. 거기에 음식을 놓아요.",
-          "translation": "好啊。沙發前面有張小茶几，把食物放在那裡吧。"
+          "speaker": "安妮",
+          "korean": "네. 소파 앞에 작은 탁자가 있어요. 거기서 같이 먹어요.",
+          "translation": "好啊，沙發前面有一張小茶几，我們在那裡一起吃。"
         }
       ]
     }
   ],
   "article": {
-    "title": "短文",
+    "title": "",
     "rows": []
   },
-  "notes": [
-    {
-      "section": "DIALOGUE.md",
-      "line": 1,
-      "text": "## 本課要教的說法出現在哪"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 2,
-      "text": "- 對象的存在與有無：D1「집에 이불이 하나만 있어요.」「그 방에 침대가 없어요.」；D2「부엌에 냉장고가 있어요.」"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 3,
-      "text": "- 靜態位置的格標記：D2「창문 옆에 책상이 있네요.」「세면대 옆에 있어요.」"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 4,
-      "text": "- 主語標記：D1「집에 베개도 하나만 있어요.」；D2「이불이 방하고 잘 어울려요.」「소파 앞에 작은 탁자가 있어요.」"
-    }
-  ]
+  "notes": []
 }

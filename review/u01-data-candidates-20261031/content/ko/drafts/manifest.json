@@ -1,75 +1,669 @@
 {
   "status": "draft",
+  "candidateDisposition": "unaccepted-unpublished",
+  "sourceSpecSha256": "806c5250f8b7e232e94aeb973ec1284114972381eace3206ec06523b1c7a4ca3",
   "courses": [
     {
       "id": "ko-a1-l001",
       "level": 1,
+      "title": "初次見面",
       "status": "draft",
-      "head": "0d0a58112ea9f5639c9f2ef7de90dddd4f2ccfbd",
-      "branch": "luna/ko-a1-l001-runner-20261025"
+      "head": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+      "branch": "luna/ko-a1-l001-data-20261027",
+      "sourceCardState": "done",
+      "pr": 178,
+      "prStatus": "open_draft",
+      "description": "週二 18:55 在下雨的中心大門口，素拉照著名單迎接新生，確認身分並第一次問候。",
+      "candidateDisposition": "unaccepted-unpublished",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l001-dry-a/core/lesson.json",
+          "sha256": "5f4c6e991ae5278b5817f5e2201c05d95adf9fcc05c62ede44cf51c3ae31c1fe"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l001-dry-a/core/sentences.json",
+          "sha256": "f2b3412e88b499a4f5c74c4cbe43fb3fa0529f34faa793af3fd5135ba8c1057c"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/i18n/zh_tw/lesson.json",
+          "sha256": "30aeb443b8a9f5ed397345e4d17f43c167de771b80163602635358601aae0b9a"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/i18n/zh_tw/sentences.json",
+          "sha256": "f561468f84f875ee942c231d98c8df8ceb4cd2afb33ffe51a639d64a1cb121d0"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/DIALOGUE.md",
+          "sha256": "fe530b18d5d49d5b9e71a58df6e50a520021ae91bc5f747786cca33f6b51327b"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/CAST.tsv",
+          "sha256": "ace74c66e7cd85bfb3ca043e68095f06f59bb513e368ae9aba3baa747dd3be2b"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/SEGMENTS.tsv",
+          "sha256": "cc17f4b30d09e8ac0e78929f581660357c3726aaa351a665d3eb7b272a4cf202"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/MISSING_ENTRIES.tsv",
+          "sha256": "0fe467af9f7e1ccd1411b461ef450e14c0cae23607156c461e56e8855235472f"
+        }
+      ],
+      "previewJsonSha256": "d4aa81c311d9e5dffce5655677bf7f8f2453d152fd215ac823852a02093042ab",
+      "segmentation": {
+        "status": "available",
+        "sourcePath": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/SEGMENTS.tsv",
+        "sourceSha256": "cc17f4b30d09e8ac0e78929f581660357c3726aaa351a665d3eb7b272a4cf202",
+        "matchedSentences": 15,
+        "totalSentences": 15
+      },
+      "missingDictionaryAtomIds": [
+        "ko:adj:맞다",
+        "ko:prop:소라",
+        "ko:prop:애니",
+        "ko:prop:유키",
+        "ko:prop:천이쥔",
+        "ko:v:깜빡하다"
+      ],
+      "limitations": [
+        "6 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+      ]
     },
     {
       "id": "ko-a1-l002",
       "level": 2,
+      "title": "介紹姓名與身分",
       "status": "draft",
-      "head": "ff02ddcaa4f191c6ce91320039d1dbd606abbba9",
-      "branch": "luna/ko-a1-l002-runner-20261025-rerun"
+      "head": "895f521bf829c67f04b59ecf39378f38c64a448b",
+      "branch": "luna/ko-a1-l002-data-20261028",
+      "sourceCardState": "done",
+      "pr": 188,
+      "prStatus": "open_draft",
+      "description": "週四上課前在中心櫃檯，登記麥可的姓名與職業並製作名牌。",
+      "candidateDisposition": "unaccepted-unpublished",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l002/core/lesson.json",
+          "sha256": "a5fc76ddd4154d45cfc3658ab93c3e6cb0fce19e10c81b2d67f61a45185715c8"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l002/core/sentences.json",
+          "sha256": "21079b4f1d4a0d701e8b088bdaaa9f936abdacb2bfd3717cf5822e1bab974bf2"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l002/draft/i18n/zh_tw/lesson.json",
+          "sha256": "fa8723643547eaf0f903cc9cae8e3dcd7d21988cd5413f65c07023a0b8649b4b"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l002/draft/i18n/zh_tw/sentences.json",
+          "sha256": "554edb51ec562286700813a74a3093ab1d8c9494433a589e9b23c69bbbf56559"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l002/draft/DIALOGUE.md",
+          "sha256": "16b34458f64ef485ef40f57910667f494cd9e38fe9a80ffcc3d697396e4be575"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l002/draft/CAST.tsv",
+          "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l002/draft/SEGMENTS.tsv",
+          "sha256": "d2993386980c9d1b7b8739df160a00c2d4e946f1775c5789fba656432c046065"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l002/draft/MISSING_ENTRIES.tsv",
+          "sha256": "faa0b2edc99fea9f8d0f6eba42454fa9d4174f6d524a6cb9674db7478abab8d3"
+        }
+      ],
+      "previewJsonSha256": "6a19e1ea5d5bc270d33b513db29fc5e6fcf2be5397cecf0a81c526cd3120de5e",
+      "segmentation": {
+        "status": "available",
+        "sourcePath": "content_v2/review/lessons/ko-a1-l002/draft/SEGMENTS.tsv",
+        "sourceSha256": "d2993386980c9d1b7b8739df160a00c2d4e946f1775c5789fba656432c046065",
+        "matchedSentences": 31,
+        "totalSentences": 31
+      },
+      "missingDictionaryAtomIds": [
+        "ko:adv:처음",
+        "ko:n:대학원생",
+        "ko:prop:마이클",
+        "ko:prop:애니",
+        "ko:prop:유키"
+      ],
+      "limitations": [
+        "5 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+      ]
     },
     {
       "id": "ko-a1-l003",
       "level": 3,
+      "title": "家鄉與特色",
       "status": "draft",
-      "head": "62f34b370a86f10ee9d4a51053ee0e6c7bdc842c",
-      "branch": "luna/ko-a1-l003-runner-20261026"
+      "head": "0bf77bfb4689f86556dae652b6385f31998d5791",
+      "branch": "luna/ko-a1-l003-data-20261028",
+      "sourceCardState": "review",
+      "pr": 187,
+      "prStatus": "open_draft",
+      "description": "安妮在韓國郵局寄明信片，在職員協助下填寫寄件資料並完成付款。",
+      "candidateDisposition": "unaccepted-unpublished",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l003-data/core/lesson.json",
+          "sha256": "c7e5790005a3f0ef9d857d161b6064e341312c36450ba74ffb678f0db789d9e3"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l003-data/core/sentences.json",
+          "sha256": "08e0c1605fb97da32b69f47a974685a39e38864d3fdc6496a120d1a215bac80e"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l003-data/draft/i18n/zh_tw/lesson.json",
+          "sha256": "2c21431c909c35eade0719ca8e9da3c098961c86bb991d1c1526a38bdb743812"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l003-data/draft/i18n/zh_tw/sentences.json",
+          "sha256": "3df19fde4e78cbf3a1e7650520412bf9964b5c0208f960efe5266e771f109b61"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l003-data/draft/DIALOGUE.md",
+          "sha256": "f5789d7f7445595060d5cb949e34a65171eb0b39f9a031e4fd5f4a227acd483f"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l003-data/draft/CAST.tsv",
+          "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l003-data/draft/SEGMENTS.tsv",
+          "sha256": "880d8f90cc999c2fafa257174530802b46f4c4e8d107ce3fdd773a459059fb3f"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l003-data/draft/MISSING_ENTRIES.tsv",
+          "sha256": "3ac8b3412b86ed7bdc402f42b7f9ff8afaf1e7eadddcbd16661760f91265ad65"
+        }
+      ],
+      "previewJsonSha256": "ba59dcd3f1db055fd80d330230b0e308bd9a9451bac5d276a6ddf1e9f9ade7e8",
+      "segmentation": {
+        "status": "available",
+        "sourcePath": "content_v2/review/lessons/ko-a1-l003-data/draft/SEGMENTS.tsv",
+        "sourceSha256": "880d8f90cc999c2fafa257174530802b46f4c4e8d107ce3fdd773a459059fb3f",
+        "matchedSentences": 44,
+        "totalSentences": 44
+      },
+      "missingDictionaryAtomIds": [
+        "ko:n:것",
+        "ko:n:라테",
+        "ko:n:분",
+        "ko:prop:도현",
+        "ko:prop:애니",
+        "ko:xnum:3",
+        "ko:xnum:4"
+      ],
+      "limitations": [
+        "原資料卡仍為 review；預覽不代表使用者驗收或 carry-forward 資格。",
+        "7 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+      ]
     },
     {
       "id": "ko-a1-l004",
       "level": 4,
+      "title": "介紹所學語言",
       "status": "draft",
-      "head": "2c4b19998e62219ce38ec818872d9d39f71ad39a",
-      "branch": "luna/ko-a1-l004-runner-20261025"
+      "head": "6ad25be8f37d436f72c681fe8e56b99503754ed5",
+      "branch": "luna/ko-a1-l004-data-20261028-session2",
+      "sourceCardState": "done",
+      "pr": 180,
+      "prStatus": "open_draft",
+      "description": "週六在中心的語言交換活動，大家決定下次聚餐由誰準備食物、飲料以及誰來唱歌。",
+      "candidateDisposition": "unaccepted-unpublished",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l004-runner/core/lesson.json",
+          "sha256": "94a68d5d8e3d658d8b033336526a7aa762b92c2a66eca6194817137adcf0afd7"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l004-runner/core/sentences.json",
+          "sha256": "2b2e2d2e939927d692300fc032dc221931803d75f29702b431e10051a5aac89b"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l004-runner/draft/i18n/zh_tw/lesson.json",
+          "sha256": "16439eb44a1d42c0951bc385dca749c9079af2d6e2e1450d5e6cdc36a8455eb9"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l004-runner/draft/i18n/zh_tw/sentences.json",
+          "sha256": "72548bf8cc78d97dde2dc0db140d10d1ac39a8f6523e67a7b05113bbce122d7e"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l004-runner/draft/DIALOGUE.md",
+          "sha256": "241ed52499be9f6ac6e5dd643eb7531224afb47d13ca1fbb82ba096b922045a8"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l004-runner/draft/CAST.tsv",
+          "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l004-runner/draft/SEGMENTS.tsv",
+          "sha256": "93fe15085cad693e78ecc0b6c8c7501a386c4aaaf5a9e02e94aa820e1bb6921b"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l004-runner/draft/MISSING_ENTRIES.tsv",
+          "sha256": "e1135146518ac863d687d6caedead22566931eb6550c143bf4604c4e2cb2f4be"
+        }
+      ],
+      "previewJsonSha256": "197102614797ff98b282ccb67c8780759690cf03d88e6e040459623d5eff0b97",
+      "segmentation": {
+        "status": "available",
+        "sourcePath": "content_v2/review/lessons/ko-a1-l004-runner/draft/SEGMENTS.tsv",
+        "sourceSha256": "93fe15085cad693e78ecc0b6c8c7501a386c4aaaf5a9e02e94aa820e1bb6921b",
+        "matchedSentences": 32,
+        "totalSentences": 32
+      },
+      "missingDictionaryAtomIds": [
+        "ko:n:주먹밥",
+        "ko:prop:도현",
+        "ko:prop:마이클",
+        "ko:prop:유키"
+      ],
+      "limitations": [
+        "4 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+      ]
     },
     {
       "id": "ko-a1-l005",
       "level": 5,
+      "title": "聊聊家人",
       "status": "draft",
-      "head": "405088e25a11b0f4d05991ae04195b74dab01f22",
-      "branch": "luna/ko-a1-l005-runner-20261025"
+      "head": "2e2a79da803048562fa16bb216ac60e088d33580",
+      "branch": "luna/ko-a1-l005-data-20261028",
+      "sourceCardState": "doing",
+      "pr": 189,
+      "prStatus": "open_draft",
+      "description": "週六下午在社區市場的水果攤，為了聚餐買水果。",
+      "candidateDisposition": "unaccepted-unpublished",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l005-runner/core/lesson.json",
+          "sha256": "b20fa526de922b8b5c64d1fcb6119d5665d53a7ac9840a561a51d30fccfd8237"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l005-runner/core/sentences.json",
+          "sha256": "73b8f0b9ab3b75ed7c7df3dcb3a59950829f3529b04df4fd9e312eab765c392b"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/i18n/zh_tw/lesson.json",
+          "sha256": "96d6af1b4819049bf9147c8fc254f211762c8169d898b6ba662da72df22462b5"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/i18n/zh_tw/sentences.json",
+          "sha256": "0c7b68746ff88760712b52b41883e399ae8c8328fb94ee6a1a2aa092a44dc135"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/DIALOGUE.md",
+          "sha256": "8496ffdb0153ae886d46c3fa56d19f5980322c4bb5b5b0a59cf195eb13127df8"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/CAST.tsv",
+          "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/SEGMENTS.tsv",
+          "sha256": "67051ef7c99385978e12618d3a81e975a3cb78b40b4210f7551603f8349b2d71"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/MISSING_ENTRIES.tsv",
+          "sha256": "0cf8eb59d8892e36e8de15dc85ca52ba4303d82a1c8654647b2398547add9710"
+        }
+      ],
+      "previewJsonSha256": "4e963270054a0b9c8b8e174e69324bbaa9e43d9870342b802b66cceb791c205c",
+      "segmentation": {
+        "status": "available",
+        "sourcePath": "content_v2/review/lessons/ko-a1-l005-runner/draft/SEGMENTS.tsv",
+        "sourceSha256": "67051ef7c99385978e12618d3a81e975a3cb78b40b4210f7551603f8349b2d71",
+        "matchedSentences": 26,
+        "totalSentences": 26
+      },
+      "missingDictionaryAtomIds": [
+        "ko:num:팔천",
+        "ko:prop:도현",
+        "ko:prop:마이클",
+        "ko:prop:애니",
+        "ko:prop:이안"
+      ],
+      "limitations": [
+        "原資料卡仍為 doing；PR #189 為 Draft/Open，預覽只呈現目前候選。",
+        "5 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+      ]
     },
     {
       "id": "ko-a1-l006",
       "level": 6,
+      "title": "失物招領公告",
       "status": "draft",
-      "head": "bbb6f93e37ed74df3ee3a7bdc8b3010b2a5cef92",
-      "branch": "luna/ko-a1-l006-text-20261025-followup"
+      "head": "ad55a462f0abe66f071079ce2f06e9c46e9b37e0",
+      "branch": "luna/ko-a1-l006-data-20261028",
+      "sourceCardState": "done",
+      "pr": 182,
+      "prStatus": "open_draft",
+      "description": "下班後，安妮到地鐵站務室找忘在車上的包包，確認是自己的包包後領回失物。",
+      "candidateDisposition": "unaccepted-unpublished",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l006-text/core/lesson.json",
+          "sha256": "5c1625891398cca8700ff8f6c3121634a4b3483d7cee4a6eb593cfcb79ac14ea"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l006-text/core/sentences.json",
+          "sha256": "f65968ab9f828d7454b6b0cc426b377016ca72fce9d69d562b08b37d85258a7d"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l006-text/draft/i18n/zh_tw/lesson.json",
+          "sha256": "37351c4c09aa56c439d0f0510062e35c4b65330c077c7f14e7037232955e547a"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l006-text/draft/i18n/zh_tw/sentences.json",
+          "sha256": "f3642bcd7a59fdc089fc3656a44afbfd84b3eb04997aaf0cde01e846e4a54bb6"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l006-text/draft/DIALOGUE.md",
+          "sha256": "6f49d5acf9bf10805707e63f7199ea8136ac691d547892b26b19bf98528c2352"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l006-text/draft/CAST.tsv",
+          "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l006-text/draft/SEGMENTS.tsv",
+          "sha256": "b3f0b158ba102412fa063d31750a987435f830e0bf9a60c7fd7d912d2b9aab09"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l006-text/draft/MISSING_ENTRIES.tsv",
+          "sha256": "c07909a5c446e7d176b13ba1a52391f5933e2bf88486025fecd75dee6815231d"
+        }
+      ],
+      "previewJsonSha256": "89f1f7e5dc1df8418c741049e943debefdb162127e74da88ac7b19020527e68b",
+      "segmentation": {
+        "status": "available",
+        "sourcePath": "content_v2/review/lessons/ko-a1-l006-text/draft/SEGMENTS.tsv",
+        "sourceSha256": "b3f0b158ba102412fa063d31750a987435f830e0bf9a60c7fd7d912d2b9aab09",
+        "matchedSentences": 28,
+        "totalSentences": 28
+      },
+      "missingDictionaryAtomIds": [
+        "ko:count:때",
+        "ko:intj:감사합니다",
+        "ko:n:것",
+        "ko:n:국어사전",
+        "ko:n:사원증",
+        "ko:n:영한사전",
+        "ko:n:회화책",
+        "ko:prop:마이클",
+        "ko:prop:애니",
+        "ko:v:있다"
+      ],
+      "limitations": [
+        "10 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+      ]
     },
     {
       "id": "ko-a1-l007",
       "level": 7,
+      "title": "借用文具",
       "status": "draft",
-      "head": "a6ab20406f54dc0ef61b0ea16acd6f9b09fb904f",
-      "branch": "luna/ko-a1-l007-text-20261025-rerun"
+      "head": "7921eeba48ab0de39ec6d4b0797d7ea824e1070b",
+      "branch": "luna/ko-a1-l007-data-20261028",
+      "sourceCardState": "done",
+      "pr": 185,
+      "prStatus": "open_draft",
+      "description": "週六在中心的語言交換活動中，安妮向麥可借原子筆，獲得同意並接過筆。",
+      "candidateDisposition": "unaccepted-unpublished",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l007/core/lesson.json",
+          "sha256": "d6339eb72a391be67b53e9758735965cc048233cabb53017e7fee9d741838f91"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l007/core/sentences.json",
+          "sha256": "57ea0ea856ae71fcec71a80e5d53060fb4dbacd9386f7d8ca853652907b19507"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l007/draft/i18n/zh_tw/lesson.json",
+          "sha256": "8e42397074392ac603b78f6ae8414cb63b3e7f20ea928b0b7eb539d2529678fa"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l007/draft/i18n/zh_tw/sentences.json",
+          "sha256": "6e03ed2673d33bb86b28597fa404b28dffcb11f474623abb11b09e078ee07657"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l007/draft/DIALOGUE.md",
+          "sha256": "3d6dcdb18e42c543668d9a6c5afbf5de200fbf609fb6e433aa7b5f88b8e01628"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l007/draft/CAST.tsv",
+          "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l007/draft/SEGMENTS.tsv",
+          "sha256": "564af1774bbd98a17ada1048e6bff161b41a90b02216f77ff2974cd21845c0b3"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l007/draft/MISSING_ENTRIES.tsv",
+          "sha256": "ad282bd3e29de862909f2310dd0ce332a502e44b2054eb318f19fa66dd7e53da"
+        }
+      ],
+      "previewJsonSha256": "a54a82b706ecb87e4428c1af6acf36f97cba5400f7b5e908c0d9b8e77753a952",
+      "segmentation": {
+        "status": "available",
+        "sourcePath": "content_v2/review/lessons/ko-a1-l007/draft/SEGMENTS.tsv",
+        "sourceSha256": "564af1774bbd98a17ada1048e6bff161b41a90b02216f77ff2974cd21845c0b3",
+        "matchedSentences": 16,
+        "totalSentences": 16
+      },
+      "missingDictionaryAtomIds": [
+        "ko:p:이요",
+        "ko:prop:마이클",
+        "ko:prop:유키"
+      ],
+      "limitations": [
+        "3 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+      ]
     },
     {
       "id": "ko-a1-l008",
       "level": 8,
+      "title": "介紹住家與家具",
       "status": "draft",
-      "head": "4fb16608af5923b687177d13a1d81a3fc553b840",
-      "branch": "luna/ko-a1-l008-text-20261025"
+      "head": "1015d3dc80127e56b15b2258046b972da3c5d0d3",
+      "branch": "luna/ko-a1-l008-data-20261028",
+      "sourceCardState": "done",
+      "pr": 179,
+      "prStatus": "open_draft",
+      "description": "週日，安妮和由紀在家具店挑選家人來訪時要用的棉被與枕頭。",
+      "candidateDisposition": "unaccepted-unpublished",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l008-text/core/lesson.json",
+          "sha256": "15c54b48338a2d6619ef665b5ad067271dfe971ccd979500da1b5520d58f9ee1"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l008-text/core/sentences.json",
+          "sha256": "c6dae48f52e055f815a718d848d10bd5641d8709df6a2f65f655999c6a612546"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l008-text/draft/i18n/zh_tw/lesson.json",
+          "sha256": "47bf6824ea7c699dfcb65b0a526590dcef1c93062c773ff0c6821bb809274005"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l008-text/draft/i18n/zh_tw/sentences.json",
+          "sha256": "97cb88563e96e1751d9c21f9220a45fea4ce41df6d7b89c31776ad8f6069dea0"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l008-text/draft/DIALOGUE.md",
+          "sha256": "f2641587171b2d5c17c02d0d0a93b0a1c009bb2ebf31a548cc03b30c15f9a234"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l008-text/draft/CAST.tsv",
+          "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l008-text/draft/SEGMENTS.tsv",
+          "sha256": "2f8d24de0a55c41b4c5d92f88e6db60b72ac4e106cac817468bd977d682cfea9"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l008-text/draft/MISSING_ENTRIES.tsv",
+          "sha256": "67ee60d8fae7367b99ce1e90f16b7a960ff55e3efe26a7eef68ccf04bbf54fb5"
+        }
+      ],
+      "previewJsonSha256": "58dd10b0a42bb4950de1fc31f45727069b1b2d49fa5e082131d0340546765dcb",
+      "segmentation": {
+        "status": "available",
+        "sourcePath": "content_v2/review/lessons/ko-a1-l008-text/draft/SEGMENTS.tsv",
+        "sourceSha256": "2f8d24de0a55c41b4c5d92f88e6db60b72ac4e106cac817468bd977d682cfea9",
+        "matchedSentences": 23,
+        "totalSentences": 23
+      },
+      "missingDictionaryAtomIds": [
+        "ko:n:가족분",
+        "ko:n:세면대",
+        "ko:prop:애니",
+        "ko:v:있다"
+      ],
+      "limitations": [
+        "4 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+      ]
     },
     {
       "id": "ko-a1-l009",
       "level": 9,
+      "title": "辨認人物與外貌描述",
       "status": "draft",
-      "head": "2538c3d2076bb4d904f7e137a3c47f00cf302d1f",
-      "branch": "luna/ko-a1-l009-text-rerun-20261025"
+      "head": "3a524d699a96103f912f02af46db0d8ac25e26d7",
+      "branch": "luna/ko-a1-l009-data-20261028",
+      "sourceCardState": "done",
+      "pr": 181,
+      "prStatus": "open_draft",
+      "description": "週二在教室裡，素拉拿著週六語言交換活動的照片，讓大家只看背影猜猜照片裡的人。",
+      "candidateDisposition": "unaccepted-unpublished",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l009-text/core/lesson.json",
+          "sha256": "6aa2ce2f3ace47486bd62a4d1ae06d0c911d995efd129a789b382469e3b68890"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l009-text/core/sentences.json",
+          "sha256": "1d1ad2d960883d0659b5a60b8046c50a890cc8ff641db8555ff44c9172871427"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l009-text/draft/i18n/zh_tw/lesson.json",
+          "sha256": "ae41088a05035e696e8cc5dca55291bee343f1e5cb865ad5b8165deb18a45b50"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l009-text/draft/i18n/zh_tw/sentences.json",
+          "sha256": "7dab71733e07db7983b15afcff36e81246174a9c1d981b0c152e2834f4ca904a"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l009-text/draft/DIALOGUE.md",
+          "sha256": "fa18df708e17a1ec5cc26aa745c3eff07741c573274584bf9b936267b0cd6805"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l009-text/draft/CAST.tsv",
+          "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l009-text/draft/SEGMENTS.tsv",
+          "sha256": "551cc139fcd5d7a0f83e9f8920e0e0c98f10c530fea4af079207f983917c8429"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l009-text/draft/MISSING_ENTRIES.tsv",
+          "sha256": "b33e01c833c1c04bea023857054de5d2e87abe960cc64f0231084e228b1d6c8a"
+        }
+      ],
+      "previewJsonSha256": "2f411b1f8bbf8281ab5e8adf460ac99aebf350ef694ce2c35f8c6ba494eb113a",
+      "segmentation": {
+        "status": "available",
+        "sourcePath": "content_v2/review/lessons/ko-a1-l009-text/draft/SEGMENTS.tsv",
+        "sourceSha256": "551cc139fcd5d7a0f83e9f8920e0e0c98f10c530fea4af079207f983917c8429",
+        "matchedSentences": 29,
+        "totalSentences": 29
+      },
+      "missingDictionaryAtomIds": [
+        "ko:adj:맞다",
+        "ko:n:분",
+        "ko:prop:도현",
+        "ko:prop:마이클",
+        "ko:prop:유키",
+        "ko:prop:이안",
+        "ko:v:있다"
+      ],
+      "limitations": [
+        "7 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+      ]
     },
     {
       "id": "ko-a1-l010",
       "level": 10,
+      "title": "第十課候選",
       "status": "draft",
-      "head": "5053e292ff7f688ccd4dd41b96ad57f80ebb8c6f",
-      "branch": "luna/ko-a1-l010-text-20261025-rerun"
+      "head": "c62e14f14872bb5c3d6b43da62c47a795a80fa0f",
+      "branch": "luna/ko-a1-l010-data-20261028",
+      "sourceCardState": "done",
+      "pr": null,
+      "prStatus": "no_pr",
+      "description": "週日上午在十字路口，怡安和安妮看著社區地圖看板，確認去公園的位置與走法。",
+      "candidateDisposition": "unaccepted-unpublished",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/core/lesson.json",
+          "sha256": "2b549c2a3fc81cee016c00f55be60c141198a4ea24c6e7aa50440912cf9b9f1e"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/core/sentences.json",
+          "sha256": "5860861c58bc2668f957a061205653e66c103a26fd4a4144c905e6fe168739fe"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/i18n/zh_tw/lesson.json",
+          "sha256": "1ce18729539aacd484ceb2224d6dc6e2dbaebe177871a4bca4054e96e8484c31"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/i18n/zh_tw/sentences.json",
+          "sha256": "1d076ebfa2a0f60596f065ea87fd075114b559e0b7c0c89f3edb07bb9a3524be"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/DIALOGUE.md",
+          "sha256": "85f77a3625b8c202c670acabef0795743d358e530da9fb9143ef21a8e9a59241"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/CAST.tsv",
+          "sha256": "991f78ed7f47f1ddc84105375a066299783817f5a7094d1bf569af8a0278294b"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
+          "sha256": "af59ada72d1ed4103d08f4cd8962832b2449f4e015e51f79f697bbc5b2178d0c"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/MISSING_ENTRIES.tsv",
+          "sha256": "3d243f0ab93f70b84a07eb21eda7f94ae7776942ce36d811a846012fbc7643cf"
+        }
+      ],
+      "previewJsonSha256": "d11495aac8da9224c86517889af16175ea5ef53c38755abe74e761bb6afe46e3",
+      "segmentation": {
+        "status": "available",
+        "sourcePath": "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
+        "sourceSha256": "af59ada72d1ed4103d08f4cd8962832b2449f4e015e51f79f697bbc5b2178d0c",
+        "matchedSentences": 29,
+        "totalSentences": 29
+      },
+      "missingDictionaryAtomIds": [
+        "ko:adj:맞다",
+        "ko:intj:감사합니다",
+        "ko:n:밥집",
+        "ko:n:안내도",
+        "ko:n:타이머",
+        "ko:prop:유키",
+        "ko:prop:이안",
+        "ko:v:있다"
+      ],
+      "limitations": [
+        "來源卡記為 done，候選未合併；此來源不需要 PR。",
+        "8 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+      ]
     }
   ]
 }
