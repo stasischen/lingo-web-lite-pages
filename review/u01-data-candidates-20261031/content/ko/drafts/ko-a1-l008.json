@@ -3,7 +3,7 @@
   "level": 8,
   "title": "介紹住家與家具",
   "status": "draft",
-  "head": "1015d3dc80127e56b15b2258046b972da3c5d0d3",
+  "head": "90b5a029afeda3254214fc9e7eb96f83df4d9df3",
   "branch": "luna/ko-a1-l008-data-20261028",
   "sourceRepo": "stasischen/content-ko",
   "sourceCardState": "done",
@@ -18,7 +18,7 @@
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l008-text/core/sentences.json",
-      "sha256": "c6dae48f52e055f815a718d848d10bd5641d8709df6a2f65f655999c6a612546"
+      "sha256": "639937ddeafdccea8036002875ef7a3faaef59ab6c00b574152faf93bc622c45"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l008-text/draft/i18n/zh_tw/lesson.json",
@@ -38,25 +38,24 @@
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l008-text/draft/SEGMENTS.tsv",
-      "sha256": "2f8d24de0a55c41b4c5d92f88e6db60b72ac4e106cac817468bd977d682cfea9"
+      "sha256": "c789d494f630c40e06325de93ce522c4e374a33f89aaddb9b510afff5d7582c1"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l008-text/draft/MISSING_ENTRIES.tsv",
-      "sha256": "67ee60d8fae7367b99ce1e90f16b7a960ff55e3efe26a7eef68ccf04bbf54fb5"
+      "sha256": "9e16b050c584ff1f6bbf33e6fb16bab0ea711604c56a2a78b7d2ffc62cace57d"
     }
   ],
   "segmentation": {
     "status": "available",
     "sourcePath": "content_v2/review/lessons/ko-a1-l008-text/draft/SEGMENTS.tsv",
-    "sourceSha256": "2f8d24de0a55c41b4c5d92f88e6db60b72ac4e106cac817468bd977d682cfea9",
+    "sourceSha256": "c789d494f630c40e06325de93ce522c4e374a33f89aaddb9b510afff5d7582c1",
     "matchedSentences": 23,
     "totalSentences": 23
   },
   "missingDictionaryAtomIds": [
     "ko:n:가족분",
     "ko:n:세면대",
-    "ko:prop:애니",
-    "ko:v:있다"
+    "ko:prop:애니"
   ],
   "dialogue": [
     {

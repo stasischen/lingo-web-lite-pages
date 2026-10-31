@@ -7,12 +7,12 @@
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "Review-path production build passed on WebLite app commit 1d830a0fe3b4fa1c297461dcf30a421c742dfce7 (TypeScript check + Vite production build using the requested VITE_BASE_PATH). npm test passed: 15 Vitest files / 72 tests and 3 Python sync tests. Published Pages bundle commit cd9a74830d2d503761cd1b30adafe62d0b6d190a deployed successfully in run 41233801958; public HTTPS readback verified all 86 packaged files against this build metadata. Chromium production-browser UI check passed all ten course routes and representative dictionary/CAST/missing-entry lookups; no page errors or failed requests. Parent cloud user also manually confirmed L2 안녕하세요 opens the same-revision SEGMENTS breakdown (안녕하다/세요) with glosses. The tested interactive bundle is commit cd9a74830d2d503761cd1b30adafe62d0b6d190a (run 41233801958); metadata-only revision d20ecdc51345d8e10a088b07d06da6e7bade2056 (run 41234401746) records the check without changing the bundle. Source QA/evidence lifecycle correction is commit 8cfaa680ff2303d923ef849c3f103fbb3ee37d57.",
+  "buildResult": "After source refresh commit 370362f15d042436c40f10d97397d146cd185207, targeted Vitest passed 18/18 and the requested VITE_BASE_PATH production build passed. The emitted app JS/CSS hashes match the existing review bundle; data files changed only. Pages HTTPS deployment and file readback are pending. No UI rerun was performed after this source pin refresh.",
   "candidatePacketCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
-  "candidateManifestSha256": "f475379c75e4fb7502d304178e4406e00f3fc757b75bbc19d7f5dd02c24b717e",
+  "candidateManifestSha256": "d4fc5d68a1d09a9f7087a75e194a5a80cfbe642cd1628db3d1d1ebbea59f4bee",
   "segmentation": "Exact-source SEGMENTS overlays are fully matched across all ten lessons: L1 15/15; L2 31/31; L3 44/44; L4 32/32; L5 26/26; L6 28/28; L7 16/16; L8 23/23; L9 29/29; L10 29/29. For every lesson, overlay sourceCommit equals lesson.head, dialogueSha256 matches the named dialogue sourceFiles record, and segmentsSha256 matches lesson.segmentation.sourceSha256; matchedSentences equals totalSentences. The overlays contain 273 matched sentence occurrences and 271 per-lesson unique segmentsByText keys; L3 and L9 each repeat one text surface. The 793 count is multi-atom token rows across those unique per-lesson maps, not a sentence count. Existing loader attaches an overlay only when source commit and dialogue hash match; renderDraftText validates tab-separated nonempty surface/atomId tokens and normalized joined surfaces against the exact sentence text. Valid word surfaces render as lookup buttons (trailing punctuation remains text), using lesson binding lemma/atomId/state when present and SEGMENTS values otherwise. This is a data and code-path check, not a ten-lesson interactive UI acceptance.",
-  "lookupSummary": "Isolated Pages lookup: 401 entries / 34 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 applies only to the stated contexts; both remain provisional. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences already use active core dictionary rows. Fixed CAST display is separate: 27 exact lesson-scoped records cover 56 button occurrences only where exact frozen identity evidence supports the mapping, including 12 L1 occurrences recovered from the repeated L2–L10 IDs; no dictionary entries are created. Twenty-one unambiguous location/existence surfaces for ko:v:있다 use provisional lesson bindings to the existing approved ko:adj:있다 row; four L10 `있어요.` occurrences remain unresolved because the same surface also covers an ability use and bindings are surface-wide. Data path resolves 1,193/1,260 dictionary buttons; CAST displays another 56; 11 remain without exact dictionary/eligible CAST (것×4, xnum×2, 가족분×1, L10 있다×4). L2 ko:n:곳 remains approved and uses the exact core dictionary row through the approved-binding fallback. 13 source-MISSING IDs still have no direct preview entry. This is an isolated data-only candidate; the app bundle and official sources are unchanged.",
-  "knownLimitations": "The earlier L3 cloud synthesis-failed observation remains undiagnosed. The prior parent L2 click for 대학원생이에요 was on an earlier bundle. Current public bundle has passed ten-course DOM/button and sample lookup validation. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
+  "lookupSummary": "Isolated Pages lookup: 401 entries / 34 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 applies only to the stated contexts; both remain provisional. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences already use active core dictionary rows. Fixed CAST display is separate: 27 exact lesson-scoped records cover 56 button occurrences. Fourteen L6/L8 location/existence uses now follow their approved source SEGMENTS as ko:adj:있다; seven old-pin occurrences remain provisional (L9×3, L10 question-form×4). Data path resolves 1,193/1,260 dictionary buttons; CAST displays another 56; 11 remain without exact dictionary/eligible CAST. L2 ko:n:곳 remains approved through the core-dictionary fallback. Thirteen source-MISSING IDs still have no direct preview entry. Isolated candidate only; no official adoption.",
+  "knownLimitations": "The prior L3 cloud synthesis-failed observation remains undiagnosed. The most recent browser UI check used the data before the L6/L8 source pin refresh; UI was not rerun after this refresh. L10 remains on its previous pin because the reviewed SEGMENTS change conflicts with same-head core sentence atoms and MISSING_ENTRIES. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
   "filesSha256": {
@@ -72,26 +72,26 @@
     "content/ko/drafts/ko-a1-l003.json": "ba59dcd3f1db055fd80d330230b0e308bd9a9451bac5d276a6ddf1e9f9ade7e8",
     "content/ko/drafts/ko-a1-l004.json": "197102614797ff98b282ccb67c8780759690cf03d88e6e040459623d5eff0b97",
     "content/ko/drafts/ko-a1-l005.json": "4e963270054a0b9c8b8e174e69324bbaa9e43d9870342b802b66cceb791c205c",
-    "content/ko/drafts/ko-a1-l006.json": "89f1f7e5dc1df8418c741049e943debefdb162127e74da88ac7b19020527e68b",
+    "content/ko/drafts/ko-a1-l006.json": "1098092b450be958ddbc2e183c6a4173bf2bb4689dba1538e37de98f33a385b3",
     "content/ko/drafts/ko-a1-l007.json": "a54a82b706ecb87e4428c1af6acf36f97cba5400f7b5e908c0d9b8e77753a952",
-    "content/ko/drafts/ko-a1-l008.json": "58dd10b0a42bb4950de1fc31f45727069b1b2d49fa5e082131d0340546765dcb",
+    "content/ko/drafts/ko-a1-l008.json": "edf9d156196f101f4042dd7632a290994f7780e186dba08115b16878738279f3",
     "content/ko/drafts/ko-a1-l009.json": "2f411b1f8bbf8281ab5e8adf460ac99aebf350ef694ce2c35f8c6ba494eb113a",
     "content/ko/drafts/ko-a1-l010.json": "d11495aac8da9224c86517889af16175ea5ef53c38755abe74e761bb6afe46e3",
-    "content/ko/drafts/lookup.json": "097267b3090f151ab1255f9cc9bc09717006829144c1fde9a355c13737ea61d1",
-    "content/ko/drafts/manifest.json": "f475379c75e4fb7502d304178e4406e00f3fc757b75bbc19d7f5dd02c24b717e",
-    "content/ko/drafts/segment-overlays.json": "ff9c28ef249297b88b4e5f0af3a9d16aea623b15ba3ca8323d8439f715d95d89",
-    "content/ko/drafts/u01-review-evidence.json": "25177fb587cdf31cbcede6ac07c334e30d016c0cd52dd468483991663966a0f2",
+    "content/ko/drafts/lookup.json": "f17c0d0c00f98f57d57edeb9990724c6a3640e8ec4bb5157ee2abbf271bc4cc0",
+    "content/ko/drafts/manifest.json": "36b3887644f3446a9bbdbbeed8e59ec8363389ff231f4994761efa371b862b72",
+    "content/ko/drafts/segment-overlays.json": "64466ba8c1e53802c250d8f151b0d2a3483f0683c07fe21fbb3cf71d69343b54",
+    "content/ko/drafts/u01-review-evidence.json": "d8ab8b4469ff5b6ca61ba5ac6984bceb8dcaf5065372071fb498cbf7f1242ecf",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l001.json": "a2e0eb8298275319c234a9dc6bc1684361a060e644771d67a19354b07d97ecc0",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l002.json": "1f49382dca77c72dcf02f072c3fb2bfa921bde08d24aca26ef5089cb9c66455c",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l003.json": "801b544e2fd83ca4a89f51e637fe220b033060cad6d01fbc563b5a3fa9206d44",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l004.json": "98c9289ff4590154347057e10fbbbf83cadd228a41890503bdad4d87d7dcf8fb",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l005.json": "13ddef5447cf1dcef998b24611c4076cb4443a62fa5cfb95abbca68d6e93e754",
-    "content/ko/drafts-u01-candidates-20261031/ko-a1-l006.json": "bb971ff96cf7af1848382743ca755b64760573240736cffba85d8fb6f0a7c410",
+    "content/ko/drafts-u01-candidates-20261031/ko-a1-l006.json": "aa833f4bfc66721823f23532b5d2ce71b0d34f3fd1228cb39097ab4a2a8a8e31",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l007.json": "b4f3bfd7c978b86c2786b4c1034ea672e8f20de6db0d3651fb55184d5a339b1b",
-    "content/ko/drafts-u01-candidates-20261031/ko-a1-l008.json": "be9eea00dc32d2b9eab90d875029d90cc17fd178fe78aa6d457784631593143d",
+    "content/ko/drafts-u01-candidates-20261031/ko-a1-l008.json": "e4871cff910354fd0ef819b88299393822fad24ba054619f1f4661cb5cfc9778",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l009.json": "97ed9759784e5e8ededc68f943501ebdd0f00f1cd1e75978dfa3d3a294877616",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l010.json": "ba0c33eb672f3ae34752ad72b905370597efad9693c730a0040773966e6a2ead",
-    "content/ko/drafts-u01-candidates-20261031/manifest.json": "cceec47a97dce3b80f3eebd6b1a5453923a70bdf6548d99c9fa7488556b63d82",
+    "content/ko/drafts-u01-candidates-20261031/manifest.json": "d4fc5d68a1d09a9f7087a75e194a5a80cfbe642cd1628db3d1d1ebbea59f4bee",
     "content/ko/lessons/ko-a1-l001.json": "b8b281c5c6983969cb4ca6ce63ad866a58fe76213c0ad1b8e6cc66fc195abe80",
     "content/ko/lessons/ko-a1-l002.json": "e76c29716a1fda1219aa77391fbbf9ba1dfdaadefa2c1223b2ef95a978c557e3",
     "content/ko/lessons/ko-a1-l003.json": "a607ceeb519c3711d8811da5cf4a2fc4060eef34bfc2c93ded6f0d97ff66a50e",
@@ -458,16 +458,16 @@
   },
   "latestU01IntegrationUpdate": {
     "date": "2026-11-01",
-    "sourceCommit": "13f96d81d25be0790865860437b6304c216cbd45",
+    "sourceCommit": "370362f15d042436c40f10d97397d146cd185207",
     "appAssetsChanged": false,
-    "changedScope": "Only the isolated review/u01-data-candidates-20261031 lookup data and QA record. App code/assets, official dictionary/runtime, and frozen lesson text are unchanged.",
+    "changedScope": "Only the isolated review subtree's L6/L8 source pins, transformed JSON, lookup bindings, overlays, QA record, and source-level tests. L10 kept its prior pin due source consistency mismatch; no app bundle, official dictionary, or course text changed.",
     "approvedRuntimeRecovery": "39 existing active runtime/public-index entries, approved in the isolated lookup only; 121 visible token occurrences (36 IDs / 107 occurrences, plus ko:num:둘/셋/넷 / 14 occurrences).",
     "castNameDisplay": "27 exact lesson-scoped CAST mappings / 56 visible token occurrences, separate from dictionary entries; 12 L1 occurrences use existing IDs confirmed by exact frozen L2 CAST rows, including the documented 애니/천이쥔 alias.",
     "placeNameRuntime": "한국×3, 일본×1, 대만×3, 부산×2, 서울×1; all 10 occurrences use existing active runtime/core dictionary rows.",
     "buttonCoverageByLesson": "Totals/dictionary/CAST/unresolved: L1 86/74/12/0; L2 149/137/12/0; L3 156/150/2/4; L4 161/156/5/0; L5 156/147/9/0; L6 114/110/2/2; L7 56/54/2/0; L8 118/116/1/1; L9 128/119/9/0; L10 136/130/2/4.",
     "unresolvedButtonCategories": "11 total: ko:n:것×4 (RCA-04A hold); ko:xnum:3/4×2 (numeric placeholder policy); ko:n:가족분×1 (explicitly excluded); L10 ko:v:있다×4 (surface-wide collision includes an ability use).",
     "publishedUiValidation": {
-      "status": "passed",
+      "status": "passed_before_L6_L8_source_refresh",
       "publishedBundleCommit": "cd9a74830d2d503761cd1b30adafe62d0b6d190a",
       "dataPagesCommit": "41d8c3eb14f2819b2532eb268c18d45942b50f7e",
       "deploymentRun": "41236920902",
@@ -476,18 +476,19 @@
       "pageErrors": 0,
       "failedRequests": 0,
       "nonBlocking404": "Only https://stasischen.github.io/favicon.ico returned 404; app page, lesson JSON, and lookup JSON loaded and interactions succeeded.",
-      "scope": "Current lookup-data refresh only. No translation, speech, or mobile retest; this remains an isolated candidate and not official course or dictionary adoption."
+      "scope": "Historical browser validation of the previous data. UI was not rerun after the L6/L8 source pin refresh; this remains an isolated candidate and not official course or dictionary adoption.",
+      "afterRefreshUiRetest": "Not performed per task instruction."
     },
-    "qaCommit": "13f96d81d25be0790865860437b6304c216cbd45",
+    "qaCommit": "370362f15d042436c40f10d97397d146cd185207",
     "sourceLifecycleEvidence": {
-      "sourceCommit": "8cfaa680ff2303d923ef849c3f103fbb3ee37d57",
+      "sourceCommit": "370362f15d042436c40f10d97397d146cd185207",
       "sourcePath": "public/content/ko/drafts/u01-review-evidence.json",
-      "sourceSha256": "184ad28da14103e1aab9bdc5778b082c5f0c76254cbc1eb9eb62c189b0c69262",
+      "sourceSha256": "feda29738caaf3a33f81f0675f10c7a476f139475687388a06984fa42cd02523",
       "pagesCopyPath": "content/ko/drafts/u01-review-evidence.json",
       "candidateLifecycleFieldsMatch": true,
       "note": "The Pages evidence also contains Pages-specific records; the candidateLifecycle outcome and UI validation are mirrored from the source evidence."
     },
-    "posBindingRecovery": "21 unambiguous location/existence occurrences are preview-only provisional bindings to the existing approved ko:adj:있다 entry (L6×6, L8×8, L9×3, L10 `있어요?`×4). The remaining four L10 `있어요.` occurrences share one surface-wide binding with one ability use, so they remain unresolved. Frozen SEGMENTS retain ko:v:있다+ending.",
+    "posBindingRecovery": "Fourteen L6/L8 location/existence occurrences now use exact approved source SEGMENTS atom IDs ko:adj:있다 (L6×6, L8×8). Seven old-pin occurrences still use provisional bindings (L9×3, L10 question-form×4). Four L10 declarative `있어요.` occurrences remain unresolved because the source pin is held; the old surface-wide mapping would collide with the ability use.",
     "previousPublishedUiValidation": {
       "status": "passed",
       "publishedBundleCommit": "cd9a74830d2d503761cd1b30adafe62d0b6d190a",
@@ -504,6 +505,20 @@
       "metadataOnlyPagesCommitAtValidation": "d20ecdc51345d8e10a088b07d06da6e7bade2056",
       "metadataOnlyPagesDeploymentRunAtValidation": "41234401746"
     },
-    "sourcePosFollowup": "Owner status received after this preview: exact reviewed source corrections exist for L6 and L10 but the current package still pins the previous frozen revisions; L8 edited revision is awaiting its existing independent review; L9 has no new committed revision. Keep current data candidate unchanged until all exact source revisions and their existing review states can be checked together."
+    "sourcePosFollowup": "L6 and L8 exact reviewed source heads are now integrated. L10's approved SEGMENTS-only head is not integrated: the same head still has ko:v:있다 for s.000001 in core/sentences.json and a stale ko:v:있다 MISSING row for that sentence; preserve the old pin until the source owner synchronizes those files and the existing review process verifies the changed source. L9 keeps its old pin because no readable Sol POS review receipt was found; Dot's receipt covers only its limited POS delta.",
+    "sourcePinRefresh": {
+      "integrated": {
+        "ko-a1-l006": "99022dd2f80263cfb19b39e32c7f877529d4f0ce",
+        "ko-a1-l008": "90b5a029afeda3254214fc9e7eb96f83df4d9df3"
+      },
+      "held": {
+        "ko-a1-l010": {
+          "currentPin": "c62e14f14872bb5c3d6b43da62c47a795a80fa0f",
+          "reviewedSegmentsHead": "1e027e3e4b2b68cbba637505b37fbb045442470b",
+          "reason": "same-head core/sentences and MISSING_ENTRIES still mark s.000001 as ko:v:있다 although SEGMENTS marks ko:adj:있다; s.000023 ability use stays ko:v:있다."
+        }
+      },
+      "uiRetest": "not performed"
+    }
   }
 }

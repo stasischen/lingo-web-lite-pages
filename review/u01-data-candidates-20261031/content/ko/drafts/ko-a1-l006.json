@@ -3,7 +3,7 @@
   "level": 6,
   "title": "失物招領公告",
   "status": "draft",
-  "head": "ad55a462f0abe66f071079ce2f06e9c46e9b37e0",
+  "head": "99022dd2f80263cfb19b39e32c7f877529d4f0ce",
   "branch": "luna/ko-a1-l006-data-20261028",
   "sourceRepo": "stasischen/content-ko",
   "sourceCardState": "done",
@@ -18,7 +18,7 @@
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l006-text/core/sentences.json",
-      "sha256": "f65968ab9f828d7454b6b0cc426b377016ca72fce9d69d562b08b37d85258a7d"
+      "sha256": "aeb19c16299337a3b580627fe460bda0df97d1a858803410b04baece27bddcfa"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l006-text/draft/i18n/zh_tw/lesson.json",
@@ -38,17 +38,17 @@
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l006-text/draft/SEGMENTS.tsv",
-      "sha256": "b3f0b158ba102412fa063d31750a987435f830e0bf9a60c7fd7d912d2b9aab09"
+      "sha256": "6a07ed0bd45c1da42f0af43652084e25f88fff5f54cbc3f2a08f0167aaff85e3"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l006-text/draft/MISSING_ENTRIES.tsv",
-      "sha256": "c07909a5c446e7d176b13ba1a52391f5933e2bf88486025fecd75dee6815231d"
+      "sha256": "e41c33d073dc15e8c730755f167df8a32a4a8796a98c02a4e6a40deeacb93458"
     }
   ],
   "segmentation": {
     "status": "available",
     "sourcePath": "content_v2/review/lessons/ko-a1-l006-text/draft/SEGMENTS.tsv",
-    "sourceSha256": "b3f0b158ba102412fa063d31750a987435f830e0bf9a60c7fd7d912d2b9aab09",
+    "sourceSha256": "6a07ed0bd45c1da42f0af43652084e25f88fff5f54cbc3f2a08f0167aaff85e3",
     "matchedSentences": 28,
     "totalSentences": 28
   },
@@ -61,8 +61,7 @@
     "ko:n:영한사전",
     "ko:n:회화책",
     "ko:prop:마이클",
-    "ko:prop:애니",
-    "ko:v:있다"
+    "ko:prop:애니"
   ],
   "dialogue": [
     {

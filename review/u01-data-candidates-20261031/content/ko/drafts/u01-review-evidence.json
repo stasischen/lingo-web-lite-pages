@@ -300,7 +300,7 @@
     },
     {
       "id": "ko-a1-l006",
-      "sourceCommit": "ad55a462f0abe66f071079ce2f06e9c46e9b37e0",
+      "sourceCommit": "99022dd2f80263cfb19b39e32c7f877529d4f0ce",
       "sourceFiles": [
         {
           "path": "content_v2/review/lessons/ko-a1-l006-text/core/lesson.json",
@@ -308,7 +308,7 @@
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l006-text/core/sentences.json",
-          "sha256": "f65968ab9f828d7454b6b0cc426b377016ca72fce9d69d562b08b37d85258a7d"
+          "sha256": "aeb19c16299337a3b580627fe460bda0df97d1a858803410b04baece27bddcfa"
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l006-text/draft/i18n/zh_tw/lesson.json",
@@ -328,11 +328,11 @@
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l006-text/draft/SEGMENTS.tsv",
-          "sha256": "b3f0b158ba102412fa063d31750a987435f830e0bf9a60c7fd7d912d2b9aab09"
+          "sha256": "6a07ed0bd45c1da42f0af43652084e25f88fff5f54cbc3f2a08f0167aaff85e3"
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l006-text/draft/MISSING_ENTRIES.tsv",
-          "sha256": "c07909a5c446e7d176b13ba1a52391f5933e2bf88486025fecd75dee6815231d"
+          "sha256": "e41c33d073dc15e8c730755f167df8a32a4a8796a98c02a4e6a40deeacb93458"
         }
       ],
       "cardState": "done",
@@ -344,7 +344,7 @@
       "segmentation": {
         "status": "available",
         "sourcePath": "content_v2/review/lessons/ko-a1-l006-text/draft/SEGMENTS.tsv",
-        "sourceSha256": "b3f0b158ba102412fa063d31750a987435f830e0bf9a60c7fd7d912d2b9aab09",
+        "sourceSha256": "6a07ed0bd45c1da42f0af43652084e25f88fff5f54cbc3f2a08f0167aaff85e3",
         "matchedSentences": 28,
         "totalSentences": 28
       },
@@ -357,8 +357,7 @@
         "ko:n:영한사전",
         "ko:n:회화책",
         "ko:prop:마이클",
-        "ko:prop:애니",
-        "ko:v:있다"
+        "ko:prop:애니"
       ]
     },
     {
@@ -419,7 +418,7 @@
     },
     {
       "id": "ko-a1-l008",
-      "sourceCommit": "1015d3dc80127e56b15b2258046b972da3c5d0d3",
+      "sourceCommit": "90b5a029afeda3254214fc9e7eb96f83df4d9df3",
       "sourceFiles": [
         {
           "path": "content_v2/review/lessons/ko-a1-l008-text/core/lesson.json",
@@ -427,7 +426,7 @@
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l008-text/core/sentences.json",
-          "sha256": "c6dae48f52e055f815a718d848d10bd5641d8709df6a2f65f655999c6a612546"
+          "sha256": "639937ddeafdccea8036002875ef7a3faaef59ab6c00b574152faf93bc622c45"
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l008-text/draft/i18n/zh_tw/lesson.json",
@@ -447,11 +446,11 @@
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l008-text/draft/SEGMENTS.tsv",
-          "sha256": "2f8d24de0a55c41b4c5d92f88e6db60b72ac4e106cac817468bd977d682cfea9"
+          "sha256": "c789d494f630c40e06325de93ce522c4e374a33f89aaddb9b510afff5d7582c1"
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l008-text/draft/MISSING_ENTRIES.tsv",
-          "sha256": "67ee60d8fae7367b99ce1e90f16b7a960ff55e3efe26a7eef68ccf04bbf54fb5"
+          "sha256": "9e16b050c584ff1f6bbf33e6fb16bab0ea711604c56a2a78b7d2ffc62cace57d"
         }
       ],
       "cardState": "done",
@@ -463,15 +462,14 @@
       "segmentation": {
         "status": "available",
         "sourcePath": "content_v2/review/lessons/ko-a1-l008-text/draft/SEGMENTS.tsv",
-        "sourceSha256": "2f8d24de0a55c41b4c5d92f88e6db60b72ac4e106cac817468bd977d682cfea9",
+        "sourceSha256": "c789d494f630c40e06325de93ce522c4e374a33f89aaddb9b510afff5d7582c1",
         "matchedSentences": 23,
         "totalSentences": 23
       },
       "missingDictionaryAtomIds": [
         "ko:n:가족분",
         "ko:n:세면대",
-        "ko:prop:애니",
-        "ko:v:있다"
+        "ko:prop:애니"
       ]
     },
     {
@@ -603,7 +601,7 @@
     "candidateDisposition": "Dot result #6547574410 returned limited approval only for L3 coffee ko:n:라테 and honorific ko:n:분 in their stated lesson contexts; both remain provisional isolated-preview entries. ko:n:것 remains held under RCA_04A. No formal dictionary/runtime adoption, lesson acceptance, PR approval, merge, or release approval.",
     "baseLookupSha256": "e0612f2470bb1a9be16712a65bad75c21e326806f507635856a6eff0f4797c5d",
     "counts": {
-      "sourceMissingRows": 59,
+      "sourceMissingRows": 57,
       "sourceMissingUniqueAtomIds": 31,
       "baseUniqueLookupGapIds": 33,
       "finalSourceMissingIdsWithoutEntry": 13,
@@ -2032,7 +2030,7 @@
         "mappingReviewStatus": "pending user preview review"
       }
     ],
-    "lookupSha256": "d769813232b142d2b7a730ac9aeb8376648bc110d673eaf72a456242ca23a1ba",
+    "lookupSha256": "f17c0d0c00f98f57d57edeb9990724c6a3640e8ec4bb5157ee2abbf271bc4cc0",
     "sourceMissingIdClassification": {
       "trueLexicalDictionaryGaps": [
         "ko:n:것",
