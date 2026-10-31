@@ -7,7 +7,7 @@
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "Nested-route app build passed; targeted lookup/content/preview regression passed 18/18. The L5 price-context candidate is included as provisional only, and the L5 name remains CAST/CONFIG-only without a dictionary entry. Existing app entry, JS, and CSS hashes match the prior Pages build. Parent cloud UI verification is pending for this updated lookup.",
+  "buildResult": "Nested-route app build passed; targeted lookup/content/preview regression passed 18/18. The L5 price-context candidate is included as provisional only, and the L5 name remains CAST/CONFIG-only without a dictionary entry. Existing app entry, JS, and CSS hashes match the prior Pages build. Parent cloud UI verification is pending for this updated lookup. L5 c10 translation originals were added as a data-only review handoff after the app build; no app, content model, or dictionary was rerun or changed.",
   "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
   "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
   "segmentation": "L1 15/15; L2 31/31; exact-source overlays L3 1/44, L4 1/31, L5 16/28; explicit lookup bindings available for recorded L3/L5 terms; unmatched lines remain plain text. Frozen source commits L6-L10 have no matching SEGMENTS.tsv.",
@@ -102,6 +102,8 @@
     "content/ko/lessons/ko-a1-l005.json": "8f05d0190f6d64474509cc22618522baa2053921b090bbe2f183c27b11442301",
     "content/ko/lessons/ko-a1-l008.json": "8f07b1c8290b5f1454de0c938723038ad18c4575415e0dd4d798a3ef1b421e7d",
     "content/ko/manifest.json": "d382462bfa089fa450c059cd81569466e094193731d20f469042df8cafe4cfbc",
+    "content/ko/translation-candidates/ko-a1-l005-c10/lesson.json": "96d6af1b4819049bf9147c8fc254f211762c8169d898b6ba662da72df22462b5",
+    "content/ko/translation-candidates/ko-a1-l005-c10/sentences.json": "0c7b68746ff88760712b52b41883e399ae8c8328fb94ee6a1a2aa092a44dc135",
     "index.html": "2aa2c64cb7fab7616f732c043503c79683bef1de9339b54a68a7cf077e12a2ab"
   },
   "parentCloudUiCheck": {
@@ -196,5 +198,32 @@
     "status": "pending parent check",
     "lookupSha256": "aacbb505188bd5ffe3c557ef9770fb01a68362c25419db31659fad2079adf3ad",
     "scope": "Verify the newly updated preview data; previous UI checks do not verify this lookup hash."
+  },
+  "l5C10TranslationReview": {
+    "status": "Dot-approved, review-only candidate outputs",
+    "sourceRepository": "stasischen/content-ko",
+    "sourcePullRequest": 189,
+    "sourceCommit": "c18df5f4ee127de1d2fa77c69a97e00d8edc5d99",
+    "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6545653648",
+    "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6545674332",
+    "verdict": "approve",
+    "wholePrApproval": false,
+    "scope": "Only the c10 Traditional Chinese lesson.json and sentences.json outputs; candidate status remains unchanged.",
+    "note": "Dot noted a non-blocking tone suggestion for sentence 16 and explicitly did not require a change or another review.",
+    "files": [
+      {
+        "sourcePath": "content_v2/review/lessons/ko-a1-l005-runner/draft/i18n/zh_tw/lesson.json",
+        "previewPath": "content/ko/translation-candidates/ko-a1-l005-c10/lesson.json",
+        "bytes": 1269,
+        "sha256": "96d6af1b4819049bf9147c8fc254f211762c8169d898b6ba662da72df22462b5"
+      },
+      {
+        "sourcePath": "content_v2/review/lessons/ko-a1-l005-runner/draft/i18n/zh_tw/sentences.json",
+        "previewPath": "content/ko/translation-candidates/ko-a1-l005-c10/sentences.json",
+        "bytes": 3824,
+        "sentenceCount": 26,
+        "sha256": "0c7b68746ff88760712b52b41883e399ae8c8328fb94ee6a1a2aa092a44dc135"
+      }
+    ]
   }
 }

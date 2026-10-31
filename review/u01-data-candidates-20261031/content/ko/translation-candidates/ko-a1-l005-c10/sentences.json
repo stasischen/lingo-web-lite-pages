@@ -1,0 +1,112 @@
+{
+  "index": {
+    "shared_bank": {
+      "sentences": [
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000001",
+          "translation": "你好，請問有蘋果嗎？"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000002",
+          "translation": "有的，要幾個呢？"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000003",
+          "translation": "請給我三個蘋果。麥可，你也要買橘子嗎？"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000004",
+          "translation": "好，請給我四個橘子。一共多少錢？"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000005",
+          "translation": "蘋果三個、橘子四個，一共是八千韓元。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000006",
+          "translation": "好的，給您。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000007",
+          "translation": "謝謝，多送你一個蘋果！"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000008",
+          "translation": "哇，真的嗎？謝謝！今天聚會的時候吃。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000009",
+          "translation": "安妮，你看這張照片。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000010",
+          "translation": "是全家福嗎？"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000011",
+          "translation": "對，爸媽、哥哥和我。照片裡有四個人。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000012",
+          "translation": "我們家也是四個人。我有一個妹妹，名字叫怡安。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000013",
+          "translation": "有怡安的照片嗎？"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000014",
+          "translation": "有，在這裡。怡安是大學生，個子很高。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000015",
+          "translation": "哇，個子真的好高！跟安妮差好多喔！"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000016",
+          "translation": "對啊，是我妹妹。明明我個子滿矮的……"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000017",
+          "translation": "安妮，今天吃什麼？"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000018",
+          "translation": "請給我泡菜鍋。咦，道賢，那張照片是什麼？"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000019",
+          "translation": "是我們家的全家福。這位是我姊姊。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000020",
+          "translation": "家裡一共幾個人？"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000021",
+          "translation": "四個人。爸媽、姊姊和我。爸媽和姊姊都在釜山。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000022",
+          "translation": "啊，在釜山啊。我的家人很快就要來首爾了。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000023",
+          "translation": "真的嗎？誰要來？"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000024",
+          "translation": "媽媽和妹妹要來。算上我一共三個人。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000025",
+          "translation": "那就在這裡一起吃晚餐吧，我幫你們留位子。"
+        },
+        {
+          "id": "ex.ko.s.ko-a1-l005-runner.000026",
+          "translation": "真的嗎？謝謝你，道賢！"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "scene.d1": {
+    "description": "週六下午在社區市場的水果攤，為了聚餐買水果。"
+  },
+  "scene.d2": {
+    "description": "週一早上在地鐵車廂裡，兩人坐著看手機互相介紹家人。"
+  },
+  "scene.d3": {
+    "description": "晚餐時間在飯館裡，道賢看著照片向安妮介紹家人。"
+  },
+  "annie": {
+    "name": "安妮",
+    "introduction": "來自台灣台南，是在首爾工作的上班族。"
+  },
+  "fruit_vendor": {
+    "name": "水果攤老闆",
+    "introduction": "社區市場水果攤的老闆，為人熱情，常常多送水果。"
+  },
+  "michael": {
+    "name": "麥可",
+    "introduction": "來自加拿大多倫多，是在首爾讀研究所的學生。"
+  },
+  "yuki": {
+    "name": "由紀",
+    "introduction": "來自日本大阪，在首爾的醫院擔任護理師。"
+  },
+  "dohyun": {
+    "name": "道賢",
+    "introduction": "來自釜山，是飯館的廚師，也是安妮的鄰居。"
+  },
+  "ko:prop:마이클": {
+    "name": "麥可"
+  },
+  "ko:prop:애니": {
+    "name": "安妮"
+  },
+  "ko:prop:이안": {
+    "name": "怡安"
+  },
+  "ko:prop:도현": {
+    "name": "道賢"
+  },
+  "ko:prop:부산": {
+    "name": "釜山"
+  },
+  "ko:prop:서울": {
+    "name": "首爾"
+  }
+}
