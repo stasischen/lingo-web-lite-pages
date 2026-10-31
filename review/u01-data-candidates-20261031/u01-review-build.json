@@ -7,12 +7,12 @@
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
-  "buildResult": "Nested-route build passed; targeted Vitest 12/12 passed; sync Python unittest 3/3 passed; npm build passed; lint has 0 errors and 2 Fast Refresh warnings; diff-check passed. Parent targeted cloud UI check is pending.",
+  "buildResult": "Nested-route build passed; targeted Vitest 12/12 passed; sync Python unittest 3/3 passed; npm build passed; lint has 0 errors and 2 Fast Refresh warnings; diff-check passed. Parent cloud UI check passed for exactly three lookup examples; no ten-lesson review, audio check, or content review.",
   "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
   "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
   "segmentation": "L1 15/15; L2 31/31; exact-source overlays L3 1/44, L4 1/31, L5 16/28; explicit lookup bindings available for recorded L3/L5 terms; unmatched lines remain plain text. Frozen source commits L6-L10 have no matching SEGMENTS.tsv.",
   "lookupSummary": "342 isolated lookup entries. Composite bindings retain source component IDs: 저는 → ko:pron:저+ko:p:는; 엽서요. → ko:n:엽서+ko:p:요 (엽서 remains provisional); 대만으로요. → ko:prop:대만+ko:p:으로+ko:p:요; 귤도 → ko:n:귤+ko:p:도. The sole approved inventory-only overlay is ko:n:세면대, pinned by source row and file hashes; it remains absent from runtime SQLite and public index.",
-  "knownLimitations": "Prior cloud UI observations apply to previous Pages commit 8ff706e only. Parent will check changed examples on this build. L3 Korean TTS previously returned synthesis-failed and is not verified by this build. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
+  "knownLimitations": "The single recorded L3 cloud synthesis-failed observation was from prior Pages commit 8ff706e and was not retested on this build; its cause remains undetermined. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
   "filesSha256": {
@@ -103,5 +103,34 @@
     "content/ko/lessons/ko-a1-l008.json": "8f07b1c8290b5f1454de0c938723038ad18c4575415e0dd4d798a3ef1b421e7d",
     "content/ko/manifest.json": "d382462bfa089fa450c059cd81569466e094193731d20f469042df8cafe4cfbc",
     "index.html": "2aa2c64cb7fab7616f732c043503c79683bef1de9339b54a68a7cf077e12a2ab"
+  },
+  "parentCloudUiCheck": {
+    "checkedAt": "2026-10-31",
+    "webLiteSourceCommit": "a5c081aff4ce10b6768261d008a80f286557e08c",
+    "pagesAppCommit": "7e2c91768cfc599aabe8ec184d6d5f9e26113786",
+    "result": "passed",
+    "method": "Checked visible rendered text; no aria-label-only interpretation.",
+    "cases": [
+      {
+        "lesson": "L5",
+        "surface": "귤도",
+        "result": "Lookup showed 귤 + 도 and both component glosses."
+      },
+      {
+        "lesson": "L3",
+        "surface": "엽서요.",
+        "result": "Lookup showed 엽서 + 요."
+      },
+      {
+        "lesson": "L3",
+        "surface": "대만으로요.",
+        "result": "Lookup showed 대만 + 으로 + 요; 으로 had a gloss."
+      }
+    ],
+    "notChecked": [
+      "all ten lessons",
+      "speech playback",
+      "course content acceptance"
+    ]
   }
 }
