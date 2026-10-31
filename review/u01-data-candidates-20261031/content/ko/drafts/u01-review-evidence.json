@@ -606,18 +606,18 @@
       "sourceMissingRows": 59,
       "sourceMissingUniqueAtomIds": 31,
       "baseUniqueLookupGapIds": 33,
-      "finalSourceMissingIdsWithoutEntry": 18,
-      "finalUniqueLookupGapIds": 18,
+      "finalSourceMissingIdsWithoutEntry": 17,
+      "finalUniqueLookupGapIds": 17,
       "baseLookupEntries": 342,
-      "finalLookupEntries": 357,
+      "finalLookupEntries": 358,
       "baseProvisionalEntryIds": 19,
-      "finalProvisionalEntryIds": 29,
+      "finalProvisionalEntryIds": 30,
       "newApprovedRuntimeOrExtensionEntries": 3,
-      "reviewOnlyCandidateAtomIds": 18,
-      "newReviewOnlyCandidateEntries": 12,
-      "reviewedCandidateFileItems": 21,
-      "castOnlyNameRecords": 1,
-      "additionalReviewReceiptItems": 8
+      "reviewOnlyCandidateAtomIds": 24,
+      "newReviewOnlyCandidateEntries": 13,
+      "reviewedCandidateFileItems": 28,
+      "castOnlyNameRecords": 5,
+      "additionalReviewReceiptItems": 15
     },
     "approvedOriginalsImported": [
       {
@@ -1162,6 +1162,225 @@
           "scopeLimit": "no formal adoption, segmentation approval, lesson acceptance, or release"
         },
         "previewState": "provisional"
+      },
+      {
+        "atomId": "ko:n:맞은편",
+        "lessons": [
+          "ko-a1-l008"
+        ],
+        "gloss": "對面；對門",
+        "sourceFile": {
+          "repo": "stasischen/lingo-agent-exchange",
+          "path": "PR #1 frozen L8 candidate bundle",
+          "requestCommentId": "6546522557",
+          "requestId": "4898b391b90c471c94921b7fa7d18d8623b6480f7abb3ab95771ae7f0864cf50",
+          "resultCommentId": "6546571067",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546571067",
+          "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546522557",
+          "priorResultCommentId": "6546548785"
+        },
+        "sourceAuthority": "Official dictionary evidence cited in the frozen request bundle; see review verification limitations.",
+        "review": {
+          "reviewer": "Dot",
+          "result": "limited approve for isolated review-only preview; candidate remains provisional/pending",
+          "requestCommentId": "6546522557",
+          "requestId": "4898b391b90c471c94921b7fa7d18d8623b6480f7abb3ab95771ae7f0864cf50",
+          "resultCommentId": "6546571067",
+          "scopeLimit": "Only these three candidate glosses may appear in the isolated preview. This is not course acceptance, formal dictionary promotion, runtime/index update, or release approval.",
+          "sourceVerification": "Request, source, manifest, and bundle matched the frozen values. Dot checked the candidate row bytes/hash in the bundle and official-source evidence.",
+          "verificationLimitations": [
+            "The specified KRDict single-entry page for ko:n:부엌 was unavailable; Dot relied on KRDict official dictionary search results.",
+            "The full 4 MB inventory source-file SHA and the runtime SQLite were not independently verified.",
+            "Dot checked the candidate row bytes/hash inside the bundle and its official-source evidence; the request, source, manifest, and bundle matched the frozen values.",
+            "The shared intake parser returned a coverage-format error; the PR1 result JSON identity and body were read directly. No resend or further parser polling.",
+            "Not course acceptance, formal dictionary promotion, runtime/index update, or release approval."
+          ],
+          "priorResultCommentId": "6546548785",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546571067",
+          "repo": "stasischen/lingo-agent-exchange",
+          "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546522557"
+        },
+        "previewState": "provisional"
+      },
+      {
+        "atomId": "ko:n:부엌",
+        "lessons": [
+          "ko-a1-l008"
+        ],
+        "gloss": "廚房",
+        "sourceFile": {
+          "repo": "stasischen/lingo-agent-exchange",
+          "path": "PR #1 frozen L8 candidate bundle",
+          "requestCommentId": "6546522557",
+          "requestId": "4898b391b90c471c94921b7fa7d18d8623b6480f7abb3ab95771ae7f0864cf50",
+          "resultCommentId": "6546571067",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546571067",
+          "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546522557",
+          "priorResultCommentId": "6546548785"
+        },
+        "sourceAuthority": "Official dictionary evidence cited in the frozen request bundle; see review verification limitations.",
+        "review": {
+          "reviewer": "Dot",
+          "result": "limited approve for isolated review-only preview; candidate remains provisional/pending",
+          "requestCommentId": "6546522557",
+          "requestId": "4898b391b90c471c94921b7fa7d18d8623b6480f7abb3ab95771ae7f0864cf50",
+          "resultCommentId": "6546571067",
+          "scopeLimit": "Only these three candidate glosses may appear in the isolated preview. This is not course acceptance, formal dictionary promotion, runtime/index update, or release approval.",
+          "sourceVerification": "Request, source, manifest, and bundle matched the frozen values. Dot checked the candidate row bytes/hash in the bundle and official-source evidence.",
+          "verificationLimitations": [
+            "The specified KRDict single-entry page for ko:n:부엌 was unavailable; Dot relied on KRDict official dictionary search results.",
+            "The full 4 MB inventory source-file SHA and the runtime SQLite were not independently verified.",
+            "Dot checked the candidate row bytes/hash inside the bundle and its official-source evidence; the request, source, manifest, and bundle matched the frozen values.",
+            "The shared intake parser returned a coverage-format error; the PR1 result JSON identity and body were read directly. No resend or further parser polling.",
+            "Not course acceptance, formal dictionary promotion, runtime/index update, or release approval."
+          ],
+          "priorResultCommentId": "6546548785",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546571067",
+          "repo": "stasischen/lingo-agent-exchange",
+          "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546522557"
+        },
+        "previewState": "provisional"
+      },
+      {
+        "atomId": "ko:n:필요",
+        "lessons": [
+          "ko-a1-l008"
+        ],
+        "gloss": "必要；需要",
+        "sourceFile": {
+          "repo": "stasischen/lingo-agent-exchange",
+          "path": "PR #1 frozen L8 candidate bundle",
+          "requestCommentId": "6546522557",
+          "requestId": "4898b391b90c471c94921b7fa7d18d8623b6480f7abb3ab95771ae7f0864cf50",
+          "resultCommentId": "6546571067",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546571067",
+          "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546522557",
+          "priorResultCommentId": "6546548785"
+        },
+        "sourceAuthority": "Official dictionary evidence cited in the frozen request bundle; see review verification limitations.",
+        "review": {
+          "reviewer": "Dot",
+          "result": "limited approve for isolated review-only preview; candidate remains provisional/pending",
+          "requestCommentId": "6546522557",
+          "requestId": "4898b391b90c471c94921b7fa7d18d8623b6480f7abb3ab95771ae7f0864cf50",
+          "resultCommentId": "6546571067",
+          "scopeLimit": "Only these three candidate glosses may appear in the isolated preview. This is not course acceptance, formal dictionary promotion, runtime/index update, or release approval.",
+          "sourceVerification": "Request, source, manifest, and bundle matched the frozen values. Dot checked the candidate row bytes/hash in the bundle and official-source evidence.",
+          "verificationLimitations": [
+            "The specified KRDict single-entry page for ko:n:부엌 was unavailable; Dot relied on KRDict official dictionary search results.",
+            "The full 4 MB inventory source-file SHA and the runtime SQLite were not independently verified.",
+            "Dot checked the candidate row bytes/hash inside the bundle and its official-source evidence; the request, source, manifest, and bundle matched the frozen values.",
+            "The shared intake parser returned a coverage-format error; the PR1 result JSON identity and body were read directly. No resend or further parser polling.",
+            "Not course acceptance, formal dictionary promotion, runtime/index update, or release approval."
+          ],
+          "priorResultCommentId": "6546548785",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546571067",
+          "repo": "stasischen/lingo-agent-exchange",
+          "requestUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546522557"
+        },
+        "previewState": "provisional"
+      },
+      {
+        "atomId": "ko:v:깜빡하다",
+        "lessons": [
+          "ko-a1-l001"
+        ],
+        "gloss": "忘記；疏忽",
+        "sourceFile": {
+          "head": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+          "path": "PR1 L1 frozen candidate bundle",
+          "bytes": 3493,
+          "sha256": "b05d4888362aea6294053bffd540ea4cf8132def52f45fd0f881e3ee3222ea59",
+          "requestId": "352668e65ed2479c174fbece05ef424e0df0f23a5e787017294e1aec1f519ec0"
+        },
+        "sourceAuthority": "KRdict ParaWordNo=37737",
+        "review": {
+          "reviewer": "Dot",
+          "result": "Dot approved this candidate for isolated review-only preview; remains provisional.",
+          "requestId": "352668e65ed2479c174fbece05ef424e0df0f23a5e787017294e1aec1f519ec0",
+          "resultCommentId": "6546600724",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546600724",
+          "candidateFileBytes": 3493,
+          "candidateFileSha256": "b05d4888362aea6294053bffd540ea4cf8132def52f45fd0f881e3ee3222ea59",
+          "sourceHead": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+          "scopeLimit": "Only ko:v:깜빡하다, ko:n:간호사, and ko:n:환영 are approved as candidate wording for isolated preview. No formal dictionary promotion or course acceptance."
+        },
+        "previewState": "provisional",
+        "sourceRefs": [
+          {
+            "title": "KRdict 기초 한국어 사전 깜빡하다 (ParaWordNo=37737)",
+            "url": "https://krdict.korean.go.kr/chn/dicSearch/SearchView?ParaWordNo=37737",
+            "supports": "Verb sense 3; not remembering or paying attention; Chinese renderings include 忘、遗忘、忘掉."
+          }
+        ]
+      },
+      {
+        "atomId": "ko:n:간호사",
+        "lessons": [
+          "ko-a1-l001"
+        ],
+        "gloss": "護士",
+        "sourceFile": {
+          "head": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+          "path": "PR1 L1 frozen candidate bundle",
+          "bytes": 3493,
+          "sha256": "b05d4888362aea6294053bffd540ea4cf8132def52f45fd0f881e3ee3222ea59",
+          "requestId": "352668e65ed2479c174fbece05ef424e0df0f23a5e787017294e1aec1f519ec0"
+        },
+        "sourceAuthority": "KRdict ParaWordNo=31450",
+        "review": {
+          "reviewer": "Dot",
+          "result": "Dot approved this candidate for isolated review-only preview; remains provisional.",
+          "requestId": "352668e65ed2479c174fbece05ef424e0df0f23a5e787017294e1aec1f519ec0",
+          "resultCommentId": "6546600724",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546600724",
+          "candidateFileBytes": 3493,
+          "candidateFileSha256": "b05d4888362aea6294053bffd540ea4cf8132def52f45fd0f881e3ee3222ea59",
+          "sourceHead": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+          "scopeLimit": "Only ko:v:깜빡하다, ko:n:간호사, and ko:n:환영 are approved as candidate wording for isolated preview. No formal dictionary promotion or course acceptance."
+        },
+        "previewState": "provisional",
+        "sourceRefs": [
+          {
+            "title": "KRdict 기초 한국어 사전 간호사 (ParaWordNo=31450)",
+            "url": "https://krdict.korean.go.kr/chn/dicSearch/SearchView?ParaWordNo=31450",
+            "supports": "Noun; official Chinese translation 护士 (Traditional Chinese 護士)."
+          }
+        ]
+      },
+      {
+        "atomId": "ko:n:환영",
+        "lessons": [
+          "ko-a1-l001"
+        ],
+        "gloss": "歡迎；迎接",
+        "sourceFile": {
+          "head": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+          "path": "PR1 L1 frozen candidate bundle",
+          "bytes": 3493,
+          "sha256": "b05d4888362aea6294053bffd540ea4cf8132def52f45fd0f881e3ee3222ea59",
+          "requestId": "352668e65ed2479c174fbece05ef424e0df0f23a5e787017294e1aec1f519ec0"
+        },
+        "sourceAuthority": "KRdict ParaWordNo=73239",
+        "review": {
+          "reviewer": "Dot",
+          "result": "Dot approved this candidate for isolated review-only preview; remains provisional.",
+          "requestId": "352668e65ed2479c174fbece05ef424e0df0f23a5e787017294e1aec1f519ec0",
+          "resultCommentId": "6546600724",
+          "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546600724",
+          "candidateFileBytes": 3493,
+          "candidateFileSha256": "b05d4888362aea6294053bffd540ea4cf8132def52f45fd0f881e3ee3222ea59",
+          "sourceHead": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+          "scopeLimit": "Only ko:v:깜빡하다, ko:n:간호사, and ko:n:환영 are approved as candidate wording for isolated preview. No formal dictionary promotion or course acceptance."
+        },
+        "previewState": "provisional",
+        "sourceRefs": [
+          {
+            "title": "KRdict 기초 한국어 사전 환영2 (ParaWordNo=73239)",
+            "url": "https://krdict.korean.go.kr/chn/dicSearch/SearchView?ParaWordNo=73239",
+            "supports": "Noun; warmly receiving a person who arrives."
+          }
+        ]
       }
     ],
     "remainingUniqueSourceMissingIds": [
@@ -1179,7 +1398,6 @@
       "ko:prop:유키",
       "ko:prop:이안",
       "ko:prop:천이쥔",
-      "ko:v:깜빡하다",
       "ko:v:있다",
       "ko:xnum:3",
       "ko:xnum:4"
@@ -1188,14 +1406,13 @@
       {
         "lessonId": "ko-a1-l001",
         "approvedOrImported": [],
-        "reviewOnlyProvisional": [],
+        "reviewOnlyProvisional": [
+          "ko:v:깜빡하다",
+          "ko:n:간호사",
+          "ko:n:환영"
+        ],
         "pendingOrUnknown": [
-          "ko:adj:맞다",
-          "ko:prop:소라",
-          "ko:prop:애니",
-          "ko:prop:유키",
-          "ko:prop:천이쥔",
-          "ko:v:깜빡하다"
+          "ko:adj:맞다"
         ],
         "allSourceMissingIds": [
           "ko:adj:맞다",
@@ -1205,7 +1422,12 @@
           "ko:prop:천이쥔",
           "ko:v:깜빡하다"
         ],
-        "castOnlyNameResolved": []
+        "castOnlyNameResolved": [
+          "ko:prop:소라",
+          "ko:prop:애니",
+          "ko:prop:유키",
+          "ko:prop:천이쥔"
+        ]
       },
       {
         "lessonId": "ko-a1-l002",
@@ -1384,7 +1606,11 @@
         "approvedOrImported": [
           "ko:n:세면대"
         ],
-        "reviewOnlyProvisional": [],
+        "reviewOnlyProvisional": [
+          "ko:n:맞은편",
+          "ko:n:부엌",
+          "ko:n:필요"
+        ],
         "pendingOrUnknown": [
           "ko:n:가족분",
           "ko:prop:애니",
@@ -1477,12 +1703,9 @@
     "excludedOrHeld": [
       {
         "atomIds": [
-          "ko:n:가족분",
-          "ko:n:맞은편",
-          "ko:n:부엌",
-          "ko:n:필요"
+          "ko:n:가족분"
         ],
-        "reason": "L8 has no dictionary-scope review receipt; provisional or unsubmitted candidates remain excluded."
+        "reason": "L8 ko:n:가족분 is explicitly excluded: no adoptable candidate source; preserve the source gap and leave its gloss blank."
       },
       {
         "atomIds": [
@@ -1525,6 +1748,14 @@
           "ko:prop:이안"
         ],
         "reason": "Reviewed only for this lesson CAST/CONFIG name display (怡安); no general dictionary definition or lookup entry is created."
+      },
+      {
+        "atomIds": [
+          "ko:adj:맞다"
+        ],
+        "reason": "Dot R1 #6546600724 supports only 正確 in the cited lesson context; 符合 is broader. The local narrowed R2 draft is not in the preview; keep ko:adj:맞다 excluded until owner convergence is complete.",
+        "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6546600724",
+        "localNarrowedCandidateSha256": "69ca41c8d4b7c219861a6e10fa8c808a73c1471c1b854282a642f45b665a976d"
       }
     ],
     "sharedRuntimeSource": {
@@ -1538,8 +1769,8 @@
         "3a524d699a96103f912f02af46db0d8ac25e26d7"
       ]
     },
-    "finalLookupSha256": "a45dfb8ae546977dd8bb04d2798275cff37b94f6278cad52b3f6f28493a79ae9",
-    "candidateDisplayRule": "L4/L6 synthetic review-candidate IDs and the L5 lesson-price handle are preview-only IDs. L7 uses exact candidate-file IDs. All lexical candidates remain provisional; ko:prop:이안 is recorded only as CAST/CONFIG name display and has no dictionary entry.",
+    "finalLookupSha256": "630cede7d0f89b9e3db73fb034b0657b22a8fa995c48d285c162eef15e0c4e54",
+    "candidateDisplayRule": "L1: 깜빡하다/간호사/환영 and L8: 맞은편/부엌/필요 are review-only preview candidates and remain provisional; L1 맞다 remains excluded pending owner convergence. L1 names are CAST-only and receive no dictionary gloss. All other candidate limits remain as recorded.",
     "castOnlyNameRecords": [
       {
         "atomId": "ko:prop:이안",
@@ -1575,6 +1806,26 @@
           "candidateFileSha256": "88d63c0167de5352eb3bd1047133da889c5f87b9fd0e65145c8b5fa3ce824596",
           "limit": "No general dictionary entry or lexical meaning."
         }
+      },
+      {
+        "atomId": "ko:prop:소라",
+        "lessonId": "ko-a1-l001",
+        "disposition": "CAST-only name use; no dictionary definition, gloss, or lookup entry."
+      },
+      {
+        "atomId": "ko:prop:애니",
+        "lessonId": "ko-a1-l001",
+        "disposition": "CAST-only name use; no dictionary definition, gloss, or lookup entry."
+      },
+      {
+        "atomId": "ko:prop:유키",
+        "lessonId": "ko-a1-l001",
+        "disposition": "CAST-only name use; no dictionary definition, gloss, or lookup entry."
+      },
+      {
+        "atomId": "ko:prop:천이쥔",
+        "lessonId": "ko-a1-l001",
+        "disposition": "CAST-only name use; no dictionary definition, gloss, or lookup entry."
       }
     ],
     "remainingGapGroups": {
@@ -1591,8 +1842,7 @@
         "ko:n:것",
         "ko:n:대학원생",
         "ko:n:라테",
-        "ko:n:분",
-        "ko:v:깜빡하다"
+        "ko:n:분"
       ],
       "noUsableCandidateSource": [
         "ko:n:가족분"
@@ -1635,6 +1885,8 @@
         },
         "mappingReviewStatus": "pending user preview review"
       }
-    ]
-  }
+    ],
+    "lookupSha256": "630cede7d0f89b9e3db73fb034b0657b22a8fa995c48d285c162eef15e0c4e54"
+  },
+  "updatedAt": "2026-11-01"
 }

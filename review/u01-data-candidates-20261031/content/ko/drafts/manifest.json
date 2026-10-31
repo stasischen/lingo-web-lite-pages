@@ -675,18 +675,18 @@
       "sourceMissingRows": 59,
       "sourceMissingUniqueAtomIds": 31,
       "baseUniqueLookupGapIds": 33,
-      "finalSourceMissingIdsWithoutEntry": 18,
-      "finalUniqueLookupGapIds": 18,
+      "finalSourceMissingIdsWithoutEntry": 17,
+      "finalUniqueLookupGapIds": 17,
       "baseLookupEntries": 342,
-      "finalLookupEntries": 357,
+      "finalLookupEntries": 358,
       "baseProvisionalEntryIds": 19,
-      "finalProvisionalEntryIds": 29,
+      "finalProvisionalEntryIds": 30,
       "newApprovedRuntimeOrExtensionEntries": 3,
-      "reviewOnlyCandidateAtomIds": 18,
-      "newReviewOnlyCandidateEntries": 12,
-      "reviewedCandidateFileItems": 21,
-      "castOnlyNameRecords": 1,
-      "additionalReviewReceiptItems": 8
+      "reviewOnlyCandidateAtomIds": 24,
+      "newReviewOnlyCandidateEntries": 13,
+      "reviewedCandidateFileItems": 28,
+      "castOnlyNameRecords": 5,
+      "additionalReviewReceiptItems": 15
     },
     "remainingUniqueSourceMissingIds": [
       "ko:adj:맞다",
@@ -703,7 +703,6 @@
       "ko:prop:유키",
       "ko:prop:이안",
       "ko:prop:천이쥔",
-      "ko:v:깜빡하다",
       "ko:v:있다",
       "ko:xnum:3",
       "ko:xnum:4"
@@ -712,14 +711,13 @@
       {
         "lessonId": "ko-a1-l001",
         "approvedOrImported": [],
-        "reviewOnlyProvisional": [],
+        "reviewOnlyProvisional": [
+          "ko:v:깜빡하다",
+          "ko:n:간호사",
+          "ko:n:환영"
+        ],
         "pendingOrUnknown": [
-          "ko:adj:맞다",
-          "ko:prop:소라",
-          "ko:prop:애니",
-          "ko:prop:유키",
-          "ko:prop:천이쥔",
-          "ko:v:깜빡하다"
+          "ko:adj:맞다"
         ],
         "allSourceMissingIds": [
           "ko:adj:맞다",
@@ -729,7 +727,12 @@
           "ko:prop:천이쥔",
           "ko:v:깜빡하다"
         ],
-        "castOnlyNameResolved": []
+        "castOnlyNameResolved": [
+          "ko:prop:소라",
+          "ko:prop:애니",
+          "ko:prop:유키",
+          "ko:prop:천이쥔"
+        ]
       },
       {
         "lessonId": "ko-a1-l002",
@@ -908,7 +911,11 @@
         "approvedOrImported": [
           "ko:n:세면대"
         ],
-        "reviewOnlyProvisional": [],
+        "reviewOnlyProvisional": [
+          "ko:n:맞은편",
+          "ko:n:부엌",
+          "ko:n:필요"
+        ],
         "pendingOrUnknown": [
           "ko:n:가족분",
           "ko:prop:애니",
@@ -980,7 +987,7 @@
         "castOnlyNameResolved": []
       }
     ],
-    "lookupSha256": "a45dfb8ae546977dd8bb04d2798275cff37b94f6278cad52b3f6f28493a79ae9",
+    "lookupSha256": "630cede7d0f89b9e3db73fb034b0657b22a8fa995c48d285c162eef15e0c4e54",
     "sharedRuntimeSource": {
       "dictionaryHead": "f54704add5039aaa64810bb043c2941dfdb3cf64",
       "runtimeDictionaryPath": "content_v2/core/dictionary/runtime_dictionary.sqlite",
@@ -1006,8 +1013,7 @@
         "ko:n:것",
         "ko:n:대학원생",
         "ko:n:라테",
-        "ko:n:분",
-        "ko:v:깜빡하다"
+        "ko:n:분"
       ],
       "noUsableCandidateSource": [
         "ko:n:가족분"
@@ -1059,7 +1065,28 @@
           "candidateFileSha256": "88d63c0167de5352eb3bd1047133da889c5f87b9fd0e65145c8b5fa3ce824596",
           "limit": "No general dictionary entry or lexical meaning."
         }
+      },
+      {
+        "atomId": "ko:prop:소라",
+        "lessonId": "ko-a1-l001",
+        "disposition": "CAST-only name use; no dictionary definition, gloss, or lookup entry."
+      },
+      {
+        "atomId": "ko:prop:애니",
+        "lessonId": "ko-a1-l001",
+        "disposition": "CAST-only name use; no dictionary definition, gloss, or lookup entry."
+      },
+      {
+        "atomId": "ko:prop:유키",
+        "lessonId": "ko-a1-l001",
+        "disposition": "CAST-only name use; no dictionary definition, gloss, or lookup entry."
+      },
+      {
+        "atomId": "ko:prop:천이쥔",
+        "lessonId": "ko-a1-l001",
+        "disposition": "CAST-only name use; no dictionary definition, gloss, or lookup entry."
       }
-    ]
+    ],
+    "candidateDisplayRule": "L1: 깜빡하다/간호사/환영 and L8: 맞은편/부엌/필요 are review-only preview candidates and remain provisional; L1 맞다 remains excluded pending owner convergence. L1 names are CAST-only and receive no dictionary gloss. All other candidate limits remain as recorded."
   }
 }
