@@ -3,17 +3,18 @@
   "purpose": "A1-u01 unmerged draft review preview deployment",
   "webLiteSourceRepo": "stasischen/lingo-web-lite",
   "webLiteSourceBranch": "luna/ko-a1-u01-web-review-20261027",
-  "webLiteSourceCommit": "c3eeaa0bc9a95fc44d974d3d1b382475d2d3f72b",
+  "webLiteSourceCommit": "1a3df4090ad1aff5369326c2e7c6d52d8587e1e3",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/ npm run build",
-  "buildResult": "passed locally",
+  "buildResult": "passed locally; lookup fix independently reviewed with no blocking findings",
   "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
   "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
-  "sourceReviewVerdict": "approve",
-  "sourceReviewEvidence": "https://github.com/stasischen/lingo-web-lite/pull/26",
+  "sourceReviewVerdict": "No blocking findings for the lookup-fix delta only (independent read-only Codex review)",
+  "sourceReviewEvidence": "https://github.com/stasischen/lingo-web-lite/commit/1a3df4090ad1aff5369326c2e7c6d52d8587e1e3",
   "preserved": "Existing production content, other languages, and runner-previews directory; only root index/assets and content/ko/drafts were updated.",
   "filesSha256": {
-    "assets/index-CQdXbgBW.js": "184220218db46080b47955ec70205c0b97734f37942b471cdb02a115a5b0bfc5",
+    "index.html": "5ea4c4b663c7729f979c027f938b1ad8cc71aead2f178cd8f39b68c297e97e04",
     "assets/index-DxcxPQiw.css": "2eb6d9e559371fc2f5a507d8927602965bc6cf0d98a48250e50caebe66483c05",
+    "assets/index-qZ2zxdNp.js": "3d65adff29136feabffc46353a8d76e52d3dd52daf4185b48c339cc836659fbc",
     "content/ko/drafts/ko-a1-l001.json": "768c0397ea434c6bfe4f588d262b5d22b4cbabe621b969148cf78482af6d46f2",
     "content/ko/drafts/ko-a1-l002.json": "0dd00053168cba67e9971d8706efa18af1f74d0e271b95ba2025da9175d24620",
     "content/ko/drafts/ko-a1-l003.json": "6e1a3beaac12e18dc870076e63d5acecbb9f86a0020e29b596d87cf90dc99b48",
@@ -24,8 +25,27 @@
     "content/ko/drafts/ko-a1-l008.json": "4d9975dc96b6dc0eb28dd03e860e4aee99dba51f7dafc41ead61bba1cd16d366",
     "content/ko/drafts/ko-a1-l009.json": "0c585e4591286e5e838c2b0e9999b340c7828fd22b907c6392ba036b3f22de4b",
     "content/ko/drafts/ko-a1-l010.json": "589da034d53bc2d537fdf171bf53acae543141b44e1c87efea9d3f1fee689535",
+    "content/ko/drafts/lookup.json": "77720a742f07d699c5ed5ba2b8650698fae6f956fc014816360eb1e8000469e3",
     "content/ko/drafts/manifest.json": "4912c0a6d8616426a69702a93344443cbfec1f94f218d7290099292c9dbc4ad4",
-    "content/ko/drafts/u01-review-evidence.json": "38574a3f0959decfaf7ecff96e4aee31a22bd9472be9969a3d39d5486d2bed74",
-    "index.html": "b6f1454c91519d1aca24ee163308c02227a3c06b1595e0dc9637ff458925266a"
-  }
+    "content/ko/drafts/u01-review-evidence.json": "38574a3f0959decfaf7ecff96e4aee31a22bd9472be9969a3d39d5486d2bed74"
+  },
+  "previousSourceReview": {
+    "commit": "c3eeaa0bc9a95fc44d974d3d1b382475d2d3f72b",
+    "verdict": "approve",
+    "evidence": "https://github.com/stasischen/lingo-web-lite/pull/26"
+  },
+  "lookupFixReview": {
+    "commit": "1a3df4090ad1aff5369326c2e7c6d52d8587e1e3",
+    "route": "independent read-only Codex review, gpt-6.1-sol high",
+    "outcome": "no blocking findings for isolated preview",
+    "codexReadonlyRequestId": "ko-a1-u01-web-review-1a3df40-codex-peer-2",
+    "requestReceipt": "pending in coordination/v1"
+  },
+  "lookupSources": {
+    "generatedFrom": "public/content/ko/drafts/lookup.json",
+    "dictionaryHead": "0955616ae79841d39d68923285017dfa9e631cb5",
+    "provisionalBinding": "ko-a1-l003 엽서요. → ko:n:엽서",
+    "approvedBinding": "ko-a1-l005 사과 → ko:n:사과"
+  },
+  "sourceReviewScope": "L3/L5 draft dictionary bindings, pinned sources, provisional labeling, manual lookup regression; not a full PR #26 re-review or content acceptance"
 }
