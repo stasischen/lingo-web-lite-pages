@@ -1,0 +1,214 @@
+{
+  "id": "ko-a1-l005",
+  "level": 5,
+  "title": "聊聊家人 · 未合併草稿候選 @1c1eee9d",
+  "status": "draft",
+  "head": "405088e25a11b0f4d05991ae04195b74dab01f22",
+  "branch": "luna/ko-a1-l005-runner-20261025",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/DIALOGUE.md",
+      "sha256": "9d5d9279817d35297d20c9c0bc1d546a3275ecda99927af81831906d99b76145"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/GLOSS.md",
+      "sha256": "429e9fa9727071ee56c5a715fed2832368d6a263a1b457f7cc147b4fc4ac8634"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1",
+      "location": "未拆分",
+      "context": "社區市場的水果攤，週日下午",
+      "purpose": "為週六聚餐買水果：問有沒有、要幾個、多少錢，老闆多送一個。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "안녕하세요. 사과 있어요?",
+          "translation": "你好，請問有蘋果嗎？"
+        },
+        {
+          "speaker": "水果攤老闆",
+          "korean": "네, 있어요. 몇 개 드릴까요?",
+          "translation": "有的，要幾個？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "사과 세 개 주세요. 마이클 씨, 귤도 사요?",
+          "translation": "請給我三個蘋果。麥可，橘子也買嗎？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네, 귤도 있어요? 귤 네 개 주세요.",
+          "translation": "好啊，有橘子嗎？請給我四個橘子。"
+        },
+        {
+          "speaker": "水果攤老闆",
+          "korean": "사과 세 개, 귤 네 개요. 모두 팔천 원이에요.",
+          "translation": "三個蘋果、四個橘子，一共八千韓元。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네, 여기 있어요.",
+          "translation": "好的，給您。"
+        },
+        {
+          "speaker": "水果攤老闆",
+          "korean": "감사합니다. 사과 한 개 더 드려요!",
+          "translation": "謝謝，再多送你一個蘋果！"
+        },
+        {
+          "speaker": "애니",
+          "korean": "와, 정말요? 고맙습니다! 토요일 모임에서 먹어요.",
+          "translation": "哇，真的嗎？謝謝！週六聚會的時候吃。"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2",
+      "location": "未拆分",
+      "context": "地鐵車廂，週一早上，兩人坐著看手機",
+      "purpose": "互看手機照片，說明家人有無與人數。",
+      "turns": [
+        {
+          "speaker": "유키",
+          "korean": "애니 씨, 이 사진 봐요.",
+          "translation": "安妮，你看這張照片。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "가족 사진이에요? 모두 몇 명이에요?",
+          "translation": "這是全家福嗎？總共幾個人？"
+        },
+        {
+          "speaker": "유키",
+          "korean": "네, 우리 가족이에요. 네 명이에요. 부모님하고 오빠, 저예요.",
+          "translation": "對，是我家人。總共四個人，爸媽、哥哥和我。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "오빠가 있어요?",
+          "translation": "你有哥哥啊？"
+        },
+        {
+          "speaker": "유키",
+          "korean": "네, 오빠가 한 명 있어요. 애니 씨는요?",
+          "translation": "對，有一個哥哥。安妮你呢？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "저도 네 명이에요. 여동생이 한 명 있어요. 이름은 이안이에요.",
+          "translation": "我家也是四個人，有一個妹妹，名字叫怡安。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "이안 씨 사진 있어요?",
+          "translation": "有怡安的照片嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 여기요. 이안은 대학생이에요. 키가 커요.",
+          "translation": "有，在這裡。怡安是大學生，長得很高。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "우와, 정말 키가 커요! 애니 씨하고 많이 달라요!",
+          "translation": "哇，真的好高！跟安妮差好多喔！"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 제 동생이에요. 저는 키가 작은데…",
+          "translation": "對啊，是我妹妹。可是我很矮……"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "D3",
+      "location": "未拆分",
+      "context": "밥집，晚餐時間，도현在廚房旁和애니說話",
+      "purpose": "도현看照片介紹누나，애니預告家人要來。",
+      "turns": [
+        {
+          "speaker": "도현",
+          "korean": "애니 씨, 오늘은 뭐 먹어요?",
+          "translation": "安妮，今天吃什麼？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "김치찌개 주세요. 어, 도현 씨, 그 사진은 뭐예요?",
+          "translation": "請給我泡菜鍋。咦，道賢，那張照片是什麼？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "우리 가족 사진이에요. 이분이 제 누나예요.",
+          "translation": "是我們家的全家福。這位是我姊姊。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "누나가 있어요? 가족은 모두 몇 명이에요?",
+          "translation": "你有姊姊啊？家裡總共幾個人？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "네 명이에요. 부모님하고 누나, 저예요. 부모님하고 누나는 부산에 있어요.",
+          "translation": "四個人，爸媽、姊姊和我。爸媽和姊姊都在釜山。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "아, 부산이요. 제 가족은 곧 서울에 와요.",
+          "translation": "啊，在釜山啊。我的家人很快就要來首爾了。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "정말요? 누가 와요?",
+          "translation": "真的嗎？誰要來？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "어머니하고 동생이 와요. 저까지 세 명이에요.",
+          "translation": "媽媽和妹妹要來，算我一共三個人。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "그럼 여기에서 같이 저녁 먹어요. 자리를 예약해 줄게요.",
+          "translation": "那就在這裡一起吃晚餐吧，我幫你們留位子。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "정말요? 고마워요, 도현 씨!",
+          "translation": "真的嗎？謝謝你，道賢！"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "短文",
+    "rows": []
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 1,
+      "text": "## 本課要教的說法出現在哪"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 2,
+      "text": "- ko.g.ui.nominal-relation（의／所屬、關係）：D2「제 동생이에요」（제＝저의）、「우리 가족이에요」；D3「우리 가족 사진이에요」「제 누나예요」「제 가족은 곧 서울에 와요」"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 3,
+      "text": "- ko.g.itda.relational-have（있다）：D1「사과 있어요?」「귤도 있어요?」；D2「오빠가 있어요?」「오빠가 한 명 있어요」「여동생이 한 명 있어요」；D3「누나가 있어요?」「부산에 있어요」"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 4,
+      "text": "- ko.g.quantity.counter（개／명）：D1「사과 세 개」「귤 네 개」「사과 한 개 더」；D2「모두 몇 명이에요」「네 명이에요」「한 명」；D3「모두 몇 명이에요」「네 명이에요」「저까지 세 명이에요」"
+    }
+  ]
+}

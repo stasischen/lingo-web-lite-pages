@@ -1,0 +1,269 @@
+{
+  "id": "ko-a1-l010",
+  "level": 10,
+  "title": "第10課 · 未合併草稿候選 @1c1eee9d",
+  "status": "draft",
+  "head": "5053e292ff7f688ccd4dd41b96ad57f80ebb8c6f",
+  "branch": "luna/ko-a1-l010-text-20261025-rerun",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l010-text/draft/DIALOGUE.md",
+      "sha256": "d87a891e8499136b07b82d88af9943d74a62df0524f00fbe4834450c9af12c34"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l010-text/draft/GLOSS.md",
+      "sha256": "4795695fe10c2419939411e2e36c0c9dab2385c4df30e18278437192eec47bdc"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1",
+      "location": "未拆分",
+      "context": "週日上午，이안和애니在十字路口看社區地圖看板，準備去公園散步。",
+      "purpose": "用地圖確認公園的位置和走法。",
+      "turns": [
+        {
+          "speaker": "이안",
+          "korean": "언니, 공원은 어디에 있어요?",
+          "translation": "姊姊，公園在哪裡？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "여기 봐요. 공원은 도서관 옆에 있어요.",
+          "translation": "看這裡。公園在圖書館旁邊。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "우리는 지금 어디에 있어요?",
+          "translation": "我們現在在哪裡？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "여기요. 이 사거리예요.",
+          "translation": "這裡。就是這個十字路口。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "그럼 앞으로 쭉 가요?",
+          "translation": "那要一直往前走嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네. 도서관 앞에서 오른쪽으로 가요.",
+          "translation": "對。在圖書館前面往右走。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "공원 입구가 여기예요?",
+          "translation": "公園入口在這裡嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 맞아요. 같이 가요.",
+          "translation": "對，沒錯。我們一起走吧。"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2",
+      "location": "未拆分",
+      "context": "家人剛抵達애니家的第一天，어머니在找包包，이안和애니看房屋平面圖確認位置。",
+      "purpose": "看平面圖找到放在小房間的包包。",
+      "turns": [
+        {
+          "speaker": "이안",
+          "korean": "언니, 엄마 가방은 어디에 있어요?",
+          "translation": "姊姊，媽媽的包包在哪裡？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "작은방에 있어요.",
+          "translation": "在小房間。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "작은방은 어디에 있어요?",
+          "translation": "小房間在哪裡？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "이 그림을 봐요. 여기가 거실이에요. 작은방은 거실 오른쪽에 있어요.",
+          "translation": "看這張圖。這裡是客廳。小房間在客廳右邊。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "화장실 옆이에요?",
+          "translation": "在廁所旁邊嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네. 가방은 작은방 문 옆에 있어요.",
+          "translation": "對。包包在小房間門旁邊。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "이 문 옆이요?",
+          "translation": "這個門旁邊嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 맞아요.",
+          "translation": "對，沒錯。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "아, 저 방이요. 제가 가져올게요.",
+          "translation": "啊，那間房間啊。我去拿過來。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 부탁해요.",
+          "translation": "好，麻煩你了。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "찾았어요! 엄마, 여기요.",
+          "translation": "找到了！媽媽，給妳。"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "D3",
+      "location": "未拆分",
+      "context": "晚上，全員在밥집吃送別晚餐，入座時도현替大家把包包收進櫃子；飯後，도현拿出附有社區地圖的〈동네 안내〉傳單。",
+      "purpose": "回顧相處的經歷、在地圖上標記下次來訪的位置，歸還借來的橡皮擦並拍合照道別。",
+      "turns": [
+        {
+          "speaker": "소라",
+          "korean": "어머니, 안녕하세요. 여기 앉으세요.",
+          "translation": "伯母，您好。請坐這裡。"
+        },
+        {
+          "speaker": "어머니",
+          "korean": "안녕하세요.",
+          "translation": "你好。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "이안 씨, 애니 씨 집에서 잘 지냈어요?",
+          "translation": "怡安，在安妮家過得好嗎？"
+        },
+        {
+          "speaker": "이안",
+          "korean": "네. 작은방이 좋았어요.",
+          "translation": "嗯。小房間住得很舒服。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "이 동네 지도 가져가세요. 다음에 또 오세요.",
+          "translation": "這張社區地圖請收下。下次還要再來喔。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "네, 지도에 표시할게요. 도서관은 어디에 있어요?",
+          "translation": "好，我在地圖上做記號。圖書館在哪裡？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "도서관은 여기예요. 밥집은 공원 맞은편에 있어요.",
+          "translation": "圖書館在這裡。餐館在公園對面。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "여기 동그라미 할게요. 다음에는 제가 찾을게요.",
+          "translation": "我在這裡畫圈。下次由我來找路。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "아, 유키 씨한테 지우개를 돌려줘야 해요. 도현 씨, 제 가방은 어디에 있어요?",
+          "translation": "啊，我得把橡皮擦還給由紀。道賢，我的包包在哪裡？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "가방은 저쪽 장 안에 있어요. 제가 꺼내 드릴게요.",
+          "translation": "包包在那個櫃子裡。我幫妳拿出來。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "전에 지하철에 두고 내린 가방이죠? 오늘은 꼭 챙겨요.",
+          "translation": "就是之前忘在地鐵上的那個包包吧？今天一定要帶好喔。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 고마워요. 유키 씨, 가방 안에 지우개가 있었어요.",
+          "translation": "好，謝謝妳。由紀，橡皮擦在包包裡面。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "아, 제 지우개네요. 고마워요.",
+          "translation": "啊，是我的橡皮擦。謝謝妳。"
+        },
+        {
+          "speaker": "소라",
+          "korean": "그럼 다 같이 사진 찍어요.",
+          "translation": "那大家一起拍張照吧。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "휴대폰을 저 책상에 놓을게요. 타이머를 맞췄어요. 다 같이 찍을 수 있어요.",
+          "translation": "我把手機放在那張桌子上。設定好定時了，大家可以一起拍。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "저는 키가 작아서 앞에 설게요.",
+          "translation": "我比較矮，站前面。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "그럼 저는 이안 씨랑 뒤에 설게요. 둘 다 키가 커요.",
+          "translation": "那我和怡安站後面。我們兩個都比較高。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "네. 언니, 엄마랑 앞에 서요.",
+          "translation": "好。姊姊，妳和媽媽站前面。"
+        },
+        {
+          "speaker": "소라",
+          "korean": "어머니, 여기 보세요.",
+          "translation": "伯母，看這裡喔。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "자, 찍어요. 하나, 둘, 셋!",
+          "translation": "來，要拍囉。一、二、三！"
+        },
+        {
+          "speaker": "이안",
+          "korean": "모두 고마워요. 또 만나요!",
+          "translation": "謝謝大家。下次再見！"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "短文",
+    "rows": []
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 1,
+      "text": "## 本課要教的說法出現在哪"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 2,
+      "text": "- 已知對象的所在：N은/는 場所에 있다：D1「공원은 도서관 옆에 있어요.」；D2「작은방은 거실 오른쪽에 있어요.」「가방은 작은방 문 옆에 있어요.」；D3「밥집은 공원 맞은편에 있어요.」「가방은 저쪽 장 안에 있어요.」"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 3,
+      "text": "- 已知對象的所在：N은/는 어디에 있어요?：D1「언니, 공원은 어디에 있어요?」；D2「언니, 엄마 가방은 어디에 있어요?」「작은방은 어디에 있어요?」；D3「도서관은 어디에 있어요?」「도현 씨, 제 가방은 어디에 있어요?」"
+    }
+  ]
+}

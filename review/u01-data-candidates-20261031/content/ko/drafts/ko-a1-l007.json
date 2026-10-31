@@ -1,0 +1,159 @@
+{
+  "id": "ko-a1-l007",
+  "level": 7,
+  "title": "借用文具 · 未合併草稿候選 @1c1eee9d",
+  "status": "draft",
+  "head": "a6ab20406f54dc0ef61b0ea16acd6f9b09fb904f",
+  "branch": "luna/ko-a1-l007-text-20261025-rerun",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l007/draft/DIALOGUE.md",
+      "sha256": "0447a4b4735e1561962c0447ca24f73e509947b1a7ea271a220d61726330928c"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l007/draft/GLOSS.md",
+      "sha256": "1e77ef5e5e79a5db3bcae5d185b496b8f21beeebb8f709f380956a4150264a89"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1",
+      "location": "未拆分",
+      "context": "週六，中心的語言交換活動中。",
+      "purpose": "애니向마이클借原子筆，獲得同意並接過筆。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "마이클 씨, 볼펜 좀 빌려 주세요.",
+          "translation": "麥可，借我一下原子筆。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네, 여기요. 이거 쓰세요.",
+          "translation": "好，給你。用這支吧。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "고마워요. 잠깐만 쓸게요.",
+          "translation": "謝謝。我用一下就好。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네, 괜찮아요.",
+          "translation": "好，沒關係。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "다 썼어요. 여기요.",
+          "translation": "我用完了。還你。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네, 고마워요.",
+          "translation": "好，謝謝。"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2",
+      "location": "未拆分",
+      "context": "咖啡館裡，三人正在參加讀書會。",
+      "purpose": "애니向유키借橡皮擦被婉拒，改問마이클有沒有筆袋，最後決定等유키用完。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "유키 씨, 지우개 좀 빌려 주세요.",
+          "translation": "由紀，借我一下橡皮擦。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "미안해요. 지금 쓰고 있어요.",
+          "translation": "不好意思，我現在正在用。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "아, 네. 마이클 씨, 필통 있어요?",
+          "translation": "啊，好。麥可，你有筆袋嗎？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "오늘은 안 가져왔어요. 지우개가 필요해요?",
+          "translation": "我今天沒帶。你需要橡皮擦嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네. 유키 씨, 그럼 다 쓰고 빌려 주세요.",
+          "translation": "對。由紀，那妳用完再借我。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "네, 조금만 기다려 주세요.",
+          "translation": "好，等我一下。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 고마워요.",
+          "translation": "好，謝謝。"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "D3",
+      "location": "未拆分",
+      "context": "白天，애니在文具店想看高處架上的筆記本。",
+      "purpose": "애니請店員幫忙拿筆記本，店員拿給她。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "저기요. 저 위에 있는 공책 좀 꺼내 주세요.",
+          "translation": "不好意思，請幫我拿一下上面那本筆記本。"
+        },
+        {
+          "speaker": "店員",
+          "korean": "이 파란 공책이요?",
+          "translation": "這本藍色的筆記本嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네. 너무 높아요.",
+          "translation": "對，太高了。"
+        },
+        {
+          "speaker": "店員",
+          "korean": "여기 있어요. 한번 보세요.",
+          "translation": "給您，您看一下。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네, 고맙습니다.",
+          "translation": "好的，謝謝。"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "短文",
+    "rows": []
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 1,
+      "text": "## 本課要教的說法出現在哪"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 2,
+      "text": "- V-(으)세요：D1「네, 여기요. 이거 쓰세요.」；D3「여기 있어요. 한번 보세요.」"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 3,
+      "text": "- V-아/어 주세요：D1「마이클 씨, 볼펜 좀 빌려 주세요.」；D2「유키 씨, 지우개 좀 빌려 주세요.」「네, 조금만 기다려 주세요.」；D3「저기요. 저 위에 있는 공책 좀 꺼내 주세요.」"
+    }
+  ]
+}

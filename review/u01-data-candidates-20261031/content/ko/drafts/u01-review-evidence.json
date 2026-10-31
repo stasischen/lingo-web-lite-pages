@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "status": "draft_review_preview",
+  "lessonCount": 10,
+  "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
+  "candidatePacketPath": "content_v2/review/unit_previews/A1-u01-closure-20261027/PROMPT.md.bundle.json",
+  "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
+  "sourceProvenancePath": "content_v2/review/unit_previews/A1-u01-closure-20261027/source-provenance.json",
+  "contentRepository": "stasischen/content-ko",
+  "reviewVerdict": "approve",
+  "reviewEvidence": "https://github.com/stasischen/release-aggregator/pull/411#issuecomment-6421391404",
+  "pipeline": "C1b Korean draft preview builder with frozen DIALOGUE.md/GLOSS.md pairing",
+  "pipelineSourceCommit": "fd8fa43b6cb72333e4bc1c97f98162611fe19712",
+  "materializedInputCommit": "1c79a12e9e848d1e317f4cda3983c044243ff82c",
+  "articleSourcePresent": false,
+  "lessons": [
+    {
+      "id": "ko-a1-l001",
+      "card": "ko-a1-l001-runner",
+      "lessonFolder": "ko-a1-l001-dry-a",
+      "sourceBranch": "luna/ko-a1-l001-runner-20261025",
+      "sourceCommit": "0d0a58112ea9f5639c9f2ef7de90dddd4f2ccfbd",
+      "sourceContentSha256": "ed5a76c3654264a674a142a26eca153c2159bfad964778a26cbc9b399dfd39aa",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/DIALOGUE.md",
+          "sha256": "bce42383e1b61f5fd4ffc6e931791a4113f71c3ecbaa51278c430d66c71064d6",
+          "size": 2826
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l001-dry-a/draft/GLOSS.md",
+          "sha256": "2f880e0066bea1fd95d674d872b1818568a77d5ddf9408dbb19f2725f5a728d4",
+          "size": 1256
+        }
+      ],
+      "previewDataSha256": "768c0397ea434c6bfe4f588d262b5d22b4cbabe621b969148cf78482af6d46f2",
+      "dialogueScenes": 3,
+      "dialogueTurns": 15,
+      "articleRows": 0
+    },
+    {
+      "id": "ko-a1-l002",
+      "card": "ko-a1-l002-runner",
+      "lessonFolder": "ko-a1-l002-dry-b",
+      "sourceBranch": "luna/ko-a1-l002-runner-20261025-rerun",
+      "sourceCommit": "ff02ddcaa4f191c6ce91320039d1dbd606abbba9",
+      "sourceContentSha256": "3e7446ef0cc4b6a7976b0064984c9f95110c4c8a01d8b9d2d13ad6306533f5f4",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l002-dry-b/draft/DIALOGUE.md",
+          "sha256": "838e102ee4c0f783c827bb6480c987161b2f520040efae651d880c0b0456c59b",
+          "size": 2764
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l002-dry-b/draft/GLOSS.md",
+          "sha256": "35145d1bd65baa7a16ffdf4ec366c75a435a3d276774f69486e2095d95f8409c",
+          "size": 1775
+        }
+      ],
+      "previewDataSha256": "0dd00053168cba67e9971d8706efa18af1f74d0e271b95ba2025da9175d24620",
+      "dialogueScenes": 3,
+      "dialogueTurns": 31,
+      "articleRows": 0
+    },
+    {
+      "id": "ko-a1-l003",
+      "card": "ko-a1-l003-runner",
+      "lessonFolder": "ko-a1-l003-runner",
+      "sourceBranch": "luna/ko-a1-l003-runner-20261026",
+      "sourceCommit": "62f34b370a86f10ee9d4a51053ee0e6c7bdc842c",
+      "sourceContentSha256": "8be5d000396fb09dfe083570d883686883a31b5b7ca9944c61945a63d2f0f335",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l003-runner/draft/DIALOGUE.md",
+          "sha256": "064bab49679fa899b3906451de2c6f25de2551f671330828a8d55a10f8036b20",
+          "size": 3014
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l003-runner/draft/GLOSS.md",
+          "sha256": "457ef984d5581213750ada9f13f3676b29f1eb6f26153a60bd60a54556399c3f",
+          "size": 2210
+        }
+      ],
+      "previewDataSha256": "6e1a3beaac12e18dc870076e63d5acecbb9f86a0020e29b596d87cf90dc99b48",
+      "dialogueScenes": 3,
+      "dialogueTurns": 44,
+      "articleRows": 0
+    },
+    {
+      "id": "ko-a1-l004",
+      "card": "ko-a1-l004-runner",
+      "lessonFolder": "ko-a1-l004-runner",
+      "sourceBranch": "luna/ko-a1-l004-runner-20261025",
+      "sourceCommit": "2c4b19998e62219ce38ec818872d9d39f71ad39a",
+      "sourceContentSha256": "846412629b9e40b9e56dc7e114d75088f47487a673a3af83eee792c3107e5a67",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l004-runner/draft/DIALOGUE.md",
+          "sha256": "a48eb32459971783eedfd8c0873e65c61e4b531a682a534ab50f4742199dc0b1",
+          "size": 2791
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l004-runner/draft/GLOSS.md",
+          "sha256": "76597962af7b0184ecfb9925f2f447e648bace2214a63f804b6de4bc85acb270",
+          "size": 1955
+        }
+      ],
+      "previewDataSha256": "f8488f4b53d146e02947facc9a603d916c72ad68a963ed60d5dd63dafbc4565c",
+      "dialogueScenes": 3,
+      "dialogueTurns": 31,
+      "articleRows": 0
+    },
+    {
+      "id": "ko-a1-l005",
+      "card": "ko-a1-l005-runner",
+      "lessonFolder": "ko-a1-l005-runner",
+      "sourceBranch": "luna/ko-a1-l005-runner-20261025",
+      "sourceCommit": "405088e25a11b0f4d05991ae04195b74dab01f22",
+      "sourceContentSha256": "d6f90ee03c181fe473ce933ad5b11ffadf843e83832826a7a9b4d0cc412d2644",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/DIALOGUE.md",
+          "sha256": "9d5d9279817d35297d20c9c0bc1d546a3275ecda99927af81831906d99b76145",
+          "size": 3006
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l005-runner/draft/GLOSS.md",
+          "sha256": "429e9fa9727071ee56c5a715fed2832368d6a263a1b457f7cc147b4fc4ac8634",
+          "size": 1973
+        }
+      ],
+      "previewDataSha256": "17d94c900a3a8b51a0854056bea9945e9b03d9dce3cb11e811a39e0c3d3be3ed",
+      "dialogueScenes": 3,
+      "dialogueTurns": 28,
+      "articleRows": 0
+    },
+    {
+      "id": "ko-a1-l006",
+      "card": "ko-a1-l006-text",
+      "lessonFolder": "ko-a1-l006-text",
+      "sourceBranch": "luna/ko-a1-l006-text-20261025-followup",
+      "sourceCommit": "bbb6f93e37ed74df3ee3a7bdc8b3010b2a5cef92",
+      "sourceContentSha256": "fc572f488eaf8b58adb6341f4f654130de389ba26e358ca0c78e7e426cb037c4",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l006-text/draft/DIALOGUE.md",
+          "sha256": "f28b6644c44b015afb9bfa88dfc8f7abeb0c57d6242b4ad9da969418124f83a7",
+          "size": 2331
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l006-text/draft/GLOSS.md",
+          "sha256": "e57fb02fd2c8fe890bd5719393688124a3fab10db7f4685e604666a746cc7a44",
+          "size": 1763
+        }
+      ],
+      "previewDataSha256": "ba2ad5180b0488bd1e0b028afa52badc057c8d7dc51961f31c20357a82164710",
+      "dialogueScenes": 3,
+      "dialogueTurns": 28,
+      "articleRows": 0
+    },
+    {
+      "id": "ko-a1-l007",
+      "card": "ko-a1-l007-text",
+      "lessonFolder": "ko-a1-l007",
+      "sourceBranch": "luna/ko-a1-l007-text-20261025-rerun",
+      "sourceCommit": "a6ab20406f54dc0ef61b0ea16acd6f9b09fb904f",
+      "sourceContentSha256": "5323e446f14139880f966e7fe8af93a03f0a67242f82550afe4821a2d8b38b96",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l007/draft/DIALOGUE.md",
+          "sha256": "0447a4b4735e1561962c0447ca24f73e509947b1a7ea271a220d61726330928c",
+          "size": 1688
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l007/draft/GLOSS.md",
+          "sha256": "1e77ef5e5e79a5db3bcae5d185b496b8f21beeebb8f709f380956a4150264a89",
+          "size": 1211
+        }
+      ],
+      "previewDataSha256": "ac2b166579ea140cdc04a5b7e13186f72f7fc89b94f01effc9f5cd75c3634691",
+      "dialogueScenes": 3,
+      "dialogueTurns": 18,
+      "articleRows": 0
+    },
+    {
+      "id": "ko-a1-l008",
+      "card": "ko-a1-l008-text",
+      "lessonFolder": "ko-a1-l008-text",
+      "sourceBranch": "luna/ko-a1-l008-text-20261025",
+      "sourceCommit": "4fb16608af5923b687177d13a1d81a3fc553b840",
+      "sourceContentSha256": "c94b4b486bd26a0ad4b4fe9a589065b170dcedf905cce74397571bf130a16900",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l008-text/draft/DIALOGUE.md",
+          "sha256": "6a5106fa53f4ae6935dbf93b26536ef0439f616d2812b4cb851b584d4f590456",
+          "size": 2073
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l008-text/draft/GLOSS.md",
+          "sha256": "82e7565dd487411144673531c8f749dcf568ffc4460f5c73d95cadb164c700da",
+          "size": 1373
+        }
+      ],
+      "previewDataSha256": "4d9975dc96b6dc0eb28dd03e860e4aee99dba51f7dafc41ead61bba1cd16d366",
+      "dialogueScenes": 2,
+      "dialogueTurns": 23,
+      "articleRows": 0
+    },
+    {
+      "id": "ko-a1-l009",
+      "card": "ko-a1-l009-text",
+      "lessonFolder": "ko-a1-l009-text",
+      "sourceBranch": "luna/ko-a1-l009-text-rerun-20261025",
+      "sourceCommit": "2538c3d2076bb4d904f7e137a3c47f00cf302d1f",
+      "sourceContentSha256": "4d8f61016b58c1556b529b44319fd7313a8d0481edfdfb909929e7f3da9f48d6",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l009-text/draft/DIALOGUE.md",
+          "sha256": "7a130cc511ccadf11b159f0b5df09cd875e557e6ad5f21566f698f41a7aa801c",
+          "size": 2268
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l009-text/draft/GLOSS.md",
+          "sha256": "09e2006a618a0164ba3a222f34c3de5a9b2e5f862f1e66d4a37f0ac5871aac1c",
+          "size": 1796
+        }
+      ],
+      "previewDataSha256": "0c585e4591286e5e838c2b0e9999b340c7828fd22b907c6392ba036b3f22de4b",
+      "dialogueScenes": 3,
+      "dialogueTurns": 29,
+      "articleRows": 0
+    },
+    {
+      "id": "ko-a1-l010",
+      "card": "ko-a1-l010-text",
+      "lessonFolder": "ko-a1-l010-text",
+      "sourceBranch": "luna/ko-a1-l010-text-20261025-rerun",
+      "sourceCommit": "5053e292ff7f688ccd4dd41b96ad57f80ebb8c6f",
+      "sourceContentSha256": "d8899ee1f129a0723c3a41de83db2a5f1c2e74aad9a00edf235056f929e674d1",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/DIALOGUE.md",
+          "sha256": "d87a891e8499136b07b82d88af9943d74a62df0524f00fbe4834450c9af12c34",
+          "size": 3520
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/GLOSS.md",
+          "sha256": "4795695fe10c2419939411e2e36c0c9dab2385c4df30e18278437192eec47bdc",
+          "size": 2568
+        }
+      ],
+      "previewDataSha256": "589da034d53bc2d537fdf171bf53acae543141b44e1c87efea9d3f1fee689535",
+      "dialogueScenes": 3,
+      "dialogueTurns": 40,
+      "articleRows": 0
+    }
+  ],
+  "unitReviewAdvisories": [
+    {
+      "lesson": "L5 / L9",
+      "scene": "L5 D2 / L9 D3",
+      "note": "由紀四人原生家庭照片可成立，但「우리 가족…네 명」與後續丈夫揭露易被讀成家庭總人口四人。保留先前 advisory；照片四人與家庭總人數宜明確區分，不要求提前透露丈夫。"
+    },
+    {
+      "lesson": "L7 / L10",
+      "scene": "L7 D2 / L10 D3",
+      "note": "L7只答應等用完再借，未呈現橡皮擦實際交接；L10已明確歸還同一人橡皮擦，回收有做到，但借出動作仍靠省略推知。保留 advisory，可補極短交接提示。"
+    },
+    {
+      "lesson": "L10",
+      "scene": "D1 / D2",
+      "note": "D1週日上午，D2倒回抵達第一天（L9週五晚上）。不構成必然矛盾，但未標示回溯；建議標記時間或調序，避免初學者誤當順敘。"
+    },
+    {
+      "lesson": "L8 / L10",
+      "scene": "L8 D2 / L10 D2",
+      "note": "L8介紹小房間後說맞은편은 화장실，L10小房間卻在화장실 옆。맞은편的參照點未明、未附實際平面圖，不能確認空間關係一致；保留 advisory並要求以同一平面圖明確參照，勿宣稱已閉合。"
+    },
+    {
+      "lesson": "L6",
+      "scene": "D2",
+      "note": "영한사전配영어 책／英文書，已消除前版「英韓辭典拿來讀韓文書」的方向錯配，舊finding closed。但麥可英語母語、韓語初階，用韓語釋義查英文而覺得更方便的動機仍偏弱；可補學習目的，列自然度advisory而非再判原錯誤未解。"
+    },
+    {
+      "lesson": "L4–L10",
+      "scene": "SCENE前課摘要；L7 SCENE D3",
+      "note": "多課摘要仍寫L3寄小包裹，L7 SCENE D3及後課摘要仍寫買工藝材料／手帳，與本輪明信片及取高處筆記本不符。屬複製情境摘要未同步，未拿來否定已讀正文；建議同步以免下輪生成引用舊內容。"
+    },
+    {
+      "lesson": "L1 / L2 / L4",
+      "scene": "L1 D3；L2 D2–D3；L4 D2–D3",
+      "note": "L1週二道別「下週見」後L2為週四；L2、L4也有課後／活動後段落排在休息／活動期間段落前。可視為不同日或非順敘，但日期／時間銜接宜標清。"
+    },
+    {
+      "lesson": "L8",
+      "scene": "DIALOGUE grammar mapping",
+      "note": "主語標記示例列집에 베개도 하나만 있어요，此句實際用도替代助詞，不直接展示이/가；同條另兩例有이/가，教學目標並未整體缺漏，建議替換單一錯配例。"
+    }
+  ],
+  "sceneFieldMapping": "The frozen source combines location and situation in 地點與情境. The entire source text is preserved under context, the scene title is only D1/D2/etc., and location is marked 未拆分; no location detail was invented."
+}

@@ -1,0 +1,219 @@
+{
+  "id": "ko-a1-l009",
+  "level": 9,
+  "title": "辨認人物與外貌描述 · 未合併草稿候選 @1c1eee9d",
+  "status": "draft",
+  "head": "2538c3d2076bb4d904f7e137a3c47f00cf302d1f",
+  "branch": "luna/ko-a1-l009-text-rerun-20261025",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l009-text/draft/DIALOGUE.md",
+      "sha256": "7a130cc511ccadf11b159f0b5df09cd875e557e6ad5f21566f698f41a7aa801c"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l009-text/draft/GLOSS.md",
+      "sha256": "09e2006a618a0164ba3a222f34c3de5a9b2e5f862f1e66d4a37f0ac5871aac1c"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1",
+      "location": "未拆分",
+      "context": "週二，教室裡，소라拿著週六語言交換活動的照片，讓大家猜照片裡的人。",
+      "purpose": "從背影猜出照片裡的도현。",
+      "turns": [
+        {
+          "speaker": "소라",
+          "korean": "자, 다음 사진이에요. 뒷모습만 보고 맞혀 보세요.",
+          "translation": "來，這是下一張照片。大家只看背影猜猜看吧。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "키가 크고 머리가 짧아요. 마이클 씨예요?",
+          "translation": "個子很高，頭髮很短。是麥可嗎？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "저는 아니에요. 저는 사진 오른쪽에 있어요.",
+          "translation": "不是我。我在照片右邊。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "도현 씨도 키가 커요. 도현 씨예요?",
+          "translation": "道賢個子也很高。是道賢嗎？"
+        },
+        {
+          "speaker": "소라",
+          "korean": "맞아요. 이제 얼굴도 보세요.",
+          "translation": "沒錯。現在來看看正面吧。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "아, 도현 씨예요!",
+          "translation": "啊，是道賢！"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2",
+      "location": "未拆分",
+      "context": "週五晚上，仁川機場入境大廳，애니和도현等妹妹與母親出來。",
+      "purpose": "辨認妹妹和母親，順利接到兩人。",
+      "turns": [
+        {
+          "speaker": "도현",
+          "korean": "사람이 많네요. 동생이 보여요?",
+          "translation": "人真多。看到妹妹了嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네. 저기요! 제 여동생은 키가 커요.",
+          "translation": "看到了。在那裡！我妹妹個子很高。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "흰 셔츠 입은 분이에요?",
+          "translation": "是穿白襯衫的那位嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네. 옆에 계신 분이 저희 어머니예요.",
+          "translation": "對。旁邊那位是我媽媽。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "아, 두 분이 같이 오시네요.",
+          "translation": "啊，兩位一起走過來了。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "엄마! 이안! 여기예요!",
+          "translation": "媽！怡安！這裡！"
+        },
+        {
+          "speaker": "이안",
+          "korean": "언니! 오래 기다렸어요?",
+          "translation": "姊姊！等很久了嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "아니요. 이분은 도현 씨예요.",
+          "translation": "沒有。這位是道賢。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "안녕하세요. 반가워요.",
+          "translation": "你好，很高興認識你。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "안녕하세요. 언니한테 얘기 많이 들었어요.",
+          "translation": "你好。常聽姊姊提起你。"
+        },
+        {
+          "speaker": "어머니",
+          "korean": "안녕하세요.",
+          "translation": "你好。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "짐 주세요. 제가 들게요.",
+          "translation": "行李給我吧，我來拿。"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "D3",
+      "location": "未拆分",
+      "context": "週六，밥집的歡迎晚餐上，유키拿出家人照片。",
+      "purpose": "透過照片認識유키的家人，分清哥哥和丈夫。",
+      "turns": [
+        {
+          "speaker": "유키",
+          "korean": "안녕하세요. 만나서 반가워요.",
+          "translation": "你們好，很高興見到你們。"
+        },
+        {
+          "speaker": "어머니",
+          "korean": "안녕하세요.",
+          "translation": "你好。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "안녕하세요. 아, 가족 사진이에요?",
+          "translation": "你好。啊，是家人的照片嗎？"
+        },
+        {
+          "speaker": "유키",
+          "korean": "네. 같이 볼래요?",
+          "translation": "對啊。要一起看嗎？"
+        },
+        {
+          "speaker": "이안",
+          "korean": "네. 유키 씨는 어디 있어요?",
+          "translation": "好啊。由紀在哪裡？"
+        },
+        {
+          "speaker": "유키",
+          "korean": "여기요. 저는 키가 작아요.",
+          "translation": "這裡。我個子比較矮。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "아, 여기요! 옆에 계신 분은 오빠예요?",
+          "translation": "啊，在這裡！旁邊那位是哥哥嗎？"
+        },
+        {
+          "speaker": "유키",
+          "korean": "아니요, 제 남편이에요. 오빠는 여기 있어요.",
+          "translation": "不是，是我先生。哥哥在這裡。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "음식 나왔어요. 사진 더 보시고 따뜻할 때 드세요.",
+          "translation": "菜上來了。大家看完照片後，趁熱吃吧。"
+        },
+        {
+          "speaker": "이안",
+          "korean": "감사합니다. 유키 씨, 사진 또 보여 주세요.",
+          "translation": "謝謝。由紀，待會再給我看照片喔。"
+        },
+        {
+          "speaker": "유키",
+          "korean": "네. 밥 먹고 같이 봐요.",
+          "translation": "好啊。吃完飯我們再一起看。"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "短文",
+    "rows": []
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 1,
+      "text": "## 本課要教的說法出現在哪"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 2,
+      "text": "- 性質述語：N은/는 A-아/어요：D1，「도현 씨도 키가 커요.」"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 3,
+      "text": "- 性質述語：N은/는 A-아/어요：D2，「제 여동생은 키가 커요.」"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 4,
+      "text": "- 性質述語：N은/는 A-아/어요：D3，「저는 키가 작아요.」"
+    }
+  ]
+}

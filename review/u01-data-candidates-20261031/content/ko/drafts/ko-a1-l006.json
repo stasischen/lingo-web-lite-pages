@@ -1,0 +1,219 @@
+{
+  "id": "ko-a1-l006",
+  "level": 6,
+  "title": "失物招領公告 · 未合併草稿候選 @1c1eee9d",
+  "status": "draft",
+  "head": "bbb6f93e37ed74df3ee3a7bdc8b3010b2a5cef92",
+  "branch": "luna/ko-a1-l006-text-20261025-followup",
+  "sourceRepo": "stasischen/content-ko",
+  "sourceFiles": [
+    {
+      "path": "content_v2/review/lessons/ko-a1-l006-text/draft/DIALOGUE.md",
+      "sha256": "f28b6644c44b015afb9bfa88dfc8f7abeb0c57d6242b4ad9da969418124f83a7"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l006-text/draft/GLOSS.md",
+      "sha256": "e57fb02fd2c8fe890bd5719393688124a3fab10db7f4685e604666a746cc7a44"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "D1",
+      "title": "D1",
+      "location": "未拆分",
+      "context": "下班後，애니到地鐵站務室找忘在車上的包包。",
+      "purpose": "애니確認包包是自己的，領回失物。",
+      "turns": [
+        {
+          "speaker": "애니",
+          "korean": "지하철에 가방을 두고 내렸어요.",
+          "translation": "我把包包忘在地鐵上了。"
+        },
+        {
+          "speaker": "站務員",
+          "korean": "무슨 색 가방이에요?",
+          "translation": "是什麼顏色的包包？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "검은색이에요.",
+          "translation": "是黑色的。"
+        },
+        {
+          "speaker": "站務員",
+          "korean": "이 가방이에요?",
+          "translation": "是這個包包嗎？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "아니요. 제 가방이 아니에요. 저 가방 같아요.",
+          "translation": "不是，這不是我的包包，好像是那個包包。"
+        },
+        {
+          "speaker": "站務員",
+          "korean": "안에 뭐가 들어 있어요?",
+          "translation": "裡面裝了什麼？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "파란 우산하고 사원증이 있어요.",
+          "translation": "有藍色雨傘跟員工證。"
+        },
+        {
+          "speaker": "站務員",
+          "korean": "네, 있네요. 사원증에 있는 분은 누구예요?",
+          "translation": "好的，確實有。員工證上的人是誰呢？"
+        },
+        {
+          "speaker": "애니",
+          "korean": "저예요. 제 가방이에요.",
+          "translation": "是我，這是我的包包。"
+        },
+        {
+          "speaker": "站務員",
+          "korean": "확인됐어요. 여기 있어요.",
+          "translation": "確認沒問題了，給您。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "감사합니다!",
+          "translation": "謝謝！"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "title": "D2",
+      "location": "未拆分",
+      "context": "上課前，소라和마이클在教室裡看到彼此帶來的辭典。",
+      "purpose": "兩人比較辭典的種類和用途。",
+      "turns": [
+        {
+          "speaker": "소라",
+          "korean": "마이클 씨, 그 사전 좀 봐도 돼요?",
+          "translation": "麥可，可以借我看一下那本辭典嗎？"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네. 영어하고 한국어가 같이 있어요.",
+          "translation": "好啊，裡面英文和韓語都有。"
+        },
+        {
+          "speaker": "소라",
+          "korean": "아, 영한사전이네요.",
+          "translation": "啊，是英韓辭典呢。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "네. 영어 책을 읽을 때 봐요. 선생님 사전도 영한사전이에요?",
+          "translation": "對，我讀英文書的時候會查。素拉老師的辭典也是英韓辭典嗎？"
+        },
+        {
+          "speaker": "소라",
+          "korean": "아니요. 이건 영한사전이 아니에요. 국어사전이에요.",
+          "translation": "不是，這不是英韓辭典，是韓語辭典。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "영어는 없어요?",
+          "translation": "裡面沒有英文嗎？"
+        },
+        {
+          "speaker": "소라",
+          "korean": "네. 한국어로 뜻을 설명해요.",
+          "translation": "對，是用韓語解釋意思的。"
+        },
+        {
+          "speaker": "마이클",
+          "korean": "저한테는 좀 어려워요.",
+          "translation": "對我來說有點難。"
+        },
+        {
+          "speaker": "소라",
+          "korean": "그럼 지금은 그 사전이 더 편하겠네요.",
+          "translation": "那你現在用那本辭典應該比較方便。"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "title": "D3",
+      "location": "未拆分",
+      "context": "晚上，도현在大樓門口把帶著的中文書拿給애니看。",
+      "purpose": "애니問清楚書的種類，兩人約好用書練習中文。",
+      "turns": [
+        {
+          "speaker": "도현",
+          "korean": "애니 씨, 이 책 좀 보세요.",
+          "translation": "安妮，你看一下這本書。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "무슨 책이에요?",
+          "translation": "這是什麼書？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "중국어 회화책이에요. 대만 여행 갈 때 쓰려고요.",
+          "translation": "是中文會話書，想說去台灣旅行的時候可以用。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "이건 뭐예요?",
+          "translation": "這個是什麼？"
+        },
+        {
+          "speaker": "도현",
+          "korean": "음식 이름이에요. 사진도 있어서 샀어요.",
+          "translation": "是食物的名字，因為有照片就買了。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "좋아요. 같이 읽어요.",
+          "translation": "好啊，我們一起讀吧。"
+        },
+        {
+          "speaker": "도현",
+          "korean": "좋아요. 발음 좀 알려 주세요.",
+          "translation": "好啊，教我一下發音吧。"
+        },
+        {
+          "speaker": "애니",
+          "korean": "네. 집에 가서 같이 봐요.",
+          "translation": "好，回家後一起看吧。"
+        }
+      ]
+    }
+  ],
+  "article": {
+    "title": "短文",
+    "rows": []
+  },
+  "notes": [
+    {
+      "section": "DIALOGUE.md",
+      "line": 1,
+      "text": "## 本課要教的說法出現在哪"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 2,
+      "text": "- 뭐예요/무엇이에요?：D3，「이건 뭐예요?」"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 3,
+      "text": "- 누구예요?：D1，「사원증에 있는 분은 누구예요?」"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 4,
+      "text": "- 이/그/저＋N：D1，「이 가방이에요?」「저 가방 같아요.」；D2，「마이클 씨, 그 사전 좀 봐도 돼요?」；D3，「애니 씨, 이 책 좀 보세요.」"
+    },
+    {
+      "section": "DIALOGUE.md",
+      "line": 5,
+      "text": "- N이/가 아니에요：D1，「제 가방이 아니에요.」；D2，「이건 영한사전이 아니에요.」"
+    }
+  ]
+}
