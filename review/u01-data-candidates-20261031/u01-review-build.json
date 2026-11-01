@@ -458,7 +458,7 @@
   },
   "latestU01IntegrationUpdate": {
     "date": "2026-11-01",
-    "sourceCommit": "a4335286486fc9bf834ed6499b3a86ced422a338",
+    "sourceCommit": "a16bb958ca3511683db56b40419ac998f2f097e8",
     "appAssetsChanged": false,
     "changedScope": "Isolated preview data only: L10 exact source pin, its transformed lesson/evidence/overlay, and one provisional construction binding; no app code, runtime dictionary, course text, PR, or other lesson changed.",
     "approvedRuntimeRecovery": "39 existing active runtime/public-index entries, approved in the isolated lookup only; 121 visible token occurrences (36 IDs / 107 occurrences, plus ko:num:둘/셋/넷 / 14 occurrences).",
@@ -479,7 +479,7 @@
       "scope": "Historical browser validation of the previous data. UI was not rerun after the L6/L8 source pin refresh; this remains an isolated candidate and not official course or dictionary adoption.",
       "afterRefreshUiRetest": "Not performed per task instruction."
     },
-    "qaCommit": "a4335286486fc9bf834ed6499b3a86ced422a338",
+    "qaCommit": "a16bb958ca3511683db56b40419ac998f2f097e8",
     "sourceLifecycleEvidence": {
       "sourceCommit": "370362f15d042436c40f10d97397d146cd185207",
       "sourcePath": "public/content/ko/drafts/u01-review-evidence.json",
@@ -511,12 +511,12 @@
         "ko-a1-l006": "99022dd2f80263cfb19b39e32c7f877529d4f0ce",
         "ko-a1-l008": "90b5a029afeda3254214fc9e7eb96f83df4d9df3",
         "ko-a1-l009": "b4481b3bb05f0e68b2d3c3df802e083ec3cb56ae",
-        "ko-a1-l010": "31dc06537b8351ccb5b11928834cfa26d171bd84"
+        "ko-a1-l010": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c"
       },
       "held": {},
-      "uiRetest": "completed by parent in ChatGPT in-app browser; targeted L9/L10 lookups visually confirmed",
-      "pagesDataCommit": "53dcecb0e87ed909a087091b7c4519487193caf1",
-      "deploymentRun": "41263282404",
+      "uiRetest": "The prior L9/L10 old-pin spot checks remain historical. L10 52d s.000023 targeted click is pending parent: desktop CUA reported the Mac locked; no click result is claimed.",
+      "pagesDataCommit": "dcccf8f9e716afde2f8ab7e66419026abb670aa9",
+      "deploymentRun": "41266871437",
       "publicFilesReadBack": 86,
       "publicMetadataHttpStatus": 200,
       "allPackagedHashesMatch": true,
@@ -543,7 +543,18 @@
           "independence": "session_only",
           "scope": "seven c8/c9 derived POS rows relative to 1e027e3, with core/MISSING sync only; previous SEGMENTS review is separate",
           "diffReadLimitation": "Sol could not read the base Git object; it reviewed the complete fixed diff supplied in the prompt, not a repository-fetched diff.",
-          "preservedAbilityUse": "s.000023 remains ko:v:있다; c10 was not rerun."
+          "preservedAbilityUse": "s.000023 remains ko:v:있다; c10 was not rerun.",
+          "abilityConstruction": {
+            "sourceCommit": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c",
+            "solSession": "01a194f3-1054-7c22-94fe-80b4f8898fb3",
+            "tool": "codex",
+            "model": "gpt-6.1-sol",
+            "step": "c7-s23-ability-gloss",
+            "verdict": "approve",
+            "independence": "session_only",
+            "scope": "Only s.000023 찍을 수 있어요 POS ko:adj:있다 and provisional construction gloss 可以；能夠.",
+            "limitation": "No official dictionary change. Reviewer did not independently verify the supplemental dictionary page; primary NIKL Q&A supports the POS/construction."
+          }
         }
       },
       "targetedChecks": {
@@ -571,7 +582,15 @@
         "loadedContent": "L9 三段內容與 L10 全課內容已載入。",
         "limitations": "針對兩個 POS 改動與能力用法保留點驗；不是十課整體驗收或正式詞典採納。"
       },
-      "supersededL10Pin": "31dc06537b8351ccb5b11928834cfa26d171bd84 is the previous deployed package pin; see l10AbilityConstructionUpdate for the current source pin."
+      "supersededL10Pin": "31dc06537b8351ccb5b11928834cfa26d171bd84 is the previous deployed package pin; see l10AbilityConstructionUpdate for the current source pin.",
+      "previousSourcePinPackage": {
+        "pagesDataCommit": "53dcecb0e87ed909a087091b7c4519487193caf1",
+        "deploymentRun": "41263282404",
+        "L10Pin": "31dc06537b8351ccb5b11928834cfa26d171bd84",
+        "publicFilesReadBack": 86,
+        "publicMetadataHttpStatus": 200,
+        "allPackagedHashesMatch": true
+      }
     },
     "coverageRecount": {
       "method": "Count dialogue button tokens from pinned transformed lesson JSON and segment overlays, applying exact lesson surface bindings first, then source atom IDs; count visible nonempty dictionary glosses and eligible exact lesson CAST records separately.",
@@ -608,7 +627,7 @@
         "L9": "b4481b3bb05f0e68b2d3c3df802e083ec3cb56ae",
         "L10": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c"
       },
-      "sourceQaCommit": "a4335286486fc9bf834ed6499b3a86ced422a338",
+      "sourceQaCommit": "a16bb958ca3511683db56b40419ac998f2f097e8",
       "scope": "Isolated review package only; no official dictionary adoption or whole-course acceptance."
     },
     "l10AbilityConstructionUpdate": {
@@ -696,10 +715,34 @@
       },
       "overlayCoverage": "29/29; L1-L9 overlay records unchanged.",
       "notTestedItems": [
-        "Full-course interactive acceptance and the full app test/build suite.",
+        "Full-course interactive acceptance.",
+        "Full app test suite or app production build.",
         "Official dictionary adoption or course PR merge.",
-        "Supplemental dictionary page was not independently verified by the Sol reviewer."
-      ]
+        "Supplemental dictionary page was not independently verified by the Sol reviewer.",
+        "Targeted public UI click for the L10 surface 수 remains pending parent."
+      ],
+      "previousPublicPackage": {
+        "pagesDataCommit": "53dcecb0e87ed909a087091b7c4519487193caf1",
+        "deploymentRun": "41263282404",
+        "L10Pin": "31dc06537b8351ccb5b11928834cfa26d171bd84",
+        "publicFilesReadBack": 86,
+        "allPackagedHashesMatch": true
+      },
+      "deployedPackage": {
+        "pagesDataCommit": "dcccf8f9e716afde2f8ab7e66419026abb670aa9",
+        "deploymentRun": "41266871437",
+        "publicMetadataHttpStatus": 200,
+        "publicFilesReadBack": 86,
+        "allPackagedHashesMatch": true,
+        "metadataBeforeReceiptUpdateSha256": "3aa93cf922d0ac3c596288e1f41f7e0af01d38150099842e2fc0007f07ef04d1"
+      },
+      "targetedUiClick": {
+        "status": "pending_parent",
+        "url": "https://stasischen.github.io/lingo-web-lite-pages/review/u01-data-candidates-20261031/#/study/drafts/ko-a1-l010",
+        "version": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c",
+        "target": "Click the unique surface 수 in 다 같이 찍을 수 있어요.; confirm provisional -ㄹ 수 있다 / 可以；能夠.",
+        "reason": "Desktop CUA reported the Mac is locked; no UI click was performed."
+      }
     }
   }
 }
