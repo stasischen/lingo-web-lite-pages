@@ -1,239 +1,288 @@
 {
   "id": "ko-a1-l002",
   "level": 2,
-  "title": "介紹姓名與身分 · 未合併草稿候選 @1c1eee9d",
+  "title": "介紹姓名與身分",
   "status": "draft",
-  "head": "ff02ddcaa4f191c6ce91320039d1dbd606abbba9",
-  "branch": "luna/ko-a1-l002-runner-20261025-rerun",
+  "head": "895f521bf829c67f04b59ecf39378f38c64a448b",
+  "branch": "luna/ko-a1-l002-data-20261028",
   "sourceRepo": "stasischen/content-ko",
+  "sourceCardState": "done",
+  "pr": 188,
+  "prStatus": "open_draft",
+  "description": "週四上課前在中心櫃檯，登記麥可的姓名與職業並製作名牌。",
+  "candidateDisposition": "unaccepted-unpublished",
   "sourceFiles": [
     {
-      "path": "content_v2/review/lessons/ko-a1-l002-dry-b/draft/DIALOGUE.md",
-      "sha256": "838e102ee4c0f783c827bb6480c987161b2f520040efae651d880c0b0456c59b"
+      "path": "content_v2/review/lessons/ko-a1-l002/core/lesson.json",
+      "sha256": "a5fc76ddd4154d45cfc3658ab93c3e6cb0fce19e10c81b2d67f61a45185715c8"
     },
     {
-      "path": "content_v2/review/lessons/ko-a1-l002-dry-b/draft/GLOSS.md",
-      "sha256": "35145d1bd65baa7a16ffdf4ec366c75a435a3d276774f69486e2095d95f8409c"
+      "path": "content_v2/review/lessons/ko-a1-l002/core/sentences.json",
+      "sha256": "21079b4f1d4a0d701e8b088bdaaa9f936abdacb2bfd3717cf5822e1bab974bf2"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l002/draft/i18n/zh_tw/lesson.json",
+      "sha256": "fa8723643547eaf0f903cc9cae8e3dcd7d21988cd5413f65c07023a0b8649b4b"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l002/draft/i18n/zh_tw/sentences.json",
+      "sha256": "554edb51ec562286700813a74a3093ab1d8c9494433a589e9b23c69bbbf56559"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l002/draft/DIALOGUE.md",
+      "sha256": "16b34458f64ef485ef40f57910667f494cd9e38fe9a80ffcc3d697396e4be575"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l002/draft/CAST.tsv",
+      "sha256": "acb233b2a166dde21ce0ad10c54637fc51af5cd3a0be14c2e334aa6e8d78bc0d"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l002/draft/SEGMENTS.tsv",
+      "sha256": "d2993386980c9d1b7b8739df160a00c2d4e946f1775c5789fba656432c046065"
+    },
+    {
+      "path": "content_v2/review/lessons/ko-a1-l002/draft/MISSING_ENTRIES.tsv",
+      "sha256": "faa0b2edc99fea9f8d0f6eba42454fa9d4174f6d524a6cb9674db7478abab8d3"
     }
+  ],
+  "segmentation": {
+    "status": "available",
+    "sourcePath": "content_v2/review/lessons/ko-a1-l002/draft/SEGMENTS.tsv",
+    "sourceSha256": "d2993386980c9d1b7b8739df160a00c2d4e946f1775c5789fba656432c046065",
+    "matchedSentences": 31,
+    "totalSentences": 31
+  },
+  "missingDictionaryAtomIds": [
+    "ko:adv:처음",
+    "ko:n:대학원생",
+    "ko:prop:마이클",
+    "ko:prop:애니",
+    "ko:prop:유키"
   ],
   "dialogue": [
     {
-      "id": "D1",
-      "title": "D1",
-      "location": "未拆分",
-      "context": "週四上課前，中心櫃檯。",
+      "id": "scene.d1",
+      "title": "D1 · 週四上課前，中心櫃檯。",
+      "location": "週四上課前，中心櫃檯。",
+      "context": "週四上課前在中心櫃檯，登記麥可的姓名與職業並製作名牌。",
       "purpose": "登記마이클的姓名與職業，並製作名牌。",
       "turns": [
         {
-          "speaker": "소라",
+          "speaker": "素拉",
           "korean": "안녕하세요. 오늘 처음 오셨죠?",
-          "translation": "你好。今天第一次來對吧？"
+          "translation": "你好，今天第一次來對吧？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000032"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "네, 지난 수업에는 못 왔어요.",
-          "translation": "對，上次上課我沒能來。"
+          "translation": "對，上次上課我沒辦法來。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000033"
         },
         {
-          "speaker": "소라",
+          "speaker": "素拉",
           "korean": "잘 오셨어요. 이름표를 만들게요. 이름이 뭐예요?",
-          "translation": "歡迎。我來做名牌。請問叫什麼名字？"
+          "translation": "歡迎！我來幫你做名牌。請問叫什麼名字？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000034"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "저는 마이클이에요.",
-          "translation": "我叫麥可。"
+          "translation": "我叫麥可。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000035"
         },
         {
-          "speaker": "소라",
+          "speaker": "素拉",
           "korean": "마이클 씨, 직업은 뭐예요?",
-          "translation": "麥可，你的職業是什麼？"
+          "translation": "麥可，請問你的工作是什麼呢？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000036"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "대학원생이에요. 한국 역사를 공부해요.",
-          "translation": "我是研究生。在學韓國歷史。"
+          "translation": "我是研究生，在念韓國歷史。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000037"
         },
         {
-          "speaker": "소라",
+          "speaker": "素拉",
           "korean": "네, 여기 이름하고 직업을 적었어요. 이름표 받으세요.",
-          "translation": "好，這裡寫了名字和職業。請拿名牌。"
+          "translation": "好的，這裡寫好了姓名和工作，請收下名牌。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000038"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "감사합니다. 수업은 어디에서 해요?",
-          "translation": "謝謝。在哪裡上課呢？"
+          "translation": "謝謝。請問在哪裡上課呢？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000039"
         },
         {
-          "speaker": "소라",
+          "speaker": "素拉",
           "korean": "바로 옆 교실이에요. 같이 가요.",
-          "translation": "就在隔壁教室。一起走吧。"
+          "translation": "就在隔壁教室，我們一起過去吧。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000040"
         }
       ]
     },
     {
-      "id": "D2",
-      "title": "D2",
-      "location": "未拆分",
-      "context": "同一天下課後，中心旁的咖啡館。",
+      "id": "scene.d2",
+      "title": "D2 · 同一天下課後，中心旁的咖啡館。",
+      "location": "同一天下課後，中心旁的咖啡館。",
+      "context": "同一天下課後在中心旁的咖啡館，說明各自希望別人怎麼稱呼自己。",
       "purpose": "說明各自希望別人怎麼稱呼自己。",
       "turns": [
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "두 분은 어떻게 부르면 돼요?",
-          "translation": "兩位我該怎麼稱呼呢？"
+          "translation": "我該怎麼稱呼兩位呢？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000041"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "저는 애니라고 불러 주세요. 애니는 별명이에요.",
-          "translation": "請叫我安妮。安妮是綽號。"
+          "translation": "叫我安妮就可以了，安妮是我的綽號。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000042"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "아, 그래요? 그럼 애니 씨라고 부를게요.",
-          "translation": "啊，是嗎？那我叫妳安妮。"
+          "translation": "啊，這樣啊？那我叫你安妮。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000043"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "좋아요.",
-          "translation": "好啊。"
+          "translation": "好啊。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000044"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "저는 그냥 유키라고 불러 주세요.",
-          "translation": "直接叫我由紀就可以了。"
+          "translation": "叫我由紀就可以了。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000045"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "네, 유키 씨. 저는 마이클이라고 불러 주세요.",
-          "translation": "好，由紀。請叫我麥可。"
+          "translation": "好，由紀。叫我麥可就可以了。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000046"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "네, 마이클 씨. 오늘 수업 어땠어요?",
-          "translation": "好，麥可。今天上課覺得怎麼樣？"
+          "translation": "好，麥可。今天上課覺得怎麼樣？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000047"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "조금 어려웠어요. 그래도 재미있었어요.",
-          "translation": "有點難。不過滿有趣的。"
+          "translation": "有點難，不過滿有趣的。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000048"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "다음 시간에도 우리 같이 앉아요.",
-          "translation": "下次上課我們也一起坐吧。"
+          "translation": "下次上課我們也一起坐吧。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000049"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "좋아요!",
-          "translation": "好啊！"
+          "translation": "好啊！",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000050"
         }
       ]
     },
     {
-      "id": "D3",
-      "title": "D3",
-      "location": "未拆分",
-      "context": "休息時間，中心外的長椅。",
+      "id": "scene.d3",
+      "title": "D3 · 週四下課後的下一次上課休息時間，仍在本週末前，中心外的長椅。",
+      "location": "週四下課後的下一次上課休息時間，仍在本週末前，中心外的長椅。",
+      "context": "週四下課後的下一次上課休息時間在中心外的長椅，大家互問嗜好並約定一起做的事。",
       "purpose": "互問嗜好，並約定一起做的事。",
       "turns": [
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "마이클 씨는 쉬는 날에 뭐 해요?",
-          "translation": "麥可放假的時候都做什麼？"
+          "translation": "麥可放假的時候都做些什麼？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000051"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "주로 영화를 봐요.",
-          "translation": "大部分都在看電影。"
+          "translation": "通常都在看電影。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000052"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "영화요? 자주 봐요?",
-          "translation": "看電影啊？常看嗎？"
+          "translation": "看電影啊？常看嗎？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000053"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "네, 자주 봐요. 애니 씨는요?",
-          "translation": "對，常常看。安妮呢？"
+          "translation": "對，滿常看的。安妮呢？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000054"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "저는 음악 듣는 걸 좋아해요.",
-          "translation": "我喜歡聽音樂。"
+          "translation": "我喜歡聽音樂。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000055"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "어떤 음악을 좋아해요?",
-          "translation": "喜歡什麼樣的音樂？"
+          "translation": "喜歡哪種音樂？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000056"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "한국 노래를 많이 들어요. 유키 씨 취미는 뭐예요?",
-          "translation": "我常聽韓語歌。由紀的興趣是什麼？"
+          "translation": "滿常聽韓國歌的。由紀的興趣是什麼？",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000057"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "저는 여행을 좋아해요. 주말에 가까운 곳에 자주 가요.",
-          "translation": "我喜歡旅行。週末常常去附近的地方。"
+          "translation": "我喜歡旅行，週末常去附近的地方走走。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000058"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "그럼 좋은 곳 좀 알려 주세요.",
-          "translation": "那推薦幾個好地方給我吧。"
+          "translation": "那推薦一些好地方給我吧。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000059"
         },
         {
-          "speaker": "유키",
+          "speaker": "由紀",
           "korean": "같이 가요. 근처에 예쁜 공원이 있어요.",
-          "translation": "一起去吧。附近有一座很漂亮的公園。"
+          "translation": "一起去吧，附近有一座很漂亮的公園。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000060"
         },
         {
-          "speaker": "애니",
+          "speaker": "安妮",
           "korean": "좋아요. 거기서 같이 음악도 들어요.",
-          "translation": "好啊。在那裡也一起聽音樂吧。"
+          "translation": "好啊，在那裡也可以一起聽音樂。",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000061"
         },
         {
-          "speaker": "마이클",
+          "speaker": "麥可",
           "korean": "네, 이번 주말에 가요!",
-          "translation": "好，這個週末去吧！"
+          "translation": "好，這個週末就去吧！",
+          "sentenceId": "ex.ko.s.ko-a1-l002.000062"
         }
       ]
     }
   ],
   "article": {
-    "title": "短文",
+    "title": "",
     "rows": []
   },
-  "notes": [
-    {
-      "section": "DIALOGUE.md",
-      "line": 1,
-      "text": "## 本課要教的說法出現在哪"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 2,
-      "text": "- 人稱與稱謂的社會選擇：저/나：D1「저는 마이클이에요.」"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 3,
-      "text": "- 人稱與稱謂的社會選擇：저/나：D2「저는 애니라고 불러 주세요. 애니는 별명이에요.」"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 4,
-      "text": "- 人稱與稱謂的社會選擇：저/나：D2「저는 그냥 유키라고 불러 주세요.」"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 5,
-      "text": "- 人稱與稱謂的社會選擇：저/나：D3「저는 여행을 좋아해요. 주말에 가까운 곳에 자주 가요.」"
-    },
-    {
-      "section": "DIALOGUE.md",
-      "line": 6,
-      "text": "- 本課未採用「나」：三段都是對老師或同學使用禮貌體的交談，且有初次加入的마이클在場，使用「저」較自然；沒有適合自然加入「나」的熟人私下交談或自言自語情境。"
-    }
-  ]
+  "notes": [],
+  "grammarMappingSource": {
+    "repo": "stasischen/lingo-frontend-web",
+    "commit": "0a32f796b3959a8c0d685d791e2cbec69241b296",
+    "path": "assets/artifacts/learning_library/ko/core/grammar_mappings.json",
+    "sha256": "20d12c2322e8823dc5d7b03230d8f3d8de4512651feef444fb25afea378f3593"
+  }
 }

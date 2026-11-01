@@ -1,51 +1,93 @@
 {
   "schemaVersion": 1,
-  "purpose": "A1-u01 unmerged draft review preview deployment",
+  "purpose": "A1 Korean course now serves the ten pinned draft candidates as the current learning version; old lesson links redirect to the same lesson in the current package.",
   "webLiteSourceRepo": "stasischen/lingo-web-lite",
   "webLiteSourceBranch": "luna/ko-a1-u01-web-review-20261027",
-  "webLiteSourceCommit": "1a3df4090ad1aff5369326c2e7c6d52d8587e1e3",
+  "webLiteSourceCommit": "f1710ac448d26da8e9ea400ad0400a4a159b3880",
+  "sourceReviewVerdict": "approve",
+  "sourceReviewEvidence": "Independent Codex review of exact HEAD f1710ac448d26da8e9ea400ad0400a4a159b3880; PR #26",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/ npm run build",
-  "buildResult": "passed locally; lookup fix independently reviewed with no blocking findings",
-  "candidatePacketCommit": "1c1eee9dcaca032508015adca66dde234ea55496",
-  "candidateManifestSha256": "53c03e177a5249decf3c7e6fa115f8ed7a728bb699428fb9a2889369873abb12",
-  "sourceReviewVerdict": "No blocking findings for the lookup-fix delta only (independent read-only Codex review)",
-  "sourceReviewEvidence": "https://github.com/stasischen/lingo-web-lite/commit/1a3df4090ad1aff5369326c2e7c6d52d8587e1e3",
-  "preserved": "Existing production content, other languages, and runner-previews directory; only root index/assets and content/ko/drafts were updated.",
+  "buildResult": "TypeScript and Vite production build passed; manual browser verification passed on the copied Pages package.",
+  "manualBrowserChecks": [
+    "Korean course list shows ten current-version lessons and no old course list.",
+    "L3 loads with segmented word buttons.",
+    "Clicking 엽서요. opens its two SEGMENTS.tsv dictionary parts with the provisional 明信片 entry.",
+    "Old /study/lessons/ko-a1-l003 link redirects to /study/drafts/ko-a1-l003."
+  ],
+  "contentManifestSha256": "162076992a195757273f5d5d41ccfe7c90d8d4712c4b00170de986f1f0144e8b",
+  "segmentation": {
+    "ko-a1-l001": {
+      "matchedSentences": 15,
+      "totalSentences": 15,
+      "sourceCommit": "f54704add5039aaa64810bb043c2941dfdb3cf64"
+    },
+    "ko-a1-l002": {
+      "matchedSentences": 31,
+      "totalSentences": 31,
+      "sourceCommit": "895f521bf829c67f04b59ecf39378f38c64a448b"
+    },
+    "ko-a1-l003": {
+      "matchedSentences": 44,
+      "totalSentences": 44,
+      "sourceCommit": "0bf77bfb4689f86556dae652b6385f31998d5791"
+    },
+    "ko-a1-l004": {
+      "matchedSentences": 32,
+      "totalSentences": 32,
+      "sourceCommit": "6ad25be8f37d436f72c681fe8e56b99503754ed5"
+    },
+    "ko-a1-l005": {
+      "matchedSentences": 26,
+      "totalSentences": 26,
+      "sourceCommit": "2e2a79da803048562fa16bb216ac60e088d33580"
+    },
+    "ko-a1-l006": {
+      "matchedSentences": 28,
+      "totalSentences": 28,
+      "sourceCommit": "99022dd2f80263cfb19b39e32c7f877529d4f0ce"
+    },
+    "ko-a1-l007": {
+      "matchedSentences": 16,
+      "totalSentences": 16,
+      "sourceCommit": "7921eeba48ab0de39ec6d4b0797d7ea824e1070b"
+    },
+    "ko-a1-l008": {
+      "matchedSentences": 23,
+      "totalSentences": 23,
+      "sourceCommit": "90b5a029afeda3254214fc9e7eb96f83df4d9df3"
+    },
+    "ko-a1-l009": {
+      "matchedSentences": 29,
+      "totalSentences": 29,
+      "sourceCommit": "b4481b3bb05f0e68b2d3c3df802e083ec3cb56ae"
+    },
+    "ko-a1-l010": {
+      "matchedSentences": 29,
+      "totalSentences": 29,
+      "sourceCommit": "31dc06537b8351ccb5b11928834cfa26d171bd84"
+    }
+  },
+  "preserved": "Legacy static course files remain for rollback, but the app no longer links to or loads them; old app route redirects. Existing larger Pages Korean dictionary and other languages were preserved.",
   "filesSha256": {
-    "index.html": "5ea4c4b663c7729f979c027f938b1ad8cc71aead2f178cd8f39b68c297e97e04",
-    "assets/index-DxcxPQiw.css": "2eb6d9e559371fc2f5a507d8927602965bc6cf0d98a48250e50caebe66483c05",
-    "assets/index-qZ2zxdNp.js": "3d65adff29136feabffc46353a8d76e52d3dd52daf4185b48c339cc836659fbc",
-    "content/ko/drafts/ko-a1-l001.json": "768c0397ea434c6bfe4f588d262b5d22b4cbabe621b969148cf78482af6d46f2",
-    "content/ko/drafts/ko-a1-l002.json": "0dd00053168cba67e9971d8706efa18af1f74d0e271b95ba2025da9175d24620",
-    "content/ko/drafts/ko-a1-l003.json": "6e1a3beaac12e18dc870076e63d5acecbb9f86a0020e29b596d87cf90dc99b48",
-    "content/ko/drafts/ko-a1-l004.json": "f8488f4b53d146e02947facc9a603d916c72ad68a963ed60d5dd63dafbc4565c",
-    "content/ko/drafts/ko-a1-l005.json": "17d94c900a3a8b51a0854056bea9945e9b03d9dce3cb11e811a39e0c3d3be3ed",
-    "content/ko/drafts/ko-a1-l006.json": "ba2ad5180b0488bd1e0b028afa52badc057c8d7dc51961f31c20357a82164710",
-    "content/ko/drafts/ko-a1-l007.json": "ac2b166579ea140cdc04a5b7e13186f72f7fc89b94f01effc9f5cd75c3634691",
-    "content/ko/drafts/ko-a1-l008.json": "4d9975dc96b6dc0eb28dd03e860e4aee99dba51f7dafc41ead61bba1cd16d366",
-    "content/ko/drafts/ko-a1-l009.json": "0c585e4591286e5e838c2b0e9999b340c7828fd22b907c6392ba036b3f22de4b",
-    "content/ko/drafts/ko-a1-l010.json": "589da034d53bc2d537fdf171bf53acae543141b44e1c87efea9d3f1fee689535",
-    "content/ko/drafts/lookup.json": "77720a742f07d699c5ed5ba2b8650698fae6f956fc014816360eb1e8000469e3",
-    "content/ko/drafts/manifest.json": "4912c0a6d8616426a69702a93344443cbfec1f94f218d7290099292c9dbc4ad4",
-    "content/ko/drafts/u01-review-evidence.json": "38574a3f0959decfaf7ecff96e4aee31a22bd9472be9969a3d39d5486d2bed74"
-  },
-  "previousSourceReview": {
-    "commit": "c3eeaa0bc9a95fc44d974d3d1b382475d2d3f72b",
-    "verdict": "approve",
-    "evidence": "https://github.com/stasischen/lingo-web-lite/pull/26"
-  },
-  "lookupFixReview": {
-    "commit": "1a3df4090ad1aff5369326c2e7c6d52d8587e1e3",
-    "route": "independent read-only Codex review, gpt-6.1-sol high",
-    "outcome": "no blocking findings for isolated preview",
-    "codexReadonlyRequestId": "ko-a1-u01-web-review-1a3df40-codex-peer-2",
-    "requestReceipt": "pending in coordination/v1"
-  },
-  "lookupSources": {
-    "generatedFrom": "public/content/ko/drafts/lookup.json",
-    "dictionaryHead": "0955616ae79841d39d68923285017dfa9e631cb5",
-    "provisionalBinding": "ko-a1-l003 엽서요. → ko:n:엽서",
-    "approvedBinding": "ko-a1-l005 사과 → ko:n:사과"
-  },
-  "sourceReviewScope": "L3/L5 draft dictionary bindings, pinned sources, provisional labeling, manual lookup regression; not a full PR #26 re-review or content acceptance"
+    "index.html": "a636efa107073d644fd5c80ee0e26e785200d30fa102f6cc724fecc6ca1006be",
+    "assets/index-DKCzik_j.js": "79907c1798aa7dccb4e409269fca3efc53f787f0ab68c1eafef9aa453e6e5f5e",
+    "assets/index-BJ-XsDU7.css": "bcc84e94d562d32411dd76ba2c1f4ecd6efbdeec3c27623442a3c87f3ebbe2ad",
+    "content/ko/drafts/dictionary-gap-candidates-l3-l6-l9-20261101.jsonl": "4381e3f11d4ce7755e4586632c381a64f74583985463cae02320de7f5890c726",
+    "content/ko/drafts/dictionary-gap-source-evidence-l3-l6-l9-20261101.json": "9c053cbdfc49223ac00a0645c0a9a496c966209447274104a8f0c1bae2fdfd15",
+    "content/ko/drafts/ko-a1-l001.json": "7e4d83fc17a724c03cce7417f9df1cad7d041ba54bfcce04b61b9cfda98bb5f3",
+    "content/ko/drafts/ko-a1-l002.json": "95a3fc65b2e4ec4c6bc51128e6be6244b0a94efa3b6683b108c5460651139417",
+    "content/ko/drafts/ko-a1-l003.json": "31fb052eebd91325a7f96c95a8dd2a59ee1986bae9ff29ce7b5d965d94bf9899",
+    "content/ko/drafts/ko-a1-l004.json": "c386a7197bb83463e2c53d3bf5f31166c7c018106238d34ec46fa7b54a352624",
+    "content/ko/drafts/ko-a1-l005.json": "6c3a0759a77c88c53e7a3d9731c05ab39367aa0c3f6c058c0b94b2633d7d2301",
+    "content/ko/drafts/ko-a1-l006.json": "1098092b450be958ddbc2e183c6a4173bf2bb4689dba1538e37de98f33a385b3",
+    "content/ko/drafts/ko-a1-l007.json": "2eaa81523c3142e9376fcbb7bbdd9015b55bfd20efc4f542db25e58ddf605675",
+    "content/ko/drafts/ko-a1-l008.json": "edf9d156196f101f4042dd7632a290994f7780e186dba08115b16878738279f3",
+    "content/ko/drafts/ko-a1-l009.json": "6af88a3a4b5368a87180d36ff227b839d92ddede2d84b70d7aed0ddbab928df0",
+    "content/ko/drafts/ko-a1-l010.json": "6d70ed421e300eac35044a84116342c25a7c4be6bf4ed8c6d2803cd1356ef815",
+    "content/ko/drafts/lookup.json": "b0e1ec2ea3c64900e40b31aff87e55e03bdde716fd0150c2f5222c9f5590afd7",
+    "content/ko/drafts/manifest.json": "162076992a195757273f5d5d41ccfe7c90d8d4712c4b00170de986f1f0144e8b",
+    "content/ko/drafts/segment-overlays.json": "2b464daf1277a88cb1db812b2e85a2a7ed1f2b5357bec48b349506bdfc82ea5f",
+    "content/ko/drafts/u01-review-evidence.json": "1509a0019fc5c5f9b46a9a6005697c1e6f5548e33bb6718d198f24e7cbd73768",
+    "content/ko/dictionary.json": "7570006705bb07299f8309eacae323461df190a01fa74029f8ab580c850a8b17"
+  }
 }

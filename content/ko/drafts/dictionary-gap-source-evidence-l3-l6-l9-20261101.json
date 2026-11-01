@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-01",
+  "candidateFile": {
+    "path": "public/content/ko/drafts/dictionary-gap-candidates-l3-l6-l9-20261101.jsonl",
+    "bytes": 2103,
+    "sha256": "4381e3f11d4ce7755e4586632c381a64f74583985463cae02320de7f5890c726",
+    "rowSha256": [
+      "8b2ed3ddf9fd5c6d6c6cff2cc0d8b3647fbaf69c3b03bac074707ebac3e0b5b8",
+      "507a407b0a213db8677c7d90c8fd34b2931c74901fe2c8d8f50473e0e11903f2"
+    ],
+    "entryCount": 2,
+    "status": "review-only provisional preview candidates"
+  },
+  "sourceFiles": [
+    {
+      "course": "L3",
+      "head": "0bf77bfb4689f86556dae652b6385f31998d5791",
+      "branch": "luna/ko-a1-l003-data-20261028",
+      "path": "content_v2/review/lessons/ko-a1-l003-data/draft/DIALOGUE.md",
+      "bytes": 3037,
+      "sha256": "f5789d7f7445595060d5cb949e34a65171eb0b39f9a031e4fd5f4a227acd483f"
+    },
+    {
+      "course": "L3",
+      "head": "0bf77bfb4689f86556dae652b6385f31998d5791",
+      "branch": "luna/ko-a1-l003-data-20261028",
+      "path": "content_v2/review/lessons/ko-a1-l003-data/draft/SEGMENTS.tsv",
+      "bytes": 6942,
+      "sha256": "880d8f90cc999c2fafa257174530802b46f4c4e8d107ce3fdd773a459059fb3f"
+    },
+    {
+      "course": "L3",
+      "head": "0bf77bfb4689f86556dae652b6385f31998d5791",
+      "branch": "luna/ko-a1-l003-data-20261028",
+      "path": "content_v2/review/lessons/ko-a1-l003-data/draft/MISSING_ENTRIES.tsv",
+      "bytes": 780,
+      "sha256": "3ac8b3412b86ed7bdc402f42b7f9ff8afaf1e7eadddcbd16661760f91265ad65"
+    },
+    {
+      "course": "L6",
+      "head": "99022dd2f80263cfb19b39e32c7f877529d4f0ce",
+      "branch": "luna/ko-a1-l006-data-20261028",
+      "path": "content_v2/review/lessons/ko-a1-l006-text/draft/DIALOGUE.md",
+      "bytes": 2324,
+      "sha256": "6f49d5acf9bf10805707e63f7199ea8136ac691d547892b26b19bf98528c2352"
+    },
+    {
+      "course": "L6",
+      "head": "99022dd2f80263cfb19b39e32c7f877529d4f0ce",
+      "branch": "luna/ko-a1-l006-data-20261028",
+      "path": "content_v2/review/lessons/ko-a1-l006-text/draft/SEGMENTS.tsv",
+      "bytes": 5000,
+      "sha256": "6a07ed0bd45c1da42f0af43652084e25f88fff5f54cbc3f2a08f0167aaff85e3"
+    },
+    {
+      "course": "L6",
+      "head": "99022dd2f80263cfb19b39e32c7f877529d4f0ce",
+      "branch": "luna/ko-a1-l006-data-20261028",
+      "path": "content_v2/review/lessons/ko-a1-l006-text/draft/MISSING_ENTRIES.tsv",
+      "bytes": 1085,
+      "sha256": "e41c33d073dc15e8c730755f167df8a32a4a8796a98c02a4e6a40deeacb93458"
+    },
+    {
+      "course": "L9",
+      "head": "809bb346215f7f772ce7cad15e7c653013a87f59",
+      "branch": "luna/ko-a1-l009-data-20261028",
+      "path": "content_v2/review/lessons/ko-a1-l009-text/draft/DIALOGUE.md",
+      "bytes": 2248,
+      "sha256": "fa18df708e17a1ec5cc26aa745c3eff07741c573274584bf9b936267b0cd6805"
+    },
+    {
+      "course": "L9",
+      "head": "809bb346215f7f772ce7cad15e7c653013a87f59",
+      "branch": "luna/ko-a1-l009-data-20261028",
+      "path": "content_v2/review/lessons/ko-a1-l009-text/draft/SEGMENTS.tsv",
+      "bytes": 5313,
+      "sha256": "551cc139fcd5d7a0f83e9f8920e0e0c98f10c530fea4af079207f983917c8429"
+    },
+    {
+      "course": "L9",
+      "head": "809bb346215f7f772ce7cad15e7c653013a87f59",
+      "branch": "luna/ko-a1-l009-data-20261028",
+      "path": "content_v2/review/lessons/ko-a1-l009-text/draft/MISSING_ENTRIES.tsv",
+      "bytes": 752,
+      "sha256": "b33e01c833c1c04bea023857054de5d2e87abe960cc64f0231084e228b1d6c8a"
+    }
+  ],
+  "reviewReceipts": [
+    {
+      "reviewer": "Dot",
+      "url": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6502234235",
+      "scope": "L3 R1 returned changes/incomplete for the SEGMENTS repairs; no lexical gloss approval."
+    },
+    {
+      "reviewer": "Dot",
+      "url": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6513607504",
+      "scope": "L3 R2 approved only packet/request identity evidence and carried forward segmentation scope; no lexical gloss approval."
+    },
+    {
+      "reviewer": "Sol",
+      "source": "coordination/v1/reviews/ko-a1-l006-data/sol.md",
+      "scope": "Exact-head L6 data-card delivery approval only; six candidates remain provisional, not dictionary adoption."
+    },
+    {
+      "reviewer": "Dot",
+      "url": "https://github.com/stasischen/release-aggregator/pull/411#issuecomment-6450118777",
+      "scope": "L9 closure; explicitly distinguishes count 分 in 두 분이 from honorific 분/n; not glossary approval."
+    }
+  ],
+  "excludedHold": {
+    "atomId": "ko:n:것",
+    "status": "held_not_reviewed_or_added",
+    "rule": "release-aggregator/docs/tasks/RUNTIME_ATOM_DICTIONARY_COVERAGE_AUDIT/RCA_04A_PROMOTION.md, Deferred section",
+    "reason": "bound-noun/contraction policy remains unresolved: in L3 거예요 the future expectation/assumption/plan meaning may belong to a construction rather than a standalone lexical gloss; the source also uses the lexical form 것 in L6. Do not create a preview entry or include this atom in the Dot candidate request.",
+    "sourceHeads": [
+      "0bf77bfb4689f86556dae652b6385f31998d5791",
+      "99022dd2f80263cfb19b39e32c7f877529d4f0ce"
+    ],
+    "evidenceRows": [
+      {
+        "lesson": "ko-a1-l003",
+        "sentenceId": "s.000008",
+        "atomId": "ko:n:것",
+        "sourceHead": "0bf77bfb4689f86556dae652b6385f31998d5791",
+        "file": "content_v2/review/lessons/ko-a1-l003-data/draft/MISSING_ENTRIES.tsv",
+        "fileSha256": "3ac8b3412b86ed7bdc402f42b7f9ff8afaf1e7eadddcbd16661760f91265ad65"
+      },
+      {
+        "lesson": "ko-a1-l006",
+        "sentenceIds": [
+          "s.000016",
+          "s.000024"
+        ],
+        "atomId": "ko:n:것",
+        "sourceHead": "99022dd2f80263cfb19b39e32c7f877529d4f0ce",
+        "file": "content_v2/review/lessons/ko-a1-l006-text/draft/MISSING_ENTRIES.tsv",
+        "fileSha256": "e41c33d073dc15e8c730755f167df8a32a4a8796a98c02a4e6a40deeacb93458"
+      }
+    ]
+  },
+  "distinction": "ko:count:분, including L9 두 분이, is a separate atom from honorific ko:n:분 and is unchanged. The L3 preview bindings for these two exact surfaces are provisional; frozen lesson and SEGMENTS data remain unchanged. Existing active runtime omissions are restored as approved rows in the isolated lookup; fixed CAST name displays stay separate and are not dictionary entries.",
+  "lifecycle": [
+    {
+      "atomId": "ko:n:라테",
+      "sourceReceived": "received from exact L3 frozen source",
+      "sourceAdoption": "not adopted into owner source or formal dictionary",
+      "previewEntry": "provisional isolated lookup entry added",
+      "uiValidation": "Pending published exact-token UI check; candidate remains provisional.",
+      "dotReview": "limited approval received for the specified candidate wording/context; provisional only; result #6547574410"
+    },
+    {
+      "atomId": "ko:n:분",
+      "sourceReceived": "received from exact L3 and L9 frozen sources",
+      "sourceAdoption": "not adopted into owner source or formal dictionary",
+      "previewEntry": "provisional isolated lookup entry added",
+      "uiValidation": "Pending published exact-token UI check; candidate remains provisional.",
+      "dotReview": "limited approval received for the specified candidate wording/context; provisional only; result #6547574410"
+    },
+    {
+      "atomId": "ko:n:것",
+      "sourceReceived": "received from exact L3 and L6 frozen sources",
+      "sourceAdoption": "held by RCA_04A; no dictionary adoption",
+      "previewEntry": "not added",
+      "uiValidation": "not performed",
+      "dotReview": "not requested; excluded by hold"
+    }
+  ],
+  "previewBindingUpdates": [
+    {
+      "lessonId": "ko-a1-l003",
+      "surface": "라테",
+      "atomId": "ko:n:라테",
+      "state": "provisional"
+    },
+    {
+      "lessonId": "ko-a1-l003",
+      "surface": "분",
+      "atomId": "ko:n:분",
+      "state": "provisional"
+    },
+    {
+      "lessonId": "ko-a1-l002",
+      "surface": "곳",
+      "atomId": "ko:n:곳",
+      "state": "approved",
+      "displaySource": "Exact approved core dictionary entry; renderer falls back to the core entry when no duplicate review entry exists."
+    }
+  ],
+  "sourceBranchLookup": {
+    "path": "public/content/ko/drafts/lookup.json",
+    "sha256": "74c89652523c41b345e51c42b57ee46a142cd72414edee09d1665d12241a72ee",
+    "entryCount": 399,
+    "provisionalEntryCount": 32
+  },
+  "dotReviewReceipt": {
+    "reviewer": "Dot",
+    "requestId": "ce2fa21cc8237e0361fb6ae56826e6f6e3907e05046570069180868b4aa5db69",
+    "resultCommentId": "6547574410",
+    "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547574410",
+    "verdict": "limited approval for both candidate rows within specified lesson contexts; both remain review-only and provisional",
+    "scope": {
+      "ko:n:라테": "official noun sense 1, coffee latte in L3 cafe ordering",
+      "ko:n:분": "official sense 1 for honorific person reference in L3 sender/recipient and L9 identification contexts"
+    },
+    "posNote": "Official detailed POS for honorific 분 is 의존 명사 (bound noun); preview pos n is a broad category and must not be described as a free noun.",
+    "explicitExclusions": [
+      "ko:n:것",
+      "ko:count:분 (count sense)",
+      "formal dictionary/runtime adoption",
+      "lesson acceptance",
+      "PR approval or merge",
+      "publication approval",
+      "UI validation"
+    ]
+  },
+  "approvedRuntimeRecovery": {
+    "sourceHead": "f54704add5039aaa64810bb043c2941dfdb3cf64",
+    "runtimeDictionaryPath": "content_v2/core/dictionary/runtime_dictionary.sqlite",
+    "runtimeDictionarySha256": "45d4753801f6c73426f1a0318734947cbd3cd1c99a71795e86c720ad3284ea3c",
+    "publicIndexPath": "content_v2/core/dictionary/public_index.csv",
+    "publicIndexSha256": "2a59b58ca81391937e4fe2f2fabd82f1399713178dc8b296797f333a12d21a29",
+    "entryCount": 39,
+    "occurrenceCount": 121,
+    "previewState": "approved",
+    "formalDictionaryChanged": false
+  },
+  "castNameDisplay": {
+    "records": 23,
+    "displayableButtonOccurrences": 44,
+    "byLesson": {
+      "L1": 0,
+      "L2": 12,
+      "L3": 2,
+      "L4": 5,
+      "L5": 9,
+      "L6": 2,
+      "L7": 2,
+      "L8": 1,
+      "L9": 9,
+      "L10": 2
+    },
+    "rule": "Only exact lesson-pinned CAST rows with nonempty character ID and Traditional Chinese name are displayed separately from dictionary entries. No dictionary entry or gloss is created.",
+    "notMapped": {
+      "L1": 11,
+      "ko:prop:천이쥔": 1
+    }
+  },
+  "placeNameRuntime": {
+    "ids": {
+      "ko:prop:한국": 3,
+      "ko:prop:일본": 1,
+      "ko:prop:대만": 3,
+      "ko:prop:부산": 2,
+      "ko:prop:서울": 1
+    },
+    "occurrences": 10,
+    "status": "All are exact active runtime/public-index entries already in the core dictionary package; not sourced from CAST."
+  },
+  "unresolvedButtonCategories": {
+    "ko:n:것": 4,
+    "ko:xnum:3/4": 2,
+    "ko:v:있다 POS conflict": 25,
+    "ko:n:가족분 explicit exclusion": 1,
+    "L1 names without CAST ID": 11,
+    "ko:prop:천이쥔 without exact CAST ID/name row": 1
+  },
+  "dictionaryResolvedButtons": {
+    "resolved": 1172,
+    "total": 1260,
+    "dictionaryUnresolved": 88,
+    "separateCastDisplay": 44,
+    "noExactDictionaryOrCast": 44
+  }
+}
