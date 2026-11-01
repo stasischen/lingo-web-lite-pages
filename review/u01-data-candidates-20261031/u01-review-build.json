@@ -11,7 +11,7 @@
   "candidatePacketCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
   "candidateManifestSha256": "d4fc5d68a1d09a9f7087a75e194a5a80cfbe642cd1628db3d1d1ebbea59f4bee",
   "segmentation": "Exact-source SEGMENTS overlays are fully matched across all ten lessons: L1 15/15; L2 31/31; L3 44/44; L4 32/32; L5 26/26; L6 28/28; L7 16/16; L8 23/23; L9 29/29; L10 29/29. For every lesson, overlay sourceCommit equals lesson.head, dialogueSha256 matches the named dialogue sourceFiles record, and segmentsSha256 matches lesson.segmentation.sourceSha256; matchedSentences equals totalSentences. The overlays contain 273 matched sentence occurrences and 271 per-lesson unique segmentsByText keys; L3 and L9 each repeat one text surface. The 793 count is multi-atom token rows across those unique per-lesson maps, not a sentence count. Existing loader attaches an overlay only when source commit and dialogue hash match; renderDraftText validates tab-separated nonempty surface/atomId tokens and normalized joined surfaces against the exact sentence text. Valid word surfaces render as lookup buttons (trailing punctuation remains text), using lesson binding lemma/atomId/state when present and SEGMENTS values otherwise. This is a data and code-path check, not a ten-lesson interactive UI acceptance.",
-  "lookupSummary": "Isolated Pages lookup: 401 entries / 34 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 applies only to the stated contexts; both remain provisional. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences already use active core dictionary rows. Fixed CAST display is separate: 27 exact lesson-scoped records cover 56 button occurrences. L6×6, L8×8, L9×3, and L10×7 location/existence uses follow their pinned source SEGMENTS as ko:adj:있다; L10 s.000023 ability use remains ko:v:있다. Recount of the deployed 1,260 dialogue buttons: 1,196 show dictionary glosses, 56 show CAST, and 8 have no complete gloss across five atom IDs: ko:n:것×4 (RCA-04A bound-noun/contraction deferral), ko:xnum:3×1 and ko:xnum:4×1 (retained numeric placeholders), ko:n:가족분×1 (explicit exclusion), ko:v:있다×1 (L10 s.000023 source gloss gap). The 13 source-MISSING atom IDs without a direct preview entry remain a separate source count. L2 ko:n:곳 remains approved through the core-dictionary fallback. Isolated candidate only; no official adoption.",
+  "lookupSummary": "Isolated Pages lookup: 402 entries / 35 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 remains context-limited. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences use active core dictionary rows. Fixed CAST display is separate: 27 exact lesson-scoped records cover 56 button occurrences. L6×6, L8×8, L9×3, and L10 seven location uses use source ko:adj:있다; L10 s.000023 ability use also follows source POS ko:adj:있다. A separate provisional -ㄹ 수 있다 entry (可以；能夠) is bound only to the unique L10 dialogue surface 수; the ko:adj:있다 lexical location gloss is unchanged. Current deployed-package recount: 1,197/1,260 buttons show dictionary glosses, 56 show CAST, and 7 lack complete gloss across four atom IDs: ko:n:것×4 (RCA-04A bound-noun/contraction display deferred), ko:xnum:3×1 and ko:xnum:4×1 (retained numeric placeholders), ko:n:가족분×1 (explicit exclusion). There are 30 source-MISSING IDs, 12 without a direct preview entry. L2 ko:n:곳 remains approved through the core-dictionary fallback. Isolated candidate only; no official adoption.",
   "knownLimitations": "The prior L3 cloud synthesis-failed observation remains undiagnosed. The most recent browser UI check used the data before the L6/L8 source pin refresh; UI was not rerun after this refresh. L10 remains on its previous pin because the reviewed SEGMENTS change conflicts with same-head core sentence atoms and MISSING_ENTRIES. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
@@ -76,11 +76,11 @@
     "content/ko/drafts/ko-a1-l007.json": "a54a82b706ecb87e4428c1af6acf36f97cba5400f7b5e908c0d9b8e77753a952",
     "content/ko/drafts/ko-a1-l008.json": "edf9d156196f101f4042dd7632a290994f7780e186dba08115b16878738279f3",
     "content/ko/drafts/ko-a1-l009.json": "6af88a3a4b5368a87180d36ff227b839d92ddede2d84b70d7aed0ddbab928df0",
-    "content/ko/drafts/ko-a1-l010.json": "6d70ed421e300eac35044a84116342c25a7c4be6bf4ed8c6d2803cd1356ef815",
-    "content/ko/drafts/lookup.json": "521f93de342fbb89d9971f183e9b9519f2ff7900f3f16ff8fc037ef62e3aab3d",
-    "content/ko/drafts/manifest.json": "755bbf3ad285ecd5d59ed35db03a054f645907dce6666692f1e8d80d7ec8797e",
-    "content/ko/drafts/segment-overlays.json": "2b464daf1277a88cb1db812b2e85a2a7ed1f2b5357bec48b349506bdfc82ea5f",
-    "content/ko/drafts/u01-review-evidence.json": "8916b94612abb30398f79127432cc1f9a96e709d32f6c819d6882ba52556994c",
+    "content/ko/drafts/ko-a1-l010.json": "c3b3eee6314d0b1c66817fe0c3284955135e94851946e6ae66294bf4300c6cc1",
+    "content/ko/drafts/lookup.json": "dca8a1552b16d9fb22f9bc624c3bd212718990c76a31f094322b71a1ccec4e3c",
+    "content/ko/drafts/manifest.json": "01cee2eefc8ced7590d15ed8b13ead7e105bbd64da9e16e6195aace0941ae677",
+    "content/ko/drafts/segment-overlays.json": "4f4d4bcca8ff3d065f6c80e468489c8bb1da690bcb1f01e659d5ec697d2af806",
+    "content/ko/drafts/u01-review-evidence.json": "e4f9b09a422d034a0043bb4197bdda1c4cfaf7288a52c34bc4129a2a2e132039",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l001.json": "a2e0eb8298275319c234a9dc6bc1684361a060e644771d67a19354b07d97ecc0",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l002.json": "1f49382dca77c72dcf02f072c3fb2bfa921bde08d24aca26ef5089cb9c66455c",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l003.json": "801b544e2fd83ca4a89f51e637fe220b033060cad6d01fbc563b5a3fa9206d44",
@@ -458,14 +458,14 @@
   },
   "latestU01IntegrationUpdate": {
     "date": "2026-11-01",
-    "sourceCommit": "f09f5254493ab004d632fa5a24c1881f23f1fca5",
+    "sourceCommit": "a4335286486fc9bf834ed6499b3a86ced422a338",
     "appAssetsChanged": false,
-    "changedScope": "Only the isolated review subtree candidate JSON, source pins, lookup bindings/overlays, QA record, and coverage summary changed; app bundle, official dictionary, and course text did not change.",
+    "changedScope": "Isolated preview data only: L10 exact source pin, its transformed lesson/evidence/overlay, and one provisional construction binding; no app code, runtime dictionary, course text, PR, or other lesson changed.",
     "approvedRuntimeRecovery": "39 existing active runtime/public-index entries, approved in the isolated lookup only; 121 visible token occurrences (36 IDs / 107 occurrences, plus ko:num:둘/셋/넷 / 14 occurrences).",
     "castNameDisplay": "27 exact lesson-scoped CAST mappings / 56 visible token occurrences, separate from dictionary entries; 12 L1 occurrences use existing IDs confirmed by exact frozen L2 CAST rows, including the documented 애니/천이쥔 alias.",
     "placeNameRuntime": "한국×3, 일본×1, 대만×3, 부산×2, 서울×1; all 10 occurrences use existing active runtime/core dictionary rows.",
-    "buttonCoverageByLesson": "Totals/dictionary/CAST/unresolved: L1 86/74/12/0; L2 149/137/12/0; L3 156/150/2/4; L4 161/156/5/0; L5 156/147/9/0; L6 114/110/2/2; L7 56/54/2/0; L8 118/116/1/1; L9 128/119/9/0; L10 136/133/2/1; total 1,260/1,196/56/8.",
-    "unresolvedButtonCategories": "8 occurrences across 5 IDs: ko:n:것×4 (L3×2, L6×2; RCA-04A bound-noun/contraction deferral); ko:xnum:3×1 and ko:xnum:4×1 (L3 numeric-placeholder policy); ko:n:가족분×1 (L8 explicit exclusion); ko:v:있다×1 (L10 s.000023 ability use; source dictionary gloss supplement pending).",
+    "buttonCoverageByLesson": "Totals/dictionary/CAST/unresolved: L1 86/74/12/0; L2 149/137/12/0; L3 156/150/2/4; L4 161/156/5/0; L5 156/147/9/0; L6 114/110/2/2; L7 56/54/2/0; L8 118/116/1/1; L9 128/119/9/0; L10 136/134/2/0; total 1,260/1,197/56/7.",
+    "unresolvedButtonCategories": "7 occurrences across 4 atom IDs: ko:n:것×4 (L3×2, L6×2; RCA-04A bound-noun/contraction learner-display decision deferred); ko:xnum:3×1 and ko:xnum:4×1 (L3 numeric-placeholder policy); ko:n:가족분×1 (L8 explicit exclusion). L10 ability occurrence is no longer unresolved under source pin 52d.",
     "publishedUiValidation": {
       "status": "passed_before_L6_L8_source_refresh",
       "publishedBundleCommit": "cd9a74830d2d503761cd1b30adafe62d0b6d190a",
@@ -479,7 +479,7 @@
       "scope": "Historical browser validation of the previous data. UI was not rerun after the L6/L8 source pin refresh; this remains an isolated candidate and not official course or dictionary adoption.",
       "afterRefreshUiRetest": "Not performed per task instruction."
     },
-    "qaCommit": "f09f5254493ab004d632fa5a24c1881f23f1fca5",
+    "qaCommit": "a4335286486fc9bf834ed6499b3a86ced422a338",
     "sourceLifecycleEvidence": {
       "sourceCommit": "370362f15d042436c40f10d97397d146cd185207",
       "sourcePath": "public/content/ko/drafts/u01-review-evidence.json",
@@ -488,7 +488,7 @@
       "candidateLifecycleFieldsMatch": true,
       "note": "The Pages evidence also contains Pages-specific records; the candidateLifecycle outcome and UI validation are mirrored from the source evidence."
     },
-    "posBindingRecovery": "Pinned source locations use ko:adj:있다 directly: L6×6, L8×8, L9×3, L10×7. L10 s.000023 ability use remains ko:v:있다 and is the single source glossary gap. No surface-wide override merges the two senses.",
+    "posBindingRecovery": "L6×6, L8×8, L9×3 location uses and L10 seven location uses use source ko:adj:있다. L10 s.000023 also uses ko:adj:있다; its existing lexical location gloss remains unchanged, with the separate provisional -ㄹ 수 있다 candidate shown only from the unique L10 수 surface binding.",
     "previousPublishedUiValidation": {
       "status": "passed",
       "publishedBundleCommit": "cd9a74830d2d503761cd1b30adafe62d0b6d190a",
@@ -505,7 +505,7 @@
       "metadataOnlyPagesCommitAtValidation": "d20ecdc51345d8e10a088b07d06da6e7bade2056",
       "metadataOnlyPagesDeploymentRunAtValidation": "41234401746"
     },
-    "sourcePosFollowup": "L6/L8/L9/L10 exact source pins are integrated. L9 has matching limited Sol and Dot receipts for three location/existence POS rows; L10 has a limited Sol receipt for the seven-row c8/c9 derived sync and the separate earlier SEGMENTS receipt. L10 Sol reviewed the complete prompt-supplied diff because the base Git object was unavailable in that session. L9/L10 review receipts do not approve whole lessons, translation, UI, PRs, or official dictionary adoption.",
+    "sourcePosFollowup": "L6/L8/L9/L10 exact source pins are integrated. L9 has matching limited Sol and Dot receipts for three location/existence POS rows; L10 has a limited Sol receipt for the seven-row c8/c9 derived sync and the separate earlier SEGMENTS receipt. L10 Sol reviewed the complete prompt-supplied diff because the base Git object was unavailable in that session. L9/L10 review receipts do not approve whole lessons, translation, UI, PRs, or official dictionary adoption. The later L10 52d source also has a separate Sol session-only approve for s.000023 POS and provisional construction gloss only; this does not approve a course or official dictionary change.",
     "sourcePinRefresh": {
       "integrated": {
         "ko-a1-l006": "99022dd2f80263cfb19b39e32c7f877529d4f0ce",
@@ -570,37 +570,136 @@
         },
         "loadedContent": "L9 三段內容與 L10 全課內容已載入。",
         "limitations": "針對兩個 POS 改動與能力用法保留點驗；不是十課整體驗收或正式詞典採納。"
-      }
+      },
+      "supersededL10Pin": "31dc06537b8351ccb5b11928834cfa26d171bd84 is the previous deployed package pin; see l10AbilityConstructionUpdate for the current source pin."
     },
     "coverageRecount": {
-      "method": "Count dialogue button tokens from pinned transformed lesson JSON and segment overlays, applying exact surface bindings first, then source atom IDs; count visible nonempty dictionary glosses and eligible exact lesson CAST records separately.",
+      "method": "Count dialogue button tokens from pinned transformed lesson JSON and segment overlays, applying exact lesson surface bindings first, then source atom IDs; count visible nonempty dictionary glosses and eligible exact lesson CAST records separately.",
       "command": "python3 scripts/report_u01_draft_button_coverage.py ../lingo-web-lite-pages/review/u01-data-candidates-20261031/content/ko --metadata ../lingo-web-lite-pages/review/u01-data-candidates-20261031/u01-review-build.json",
-      "publicFilesVerified": 86,
+      "listedPackageFiles": 86,
       "totals": {
         "dialogueButtons": 1260,
-        "dictionaryGlosses": 1196,
+        "dictionaryGlosses": 1197,
         "castDisplays": 56,
-        "unresolved": 8
+        "unresolved": 7
       },
       "unresolvedByLesson": {
         "L3": 4,
         "L6": 2,
-        "L8": 1,
-        "L10": 1
+        "L8": 1
       },
       "unresolvedAtomOccurrences": {
         "ko:n:것": 4,
         "ko:xnum:3": 1,
         "ko:xnum:4": 1,
-        "ko:n:가족분": 1,
-        "ko:v:있다": 1
+        "ko:n:가족분": 1
+      },
+      "sourceMissing": {
+        "uniqueAtomIds": 30,
+        "withoutDirectPreviewEntry": 12
+      },
+      "lookup": {
+        "entries": 402,
+        "provisional": 35,
+        "sourceEntries": 399,
+        "sourceProvisional": 32
       },
       "currentPins": {
         "L9": "b4481b3bb05f0e68b2d3c3df802e083ec3cb56ae",
-        "L10": "31dc06537b8351ccb5b11928834cfa26d171bd84"
+        "L10": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c"
       },
-      "scope": "Isolated review package only; not official adoption or whole-course acceptance.",
-      "sourceQaCommit": "f09f5254493ab004d632fa5a24c1881f23f1fca5"
+      "sourceQaCommit": "a4335286486fc9bf834ed6499b3a86ced422a338",
+      "scope": "Isolated review package only; no official dictionary adoption or whole-course acceptance."
+    },
+    "l10AbilityConstructionUpdate": {
+      "sourceRepo": "stasischen/content-ko",
+      "sourceBranch": "luna/ko-a1-l010-data-20261028",
+      "previousPreviewPin": "31dc06537b8351ccb5b11928834cfa26d171bd84",
+      "currentSourceCommit": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c",
+      "sourceFiles": [
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/core/lesson.json",
+          "sha256": "2b549c2a3fc81cee016c00f55be60c141198a4ea24c6e7aa50440912cf9b9f1e"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/core/sentences.json",
+          "sha256": "6958c86c224b2f6b2e29fca298921d5071cc4f0da556c04d878ee7e01d3a8116"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/i18n/zh_tw/lesson.json",
+          "sha256": "1ce18729539aacd484ceb2224d6dc6e2dbaebe177871a4bca4054e96e8484c31"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/i18n/zh_tw/sentences.json",
+          "sha256": "1d076ebfa2a0f60596f065ea87fd075114b559e0b7c0c89f3edb07bb9a3524be"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/DIALOGUE.md",
+          "sha256": "85f77a3625b8c202c670acabef0795743d358e530da9fb9143ef21a8e9a59241"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/CAST.tsv",
+          "sha256": "991f78ed7f47f1ddc84105375a066299783817f5a7094d1bf569af8a0278294b"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
+          "sha256": "a88fcba0736a2f983babf9d6a2d9c2b9dcc02cbb2303a3d5ea72d586c9dc1d61"
+        },
+        {
+          "path": "content_v2/review/lessons/ko-a1-l010-text/draft/MISSING_ENTRIES.tsv",
+          "sha256": "a7f580c5d9489c96ae7ad1549a11b18ae63f096835b362ce909f6ac217db30ad"
+        }
+      ],
+      "changedSourceFiles": [
+        "content_v2/review/lessons/ko-a1-l010-text/core/sentences.json",
+        "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
+        "content_v2/review/lessons/ko-a1-l010-text/draft/MISSING_ENTRIES.tsv"
+      ],
+      "sourceChecks": {
+        "c8-check": {
+          "exitCode": 0
+        },
+        "c9-convert": {
+          "exitCode": 0
+        }
+      },
+      "sentenceId": "s.000023",
+      "sentenceSurface": "다 같이 찍을 수 있어요.",
+      "sourceAtom": "ko:adj:있다",
+      "lexicalGlossUnchanged": "有；存在；在（某處）",
+      "constructionDraft": {
+        "path": "content_v2/review/dictionary_ability_sense_l010_20261101.jsonl",
+        "sha256": "7bf340c16ab33c9adfbe82beaf5c0c0292ac6f53b25b17abe8f4dd79c3ed6947",
+        "construction": "-ㄹ 수 있다",
+        "candidateGloss": "可以；能夠",
+        "sourceStatus": "pending_non_author_review",
+        "level": "draft"
+      },
+      "limitedPeerReviewReceipt": {
+        "reviewerSession": "01a194f3-1054-7c22-94fe-80b4f8898fb3",
+        "role": "peer",
+        "tool": "codex",
+        "model": "gpt-6.1-sol",
+        "step": "c7-s23-ability-gloss",
+        "verdict": "approve",
+        "independence": "session_only",
+        "scope": "Only s.000023 찍을 수 있어요 POS ko:adj:있다 and provisional construction gloss 可以；能夠.",
+        "limitations": "No official dictionary change. Reviewer did not independently verify the supplemental dictionary page; primary NIKL Q&A supports the POS/construction."
+      },
+      "previewEntry": {
+        "atomId": "ko:count:수+ko:adj:있다",
+        "bindingLesson": "ko-a1-l010",
+        "bindingSurface": "수",
+        "lemma": "-ㄹ 수 있다",
+        "previewState": "provisional",
+        "scope": "L10 has exactly one dialogue surface 수; the ko:adj:있다 lexical entry and other location buttons remain unchanged."
+      },
+      "overlayCoverage": "29/29; L1-L9 overlay records unchanged.",
+      "notTestedItems": [
+        "Full-course interactive acceptance and the full app test/build suite.",
+        "Official dictionary adoption or course PR merge.",
+        "Supplemental dictionary page was not independently verified by the Sol reviewer."
+      ]
     }
   }
 }

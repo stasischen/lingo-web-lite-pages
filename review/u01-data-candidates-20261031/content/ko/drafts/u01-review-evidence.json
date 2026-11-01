@@ -533,7 +533,7 @@
     },
     {
       "id": "ko-a1-l010",
-      "sourceCommit": "31dc06537b8351ccb5b11928834cfa26d171bd84",
+      "sourceCommit": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c",
       "sourceFiles": [
         {
           "path": "content_v2/review/lessons/ko-a1-l010-text/core/lesson.json",
@@ -541,7 +541,7 @@
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l010-text/core/sentences.json",
-          "sha256": "667cb6f639fbba5bbe51ad554751e86575dda2323ada2ab50fc9bc3299e593c1"
+          "sha256": "6958c86c224b2f6b2e29fca298921d5071cc4f0da556c04d878ee7e01d3a8116"
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l010-text/draft/i18n/zh_tw/lesson.json",
@@ -561,24 +561,24 @@
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
-          "sha256": "b64f27600706dfb26ebd81512d700bfaf82801c6b103affd9e601d2255ce7a98"
+          "sha256": "a88fcba0736a2f983babf9d6a2d9c2b9dcc02cbb2303a3d5ea72d586c9dc1d61"
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l010-text/draft/MISSING_ENTRIES.tsv",
-          "sha256": "15e50dc6dd951bdd2fc7cc8fee3f652ffddd07fbca96a30a9d8106b7316f50f2"
+          "sha256": "a7f580c5d9489c96ae7ad1549a11b18ae63f096835b362ce909f6ac217db30ad"
         }
       ],
       "cardState": "done",
       "pr": null,
       "prStatus": "no_pr",
       "limitations": [
-        "來源卡記為 done，候選未合併；此來源不需要 PR。",
-        "8 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+        "Sol peer receipt 01a194f3-1054-7c22-94fe-80b4f8898fb3 approves only c7-s23-ability-gloss: s.000023 찍을 수 있어요 POS ko:adj:있다 and the provisional construction gloss 可以；能夠; independence=session_only. This is not official dictionary adoption; the supplemental dictionary page was not independently verified by the reviewer.",
+        "7 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
       ],
       "segmentation": {
         "status": "available",
         "sourcePath": "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
-        "sourceSha256": "b64f27600706dfb26ebd81512d700bfaf82801c6b103affd9e601d2255ce7a98",
+        "sourceSha256": "a88fcba0736a2f983babf9d6a2d9c2b9dcc02cbb2303a3d5ea72d586c9dc1d61",
         "matchedSentences": 29,
         "totalSentences": 29
       },
@@ -589,8 +589,7 @@
         "ko:n:안내도",
         "ko:n:타이머",
         "ko:prop:유키",
-        "ko:prop:이안",
-        "ko:v:있다"
+        "ko:prop:이안"
       ]
     }
   ],

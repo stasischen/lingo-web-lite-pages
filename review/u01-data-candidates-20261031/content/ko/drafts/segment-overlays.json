@@ -343,11 +343,11 @@
       }
     },
     "ko-a1-l010": {
-      "sourceCommit": "31dc06537b8351ccb5b11928834cfa26d171bd84",
+      "sourceCommit": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c",
       "dialoguePath": "content_v2/review/lessons/ko-a1-l010-text/draft/DIALOGUE.md",
       "dialogueSha256": "85f77a3625b8c202c670acabef0795743d358e530da9fb9143ef21a8e9a59241",
       "segmentsPath": "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
-      "segmentsSha256": "b64f27600706dfb26ebd81512d700bfaf82801c6b103affd9e601d2255ce7a98",
+      "segmentsSha256": "a88fcba0736a2f983babf9d6a2d9c2b9dcc02cbb2303a3d5ea72d586c9dc1d61",
       "matchedSentences": 29,
       "totalSentences": 29,
       "segmentsByText": {
@@ -373,7 +373,7 @@
         "유키 씨, 지우개 돌려줄게요. 잘 썼어요.": ["유키\tko:prop:유키", "씨,\tko:count:씨", "지우개\tko:n:지우개", "돌려줄게요.\tko:v:돌려주다+ko:e:ㄹ게요", "잘\tko:adv:잘", "썼어요.\tko:v:쓰다+ko:e:었+ko:e:어요"],
         "아, 제 지우개네요. 고마워요.": ["아,\tko:intj:아", "제\tko:pron:저+ko:p:의", "지우개네요.\tko:n:지우개+ko:cop:이다+ko:e:네요", "고마워요.\tko:adj:고맙다+ko:e:어요"],
         "그럼 다 같이 사진 찍어요.": ["그럼\tko:adv:그럼", "다\tko:adv:다", "같이\tko:adv:같이", "사진\tko:n:사진", "찍어요.\tko:v:찍다+ko:e:어요"],
-        "휴대폰을 저 테이블에 놓을게요. 타이머를 맞췄어요. 다 같이 찍을 수 있어요.": ["휴대폰을\tko:n:휴대폰+ko:p:을", "저\tko:det:저", "테이블에\tko:n:테이블+ko:p:에", "놓을게요.\tko:v:놓다+ko:e:을게요", "타이머를\tko:n:타이머+ko:p:를", "맞췄어요.\tko:v:맞추다+ko:e:었+ko:e:어요", "다\tko:adv:다", "같이\tko:adv:같이", "찍을\tko:v:찍다+ko:e:을", "수\tko:count:수", "있어요.\tko:v:있다+ko:e:어요"],
+        "휴대폰을 저 테이블에 놓을게요. 타이머를 맞췄어요. 다 같이 찍을 수 있어요.": ["휴대폰을\tko:n:휴대폰+ko:p:을", "저\tko:det:저", "테이블에\tko:n:테이블+ko:p:에", "놓을게요.\tko:v:놓다+ko:e:을게요", "타이머를\tko:n:타이머+ko:p:를", "맞췄어요.\tko:v:맞추다+ko:e:었+ko:e:어요", "다\tko:adv:다", "같이\tko:adv:같이", "찍을\tko:v:찍다+ko:e:을", "수\tko:count:수", "있어요.\tko:adj:있다+ko:e:어요"],
         "저는 앞에 설게요.": ["저는\tko:pron:저+ko:p:는", "앞에\tko:n:앞+ko:p:에", "설게요.\tko:v:서다+ko:e:ㄹ게요"],
         "그럼 저는 이안 씨랑 뒤에 설게요.": ["그럼\tko:adv:그럼", "저는\tko:pron:저+ko:p:는", "이안\tko:prop:이안", "씨랑\tko:count:씨+ko:p:랑", "뒤에\tko:n:뒤+ko:p:에", "설게요.\tko:v:서다+ko:e:ㄹ게요"],
         "네. 언니, 엄마랑 앞에 서요.": ["네.\tko:intj:네", "언니,\tko:n:언니", "엄마랑\tko:n:엄마+ko:p:랑", "앞에\tko:n:앞+ko:p:에", "서요.\tko:v:서다+ko:e:어요"],
