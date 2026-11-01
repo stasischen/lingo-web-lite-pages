@@ -180,7 +180,7 @@
           "sha256": "3ac8b3412b86ed7bdc402f42b7f9ff8afaf1e7eadddcbd16661760f91265ad65"
         }
       ],
-      "previewJsonSha256": "ba59dcd3f1db055fd80d330230b0e308bd9a9451bac5d276a6ddf1e9f9ade7e8",
+      "previewJsonSha256": "d68f13a8af8ecee076ea75a24d63282b274a8737b0b76a9fc7558fcba136462a",
       "segmentation": {
         "status": "available",
         "sourcePath": "content_v2/review/lessons/ko-a1-l003-data/draft/SEGMENTS.tsv",
@@ -200,7 +200,21 @@
       "limitations": [
         "原資料卡仍為 review；預覽不代表使用者驗收或 carry-forward 資格。",
         "7 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
-      ]
+      ],
+      "grammarNoteSnapshots": {
+        "kg.grammar.tense.future_ul_geoyeyo": {
+          "path": "grammar-notes/kg.grammar.tense.future_ul_geoyeyo.json",
+          "sha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191",
+          "source": {
+            "repo": "stasischen/lingo-frontend-web",
+            "commit": "0a32f796b3959a8c0d685d791e2cbec69241b296",
+            "indexPath": "assets/content/grammar/grammar_index.json",
+            "indexSha256": "8a4918bcbcadde0f4539364a6647fd7b0eeb57704bd0c241201ed2a740c3a9a5",
+            "path": "assets/content/grammar/notes/kg.grammar.tense.future_ul_geoyeyo.json",
+            "sha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191"
+          }
+        }
+      }
     },
     {
       "id": "ko-a1-l004",
@@ -1136,6 +1150,26 @@
       "resultCommentId": "6547574410",
       "resultUrl": "https://github.com/stasischen/lingo-agent-exchange/pull/1#issuecomment-6547574410",
       "result": "limited approval; provisional only"
+    }
+  },
+  "grammarMappingSource": {
+    "repo": "stasischen/lingo-frontend-web",
+    "commit": "0a32f796b3959a8c0d685d791e2cbec69241b296",
+    "path": "assets/artifacts/learning_library/ko/core/grammar_mappings.json",
+    "sha256": "20d12c2322e8823dc5d7b03230d8f3d8de4512651feef444fb25afea378f3593"
+  },
+  "grammarNoteSnapshots": {
+    "kg.grammar.tense.future_ul_geoyeyo": {
+      "path": "grammar-notes/kg.grammar.tense.future_ul_geoyeyo.json",
+      "sha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191",
+      "source": {
+        "repo": "stasischen/lingo-frontend-web",
+        "commit": "0a32f796b3959a8c0d685d791e2cbec69241b296",
+        "indexPath": "assets/content/grammar/grammar_index.json",
+        "indexSha256": "8a4918bcbcadde0f4539364a6647fd7b0eeb57704bd0c241201ed2a740c3a9a5",
+        "path": "assets/content/grammar/notes/kg.grammar.tense.future_ul_geoyeyo.json",
+        "sha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191"
+      }
     }
   }
 }

@@ -69,7 +69,7 @@
     "content/ko/drafts/dictionary-gap-candidates-l3-l6-l9-20261101.jsonl": "4381e3f11d4ce7755e4586632c381a64f74583985463cae02320de7f5890c726",
     "content/ko/drafts/ko-a1-l001.json": "d4aa81c311d9e5dffce5655677bf7f8f2453d152fd215ac823852a02093042ab",
     "content/ko/drafts/ko-a1-l002.json": "6a19e1ea5d5bc270d33b513db29fc5e6fcf2be5397cecf0a81c526cd3120de5e",
-    "content/ko/drafts/ko-a1-l003.json": "ba59dcd3f1db055fd80d330230b0e308bd9a9451bac5d276a6ddf1e9f9ade7e8",
+    "content/ko/drafts/ko-a1-l003.json": "d68f13a8af8ecee076ea75a24d63282b274a8737b0b76a9fc7558fcba136462a",
     "content/ko/drafts/ko-a1-l004.json": "197102614797ff98b282ccb67c8780759690cf03d88e6e040459623d5eff0b97",
     "content/ko/drafts/ko-a1-l005.json": "4e963270054a0b9c8b8e174e69324bbaa9e43d9870342b802b66cceb791c205c",
     "content/ko/drafts/ko-a1-l006.json": "1098092b450be958ddbc2e183c6a4173bf2bb4689dba1538e37de98f33a385b3",
@@ -78,7 +78,7 @@
     "content/ko/drafts/ko-a1-l009.json": "6af88a3a4b5368a87180d36ff227b839d92ddede2d84b70d7aed0ddbab928df0",
     "content/ko/drafts/ko-a1-l010.json": "c3b3eee6314d0b1c66817fe0c3284955135e94851946e6ae66294bf4300c6cc1",
     "content/ko/drafts/lookup.json": "dca8a1552b16d9fb22f9bc624c3bd212718990c76a31f094322b71a1ccec4e3c",
-    "content/ko/drafts/manifest.json": "01cee2eefc8ced7590d15ed8b13ead7e105bbd64da9e16e6195aace0941ae677",
+    "content/ko/drafts/manifest.json": "bb6c6ebdc6274420b9de19abc0d7ed00e2d1b7bc8d046b4b4e65639c27a7b0a0",
     "content/ko/drafts/segment-overlays.json": "4f4d4bcca8ff3d065f6c80e468489c8bb1da690bcb1f01e659d5ec697d2af806",
     "content/ko/drafts/u01-review-evidence.json": "e4f9b09a422d034a0043bb4197bdda1c4cfaf7288a52c34bc4129a2a2e132039",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l001.json": "a2e0eb8298275319c234a9dc6bc1684361a060e644771d67a19354b07d97ecc0",
@@ -101,7 +101,10 @@
     "content/ko/manifest.json": "d382462bfa089fa450c059cd81569466e094193731d20f469042df8cafe4cfbc",
     "content/ko/translation-candidates/ko-a1-l005-c10/lesson.json": "96d6af1b4819049bf9147c8fc254f211762c8169d898b6ba662da72df22462b5",
     "content/ko/translation-candidates/ko-a1-l005-c10/sentences.json": "0c7b68746ff88760712b52b41883e399ae8c8328fb94ee6a1a2aa092a44dc135",
-    "index.html": "928575119eba35ddc2cacf9f7218b307620bc48cda9fcea710a1a2ec676b752b"
+    "index.html": "1f5d83dbf67fa89acd2e9367fa7560d27e1bd5ee73914fcde306aba81dbac188",
+    "assets/index-CFkVIfU8.js": "81186e742acd090e2833fef06517bf7f0a96f0acd6090a427290fbf7dc192b4f",
+    "assets/index-BJ-XsDU7.css": "bcc84e94d562d32411dd76ba2c1f4ecd6efbdeec3c27623442a3c87f3ebbe2ad",
+    "content/ko/drafts/grammar-notes/kg.grammar.tense.future_ul_geoyeyo.json": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191"
   },
   "parentCloudUiCheck": {
     "checkedAt": "2026-10-31",
@@ -762,6 +765,81 @@
         "scope": "Two specified buttons only; this does not expand the limited Sol session-only approval or constitute whole-course acceptance."
       },
       "uiReceiptSource": "Parent-provided direct observation; QA records exact D1/D3 outcomes. No tests or source/app changes were made for this UI receipt."
+    }
+  },
+  "latestGrammarNoteSnapshotUpdate": {
+    "status": "prepared_for_isolated_preview_deployment",
+    "preparedAtUtc": "2026-11-01T04:59:36Z",
+    "webLiteSource": {
+      "repo": "stasischen/lingo-web-lite",
+      "branch": "luna/ko-a1-u01-web-review-20261027",
+      "commit": "eae1bcaaf07e4ccae777e9b60d3ac64450778156",
+      "parent": "11cc66d9b4d095e87b2a673f47afa6ab6d90f5b7",
+      "pr": 26
+    },
+    "independentReview": {
+      "session": "01a1799d-4b3c-7750-80a6-0d248a9c4add",
+      "candidateCommit": "eae1bcaaf07e4ccae777e9b60d3ac64450778156",
+      "blockingFindings": 0,
+      "nonBlockingFindings": 0,
+      "type": "read-only Codex session review; not a GitHub review object"
+    },
+    "appGrammarSource": {
+      "repo": "stasischen/lingo-frontend-web",
+      "commit": "0a32f796b3959a8c0d685d791e2cbec69241b296",
+      "indexPath": "assets/content/grammar/grammar_index.json",
+      "indexSha256": "8a4918bcbcadde0f4539364a6647fd7b0eeb57704bd0c241ed2a740c3a9a5",
+      "knowledgeId": "kg.grammar.tense.future_ul_geoyeyo",
+      "notePath": "assets/content/grammar/notes/kg.grammar.tense.future_ul_geoyeyo.json",
+      "noteBytes": 1429,
+      "noteSha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191",
+      "previewPath": "content/ko/drafts/grammar-notes/kg.grammar.tense.future_ul_geoyeyo.json"
+    },
+    "lessonBinding": {
+      "courseId": "ko-a1-l003",
+      "sourceHead": "0bf77bfb4689f86556dae652b6385f31998d5791",
+      "occurrences": 2,
+      "sentenceId": "ex.ko.s.ko-a1-l003-data.000008",
+      "sourceSurface": "항공편으로 보내실 거예요, 배편으로 보내실 거예요? 항공편이 더 빨라요.",
+      "sourceText": "보내실 거예요",
+      "spans": [
+        {
+          "charRange": [
+            6,
+            13
+          ],
+          "wordIndices0Based": [
+            1,
+            2
+          ]
+        },
+        {
+          "charRange": [
+            20,
+            27
+          ],
+          "wordIndices0Based": [
+            4,
+            5
+          ]
+        }
+      ],
+      "courseStatus": "unchanged draft; not user-accepted"
+    },
+    "build": {
+      "command": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
+      "exitCode": 0,
+      "assets": {
+        "assets/index-BJ-XsDU7.css": "bcc84e94d562d32411dd76ba2c1f4ecd6efbdeec3c27623442a3c87f3ebbe2ad",
+        "assets/index-CFkVIfU8.js": "81186e742acd090e2833fef06517bf7f0a96f0acd6090a427290fbf7dc192b4f"
+      },
+      "indexSha256": "1f5d83dbf67fa89acd2e9367fa7560d27e1bd5ee73914fcde306aba81dbac188",
+      "localTests": "candidate eae1bca: npm test 75 Vitest + 3 Python passed; focused 11/11; build passed; lint 0 errors/3 warnings"
+    },
+    "deployment": {
+      "status": "pending_pages_publish_and_live_readback",
+      "pagesRepo": "stasischen/lingo-web-lite-pages",
+      "previewPath": "review/u01-data-candidates-20261031/"
     }
   }
 }

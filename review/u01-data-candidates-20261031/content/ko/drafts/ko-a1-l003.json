@@ -72,77 +72,150 @@
         {
           "speaker": "安妮",
           "korean": "이 엽서요.",
-          "translation": "我要寄這張明信片。"
+          "translation": "我要寄這張明信片。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000001"
         },
         {
           "speaker": "郵局職員",
           "korean": "어디로 보내세요?",
-          "translation": "請問要寄到哪裡？"
+          "translation": "請問要寄到哪裡？",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000002"
         },
         {
           "speaker": "安妮",
           "korean": "대만으로요.",
-          "translation": "寄到台灣。"
+          "translation": "寄到台灣。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000003"
         },
         {
           "speaker": "郵局職員",
           "korean": "받는 분 이름하고 주소를 여기에 써 주세요.",
-          "translation": "請把收件人的姓名和地址寫在這裡。"
+          "translation": "請把收件人的姓名和地址寫在這裡。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000004"
         },
         {
           "speaker": "安妮",
           "korean": "여기요?",
-          "translation": "寫在這裡嗎？"
+          "translation": "寫在這裡嗎？",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000005"
         },
         {
           "speaker": "郵局職員",
           "korean": "네. 보내는 분 이름하고 주소는 이쪽에 써 주세요.",
-          "translation": "對，寄件人的姓名和地址請寫在這邊。"
+          "translation": "對，寄件人的姓名和地址請寫在這邊。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000006"
         },
         {
           "speaker": "安妮",
           "korean": "다 썼어요.",
-          "translation": "寫好了。"
+          "translation": "寫好了。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000007"
         },
         {
           "speaker": "郵局職員",
           "korean": "항공편으로 보내실 거예요, 배편으로 보내실 거예요? 항공편이 더 빨라요.",
-          "translation": "請問要寄航空還是海運？航空比較快。"
+          "translation": "請問要寄航空還是海運？航空比較快。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000008",
+          "grammarOccurrences": [
+            {
+              "knowledgeId": "kg.grammar.tense.future_ul_geoyeyo",
+              "label": "-(으)ㄹ 거예요",
+              "ruleId": "gm.ko.grammar.tense.future_ul_geoyeyo.9",
+              "wordStartIndex": 1,
+              "wordEndIndex": 2,
+              "sourceStart": 6,
+              "sourceEnd": 13,
+              "sourceText": "보내실 거예요",
+              "atomIds": [
+                "ko:e:ㄹ",
+                "ko:n:것",
+                "ko:cop:이다",
+                "ko:e:에요"
+              ],
+              "noteSnapshot": {
+                "path": "grammar-notes/kg.grammar.tense.future_ul_geoyeyo.json",
+                "sha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191",
+                "source": {
+                  "repo": "stasischen/lingo-frontend-web",
+                  "commit": "0a32f796b3959a8c0d685d791e2cbec69241b296",
+                  "indexPath": "assets/content/grammar/grammar_index.json",
+                  "indexSha256": "8a4918bcbcadde0f4539364a6647fd7b0eeb57704bd0c241201ed2a740c3a9a5",
+                  "path": "assets/content/grammar/notes/kg.grammar.tense.future_ul_geoyeyo.json",
+                  "sha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191"
+                }
+              }
+            },
+            {
+              "knowledgeId": "kg.grammar.tense.future_ul_geoyeyo",
+              "label": "-(으)ㄹ 거예요",
+              "ruleId": "gm.ko.grammar.tense.future_ul_geoyeyo.9",
+              "wordStartIndex": 4,
+              "wordEndIndex": 5,
+              "sourceStart": 20,
+              "sourceEnd": 27,
+              "sourceText": "보내실 거예요",
+              "atomIds": [
+                "ko:e:ㄹ",
+                "ko:n:것",
+                "ko:cop:이다",
+                "ko:e:에요"
+              ],
+              "noteSnapshot": {
+                "path": "grammar-notes/kg.grammar.tense.future_ul_geoyeyo.json",
+                "sha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191",
+                "source": {
+                  "repo": "stasischen/lingo-frontend-web",
+                  "commit": "0a32f796b3959a8c0d685d791e2cbec69241b296",
+                  "indexPath": "assets/content/grammar/grammar_index.json",
+                  "indexSha256": "8a4918bcbcadde0f4539364a6647fd7b0eeb57704bd0c241201ed2a740c3a9a5",
+                  "path": "assets/content/grammar/notes/kg.grammar.tense.future_ul_geoyeyo.json",
+                  "sha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191"
+                }
+              }
+            }
+          ]
         },
         {
           "speaker": "安妮",
           "korean": "항공편으로요.",
-          "translation": "寄航空。"
+          "translation": "寄航空。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000009"
         },
         {
           "speaker": "郵局職員",
           "korean": "네. 요금은 천 원이에요.",
-          "translation": "好的，費用是一千韓元。"
+          "translation": "好的，費用是一千韓元。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000010"
         },
         {
           "speaker": "安妮",
           "korean": "카드요.",
-          "translation": "我要刷卡。"
+          "translation": "我要刷卡。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000011"
         },
         {
           "speaker": "郵局職員",
           "korean": "여기에 꽂아 주세요.",
-          "translation": "請把卡片插在這裡。"
+          "translation": "請把卡片插在這裡。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000012"
         },
         {
           "speaker": "安妮",
           "korean": "됐어요?",
-          "translation": "這樣好了嗎？"
+          "translation": "這樣好了嗎？",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000013"
         },
         {
           "speaker": "郵局職員",
           "korean": "네. 영수증 여기 있어요.",
-          "translation": "好了，這是您的收據。"
+          "translation": "好了，這是您的收據。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000014"
         },
         {
           "speaker": "安妮",
           "korean": "감사합니다.",
-          "translation": "謝謝。"
+          "translation": "謝謝。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000015"
         }
       ]
     },
@@ -156,77 +229,92 @@
         {
           "speaker": "咖啡館店員",
           "korean": "어서 오세요. 뭐 드릴까요?",
-          "translation": "歡迎光臨，請問需要什麼？"
+          "translation": "歡迎光臨，請問需要什麼？",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000016"
         },
         {
           "speaker": "由紀",
           "korean": "따뜻한 라테 한 잔 주세요.",
-          "translation": "請給我一杯熱拿鐵。"
+          "translation": "請給我一杯熱拿鐵。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000017"
         },
         {
           "speaker": "麥可",
           "korean": "저는 아이스 아메리카노 한 잔 주세요.",
-          "translation": "我要一杯冰美式咖啡。"
+          "translation": "我要一杯冰美式咖啡。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000018"
         },
         {
           "speaker": "咖啡館店員",
           "korean": "드시고 가세요?",
-          "translation": "內用嗎？"
+          "translation": "內用嗎？",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000019"
         },
         {
           "speaker": "由紀",
           "korean": "네.",
-          "translation": "對。"
+          "translation": "對。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000020"
         },
         {
           "speaker": "咖啡館店員",
           "korean": "모두 팔천 원이에요.",
-          "translation": "一共是八千韓元。"
+          "translation": "一共是八千韓元。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000021"
         },
         {
           "speaker": "麥可",
           "korean": "제가 낼게요.",
-          "translation": "我來付。"
+          "translation": "我來付。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000022"
         },
         {
           "speaker": "由紀",
           "korean": "고마워요. 다음에는 제가 살게요.",
-          "translation": "謝謝你，下次換我請客。"
+          "translation": "謝謝你，下次換我請客。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000023"
         },
         {
           "speaker": "麥可",
           "korean": "좋아요.",
-          "translation": "好啊。"
+          "translation": "好啊。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000024"
         },
         {
           "speaker": "咖啡館店員",
           "korean": "여기 카드를 대 주세요.",
-          "translation": "請在這邊感應卡片。"
+          "translation": "請在這邊感應卡片。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000025"
         },
         {
           "speaker": "麥可",
           "korean": "네.",
-          "translation": "對。"
+          "translation": "對。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000020"
         },
         {
           "speaker": "咖啡館店員",
           "korean": "결제됐어요. 잠시만 기다려 주세요.",
-          "translation": "結帳完成，請稍候。"
+          "translation": "結帳完成，請稍候。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000026"
         },
         {
           "speaker": "咖啡館店員",
           "korean": "주문하신 음료 나왔어요.",
-          "translation": "您點的飲料好了。"
+          "translation": "您點的飲料好了。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000027"
         },
         {
           "speaker": "由紀",
           "korean": "제가 가져올게요.",
-          "translation": "我來拿。"
+          "translation": "我來拿。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000028"
         },
         {
           "speaker": "麥可",
           "korean": "그럼 저는 자리 잡을게요.",
-          "translation": "那我來找位子。"
+          "translation": "那我來找位子。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000029"
         }
       ]
     },
@@ -240,72 +328,86 @@
         {
           "speaker": "道賢",
           "korean": "안녕하세요. 상자가 무거워 보여요. 제가 들어 드릴게요.",
-          "translation": "你好，箱子看起來很重，我來幫你拿。"
+          "translation": "你好，箱子看起來很重，我來幫你拿。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000030"
         },
         {
           "speaker": "安妮",
           "korean": "감사합니다. 정말 무거워요.",
-          "translation": "謝謝，真的很重。"
+          "translation": "謝謝，真的很重。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000031"
         },
         {
           "speaker": "道賢",
           "korean": "몇 층으로 가세요?",
-          "translation": "你要去幾樓？"
+          "translation": "你要去幾樓？",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000032"
         },
         {
           "speaker": "安妮",
           "korean": "4층이요. 저는 애니예요.",
-          "translation": "四樓。我是安妮。"
+          "translation": "四樓。我是安妮。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000033"
         },
         {
           "speaker": "道賢",
           "korean": "저는 3층에 사는 도현이에요.",
-          "translation": "我是住在三樓的道賢。"
+          "translation": "我是住在三樓的道賢。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000034"
         },
         {
           "speaker": "安妮",
           "korean": "반가워요. 제가 문 열게요.",
-          "translation": "很高興認識你。我來開門。"
+          "translation": "很高興認識你。我來開門。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000035"
         },
         {
           "speaker": "道賢",
           "korean": "네. 토요일에 근처 센터에서 언어 교환 모임이 있어요. 시간 괜찮으시면 같이 가실래요?",
-          "translation": "好的，星期六在附近的中心有語言交換聚會，如果時間方便的話，要不要一起去？"
+          "translation": "好的，星期六在附近的中心有語言交換聚會，如果時間方便的話，要不要一起去？",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000036"
         },
         {
           "speaker": "安妮",
           "korean": "좋아요. 몇 시예요?",
-          "translation": "好啊。幾點呢？"
+          "translation": "好啊。幾點呢？",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000037"
         },
         {
           "speaker": "道賢",
           "korean": "두 시예요. 한 시 반에 여기서 만날까요?",
-          "translation": "兩點。我們一點半在這裡碰面好嗎？"
+          "translation": "兩點。我們一點半在這裡碰面好嗎？",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000038"
         },
         {
           "speaker": "安妮",
           "korean": "네, 그때 만나요.",
-          "translation": "好，到時候見。"
+          "translation": "好，到時候見。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000039"
         },
         {
           "speaker": "道賢",
           "korean": "다 왔네요. 상자는 어디에 놓을까요?",
-          "translation": "到了。箱子要放在哪裡？"
+          "translation": "到了。箱子要放在哪裡？",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000040"
         },
         {
           "speaker": "安妮",
           "korean": "문 앞에 놓아 주세요.",
-          "translation": "請放在門口。"
+          "translation": "請放在門口。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000041"
         },
         {
           "speaker": "道賢",
           "korean": "네, 여기 놓을게요.",
-          "translation": "好，我放這裡。"
+          "translation": "好，我放這裡。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000042"
         },
         {
           "speaker": "安妮",
           "korean": "도와주셔서 감사합니다.",
-          "translation": "謝謝你的幫忙。"
+          "translation": "謝謝你的幫忙。",
+          "sentenceId": "ex.ko.s.ko-a1-l003-data.000043"
         }
       ]
     }
@@ -314,5 +416,25 @@
     "title": "",
     "rows": []
   },
-  "notes": []
+  "notes": [],
+  "grammarMappingSource": {
+    "repo": "stasischen/lingo-frontend-web",
+    "commit": "0a32f796b3959a8c0d685d791e2cbec69241b296",
+    "path": "assets/artifacts/learning_library/ko/core/grammar_mappings.json",
+    "sha256": "20d12c2322e8823dc5d7b03230d8f3d8de4512651feef444fb25afea378f3593"
+  },
+  "grammarNoteSnapshots": {
+    "kg.grammar.tense.future_ul_geoyeyo": {
+      "path": "grammar-notes/kg.grammar.tense.future_ul_geoyeyo.json",
+      "sha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191",
+      "source": {
+        "repo": "stasischen/lingo-frontend-web",
+        "commit": "0a32f796b3959a8c0d685d791e2cbec69241b296",
+        "indexPath": "assets/content/grammar/grammar_index.json",
+        "indexSha256": "8a4918bcbcadde0f4539364a6647fd7b0eeb57704bd0c241201ed2a740c3a9a5",
+        "path": "assets/content/grammar/notes/kg.grammar.tense.future_ul_geoyeyo.json",
+        "sha256": "93f90fd4888d641ceb70d8198eddd106588c40cc3abe49f2d6ae5ef13452a191"
+      }
+    }
+  }
 }
