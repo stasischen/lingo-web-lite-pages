@@ -768,7 +768,7 @@
     }
   },
   "latestGrammarNoteSnapshotUpdate": {
-    "status": "prepared_for_isolated_preview_deployment",
+    "status": "published_in_isolated_preview_only",
     "preparedAtUtc": "2026-11-01T04:59:36Z",
     "webLiteSource": {
       "repo": "stasischen/lingo-web-lite",
@@ -840,6 +840,31 @@
       "status": "pending_pages_publish_and_live_readback",
       "pagesRepo": "stasischen/lingo-web-lite-pages",
       "previewPath": "review/u01-data-candidates-20261031/"
+    },
+    "publishedPreviewReceipt": {
+      "previewCommit": "930e3bf07cb54835cd868595955d9a8e77478192",
+      "previewDeploymentRun": "41275192097",
+      "latestPagesDeploymentRun": "41282816633",
+      "publicPath": "content/ko/drafts/grammar-notes/kg.grammar.tense.future_ul_geoyeyo.json",
+      "publicHttpStatus": 200,
+      "publicationScope": "Isolated draft preview only; no official grammar/dictionary adoption."
     }
+  },
+  "currentPreviewDelivery": {
+    "status": "published_in_isolated_preview_only",
+    "candidatePackageCommit": "930e3bf07cb54835cd868595955d9a8e77478192",
+    "candidatePackageDeploymentRun": "41275192097",
+    "latestWholePagesCommit": "d19861adacf9910ed42dfb4635d5722503a58eb1",
+    "latestWholePagesDeploymentRun": "41282816633",
+    "previewUrl": "https://stasischen.github.io/lingo-web-lite-pages/review/u01-data-candidates-20261031/#/study",
+    "directL10Url": "https://stasischen.github.io/lingo-web-lite-pages/review/u01-data-candidates-20261031/#/study/drafts/ko-a1-l010",
+    "l10SourcePin": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c",
+    "publicReadback": {
+      "previewRootHttp": 200,
+      "grammarNoteHttp": 200,
+      "packagedFilesRead": 89,
+      "hashMatches": 89
+    },
+    "uiAcceptanceScope": "The prior parent D3/D1 spot check is recorded under latestU01IntegrationUpdate; it predates the grammar-note bundle refresh. No full-course UI acceptance is claimed."
   }
 }
