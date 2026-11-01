@@ -11,7 +11,7 @@
   "candidatePacketCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
   "candidateManifestSha256": "d4fc5d68a1d09a9f7087a75e194a5a80cfbe642cd1628db3d1d1ebbea59f4bee",
   "segmentation": "Exact-source SEGMENTS overlays are fully matched across all ten lessons: L1 15/15; L2 31/31; L3 44/44; L4 32/32; L5 26/26; L6 28/28; L7 16/16; L8 23/23; L9 29/29; L10 29/29. For every lesson, overlay sourceCommit equals lesson.head, dialogueSha256 matches the named dialogue sourceFiles record, and segmentsSha256 matches lesson.segmentation.sourceSha256; matchedSentences equals totalSentences. The overlays contain 273 matched sentence occurrences and 271 per-lesson unique segmentsByText keys; L3 and L9 each repeat one text surface. The 793 count is multi-atom token rows across those unique per-lesson maps, not a sentence count. Existing loader attaches an overlay only when source commit and dialogue hash match; renderDraftText validates tab-separated nonempty surface/atomId tokens and normalized joined surfaces against the exact sentence text. Valid word surfaces render as lookup buttons (trailing punctuation remains text), using lesson binding lemma/atomId/state when present and SEGMENTS values otherwise. This is a data and code-path check, not a ten-lesson interactive UI acceptance.",
-  "lookupSummary": "Isolated Pages lookup: 402 entries / 35 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 remains context-limited. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences use active core dictionary rows. Fixed CAST display is separate: 27 exact lesson-scoped records cover 56 button occurrences. L6×6, L8×8, L9×3, and L10 seven location uses use source ko:adj:있다; L10 s.000023 ability use also follows source POS ko:adj:있다. A separate provisional -ㄹ 수 있다 entry (可以；能夠) is bound only to the unique L10 dialogue surface 수; the ko:adj:있다 lexical location gloss is unchanged. Current deployed-package recount: 1,197/1,260 buttons show dictionary glosses, 56 show CAST, and 7 lack complete gloss across four atom IDs: ko:n:것×4 (RCA-04A bound-noun/contraction display deferred), ko:xnum:3×1 and ko:xnum:4×1 (retained numeric placeholders), ko:n:가족분×1 (explicit exclusion). There are 30 source-MISSING IDs, 12 without a direct preview entry. L2 ko:n:곳 remains approved through the core-dictionary fallback. Isolated candidate only; no official adoption.",
+  "lookupSummary": "Isolated Pages lookup: 403 entries / 36 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 remains context-limited. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences use active core dictionary rows. Fixed CAST display is separate: 27 exact lesson-scoped records cover 56 button occurrences. L6×6, L8×8, L9×3, and L10 seven location uses use source ko:adj:있다; L10 s.000023 ability use also follows source POS ko:adj:있다. A separate provisional -ㄹ 수 있다 entry (可以；能夠) is bound only to the unique L10 dialogue surface 수; the ko:adj:있다 lexical location gloss is unchanged. Current deployed-package recount: 1,199/1,260 buttons show dictionary glosses, 56 show CAST, and 5 lack complete gloss across four atom IDs: ko:n:것×2 (L3×2 remain unresolved; L6×2 are covered only by the selected provisional composite binding for 이건, while the source noun atom remains held), ko:xnum:3×1 and ko:xnum:4×1 (retained numeric placeholders), ko:n:가족분×1 (explicit exclusion). There are 30 source-MISSING IDs, 12 without a direct preview entry. L2 ko:n:곳 remains approved through the core-dictionary fallback. Isolated candidate only; no official adoption.",
   "knownLimitations": "The prior L3 cloud synthesis-failed observation remains undiagnosed. The most recent browser UI check used the data before the L6/L8 source pin refresh; UI was not rerun after this refresh. L10 remains on its previous pin because the reviewed SEGMENTS change conflicts with same-head core sentence atoms and MISSING_ENTRIES. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
@@ -69,7 +69,7 @@
     "content/ko/drafts/dictionary-gap-candidates-l3-l6-l9-20261101.jsonl": "4381e3f11d4ce7755e4586632c381a64f74583985463cae02320de7f5890c726",
     "content/ko/drafts/ko-a1-l001.json": "d4aa81c311d9e5dffce5655677bf7f8f2453d152fd215ac823852a02093042ab",
     "content/ko/drafts/ko-a1-l002.json": "6a19e1ea5d5bc270d33b513db29fc5e6fcf2be5397cecf0a81c526cd3120de5e",
-    "content/ko/drafts/ko-a1-l003.json": "d68f13a8af8ecee076ea75a24d63282b274a8737b0b76a9fc7558fcba136462a",
+    "content/ko/drafts/ko-a1-l003.json": "cc9afeea24da46ef18f1d3588e3adbb79cd756a12c97de24eb33a7c1320033e8",
     "content/ko/drafts/ko-a1-l004.json": "197102614797ff98b282ccb67c8780759690cf03d88e6e040459623d5eff0b97",
     "content/ko/drafts/ko-a1-l005.json": "4e963270054a0b9c8b8e174e69324bbaa9e43d9870342b802b66cceb791c205c",
     "content/ko/drafts/ko-a1-l006.json": "1098092b450be958ddbc2e183c6a4173bf2bb4689dba1538e37de98f33a385b3",
@@ -77,7 +77,7 @@
     "content/ko/drafts/ko-a1-l008.json": "edf9d156196f101f4042dd7632a290994f7780e186dba08115b16878738279f3",
     "content/ko/drafts/ko-a1-l009.json": "6af88a3a4b5368a87180d36ff227b839d92ddede2d84b70d7aed0ddbab928df0",
     "content/ko/drafts/ko-a1-l010.json": "c3b3eee6314d0b1c66817fe0c3284955135e94851946e6ae66294bf4300c6cc1",
-    "content/ko/drafts/lookup.json": "dca8a1552b16d9fb22f9bc624c3bd212718990c76a31f094322b71a1ccec4e3c",
+    "content/ko/drafts/lookup.json": "d086992011a0458f364688bedb5bcbc28f70b605170252f2b3838de516d9699f",
     "content/ko/drafts/manifest.json": "bb6c6ebdc6274420b9de19abc0d7ed00e2d1b7bc8d046b4b4e65639c27a7b0a0",
     "content/ko/drafts/segment-overlays.json": "4f4d4bcca8ff3d065f6c80e468489c8bb1da690bcb1f01e659d5ec697d2af806",
     "content/ko/drafts/u01-review-evidence.json": "e4f9b09a422d034a0043bb4197bdda1c4cfaf7288a52c34bc4129a2a2e132039",
@@ -467,8 +467,8 @@
     "approvedRuntimeRecovery": "39 existing active runtime/public-index entries, approved in the isolated lookup only; 121 visible token occurrences (36 IDs / 107 occurrences, plus ko:num:둘/셋/넷 / 14 occurrences).",
     "castNameDisplay": "27 exact lesson-scoped CAST mappings / 56 visible token occurrences, separate from dictionary entries; 12 L1 occurrences use existing IDs confirmed by exact frozen L2 CAST rows, including the documented 애니/천이쥔 alias.",
     "placeNameRuntime": "한국×3, 일본×1, 대만×3, 부산×2, 서울×1; all 10 occurrences use existing active runtime/core dictionary rows.",
-    "buttonCoverageByLesson": "Totals/dictionary/CAST/unresolved: L1 86/74/12/0; L2 149/137/12/0; L3 156/150/2/4; L4 161/156/5/0; L5 156/147/9/0; L6 114/110/2/2; L7 56/54/2/0; L8 118/116/1/1; L9 128/119/9/0; L10 136/134/2/0; total 1,260/1,197/56/7.",
-    "unresolvedButtonCategories": "7 occurrences across 4 atom IDs: ko:n:것×4 (L3×2, L6×2; RCA-04A bound-noun/contraction learner-display decision deferred); ko:xnum:3×1 and ko:xnum:4×1 (L3 numeric-placeholder policy); ko:n:가족분×1 (L8 explicit exclusion). L10 ability occurrence is no longer unresolved under source pin 52d.",
+    "buttonCoverageByLesson": "Totals/dictionary/CAST/unresolved: L1 86/74/12/0; L2 149/137/12/0; L3 156/150/2/4; L4 161/156/5/0; L5 156/147/9/0; L6 114/112/2/0; L7 56/54/2/0; L8 118/116/1/1; L9 128/119/9/0; L10 136/134/2/0; total 1,260/1,199/56/5.",
+    "unresolvedButtonCategories": "5 occurrences across 4 atom IDs: ko:n:것×2 (L3×2 remain unresolved; L6×2 are displayed through the user-selected provisional composite binding for 이건, while the source noun atom remains held); ko:xnum:3×1 and ko:xnum:4×1 (retained numeric placeholders); ko:n:가족분×1 (L8 explicit exclusion).",
     "publishedUiValidation": {
       "status": "passed_before_L6_L8_source_refresh",
       "publishedBundleCommit": "cd9a74830d2d503761cd1b30adafe62d0b6d190a",
@@ -601,17 +601,17 @@
       "listedPackageFiles": 86,
       "totals": {
         "dialogueButtons": 1260,
-        "dictionaryGlosses": 1197,
+        "dictionaryGlosses": 1199,
         "castDisplays": 56,
-        "unresolved": 7
+        "unresolved": 5
       },
       "unresolvedByLesson": {
         "L3": 4,
-        "L6": 2,
+        "L6": 0,
         "L8": 1
       },
       "unresolvedAtomOccurrences": {
-        "ko:n:것": 4,
+        "ko:n:것": 2,
         "ko:xnum:3": 1,
         "ko:xnum:4": 1,
         "ko:n:가족분": 1
@@ -621,8 +621,8 @@
         "withoutDirectPreviewEntry": 12
       },
       "lookup": {
-        "entries": 402,
-        "provisional": 35,
+        "entries": 403,
+        "provisional": 36,
         "sourceEntries": 399,
         "sourceProvisional": 32
       },
@@ -765,6 +765,27 @@
         "scope": "Two specified buttons only; this does not expand the limited Sol session-only approval or constitute whole-course acceptance."
       },
       "uiReceiptSource": "Parent-provided direct observation; QA records exact D1/D3 outcomes. No tests or source/app changes were made for this UI receipt."
+    },
+    "userSelectedDisplayDecision": {
+      "selectedOption": "B",
+      "updatedAt": "2026-11-01",
+      "scope": "Isolated U01 WebLite review preview only.",
+      "ko-a1-l006": {
+        "surface": "이건",
+        "atomId": "ko:det:이+ko:n:것+ko:p:은",
+        "lemma": "이것",
+        "gloss": "這個；這件事",
+        "previewState": "provisional",
+        "display": "Existing exact-binding dictionary dialog."
+      },
+      "ko-a1-l003": {
+        "sourceText": "보내실 거예요",
+        "label": "-(으)ㄹ 거예요：將會／打算／預計",
+        "knowledgeId": "kg.grammar.tense.future_ul_geoyeyo",
+        "display": "Existing inline grammar occurrence opens the pinned note."
+      },
+      "formalDictionaryAdoption": false,
+      "formalLessonAcceptance": false
     }
   },
   "latestGrammarNoteSnapshotUpdate": {
