@@ -3,7 +3,7 @@
   "level": 10,
   "title": "第十課候選",
   "status": "draft",
-  "head": "c62e14f14872bb5c3d6b43da62c47a795a80fa0f",
+  "head": "31dc06537b8351ccb5b11928834cfa26d171bd84",
   "branch": "luna/ko-a1-l010-data-20261028",
   "sourceRepo": "stasischen/content-ko",
   "sourceCardState": "done",
@@ -18,7 +18,7 @@
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l010-text/core/sentences.json",
-      "sha256": "5860861c58bc2668f957a061205653e66c103a26fd4a4144c905e6fe168739fe"
+      "sha256": "667cb6f639fbba5bbe51ad554751e86575dda2323ada2ab50fc9bc3299e593c1"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l010-text/draft/i18n/zh_tw/lesson.json",
@@ -38,17 +38,17 @@
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
-      "sha256": "af59ada72d1ed4103d08f4cd8962832b2449f4e015e51f79f697bbc5b2178d0c"
+      "sha256": "b64f27600706dfb26ebd81512d700bfaf82801c6b103affd9e601d2255ce7a98"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l010-text/draft/MISSING_ENTRIES.tsv",
-      "sha256": "3d243f0ab93f70b84a07eb21eda7f94ae7776942ce36d811a846012fbc7643cf"
+      "sha256": "15e50dc6dd951bdd2fc7cc8fee3f652ffddd07fbca96a30a9d8106b7316f50f2"
     }
   ],
   "segmentation": {
     "status": "available",
     "sourcePath": "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
-    "sourceSha256": "af59ada72d1ed4103d08f4cd8962832b2449f4e015e51f79f697bbc5b2178d0c",
+    "sourceSha256": "b64f27600706dfb26ebd81512d700bfaf82801c6b103affd9e601d2255ce7a98",
     "matchedSentences": 29,
     "totalSentences": 29
   },

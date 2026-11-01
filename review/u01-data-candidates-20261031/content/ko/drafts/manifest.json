@@ -532,7 +532,7 @@
       "level": 9,
       "title": "辨認人物與外貌描述",
       "status": "draft",
-      "head": "3a524d699a96103f912f02af46db0d8ac25e26d7",
+      "head": "b4481b3bb05f0e68b2d3c3df802e083ec3cb56ae",
       "branch": "luna/ko-a1-l009-data-20261028",
       "sourceCardState": "done",
       "pr": 181,
@@ -546,7 +546,7 @@
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l009-text/core/sentences.json",
-          "sha256": "1d1ad2d960883d0659b5a60b8046c50a890cc8ff641db8555ff44c9172871427"
+          "sha256": "b677cfb5d1d402c807cad9f57b09733710782a0c90578600a4268aa54a046848"
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l009-text/draft/i18n/zh_tw/lesson.json",
@@ -566,18 +566,18 @@
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l009-text/draft/SEGMENTS.tsv",
-          "sha256": "551cc139fcd5d7a0f83e9f8920e0e0c98f10c530fea4af079207f983917c8429"
+          "sha256": "0145f1396aa96244e0be2a9685d97631f165509aafcab873f81f1d7a81375780"
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l009-text/draft/MISSING_ENTRIES.tsv",
-          "sha256": "b33e01c833c1c04bea023857054de5d2e87abe960cc64f0231084e228b1d6c8a"
+          "sha256": "772278c722d4bfd11be6124045d9a65967c4fbcb797bb82a79f6036bfcd58deb"
         }
       ],
-      "previewJsonSha256": "2f411b1f8bbf8281ab5e8adf460ac99aebf350ef694ce2c35f8c6ba494eb113a",
+      "previewJsonSha256": "6af88a3a4b5368a87180d36ff227b839d92ddede2d84b70d7aed0ddbab928df0",
       "segmentation": {
         "status": "available",
         "sourcePath": "content_v2/review/lessons/ko-a1-l009-text/draft/SEGMENTS.tsv",
-        "sourceSha256": "551cc139fcd5d7a0f83e9f8920e0e0c98f10c530fea4af079207f983917c8429",
+        "sourceSha256": "0145f1396aa96244e0be2a9685d97631f165509aafcab873f81f1d7a81375780",
         "matchedSentences": 29,
         "totalSentences": 29
       },
@@ -587,11 +587,10 @@
         "ko:prop:도현",
         "ko:prop:마이클",
         "ko:prop:유키",
-        "ko:prop:이안",
-        "ko:v:있다"
+        "ko:prop:이안"
       ],
       "limitations": [
-        "7 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
+        "6 個詞條未收錄，詳見同 head 的 MISSING_ENTRIES.tsv。"
       ]
     },
     {
@@ -599,7 +598,7 @@
       "level": 10,
       "title": "第十課候選",
       "status": "draft",
-      "head": "c62e14f14872bb5c3d6b43da62c47a795a80fa0f",
+      "head": "31dc06537b8351ccb5b11928834cfa26d171bd84",
       "branch": "luna/ko-a1-l010-data-20261028",
       "sourceCardState": "done",
       "pr": null,
@@ -613,7 +612,7 @@
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l010-text/core/sentences.json",
-          "sha256": "5860861c58bc2668f957a061205653e66c103a26fd4a4144c905e6fe168739fe"
+          "sha256": "667cb6f639fbba5bbe51ad554751e86575dda2323ada2ab50fc9bc3299e593c1"
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l010-text/draft/i18n/zh_tw/lesson.json",
@@ -633,18 +632,18 @@
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
-          "sha256": "af59ada72d1ed4103d08f4cd8962832b2449f4e015e51f79f697bbc5b2178d0c"
+          "sha256": "b64f27600706dfb26ebd81512d700bfaf82801c6b103affd9e601d2255ce7a98"
         },
         {
           "path": "content_v2/review/lessons/ko-a1-l010-text/draft/MISSING_ENTRIES.tsv",
-          "sha256": "3d243f0ab93f70b84a07eb21eda7f94ae7776942ce36d811a846012fbc7643cf"
+          "sha256": "15e50dc6dd951bdd2fc7cc8fee3f652ffddd07fbca96a30a9d8106b7316f50f2"
         }
       ],
-      "previewJsonSha256": "d11495aac8da9224c86517889af16175ea5ef53c38755abe74e761bb6afe46e3",
+      "previewJsonSha256": "6d70ed421e300eac35044a84116342c25a7c4be6bf4ed8c6d2803cd1356ef815",
       "segmentation": {
         "status": "available",
         "sourcePath": "content_v2/review/lessons/ko-a1-l010-text/draft/SEGMENTS.tsv",
-        "sourceSha256": "af59ada72d1ed4103d08f4cd8962832b2449f4e015e51f79f697bbc5b2178d0c",
+        "sourceSha256": "b64f27600706dfb26ebd81512d700bfaf82801c6b103affd9e601d2255ce7a98",
         "matchedSentences": 29,
         "totalSentences": 29
       },

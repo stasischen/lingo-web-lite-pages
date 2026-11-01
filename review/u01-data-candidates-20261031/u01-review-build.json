@@ -3,7 +3,7 @@
   "purpose": "Isolated A1 unit 1 draft review preview; does not change root app or official content status.",
   "webLiteSourceRepo": "stasischen/lingo-web-lite",
   "webLiteSourceBranch": "luna/ko-a1-u01-web-review-20261027",
-  "webLiteSourceCommit": "370362f15d042436c40f10d97397d146cd185207",
+  "webLiteSourceCommit": "d966865c0a4eb89ad8545b97011094ff5685f3df",
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
@@ -75,12 +75,12 @@
     "content/ko/drafts/ko-a1-l006.json": "1098092b450be958ddbc2e183c6a4173bf2bb4689dba1538e37de98f33a385b3",
     "content/ko/drafts/ko-a1-l007.json": "a54a82b706ecb87e4428c1af6acf36f97cba5400f7b5e908c0d9b8e77753a952",
     "content/ko/drafts/ko-a1-l008.json": "edf9d156196f101f4042dd7632a290994f7780e186dba08115b16878738279f3",
-    "content/ko/drafts/ko-a1-l009.json": "2f411b1f8bbf8281ab5e8adf460ac99aebf350ef694ce2c35f8c6ba494eb113a",
-    "content/ko/drafts/ko-a1-l010.json": "d11495aac8da9224c86517889af16175ea5ef53c38755abe74e761bb6afe46e3",
-    "content/ko/drafts/lookup.json": "f17c0d0c00f98f57d57edeb9990724c6a3640e8ec4bb5157ee2abbf271bc4cc0",
-    "content/ko/drafts/manifest.json": "36b3887644f3446a9bbdbbeed8e59ec8363389ff231f4994761efa371b862b72",
-    "content/ko/drafts/segment-overlays.json": "64466ba8c1e53802c250d8f151b0d2a3483f0683c07fe21fbb3cf71d69343b54",
-    "content/ko/drafts/u01-review-evidence.json": "d8ab8b4469ff5b6ca61ba5ac6984bceb8dcaf5065372071fb498cbf7f1242ecf",
+    "content/ko/drafts/ko-a1-l009.json": "6af88a3a4b5368a87180d36ff227b839d92ddede2d84b70d7aed0ddbab928df0",
+    "content/ko/drafts/ko-a1-l010.json": "6d70ed421e300eac35044a84116342c25a7c4be6bf4ed8c6d2803cd1356ef815",
+    "content/ko/drafts/lookup.json": "521f93de342fbb89d9971f183e9b9519f2ff7900f3f16ff8fc037ef62e3aab3d",
+    "content/ko/drafts/manifest.json": "755bbf3ad285ecd5d59ed35db03a054f645907dce6666692f1e8d80d7ec8797e",
+    "content/ko/drafts/segment-overlays.json": "2b464daf1277a88cb1db812b2e85a2a7ed1f2b5357bec48b349506bdfc82ea5f",
+    "content/ko/drafts/u01-review-evidence.json": "8916b94612abb30398f79127432cc1f9a96e709d32f6c819d6882ba52556994c",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l001.json": "a2e0eb8298275319c234a9dc6bc1684361a060e644771d67a19354b07d97ecc0",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l002.json": "1f49382dca77c72dcf02f072c3fb2bfa921bde08d24aca26ef5089cb9c66455c",
     "content/ko/drafts-u01-candidates-20261031/ko-a1-l003.json": "801b544e2fd83ca4a89f51e637fe220b033060cad6d01fbc563b5a3fa9206d44",
@@ -458,7 +458,7 @@
   },
   "latestU01IntegrationUpdate": {
     "date": "2026-11-01",
-    "sourceCommit": "370362f15d042436c40f10d97397d146cd185207",
+    "sourceCommit": "d966865c0a4eb89ad8545b97011094ff5685f3df",
     "appAssetsChanged": false,
     "changedScope": "Only the isolated review subtree's L6/L8 source pins, transformed JSON, lookup bindings, overlays, QA record, and source-level tests. L10 kept its prior pin due source consistency mismatch; no app bundle, official dictionary, or course text changed.",
     "approvedRuntimeRecovery": "39 existing active runtime/public-index entries, approved in the isolated lookup only; 121 visible token occurrences (36 IDs / 107 occurrences, plus ko:num:둘/셋/넷 / 14 occurrences).",
@@ -479,7 +479,7 @@
       "scope": "Historical browser validation of the previous data. UI was not rerun after the L6/L8 source pin refresh; this remains an isolated candidate and not official course or dictionary adoption.",
       "afterRefreshUiRetest": "Not performed per task instruction."
     },
-    "qaCommit": "370362f15d042436c40f10d97397d146cd185207",
+    "qaCommit": "d966865c0a4eb89ad8545b97011094ff5685f3df",
     "sourceLifecycleEvidence": {
       "sourceCommit": "370362f15d042436c40f10d97397d146cd185207",
       "sourcePath": "public/content/ko/drafts/u01-review-evidence.json",
@@ -505,25 +505,55 @@
       "metadataOnlyPagesCommitAtValidation": "d20ecdc51345d8e10a088b07d06da6e7bade2056",
       "metadataOnlyPagesDeploymentRunAtValidation": "41234401746"
     },
-    "sourcePosFollowup": "L6 and L8 exact reviewed source heads are now integrated. L10's approved SEGMENTS-only head is not integrated: the same head still has ko:v:있다 for s.000001 in core/sentences.json and a stale ko:v:있다 MISSING row for that sentence; preserve the old pin until the source owner synchronizes those files and the existing review process verifies the changed source. L9 keeps its old pin because no readable Sol POS review receipt was found; Dot's receipt covers only its limited POS delta.",
+    "sourcePosFollowup": "L6/L8/L9/L10 exact source pins are integrated. L9 has matching limited Sol and Dot receipts for three location/existence POS rows; L10 has a limited Sol receipt for the seven-row c8/c9 derived sync and the separate earlier SEGMENTS receipt. L10 Sol reviewed the complete prompt-supplied diff because the base Git object was unavailable in that session. L9/L10 review receipts do not approve whole lessons, translation, UI, PRs, or official dictionary adoption.",
     "sourcePinRefresh": {
       "integrated": {
         "ko-a1-l006": "99022dd2f80263cfb19b39e32c7f877529d4f0ce",
-        "ko-a1-l008": "90b5a029afeda3254214fc9e7eb96f83df4d9df3"
+        "ko-a1-l008": "90b5a029afeda3254214fc9e7eb96f83df4d9df3",
+        "ko-a1-l009": "b4481b3bb05f0e68b2d3c3df802e083ec3cb56ae",
+        "ko-a1-l010": "31dc06537b8351ccb5b11928834cfa26d171bd84"
       },
-      "held": {
+      "held": {},
+      "uiRetest": "pending after deployment: one exact POS lookup each for L9 and L10, including L10 ability sentence",
+      "pagesDataCommit": null,
+      "deploymentRun": null,
+      "publicFilesReadBack": 0,
+      "publicMetadataHttpStatus": null,
+      "allPackagedHashesMatch": null,
+      "previousIntegrationDeployment": {
+        "pagesDataCommit": "d6782e9434279a5ce424102add3835214bc48e9c",
+        "deploymentRun": "41239080251",
+        "publicFilesReadBack": 86,
+        "publicMetadataHttpStatus": 200,
+        "allPackagedHashesMatch": true
+      },
+      "reviewDetails": {
+        "ko-a1-l009": {
+          "solSession": "01a194cc-3020-7693-91e3-696d9e117ebc",
+          "solVerdict": "approve",
+          "independence": "session_only",
+          "scope": "s.000003/s.000022/s.000025 location/existence POS and corresponding core/MISSING sync only",
+          "dotResultComment": "6548600053",
+          "sourceReviewPR": 411,
+          "limitation": "Does not approve whole lesson, translation, UI, PR, or official dictionary."
+        },
         "ko-a1-l010": {
-          "currentPin": "c62e14f14872bb5c3d6b43da62c47a795a80fa0f",
-          "reviewedSegmentsHead": "1e027e3e4b2b68cbba637505b37fbb045442470b",
-          "reason": "same-head core/sentences and MISSING_ENTRIES still mark s.000001 as ko:v:있다 although SEGMENTS marks ko:adj:있다; s.000023 ability use stays ko:v:있다."
+          "solSession": "01a194cc-2946-7400-ac87-615b7e12b823",
+          "solVerdict": "approve",
+          "independence": "session_only",
+          "scope": "seven c8/c9 derived POS rows relative to 1e027e3, with core/MISSING sync only; previous SEGMENTS review is separate",
+          "diffReadLimitation": "Sol could not read the base Git object; it reviewed the complete fixed diff supplied in the prompt, not a repository-fetched diff.",
+          "preservedAbilityUse": "s.000023 remains ko:v:있다; c10 was not rerun."
         }
       },
-      "uiRetest": "not performed",
-      "pagesDataCommit": "d6782e9434279a5ce424102add3835214bc48e9c",
-      "deploymentRun": "41239080251",
-      "publicFilesReadBack": 86,
-      "publicMetadataHttpStatus": 200,
-      "allPackagedHashesMatch": true
+      "targetedChecks": {
+        "draftBuilder": "10 lesson candidates built; only L9/L10 data records differ from current pins",
+        "overlayBuilder": "10 overlays generated; non-target lessons byte-equivalent; L9/L10 each 29/29 matched sentences",
+        "sourceHashes": "All eight L9 and L10 source-file SHA-256 values match their exact pinned commits",
+        "posChecks": "L9 three location/existence occurrences and L10 seven location occurrences use ko:adj:있다; L10 s.000023 ability use remains ko:v:있다",
+        "vitest": "tests/korean-draft-lookup.test.ts and tests/korean-draft-previews.test.ts: 12/12 passed"
+      },
+      "sourceDataCommit": "e7b8d0665a23bce62be2097552cd688d54156b65"
     }
   }
 }

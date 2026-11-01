@@ -3,7 +3,7 @@
   "level": 9,
   "title": "辨認人物與外貌描述",
   "status": "draft",
-  "head": "3a524d699a96103f912f02af46db0d8ac25e26d7",
+  "head": "b4481b3bb05f0e68b2d3c3df802e083ec3cb56ae",
   "branch": "luna/ko-a1-l009-data-20261028",
   "sourceRepo": "stasischen/content-ko",
   "sourceCardState": "done",
@@ -18,7 +18,7 @@
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l009-text/core/sentences.json",
-      "sha256": "1d1ad2d960883d0659b5a60b8046c50a890cc8ff641db8555ff44c9172871427"
+      "sha256": "b677cfb5d1d402c807cad9f57b09733710782a0c90578600a4268aa54a046848"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l009-text/draft/i18n/zh_tw/lesson.json",
@@ -38,17 +38,17 @@
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l009-text/draft/SEGMENTS.tsv",
-      "sha256": "551cc139fcd5d7a0f83e9f8920e0e0c98f10c530fea4af079207f983917c8429"
+      "sha256": "0145f1396aa96244e0be2a9685d97631f165509aafcab873f81f1d7a81375780"
     },
     {
       "path": "content_v2/review/lessons/ko-a1-l009-text/draft/MISSING_ENTRIES.tsv",
-      "sha256": "b33e01c833c1c04bea023857054de5d2e87abe960cc64f0231084e228b1d6c8a"
+      "sha256": "772278c722d4bfd11be6124045d9a65967c4fbcb797bb82a79f6036bfcd58deb"
     }
   ],
   "segmentation": {
     "status": "available",
     "sourcePath": "content_v2/review/lessons/ko-a1-l009-text/draft/SEGMENTS.tsv",
-    "sourceSha256": "551cc139fcd5d7a0f83e9f8920e0e0c98f10c530fea4af079207f983917c8429",
+    "sourceSha256": "0145f1396aa96244e0be2a9685d97631f165509aafcab873f81f1d7a81375780",
     "matchedSentences": 29,
     "totalSentences": 29
   },
@@ -58,8 +58,7 @@
     "ko:prop:도현",
     "ko:prop:마이클",
     "ko:prop:유키",
-    "ko:prop:이안",
-    "ko:v:있다"
+    "ko:prop:이안"
   ],
   "dialogue": [
     {
