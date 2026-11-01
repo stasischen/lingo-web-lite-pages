@@ -11,7 +11,7 @@
   "candidatePacketCommit": "4558672a322919fa890d2d4b816e5fc74403b3bd",
   "candidateManifestSha256": "d4fc5d68a1d09a9f7087a75e194a5a80cfbe642cd1628db3d1d1ebbea59f4bee",
   "segmentation": "Exact-source SEGMENTS overlays are fully matched across all ten lessons: L1 15/15; L2 31/31; L3 44/44; L4 32/32; L5 26/26; L6 28/28; L7 16/16; L8 23/23; L9 29/29; L10 29/29. For every lesson, overlay sourceCommit equals lesson.head, dialogueSha256 matches the named dialogue sourceFiles record, and segmentsSha256 matches lesson.segmentation.sourceSha256; matchedSentences equals totalSentences. The overlays contain 273 matched sentence occurrences and 271 per-lesson unique segmentsByText keys; L3 and L9 each repeat one text surface. The 793 count is multi-atom token rows across those unique per-lesson maps, not a sentence count. Existing loader attaches an overlay only when source commit and dialogue hash match; renderDraftText validates tab-separated nonempty surface/atomId tokens and normalized joined surfaces against the exact sentence text. Valid word surfaces render as lookup buttons (trailing punctuation remains text), using lesson binding lemma/atomId/state when present and SEGMENTS values otherwise. This is a data and code-path check, not a ten-lesson interactive UI acceptance.",
-  "lookupSummary": "Isolated Pages lookup: 401 entries / 34 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 applies only to the stated contexts; both remain provisional. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences already use active core dictionary rows. Fixed CAST display is separate: 27 exact lesson-scoped records cover 56 button occurrences. Fourteen L6/L8 location/existence uses now follow their approved source SEGMENTS as ko:adj:있다; seven old-pin occurrences remain provisional (L9×3, L10 question-form×4). Data path resolves 1,193/1,260 dictionary buttons; CAST displays another 56; 11 remain without exact dictionary/eligible CAST. L2 ko:n:곳 remains approved through the core-dictionary fallback. Thirteen source-MISSING IDs still have no direct preview entry. Isolated candidate only; no official adoption.",
+  "lookupSummary": "Isolated Pages lookup: 401 entries / 34 provisional; source lookup: 399 / 32. Dot limited approval for L3 coffee 라테 and honorific 분 applies only to the stated contexts; both remain provisional. 39 existing active runtime/public-index rows are added as approved preview rows (121 button occurrences: 107 across 36 atoms plus 14 Korean numeral occurrences). Ten place/country occurrences already use active core dictionary rows. Fixed CAST display is separate: 27 exact lesson-scoped records cover 56 button occurrences. L6×6, L8×8, L9×3, and L10×7 location/existence uses follow their pinned source SEGMENTS as ko:adj:있다; L10 s.000023 ability use remains ko:v:있다. Recount of the deployed 1,260 dialogue buttons: 1,196 show dictionary glosses, 56 show CAST, and 8 have no complete gloss across five atom IDs: ko:n:것×4 (RCA-04A bound-noun/contraction deferral), ko:xnum:3×1 and ko:xnum:4×1 (retained numeric placeholders), ko:n:가족분×1 (explicit exclusion), ko:v:있다×1 (L10 s.000023 source gloss gap). The 13 source-MISSING atom IDs without a direct preview entry remain a separate source count. L2 ko:n:곳 remains approved through the core-dictionary fallback. Isolated candidate only; no official adoption.",
   "knownLimitations": "The prior L3 cloud synthesis-failed observation remains undiagnosed. The most recent browser UI check used the data before the L6/L8 source pin refresh; UI was not rerun after this refresh. L10 remains on its previous pin because the reviewed SEGMENTS change conflicts with same-head core sentence atoms and MISSING_ENTRIES. All lesson packages remain draft, unaccepted, and unpublished; no content acceptance is claimed.",
   "documentation": "https://github.com/stasischen/lingo-web-lite/pull/27",
   "preserved": "Only the isolated review/u01-data-candidates-20261031 subtree changed; root app, official content, and other review artifacts are preserved.",
@@ -458,14 +458,14 @@
   },
   "latestU01IntegrationUpdate": {
     "date": "2026-11-01",
-    "sourceCommit": "6885682451369d6f5dbf3ceedd03e08a5447a258",
+    "sourceCommit": "f09f5254493ab004d632fa5a24c1881f23f1fca5",
     "appAssetsChanged": false,
-    "changedScope": "Only the isolated review subtree's L6/L8 source pins, transformed JSON, lookup bindings, overlays, QA record, and source-level tests. L10 kept its prior pin due source consistency mismatch; no app bundle, official dictionary, or course text changed.",
+    "changedScope": "Only the isolated review subtree candidate JSON, source pins, lookup bindings/overlays, QA record, and coverage summary changed; app bundle, official dictionary, and course text did not change.",
     "approvedRuntimeRecovery": "39 existing active runtime/public-index entries, approved in the isolated lookup only; 121 visible token occurrences (36 IDs / 107 occurrences, plus ko:num:둘/셋/넷 / 14 occurrences).",
     "castNameDisplay": "27 exact lesson-scoped CAST mappings / 56 visible token occurrences, separate from dictionary entries; 12 L1 occurrences use existing IDs confirmed by exact frozen L2 CAST rows, including the documented 애니/천이쥔 alias.",
     "placeNameRuntime": "한국×3, 일본×1, 대만×3, 부산×2, 서울×1; all 10 occurrences use existing active runtime/core dictionary rows.",
-    "buttonCoverageByLesson": "Totals/dictionary/CAST/unresolved: L1 86/74/12/0; L2 149/137/12/0; L3 156/150/2/4; L4 161/156/5/0; L5 156/147/9/0; L6 114/110/2/2; L7 56/54/2/0; L8 118/116/1/1; L9 128/119/9/0; L10 136/130/2/4.",
-    "unresolvedButtonCategories": "11 total: ko:n:것×4 (RCA-04A hold); ko:xnum:3/4×2 (numeric placeholder policy); ko:n:가족분×1 (explicitly excluded); L10 ko:v:있다×4 (surface-wide collision includes an ability use).",
+    "buttonCoverageByLesson": "Totals/dictionary/CAST/unresolved: L1 86/74/12/0; L2 149/137/12/0; L3 156/150/2/4; L4 161/156/5/0; L5 156/147/9/0; L6 114/110/2/2; L7 56/54/2/0; L8 118/116/1/1; L9 128/119/9/0; L10 136/133/2/1; total 1,260/1,196/56/8.",
+    "unresolvedButtonCategories": "8 occurrences across 5 IDs: ko:n:것×4 (L3×2, L6×2; RCA-04A bound-noun/contraction deferral); ko:xnum:3×1 and ko:xnum:4×1 (L3 numeric-placeholder policy); ko:n:가족분×1 (L8 explicit exclusion); ko:v:있다×1 (L10 s.000023 ability use; source dictionary gloss supplement pending).",
     "publishedUiValidation": {
       "status": "passed_before_L6_L8_source_refresh",
       "publishedBundleCommit": "cd9a74830d2d503761cd1b30adafe62d0b6d190a",
@@ -479,7 +479,7 @@
       "scope": "Historical browser validation of the previous data. UI was not rerun after the L6/L8 source pin refresh; this remains an isolated candidate and not official course or dictionary adoption.",
       "afterRefreshUiRetest": "Not performed per task instruction."
     },
-    "qaCommit": "6885682451369d6f5dbf3ceedd03e08a5447a258",
+    "qaCommit": "f09f5254493ab004d632fa5a24c1881f23f1fca5",
     "sourceLifecycleEvidence": {
       "sourceCommit": "370362f15d042436c40f10d97397d146cd185207",
       "sourcePath": "public/content/ko/drafts/u01-review-evidence.json",
@@ -488,7 +488,7 @@
       "candidateLifecycleFieldsMatch": true,
       "note": "The Pages evidence also contains Pages-specific records; the candidateLifecycle outcome and UI validation are mirrored from the source evidence."
     },
-    "posBindingRecovery": "Fourteen L6/L8 location/existence occurrences now use exact approved source SEGMENTS atom IDs ko:adj:있다 (L6×6, L8×8). Seven old-pin occurrences still use provisional bindings (L9×3, L10 question-form×4). Four L10 declarative `있어요.` occurrences remain unresolved because the source pin is held; the old surface-wide mapping would collide with the ability use.",
+    "posBindingRecovery": "Pinned source locations use ko:adj:있다 directly: L6×6, L8×8, L9×3, L10×7. L10 s.000023 ability use remains ko:v:있다 and is the single source glossary gap. No surface-wide override merges the two senses.",
     "previousPublishedUiValidation": {
       "status": "passed",
       "publishedBundleCommit": "cd9a74830d2d503761cd1b30adafe62d0b6d190a",
@@ -571,6 +571,36 @@
         "loadedContent": "L9 三段內容與 L10 全課內容已載入。",
         "limitations": "針對兩個 POS 改動與能力用法保留點驗；不是十課整體驗收或正式詞典採納。"
       }
+    },
+    "coverageRecount": {
+      "method": "Count dialogue button tokens from pinned transformed lesson JSON and segment overlays, applying exact surface bindings first, then source atom IDs; count visible nonempty dictionary glosses and eligible exact lesson CAST records separately.",
+      "command": "python3 scripts/report_u01_draft_button_coverage.py ../lingo-web-lite-pages/review/u01-data-candidates-20261031/content/ko --metadata ../lingo-web-lite-pages/review/u01-data-candidates-20261031/u01-review-build.json",
+      "publicFilesVerified": 86,
+      "totals": {
+        "dialogueButtons": 1260,
+        "dictionaryGlosses": 1196,
+        "castDisplays": 56,
+        "unresolved": 8
+      },
+      "unresolvedByLesson": {
+        "L3": 4,
+        "L6": 2,
+        "L8": 1,
+        "L10": 1
+      },
+      "unresolvedAtomOccurrences": {
+        "ko:n:것": 4,
+        "ko:xnum:3": 1,
+        "ko:xnum:4": 1,
+        "ko:n:가족분": 1,
+        "ko:v:있다": 1
+      },
+      "currentPins": {
+        "L9": "b4481b3bb05f0e68b2d3c3df802e083ec3cb56ae",
+        "L10": "31dc06537b8351ccb5b11928834cfa26d171bd84"
+      },
+      "scope": "Isolated review package only; not official adoption or whole-course acceptance.",
+      "sourceQaCommit": "f09f5254493ab004d632fa5a24c1881f23f1fca5"
     }
   }
 }
