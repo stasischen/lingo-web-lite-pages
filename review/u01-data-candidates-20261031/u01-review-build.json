@@ -3,7 +3,7 @@
   "purpose": "Isolated A1 unit 1 draft review preview; does not change root app or official content status.",
   "webLiteSourceRepo": "stasischen/lingo-web-lite",
   "webLiteSourceBranch": "luna/ko-a1-u01-web-review-20261027",
-  "webLiteSourceCommit": "46602169517975da8038a36ad1e89c06927c156e",
+  "webLiteSourceCommit": "6885682451369d6f5dbf3ceedd03e08a5447a258",
   "sourcePullRequest": "https://github.com/stasischen/lingo-web-lite/pull/26",
   "sourceReview": "Same Codex reviewer session 01a1799d-4b3c-7750-80a6-0d248a9c4add reviewed exact source commit a5c081aff4ce10b6768261d008a80f286557e08c against direct parent 374682026e238fbaee822f08d88d55a02d489150; zero blocking and zero non-blocking findings. This is a Codex session receipt, not a GitHub review object.",
   "buildCommand": "VITE_BASE_PATH=/lingo-web-lite-pages/review/u01-data-candidates-20261031/ npm run build",
@@ -458,7 +458,7 @@
   },
   "latestU01IntegrationUpdate": {
     "date": "2026-11-01",
-    "sourceCommit": "46602169517975da8038a36ad1e89c06927c156e",
+    "sourceCommit": "6885682451369d6f5dbf3ceedd03e08a5447a258",
     "appAssetsChanged": false,
     "changedScope": "Only the isolated review subtree's L6/L8 source pins, transformed JSON, lookup bindings, overlays, QA record, and source-level tests. L10 kept its prior pin due source consistency mismatch; no app bundle, official dictionary, or course text changed.",
     "approvedRuntimeRecovery": "39 existing active runtime/public-index entries, approved in the isolated lookup only; 121 visible token occurrences (36 IDs / 107 occurrences, plus ko:num:둘/셋/넷 / 14 occurrences).",
@@ -479,7 +479,7 @@
       "scope": "Historical browser validation of the previous data. UI was not rerun after the L6/L8 source pin refresh; this remains an isolated candidate and not official course or dictionary adoption.",
       "afterRefreshUiRetest": "Not performed per task instruction."
     },
-    "qaCommit": "46602169517975da8038a36ad1e89c06927c156e",
+    "qaCommit": "6885682451369d6f5dbf3ceedd03e08a5447a258",
     "sourceLifecycleEvidence": {
       "sourceCommit": "370362f15d042436c40f10d97397d146cd185207",
       "sourcePath": "public/content/ko/drafts/u01-review-evidence.json",
@@ -514,7 +514,7 @@
         "ko-a1-l010": "31dc06537b8351ccb5b11928834cfa26d171bd84"
       },
       "held": {},
-      "uiRetest": "not performed; Mac was locked and the in-app browser was unavailable",
+      "uiRetest": "completed by parent in ChatGPT in-app browser; targeted L9/L10 lookups visually confirmed",
       "pagesDataCommit": "53dcecb0e87ed909a087091b7c4519487193caf1",
       "deploymentRun": "41263282404",
       "publicFilesReadBack": 86,
@@ -555,10 +555,21 @@
       },
       "sourceDataCommit": "e7b8d0665a23bce62be2097552cd688d54156b65",
       "uiCheckAttempt": {
-        "status": "not_performed",
-        "blocker": "CUA inventory reported the Mac locked and createBrowserTab(\"iab\") reported browser unavailable.",
+        "status": "verified_by_parent_in_app_browser",
+        "initialCodexAttempt": "CUA Mac native inventory was locked and in-app browser unavailable; the parent then completed the targeted check in the ChatGPT in-app browser.",
         "scope": "L9 location POS; L10 location POS and s.000023 ability POS",
-        "claim": "No visual UI acceptance is claimed."
+        "L9": {
+          "footerVersion": "b4481b3b",
+          "sample": "D1 麥可：「저는 사진 오른쪽에 있어요.」點選 `있어요.`",
+          "result": "Two components: `있다` / `ko:adj:있다` / 有；存在；在（某處），and `어요`."
+        },
+        "L10": {
+          "footerVersion": "31dc0653",
+          "locationSample": "D1「공원은 어디에 있어요?」顯示 `ko:adj:있다` 位置義與語尾。",
+          "abilitySample": "D3 第10句「다 같이 찍을 수 있어요.」保留 `ko:v:있다`，顯示詞典未收錄／無中文釋義及語尾，未被位置義覆蓋。"
+        },
+        "loadedContent": "L9 三段內容與 L10 全課內容已載入。",
+        "limitations": "針對兩個 POS 改動與能力用法保留點驗；不是十課整體驗收或正式詞典採納。"
       }
     }
   }
