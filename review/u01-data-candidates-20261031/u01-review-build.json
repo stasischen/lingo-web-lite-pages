@@ -458,7 +458,7 @@
   },
   "latestU01IntegrationUpdate": {
     "date": "2026-11-01",
-    "sourceCommit": "a16bb958ca3511683db56b40419ac998f2f097e8",
+    "sourceCommit": "beb771183140f8ed42a4fad9b0718a7fdefa1762",
     "appAssetsChanged": false,
     "changedScope": "Isolated preview data only: L10 exact source pin, its transformed lesson/evidence/overlay, and one provisional construction binding; no app code, runtime dictionary, course text, PR, or other lesson changed.",
     "approvedRuntimeRecovery": "39 existing active runtime/public-index entries, approved in the isolated lookup only; 121 visible token occurrences (36 IDs / 107 occurrences, plus ko:num:둘/셋/넷 / 14 occurrences).",
@@ -479,7 +479,7 @@
       "scope": "Historical browser validation of the previous data. UI was not rerun after the L6/L8 source pin refresh; this remains an isolated candidate and not official course or dictionary adoption.",
       "afterRefreshUiRetest": "Not performed per task instruction."
     },
-    "qaCommit": "a16bb958ca3511683db56b40419ac998f2f097e8",
+    "qaCommit": "beb771183140f8ed42a4fad9b0718a7fdefa1762",
     "sourceLifecycleEvidence": {
       "sourceCommit": "370362f15d042436c40f10d97397d146cd185207",
       "sourcePath": "public/content/ko/drafts/u01-review-evidence.json",
@@ -514,7 +514,7 @@
         "ko-a1-l010": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c"
       },
       "held": {},
-      "uiRetest": "The prior L9/L10 old-pin spot checks remain historical. L10 52d s.000023 targeted click is pending parent: desktop CUA reported the Mac locked; no click result is claimed.",
+      "uiRetest": "Parent completed a two-button public UI spot check in ChatGPT cloud in-app browser at approximately 2026-11-01 02:56 UTC; footer source 52d0e22d. D3 ability surface 수 displayed provisional -ㄹ 수 있다 / 可以；能夠. D1 location 있어요? remained ko:adj:있다 / 有；存在；在（某處） plus ending 어요. No whole-course UI acceptance is claimed.",
       "pagesDataCommit": "dcccf8f9e716afde2f8ab7e66419026abb670aa9",
       "deploymentRun": "41266871437",
       "publicFilesReadBack": 86,
@@ -627,7 +627,7 @@
         "L9": "b4481b3bb05f0e68b2d3c3df802e083ec3cb56ae",
         "L10": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c"
       },
-      "sourceQaCommit": "a16bb958ca3511683db56b40419ac998f2f097e8",
+      "sourceQaCommit": "beb771183140f8ed42a4fad9b0718a7fdefa1762",
       "scope": "Isolated review package only; no official dictionary adoption or whole-course acceptance."
     },
     "l10AbilityConstructionUpdate": {
@@ -718,8 +718,7 @@
         "Full-course interactive acceptance.",
         "Full app test suite or app production build.",
         "Official dictionary adoption or course PR merge.",
-        "Supplemental dictionary page was not independently verified by the Sol reviewer.",
-        "Targeted public UI click for the L10 surface 수 remains pending parent."
+        "Supplemental dictionary page was not independently verified by the Sol reviewer."
       ],
       "previousPublicPackage": {
         "pagesDataCommit": "53dcecb0e87ed909a087091b7c4519487193caf1",
@@ -737,12 +736,32 @@
         "metadataBeforeReceiptUpdateSha256": "3aa93cf922d0ac3c596288e1f41f7e0af01d38150099842e2fc0007f07ef04d1"
       },
       "targetedUiClick": {
-        "status": "pending_parent",
+        "status": "passed",
+        "verifiedAtApproxUtc": "2026-11-01T02:56Z",
+        "browser": "ChatGPT cloud in-app browser",
+        "versionFooter": "52d0e22d",
         "url": "https://stasischen.github.io/lingo-web-lite-pages/review/u01-data-candidates-20261031/#/study/drafts/ko-a1-l010",
-        "version": "52d0e22d61a5c4d6f53f22b8947c1e2ec8e20e9c",
-        "target": "Click the unique surface 수 in 다 같이 찍을 수 있어요.; confirm provisional -ㄹ 수 있다 / 可以；能夠.",
-        "reason": "Desktop CUA reported the Mac is locked; no UI click was performed."
-      }
+        "checks": [
+          {
+            "dialogueId": "D3",
+            "sentence": "다 같이 찍을 수 있어요.",
+            "surface": "수",
+            "displayedConstruction": "-ㄹ 수 있다",
+            "displayedGloss": "可以；能夠",
+            "state": "provisional"
+          },
+          {
+            "dialogueId": "D1",
+            "sentence": "공원은 어디에 있어요?",
+            "surface": "있어요?",
+            "displayedAtom": "ko:adj:있다",
+            "displayedGloss": "有；存在；在（某處）",
+            "ending": "어요"
+          }
+        ],
+        "scope": "Two specified buttons only; this does not expand the limited Sol session-only approval or constitute whole-course acceptance."
+      },
+      "uiReceiptSource": "Parent-provided direct observation; QA records exact D1/D3 outcomes. No tests or source/app changes were made for this UI receipt."
     }
   }
 }
