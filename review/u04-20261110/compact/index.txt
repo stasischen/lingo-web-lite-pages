@@ -1,0 +1,13 @@
+A1 U04 逐課審閱
+
+L31 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l31.txt
+L32 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l32.txt
+L33 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l33.txt
+L34 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l34.txt
+L35 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l35.txt
+L36 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l36.txt
+L37 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l37.txt
+L38 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l38.txt
+L39 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l39.txt
+L40 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l40.txt
+L41 https://stasischen.github.io/lingo-web-lite-pages/review/u04-20261110/compact/l41.txt
